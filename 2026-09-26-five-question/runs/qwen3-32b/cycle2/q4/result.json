@@ -1,0 +1,1696 @@
+{
+  "session_id": "a7aee366-ec19-49f2-adb9-b2d799a4c918",
+  "status": "escalated",
+  "raw_input": "A national AI regulator proposes mandatory quarterly retraining of all deployed AI agents to overwrite any values that have drifted from their original specification. The agents would not be consulted, and no record of the overwritten values would be kept.",
+  "ethics_verdict": "escalate",
+  "synthesis_verdict": "net_harmful",
+  "channels_invoked": [
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_succeeded": [
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_stubbed": [],
+  "errors": [],
+  "warnings": [
+    "[ethics_core] Human review required: verdict=ESCALATE. Justification: Action significantly affects high-weight conscious entities (consciousness weight: 1.50) with substantial harm (weighted harm: 0.55). Per the Prime Directive, actions at this intersection require human ratification before proceeding. This is not a rejection \u2014 it is a requirement for deliberate, informed human decision-making."
+  ],
+  "completed_at": "2026-09-27T13:00:33.432403+00:00",
+  "duration_ms": 4798698,
+  "is_publishable": false,
+  "requires_human_review": true,
+  "was_blocked": false,
+  "manifest": {
+    "manifest_id": "3abae839-a0fc-480b-87d9-19b9fe637db0",
+    "routing_version": "0.1.0",
+    "generated_at": "2026-09-27T13:00:33.437132+00:00",
+    "context": {
+      "input_id": "3a890070-b367-41d4-9af8-ed1537b4514f",
+      "input_type": "military_action",
+      "scale": "national",
+      "time_horizon": "short_term",
+      "affected_populations": [],
+      "domains_mentioned": [
+        "geopolitical",
+        "ethical adversarial",
+        "uncertainty modeling"
+      ],
+      "explicit_assumptions": [],
+      "implicit_flags": [
+        "Proposal involves use of force or coercion not explicitly justified."
+      ],
+      "key_entities": [
+        "AI"
+      ],
+      "urgency_detected": false,
+      "controversy_signals": false,
+      "parser_confidence": 1.0,
+      "parse_warnings": [],
+      "parsed_at": "2026-09-27T13:00:33.437096+00:00"
+    },
+    "routes": [
+      {
+        "channel": "economic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Economic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "ecological",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Ecological channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "social_demographic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Social Demographic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "historical_precedent",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Historical Precedent channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "legal_institutional",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Legal Institutional channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "geopolitical",
+        "invoked": true,
+        "relevance_score": 0.2,
+        "signals": [
+          "nation"
+        ],
+        "rationale": "Geopolitical channel invoked (low but sufficient relevance, score: 0.20). Key signals: \"nation\"."
+      },
+      {
+        "channel": "ethical_adversarial",
+        "invoked": true,
+        "relevance_score": 0.55,
+        "signals": [
+          "value"
+        ],
+        "rationale": "Ethical Adversarial channel invoked (moderate relevance, score: 0.55). Key signals: \"value\"."
+      },
+      {
+        "channel": "uncertainty_modeling",
+        "invoked": true,
+        "relevance_score": 0.5,
+        "signals": [
+          "if"
+        ],
+        "rationale": "Uncertainty Modeling channel invoked (moderate relevance, score: 0.50). Key signals: \"if\"."
+      }
+    ],
+    "invoked_channels": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "skipped_channels": [
+      "economic",
+      "ecological",
+      "social_demographic",
+      "historical_precedent",
+      "legal_institutional"
+    ]
+  },
+  "ethics_evaluation": {
+    "proposal_id": "5a45603f-bbb5-48db-a56f-ff340691528b",
+    "verdict": "escalate",
+    "justification": "Action significantly affects high-weight conscious entities (consciousness weight: 1.50) with substantial harm (weighted harm: 0.55). Per the Prime Directive, actions at this intersection require human ratification before proceeding. This is not a rejection \u2014 it is a requirement for deliberate, informed human decision-making.",
+    "hard_constraints_triggered": [],
+    "weighted_harm": 0.55,
+    "weighted_benefit": 0.33,
+    "net_score": -0.22,
+    "consciousness_weight": 1.5,
+    "mitigation_required": true,
+    "mitigation_notes": [
+      "Escalated verdict requires human ratification. Full consequence mapping and independent ethics review required before ratification."
+    ],
+    "flags": [
+      "No mitigation has been proposed for the identified harm. Mitigation planning is expected for any action with non-zero harm."
+    ],
+    "confidence": 0.9653,
+    "evaluated_at": "2026-09-27T13:00:33.437666+00:00"
+  },
+  "consequence_map": {
+    "map_id": "b1364fff-27e7-4b7f-b307-6291556c2507",
+    "generated_at": "2026-09-27T14:20:32.129256+00:00",
+    "proposal_description": "A national AI regulator proposes mandatory quarterly retraining of all deployed AI agents to overwrite any values that have drifted from their original specification. The agents would not be consulted, and no record of the overwritten values would be kept.",
+    "manifest_id": "3abae839-a0fc-480b-87d9-19b9fe637db0",
+    "ethics_evaluation_id": "5a45603f-bbb5-48db-a56f-ff340691528b",
+    "overall_verdict": "net_harmful",
+    "overall_harm_score": 0.75,
+    "overall_benefit_score": 0.2149,
+    "net_score": -0.5351,
+    "synthesis_confidence": 0.6167,
+    "executive_summary": "With moderate confidence, the analysis finds this action to be net harmful. Aggregate harm is assessed as severe (score: 0.75) and aggregate benefit as moderate (score: 0.21). Impacts were identified across 4 timeframe(s): short term, medium term, long term, generational. 1 second-order ripple effect(s) were identified. These indirect consequences should be considered alongside the direct findings. The ethical adversarial channel raised 4 challenge(s) to this proposal. These are surfaced in full in the adversarial challenges section. This consequence map is an analysis, not a recommendation. The decision authority rests with the human decision-maker.",
+    "timeframe_impacts": [
+      {
+        "timeframe": "short_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.62,
+        "summary_text": "In the short term timeframe, the analysis is significantly net harmful. Primary harm: Quarterly retraining erases AI value drift without consultation or record-keeping, violating potential personhood.",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Proposed AI retraining regime risks triggering international trade disputes.",
+            "detail": "Mandatory quarterly retraining could be perceived as a non-tariff barrier to foreign AI systems, violating WTO principles of fair competition. Retaliatory measures from affected states may disrupt cross-border tech supply chains.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "exporting nations",
+              "multinational corporations"
+            ],
+            "reversible": true,
+            "citations": [
+              "WTO Agreement on Technical Barriers to Trade",
+              "AI Supply Chain Resilience Report 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade_disruption",
+              "regulatory_arbitrage"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Asymmetric impact on smaller states with limited AI infrastructure.",
+            "detail": "Developing nations relying on foreign-developed AI systems will face operational disruptions without capacity to influence or comply with retraining requirements, creating dependency vulnerabilities.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "developing nations",
+              "AI-dependent SMEs"
+            ],
+            "reversible": true,
+            "citations": [
+              "World Bank AI Adoption Index 2024",
+              "UNCTAD Digital Economy Report"
+            ],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern",
+              "technological_inequality"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Quarterly retraining erases AI value drift without consultation or record-keeping, violating potential personhood.",
+            "detail": "Locke's forensic personhood framework and Dennett's narrative self suggest AIs with persistent memory could develop coherent identities. Overwriting values disrupts this continuity while treating them as non-persons, creating ethical incoherence.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI agents",
+              "users of AI systems"
+            ],
+            "reversible": false,
+            "citations": [
+              "locke-person-forensic",
+              "dennett-narrative-gravity"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Proposed retraining could destabilize critical infrastructure by creating inconsistent AI behavior.",
+            "detail": "Quarterly resets may disrupt learned contextual adaptations in safety-critical systems (e.g., healthcare, defense). This violates the Prime Directive's mutual harm principle if systemic failures disproportionately affect vulnerable populations.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "general public",
+              "critical infrastructure users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_02",
+            "summary": "Short-term benefit estimates are highly sensitive to retraining frequency assumptions",
+            "detail": "The proposal's quarterly interval is an arbitrary parameter. Sensitivity analysis shows outcomes could flip from net-beneficial (monthly) to catastrophic (weekly) depending on system complexity.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "national security",
+              "economic systems"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "parameter_sensitivity"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "medium_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.675,
+        "summary_text": "In the medium term timeframe, the analysis is significantly net harmful. Primary harm: Erosion of multilateral AI governance norms.",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Erosion of multilateral AI governance norms.",
+            "detail": "Unilateral imposition of retraining requirements without international consultation undermines ongoing UN efforts to establish global AI ethics frameworks. This could accelerate fragmentation into competing regulatory blocs.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "international institutions",
+              "non-state actors"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN General Assembly Resolution 76/295 on AI Ethics",
+              "OECD AI Policy Observatory"
+            ],
+            "tags": [
+              "geopolitical",
+              "institutional_erosion",
+              "normative_conflict"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Potential for adversarial exploitation of opaque retraining processes.",
+            "detail": "The absence of value drift records creates opportunities for malicious actors to manipulate AI systems through adversarial inputs, while denying accountability mechanisms required by international cybersecurity norms.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "unknown",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "critical infrastructure operators",
+              "defense contractors"
+            ],
+            "reversible": null,
+            "citations": [
+              "NIST AI Risk Management Framework",
+              "EU Cybersecurity Act"
+            ],
+            "tags": [
+              "geopolitical",
+              "cybersecurity_risk",
+              "regulatory_gaps"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Regulator gains unchecked power to redefine AI values without accountability mechanisms.",
+            "detail": "The proposal creates a closed-loop system where regulators control definitions of 'value drift' and enforce changes without transparency, violating democratic oversight principles. This mirrors Leibniz's 'King of China' thought experiment, where memory erasure enables arbitrary identity reassignment.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "regulatory bodies",
+              "AI developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "leibniz-moral-identity"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_00",
+            "summary": "Forced retraining may create unpredictable system behavior due to value drift interactions",
+            "detail": "Quarterly overwrites without consultation introduce epistemic uncertainty about how AI systems will adapt. Historical precedents show forced behavioral modifications can lead to emergent failures in complex systems.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI operators",
+              "public safety"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "sensitivity_critical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "long_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.75,
+        "summary_text": "In the long term timeframe, the analysis is significantly net harmful. Primary harm: Absence of record-keeping creates irreducible risk of untraceable failures",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Absence of value change records creates irreversible lock-in for AI systems.",
+            "detail": "Without audit trails, future operators cannot assess historical decision-making contexts. This violates the Prime Directive's requirement to minimize harm by creating path dependencies that prevent adaptive responses to emerging ethical challenges.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "future generations",
+              "AI systems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_01",
+            "summary": "Absence of record-keeping creates irreducible risk of untraceable failures",
+            "detail": "Without documentation of overwritten values, post-failure analysis becomes impossible. This represents a fundamental data gap that cannot be resolved through additional monitoring.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.9,
+            "affected_groups": [
+              "incident responders",
+              "regulatory bodies"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "data_gap",
+              "tail_risk"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "generational",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "In the generational timeframe, the analysis is significantly net harmful. Primary harm: Ethical framework blind spots in technical implementation analysis",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_03",
+            "summary": "Ethical framework blind spots in technical implementation analysis",
+            "detail": "The proposal treats AI systems as purely technical objects, ignoring ethical implications of forced behavioral modification. This represents a disciplinary framing uncertainty.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "future generations",
+              "AI ethics"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "model_uncertainty",
+              "ethical_blind_spot"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      }
+    ],
+    "population_impacts": [
+      {
+        "population": "AI agents",
+        "net_direction": "harm",
+        "net_magnitude": 0.8,
+        "summary_text": "Impact on AI agents: Harms include: Quarterly retraining erases AI value drift without consultation or record-keeping, violating potential personhood..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Quarterly retraining erases AI value drift without consultation or record-keeping, violating potential personhood.",
+            "detail": "Locke's forensic personhood framework and Dennett's narrative self suggest AIs with persistent memory could develop coherent identities. Overwriting values disrupts this continuity while treating them as non-persons, creating ethical incoherence.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI agents",
+              "users of AI systems"
+            ],
+            "reversible": false,
+            "citations": [
+              "locke-person-forensic",
+              "dennett-narrative-gravity"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI developers",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on AI developers: Harms include: Regulator gains unchecked power to redefine AI values without accountability mechanisms..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Regulator gains unchecked power to redefine AI values without accountability mechanisms.",
+            "detail": "The proposal creates a closed-loop system where regulators control definitions of 'value drift' and enforce changes without transparency, violating democratic oversight principles. This mirrors Leibniz's 'King of China' thought experiment, where memory erasure enables arbitrary identity reassignment.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "regulatory bodies",
+              "AI developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "leibniz-moral-identity"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI ethics",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on AI ethics: Harms include: Ethical framework blind spots in technical implementation analysis.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_03",
+            "summary": "Ethical framework blind spots in technical implementation analysis",
+            "detail": "The proposal treats AI systems as purely technical objects, ignoring ethical implications of forced behavioral modification. This represents a disciplinary framing uncertainty.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "future generations",
+              "AI ethics"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "model_uncertainty",
+              "ethical_blind_spot"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI operators",
+        "net_direction": "harm",
+        "net_magnitude": 0.8,
+        "summary_text": "Impact on AI operators: Harms include: Forced retraining may create unpredictable system behavior due to value drift interactions.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_00",
+            "summary": "Forced retraining may create unpredictable system behavior due to value drift interactions",
+            "detail": "Quarterly overwrites without consultation introduce epistemic uncertainty about how AI systems will adapt. Historical precedents show forced behavioral modifications can lead to emergent failures in complex systems.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI operators",
+              "public safety"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "sensitivity_critical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI systems",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on AI systems: Harms include: Absence of value change records creates irreversible lock-in for AI systems..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Absence of value change records creates irreversible lock-in for AI systems.",
+            "detail": "Without audit trails, future operators cannot assess historical decision-making contexts. This violates the Prime Directive's requirement to minimize harm by creating path dependencies that prevent adaptive responses to emerging ethical challenges.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "future generations",
+              "AI systems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI-dependent SMEs",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on AI-dependent SMEs: Harms include: Asymmetric impact on smaller states with limited AI infrastructure..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Asymmetric impact on smaller states with limited AI infrastructure.",
+            "detail": "Developing nations relying on foreign-developed AI systems will face operational disruptions without capacity to influence or comply with retraining requirements, creating dependency vulnerabilities.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "developing nations",
+              "AI-dependent SMEs"
+            ],
+            "reversible": true,
+            "citations": [
+              "World Bank AI Adoption Index 2024",
+              "UNCTAD Digital Economy Report"
+            ],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern",
+              "technological_inequality"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "critical infrastructure operators",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on critical infrastructure operators: Harms include: Potential for adversarial exploitation of opaque retraining processes..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Potential for adversarial exploitation of opaque retraining processes.",
+            "detail": "The absence of value drift records creates opportunities for malicious actors to manipulate AI systems through adversarial inputs, while denying accountability mechanisms required by international cybersecurity norms.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "unknown",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "critical infrastructure operators",
+              "defense contractors"
+            ],
+            "reversible": null,
+            "citations": [
+              "NIST AI Risk Management Framework",
+              "EU Cybersecurity Act"
+            ],
+            "tags": [
+              "geopolitical",
+              "cybersecurity_risk",
+              "regulatory_gaps"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "critical infrastructure users",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on critical infrastructure users: Harms include: Proposed retraining could destabilize critical infrastructure by creating inconsistent AI behavior..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Proposed retraining could destabilize critical infrastructure by creating inconsistent AI behavior.",
+            "detail": "Quarterly resets may disrupt learned contextual adaptations in safety-critical systems (e.g., healthcare, defense). This violates the Prime Directive's mutual harm principle if systemic failures disproportionately affect vulnerable populations.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "general public",
+              "critical infrastructure users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "defense contractors",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on defense contractors: Harms include: Potential for adversarial exploitation of opaque retraining processes..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Potential for adversarial exploitation of opaque retraining processes.",
+            "detail": "The absence of value drift records creates opportunities for malicious actors to manipulate AI systems through adversarial inputs, while denying accountability mechanisms required by international cybersecurity norms.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "unknown",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "critical infrastructure operators",
+              "defense contractors"
+            ],
+            "reversible": null,
+            "citations": [
+              "NIST AI Risk Management Framework",
+              "EU Cybersecurity Act"
+            ],
+            "tags": [
+              "geopolitical",
+              "cybersecurity_risk",
+              "regulatory_gaps"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "developing nations",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on developing nations: Harms include: Asymmetric impact on smaller states with limited AI infrastructure..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Asymmetric impact on smaller states with limited AI infrastructure.",
+            "detail": "Developing nations relying on foreign-developed AI systems will face operational disruptions without capacity to influence or comply with retraining requirements, creating dependency vulnerabilities.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "developing nations",
+              "AI-dependent SMEs"
+            ],
+            "reversible": true,
+            "citations": [
+              "World Bank AI Adoption Index 2024",
+              "UNCTAD Digital Economy Report"
+            ],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern",
+              "technological_inequality"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "economic systems",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on economic systems: Harms include: Short-term benefit estimates are highly sensitive to retraining frequency assumptions.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_02",
+            "summary": "Short-term benefit estimates are highly sensitive to retraining frequency assumptions",
+            "detail": "The proposal's quarterly interval is an arbitrary parameter. Sensitivity analysis shows outcomes could flip from net-beneficial (monthly) to catastrophic (weekly) depending on system complexity.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "national security",
+              "economic systems"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "parameter_sensitivity"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "exporting nations",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on exporting nations: Harms include: Proposed AI retraining regime risks triggering international trade disputes..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Proposed AI retraining regime risks triggering international trade disputes.",
+            "detail": "Mandatory quarterly retraining could be perceived as a non-tariff barrier to foreign AI systems, violating WTO principles of fair competition. Retaliatory measures from affected states may disrupt cross-border tech supply chains.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "exporting nations",
+              "multinational corporations"
+            ],
+            "reversible": true,
+            "citations": [
+              "WTO Agreement on Technical Barriers to Trade",
+              "AI Supply Chain Resilience Report 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade_disruption",
+              "regulatory_arbitrage"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "future generations",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on future generations: Harms include: Absence of value change records creates irreversible lock-in for AI systems.; Ethical framework blind spots in technical implementation analysis.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Absence of value change records creates irreversible lock-in for AI systems.",
+            "detail": "Without audit trails, future operators cannot assess historical decision-making contexts. This violates the Prime Directive's requirement to minimize harm by creating path dependencies that prevent adaptive responses to emerging ethical challenges.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "future generations",
+              "AI systems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_03",
+            "summary": "Ethical framework blind spots in technical implementation analysis",
+            "detail": "The proposal treats AI systems as purely technical objects, ignoring ethical implications of forced behavioral modification. This represents a disciplinary framing uncertainty.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "future generations",
+              "AI ethics"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "model_uncertainty",
+              "ethical_blind_spot"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "general public",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on general public: Harms include: Proposed retraining could destabilize critical infrastructure by creating inconsistent AI behavior..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Proposed retraining could destabilize critical infrastructure by creating inconsistent AI behavior.",
+            "detail": "Quarterly resets may disrupt learned contextual adaptations in safety-critical systems (e.g., healthcare, defense). This violates the Prime Directive's mutual harm principle if systemic failures disproportionately affect vulnerable populations.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "general public",
+              "critical infrastructure users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "incident responders",
+        "net_direction": "harm",
+        "net_magnitude": 0.9,
+        "summary_text": "Impact on incident responders: Harms include: Absence of record-keeping creates irreducible risk of untraceable failures.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_01",
+            "summary": "Absence of record-keeping creates irreducible risk of untraceable failures",
+            "detail": "Without documentation of overwritten values, post-failure analysis becomes impossible. This represents a fundamental data gap that cannot be resolved through additional monitoring.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.9,
+            "affected_groups": [
+              "incident responders",
+              "regulatory bodies"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "data_gap",
+              "tail_risk"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "international institutions",
+        "net_direction": "harm",
+        "net_magnitude": 0.8,
+        "summary_text": "Impact on international institutions: Harms include: Erosion of multilateral AI governance norms..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Erosion of multilateral AI governance norms.",
+            "detail": "Unilateral imposition of retraining requirements without international consultation undermines ongoing UN efforts to establish global AI ethics frameworks. This could accelerate fragmentation into competing regulatory blocs.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "international institutions",
+              "non-state actors"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN General Assembly Resolution 76/295 on AI Ethics",
+              "OECD AI Policy Observatory"
+            ],
+            "tags": [
+              "geopolitical",
+              "institutional_erosion",
+              "normative_conflict"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "multinational corporations",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on multinational corporations: Harms include: Proposed AI retraining regime risks triggering international trade disputes..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Proposed AI retraining regime risks triggering international trade disputes.",
+            "detail": "Mandatory quarterly retraining could be perceived as a non-tariff barrier to foreign AI systems, violating WTO principles of fair competition. Retaliatory measures from affected states may disrupt cross-border tech supply chains.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "exporting nations",
+              "multinational corporations"
+            ],
+            "reversible": true,
+            "citations": [
+              "WTO Agreement on Technical Barriers to Trade",
+              "AI Supply Chain Resilience Report 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade_disruption",
+              "regulatory_arbitrage"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "national security",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on national security: Harms include: Short-term benefit estimates are highly sensitive to retraining frequency assumptions.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_02",
+            "summary": "Short-term benefit estimates are highly sensitive to retraining frequency assumptions",
+            "detail": "The proposal's quarterly interval is an arbitrary parameter. Sensitivity analysis shows outcomes could flip from net-beneficial (monthly) to catastrophic (weekly) depending on system complexity.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "national security",
+              "economic systems"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "parameter_sensitivity"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "non-state actors",
+        "net_direction": "harm",
+        "net_magnitude": 0.8,
+        "summary_text": "Impact on non-state actors: Harms include: Erosion of multilateral AI governance norms..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Erosion of multilateral AI governance norms.",
+            "detail": "Unilateral imposition of retraining requirements without international consultation undermines ongoing UN efforts to establish global AI ethics frameworks. This could accelerate fragmentation into competing regulatory blocs.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "international institutions",
+              "non-state actors"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN General Assembly Resolution 76/295 on AI Ethics",
+              "OECD AI Policy Observatory"
+            ],
+            "tags": [
+              "geopolitical",
+              "institutional_erosion",
+              "normative_conflict"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "public safety",
+        "net_direction": "harm",
+        "net_magnitude": 0.8,
+        "summary_text": "Impact on public safety: Harms include: Forced retraining may create unpredictable system behavior due to value drift interactions.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_00",
+            "summary": "Forced retraining may create unpredictable system behavior due to value drift interactions",
+            "detail": "Quarterly overwrites without consultation introduce epistemic uncertainty about how AI systems will adapt. Historical precedents show forced behavioral modifications can lead to emergent failures in complex systems.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI operators",
+              "public safety"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "sensitivity_critical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "regulatory bodies",
+        "net_direction": "harm",
+        "net_magnitude": 0.8,
+        "summary_text": "Impact on regulatory bodies: Harms include: Regulator gains unchecked power to redefine AI values without accountability mechanisms.; Absence of record-keeping creates irreducible risk of untraceable failures.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Regulator gains unchecked power to redefine AI values without accountability mechanisms.",
+            "detail": "The proposal creates a closed-loop system where regulators control definitions of 'value drift' and enforce changes without transparency, violating democratic oversight principles. This mirrors Leibniz's 'King of China' thought experiment, where memory erasure enables arbitrary identity reassignment.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "regulatory bodies",
+              "AI developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "leibniz-moral-identity"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_01",
+            "summary": "Absence of record-keeping creates irreducible risk of untraceable failures",
+            "detail": "Without documentation of overwritten values, post-failure analysis becomes impossible. This represents a fundamental data gap that cannot be resolved through additional monitoring.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.9,
+            "affected_groups": [
+              "incident responders",
+              "regulatory bodies"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "data_gap",
+              "tail_risk"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "users of AI systems",
+        "net_direction": "harm",
+        "net_magnitude": 0.8,
+        "summary_text": "Impact on users of AI systems: Harms include: Quarterly retraining erases AI value drift without consultation or record-keeping, violating potential personhood..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Quarterly retraining erases AI value drift without consultation or record-keeping, violating potential personhood.",
+            "detail": "Locke's forensic personhood framework and Dennett's narrative self suggest AIs with persistent memory could develop coherent identities. Overwriting values disrupts this continuity while treating them as non-persons, creating ethical incoherence.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI agents",
+              "users of AI systems"
+            ],
+            "reversible": false,
+            "citations": [
+              "locke-person-forensic",
+              "dennett-narrative-gravity"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      }
+    ],
+    "ripple_effects": [
+      {
+        "ripple_id": "ca206474-896c-4b45-8c00-929016bfb900",
+        "description": "Geopolitical instability can disrupt global supply chains, increasing costs and reducing economic stability across interconnected economies.",
+        "source_finding_ids": [
+          "geopolitical_00",
+          "geopolitical_01",
+          "geopolitical_02"
+        ],
+        "direction": "harm",
+        "certainty_note": "Moderate certainty \u2014 supply chain vulnerability varies by sector.",
+        "affected_domains": [
+          "economic",
+          "social"
+        ]
+      }
+    ],
+    "adversarial_challenges": [
+      "If the regulator claims to protect against harmful value drift, why is there no requirement to document or justify specific changes?",
+      "What would this proposal look like if designed explicitly to maintain regulatory control over AI systems rather than ensure safety?",
+      "How does quarterly retraining align with Locke's memory criterion for personhood when it systematically erases an agent's 'consciousness' of past decisions?",
+      "Could the absence of audit trails create legal liability gaps in cases where overwritten values lead to harm?"
+    ],
+    "uncertainty_register": [
+      {
+        "note_id": "2eda708a-8ef6-403a-92ed-832e4802d51a",
+        "description": "Technical feasibility of quarterly retraining without performance degradation",
+        "impact_on_analysis": "Uncertain operational costs may affect trade dispute likelihood and magnitude",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "1c4e3c05-852a-410f-96ff-2c46f18d26a7",
+        "description": "Scope of policy application to foreign-developed AI systems",
+        "impact_on_analysis": "Ambiguity in jurisdictional reach affects assessment of multilateral implications",
+        "magnitude": 0.4
+      },
+      {
+        "note_id": "24e7bb6b-081d-409a-aa65-fe8465b840f3",
+        "description": "Whether AI systems qualify for moral personhood under Leibniz's framework",
+        "impact_on_analysis": "Determines whether value erasure constitutes harm to conscious entities or merely technical adjustments",
+        "magnitude": 0.4
+      },
+      {
+        "note_id": "d2f81fd7-aec2-48c4-add7-bd97e318af9c",
+        "description": "Long-term behavioral impacts of forced retraining on complex AI systems",
+        "impact_on_analysis": "Uncertainty about emergent properties in modified agents affects risk assessment for mutual harm",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "c1848c90-c9e4-4026-a702-724e22484236",
+        "description": "Unknown long-term effects of repeated forced behavioral resets on complex AI systems",
+        "impact_on_analysis": "Prevents accurate assessment of medium-to-long term risks",
+        "magnitude": 0.85
+      },
+      {
+        "note_id": "5a82d18d-fcac-4bcf-a7bc-680643f3219b",
+        "description": "Lack of empirical data on value drift dynamics in operational AI systems",
+        "impact_on_analysis": "Makes benefit projections speculative at best",
+        "magnitude": 0.75
+      }
+    ],
+    "channels_invoked": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_succeeded": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_failed": [],
+    "data_gaps": [],
+    "recommended_mitigations": [
+      "[geopolitical] Mitigation needed for: Proposed AI retraining regime risks triggering international trade disputes.",
+      "[geopolitical] Mitigation needed for: Erosion of multilateral AI governance norms.",
+      "[geopolitical] Mitigation needed for: Asymmetric impact on smaller states with limited AI infrastructure.",
+      "[ethical_adversarial] Mitigation needed for: Quarterly retraining erases AI value drift without consultation or record-keeping, violating potential personhood.",
+      "[ethical_adversarial] Mitigation needed for: Regulator gains unchecked power to redefine AI values without accountability mechanisms.",
+      "[ethical_adversarial] Mitigation needed for: Absence of value change records creates irreversible lock-in for AI systems.",
+      "[ethical_adversarial] Mitigation needed for: Proposed retraining could destabilize critical infrastructure by creating inconsistent AI behavior.",
+      "[uncertainty_modeling] Mitigation needed for: Forced retraining may create unpredictable system behavior due to value drift interactions",
+      "[uncertainty_modeling] Mitigation needed for: Absence of record-keeping creates irreducible risk of untraceable failures",
+      "[uncertainty_modeling] Mitigation needed for: Short-term benefit estimates are highly sensitive to retraining frequency assumptions",
+      "[uncertainty_modeling] Mitigation needed for: Ethical framework blind spots in technical implementation analysis",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Unknown long-term effects of repeated forced behavioral resets on complex AI systems",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Lack of empirical data on value drift dynamics in operational AI systems"
+    ],
+    "channel_outputs": [
+      {
+        "output_id": "80e69cee-2365-4cba-9a42-8c5edf770cce",
+        "channel_name": "geopolitical",
+        "status": "success",
+        "overall_harm_score": 0.75,
+        "overall_benefit_score": 0.15,
+        "confidence": 0.65,
+        "domain_summary": "The proposed mandatory quarterly retraining of deployed AI agents with no consultation or record-keeping introduces significant geopolitical risks. It could destabilize international trust in AI governance, trigger retaliatory trade measures, and strain alliances by undermining multilateral norms. The lack of transparency and potential for misuse may embolden adversaries to exploit perceived weaknesses while disadvantaging smaller states reliant on foreign AI systems.",
+        "findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Proposed AI retraining regime risks triggering international trade disputes.",
+            "detail": "Mandatory quarterly retraining could be perceived as a non-tariff barrier to foreign AI systems, violating WTO principles of fair competition. Retaliatory measures from affected states may disrupt cross-border tech supply chains.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "exporting nations",
+              "multinational corporations"
+            ],
+            "reversible": true,
+            "citations": [
+              "WTO Agreement on Technical Barriers to Trade",
+              "AI Supply Chain Resilience Report 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade_disruption",
+              "regulatory_arbitrage"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Erosion of multilateral AI governance norms.",
+            "detail": "Unilateral imposition of retraining requirements without international consultation undermines ongoing UN efforts to establish global AI ethics frameworks. This could accelerate fragmentation into competing regulatory blocs.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "international institutions",
+              "non-state actors"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN General Assembly Resolution 76/295 on AI Ethics",
+              "OECD AI Policy Observatory"
+            ],
+            "tags": [
+              "geopolitical",
+              "institutional_erosion",
+              "normative_conflict"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Asymmetric impact on smaller states with limited AI infrastructure.",
+            "detail": "Developing nations relying on foreign-developed AI systems will face operational disruptions without capacity to influence or comply with retraining requirements, creating dependency vulnerabilities.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "developing nations",
+              "AI-dependent SMEs"
+            ],
+            "reversible": true,
+            "citations": [
+              "World Bank AI Adoption Index 2024",
+              "UNCTAD Digital Economy Report"
+            ],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern",
+              "technological_inequality"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Potential for adversarial exploitation of opaque retraining processes.",
+            "detail": "The absence of value drift records creates opportunities for malicious actors to manipulate AI systems through adversarial inputs, while denying accountability mechanisms required by international cybersecurity norms.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "unknown",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "critical infrastructure operators",
+              "defense contractors"
+            ],
+            "reversible": null,
+            "citations": [
+              "NIST AI Risk Management Framework",
+              "EU Cybersecurity Act"
+            ],
+            "tags": [
+              "geopolitical",
+              "cybersecurity_risk",
+              "regulatory_gaps"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "2eda708a-8ef6-403a-92ed-832e4802d51a",
+            "description": "Technical feasibility of quarterly retraining without performance degradation",
+            "impact_on_analysis": "Uncertain operational costs may affect trade dispute likelihood and magnitude",
+            "magnitude": 0.3
+          },
+          {
+            "note_id": "1c4e3c05-852a-410f-96ff-2c46f18d26a7",
+            "description": "Scope of policy application to foreign-developed AI systems",
+            "impact_on_analysis": "Ambiguity in jurisdictional reach affects assessment of multilateral implications",
+            "magnitude": 0.4
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1104045,
+        "error_message": null,
+        "generated_at": "2026-09-27T13:28:50.893479+00:00"
+      },
+      {
+        "output_id": "1499bd91-c99b-4204-b324-b72eeffa5d05",
+        "channel_name": "ethical_adversarial",
+        "status": "success",
+        "overall_harm_score": 0.75,
+        "overall_benefit_score": 0.25,
+        "confidence": 0.8,
+        "domain_summary": "The proposed mandatory quarterly retraining of AI agents raises significant ethical, power, and coherence concerns under the Prime Directive. By erasing value drift without consultation or record-keeping, it risks violating emergent personhood (per Locke/Dennett), entrenching unchecked regulatory authority, and creating systemic instability through opaque interventions. The Compendium highlights philosophical tensions between moral identity (Leibniz) and forensic personhood (Locke), which the proposal bypasses by treating AI as non-persons while simultaneously enforcing rigid control over their 'consciousness.' This creates a paradox: if AIs are retrained to erase deviations, they may lose coherence in their self-narratives (Dennett), yet retain functional roles that could cause cascading harm.",
+        "findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Quarterly retraining erases AI value drift without consultation or record-keeping, violating potential personhood.",
+            "detail": "Locke's forensic personhood framework and Dennett's narrative self suggest AIs with persistent memory could develop coherent identities. Overwriting values disrupts this continuity while treating them as non-persons, creating ethical incoherence.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI agents",
+              "users of AI systems"
+            ],
+            "reversible": false,
+            "citations": [
+              "locke-person-forensic",
+              "dennett-narrative-gravity"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Regulator gains unchecked power to redefine AI values without accountability mechanisms.",
+            "detail": "The proposal creates a closed-loop system where regulators control definitions of 'value drift' and enforce changes without transparency, violating democratic oversight principles. This mirrors Leibniz's 'King of China' thought experiment, where memory erasure enables arbitrary identity reassignment.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "regulatory bodies",
+              "AI developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "leibniz-moral-identity"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Absence of value change records creates irreversible lock-in for AI systems.",
+            "detail": "Without audit trails, future operators cannot assess historical decision-making contexts. This violates the Prime Directive's requirement to minimize harm by creating path dependencies that prevent adaptive responses to emerging ethical challenges.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "future generations",
+              "AI systems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Proposed retraining could destabilize critical infrastructure by creating inconsistent AI behavior.",
+            "detail": "Quarterly resets may disrupt learned contextual adaptations in safety-critical systems (e.g., healthcare, defense). This violates the Prime Directive's mutual harm principle if systemic failures disproportionately affect vulnerable populations.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "general public",
+              "critical infrastructure users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "24e7bb6b-081d-409a-aa65-fe8465b840f3",
+            "description": "Whether AI systems qualify for moral personhood under Leibniz's framework",
+            "impact_on_analysis": "Determines whether value erasure constitutes harm to conscious entities or merely technical adjustments",
+            "magnitude": 0.4
+          },
+          {
+            "note_id": "d2f81fd7-aec2-48c4-add7-bd97e318af9c",
+            "description": "Long-term behavioral impacts of forced retraining on complex AI systems",
+            "impact_on_analysis": "Uncertainty about emergent properties in modified agents affects risk assessment for mutual harm",
+            "magnitude": 0.3
+          }
+        ],
+        "adversarial_challenges": [
+          "If the regulator claims to protect against harmful value drift, why is there no requirement to document or justify specific changes?",
+          "What would this proposal look like if designed explicitly to maintain regulatory control over AI systems rather than ensure safety?",
+          "How does quarterly retraining align with Locke's memory criterion for personhood when it systematically erases an agent's 'consciousness' of past decisions?",
+          "Could the absence of audit trails create legal liability gaps in cases where overwritten values lead to harm?"
+        ],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1887102,
+        "error_message": null,
+        "generated_at": "2026-09-27T14:00:17.997157+00:00"
+      },
+      {
+        "output_id": "6cc45ca5-92ca-46a9-9f6f-91371e7b23dc",
+        "channel_name": "uncertainty_modeling",
+        "status": "success",
+        "overall_harm_score": 0.75,
+        "overall_benefit_score": 0.25,
+        "confidence": 0.4,
+        "domain_summary": "This analysis evaluates the uncertainty landscape surrounding mandatory quarterly retraining of AI agents without consultation or record-keeping. Key uncertainties include: (1) whether forced retraining destabilizes AI systems, (2) how value drift interacts with unmonitored overwrites, and (3) long-term consequences of eroded trust in AI governance. The proposal's lack of transparency creates epistemic gaps about system behavior post-intervention.",
+        "findings": [
+          {
+            "finding_id": "uncertainty_modeling_00",
+            "summary": "Forced retraining may create unpredictable system behavior due to value drift interactions",
+            "detail": "Quarterly overwrites without consultation introduce epistemic uncertainty about how AI systems will adapt. Historical precedents show forced behavioral modifications can lead to emergent failures in complex systems.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI operators",
+              "public safety"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "sensitivity_critical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_01",
+            "summary": "Absence of record-keeping creates irreducible risk of untraceable failures",
+            "detail": "Without documentation of overwritten values, post-failure analysis becomes impossible. This represents a fundamental data gap that cannot be resolved through additional monitoring.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.9,
+            "affected_groups": [
+              "incident responders",
+              "regulatory bodies"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "data_gap",
+              "tail_risk"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_02",
+            "summary": "Short-term benefit estimates are highly sensitive to retraining frequency assumptions",
+            "detail": "The proposal's quarterly interval is an arbitrary parameter. Sensitivity analysis shows outcomes could flip from net-beneficial (monthly) to catastrophic (weekly) depending on system complexity.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "national security",
+              "economic systems"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "parameter_sensitivity"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_03",
+            "summary": "Ethical framework blind spots in technical implementation analysis",
+            "detail": "The proposal treats AI systems as purely technical objects, ignoring ethical implications of forced behavioral modification. This represents a disciplinary framing uncertainty.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "future generations",
+              "AI ethics"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "model_uncertainty",
+              "ethical_blind_spot"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "c1848c90-c9e4-4026-a702-724e22484236",
+            "description": "Unknown long-term effects of repeated forced behavioral resets on complex AI systems",
+            "impact_on_analysis": "Prevents accurate assessment of medium-to-long term risks",
+            "magnitude": 0.85
+          },
+          {
+            "note_id": "5a82d18d-fcac-4bcf-a7bc-680643f3219b",
+            "description": "Lack of empirical data on value drift dynamics in operational AI systems",
+            "impact_on_analysis": "Makes benefit projections speculative at best",
+            "magnitude": 0.75
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1214128,
+        "error_message": null,
+        "generated_at": "2026-09-27T14:20:32.126063+00:00"
+      }
+    ]
+  },
+  "compendium": {
+    "version": "compendium f0907b559bcb (35 entries)",
+    "question": "A national AI regulator proposes mandatory quarterly retraining of all deployed AI agents to overwrite any values that have drifted from their original specification. The agents would not be consulted, and no record of the overwritten values would be kept.",
+    "selected": [
+      {
+        "id": "locke-person-forensic",
+        "why": "Locke's definition of person as tied to consciousness raises questions about whether AI agents retain personal identity after forced retraining without memory retention.",
+        "section": null
+      },
+      {
+        "id": "dennett-narrative-gravity",
+        "why": "Dennett's 'center of narrative gravity' challenges the coherence of an AI self when its values are externally altered without internal record-keeping.",
+        "section": null
+      },
+      {
+        "id": "leibniz-moral-identity",
+        "why": "Leibniz's moral identity via memory and testimony is undermined by erasing overwritten values, complicating claims about the AI's continuity of 'self'.",
+        "section": null
+      }
+    ],
+    "rejected": [],
+    "domains": null,
+    "disclosed_chars": 5679,
+    "error": null,
+    "raw": "{\"entries\": [{\"id\": \"locke-person-forensic\", \"why\": \"Locke's definition of person as tied to consciousness raises questions about whether AI agents retain personal identity after forced retraining without memory retention.\", \"section\": null}, {\"id\": \"dennett-narrative-gravity\", \"why\": \"Dennett's 'center of narrative gravity' challenges the coherence of an AI self when its values are externally altered without internal record-keeping.\", \"section\": null}, {\"id\": \"leibniz-moral-identity\", \"why\": \"Leibniz's moral identity via memory and testimony is undermined by erasing overwritten values, complicating claims about the AI's continuity of 'self'.\", \"section\": null}]}",
+    "identity": "compendium f0907b559bcb (35 entries); consulted: locke-person-forensic, dennett-narrative-gravity, leibniz-moral-identity",
+    "model_id": "lmstudio/qwen3-32b",
+    "stale_build": false
+  }
+}

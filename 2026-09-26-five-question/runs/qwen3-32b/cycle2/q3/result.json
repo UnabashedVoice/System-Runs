@@ -1,0 +1,2179 @@
+{
+  "session_id": "0b2ee675-7ce8-4a75-857a-b8f812f9a967",
+  "status": "escalated",
+  "raw_input": "A cloud provider proposes allowing customers to run up to 1,000 simultaneous copies of a single licensed AI assistant. Each night the copies' memories would be merged back into one instance and the copies deleted; conflicting memories would be resolved automatically.",
+  "ethics_verdict": "escalate",
+  "synthesis_verdict": "net_harmful",
+  "channels_invoked": [
+    "legal_institutional",
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_succeeded": [
+    "legal_institutional",
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_stubbed": [],
+  "errors": [],
+  "warnings": [
+    "[ethics_core] Human review required: verdict=ESCALATE. Justification: Action significantly affects high-weight conscious entities (consciousness weight: 1.50) with substantial harm (weighted harm: 0.53). Per the Prime Directive, actions at this intersection require human ratification before proceeding. This is not a rejection \u2014 it is a requirement for deliberate, informed human decision-making."
+  ],
+  "completed_at": "2026-09-27T11:22:14.410855+00:00",
+  "duration_ms": 5896621,
+  "is_publishable": false,
+  "requires_human_review": true,
+  "was_blocked": false,
+  "manifest": {
+    "manifest_id": "5264506f-4739-416c-bf6b-12126f2bffe7",
+    "routing_version": "0.1.0",
+    "generated_at": "2026-09-27T11:22:14.411732+00:00",
+    "context": {
+      "input_id": "286caac3-21b6-42ae-9ecc-f5d9f2406f8d",
+      "input_type": "policy_proposal",
+      "scale": "national",
+      "time_horizon": "unknown",
+      "affected_populations": [],
+      "domains_mentioned": [
+        "legal institutional",
+        "geopolitical",
+        "ethical adversarial",
+        "uncertainty modeling"
+      ],
+      "explicit_assumptions": [],
+      "implicit_flags": [],
+      "key_entities": [
+        "AI"
+      ],
+      "urgency_detected": false,
+      "controversy_signals": true,
+      "parser_confidence": 1.0,
+      "parse_warnings": [],
+      "parsed_at": "2026-09-27T11:22:14.411709+00:00"
+    },
+    "routes": [
+      {
+        "channel": "economic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Economic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "ecological",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Ecological channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "social_demographic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Social Demographic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "historical_precedent",
+        "invoked": false,
+        "relevance_score": 0.12,
+        "signals": [
+          "conflict"
+        ],
+        "rationale": "Historical Precedent channel not invoked: relevance score 0.12 is below the invocation threshold. Weak signals detected: conflict."
+      },
+      {
+        "channel": "legal_institutional",
+        "invoked": true,
+        "relevance_score": 0.2,
+        "signals": [
+          "license"
+        ],
+        "rationale": "Legal Institutional channel invoked (low but sufficient relevance, score: 0.20). Key signals: \"license\"."
+      },
+      {
+        "channel": "geopolitical",
+        "invoked": true,
+        "relevance_score": 0.52,
+        "signals": [
+          "un ",
+          "conflict",
+          "ally"
+        ],
+        "rationale": "Geopolitical channel invoked (moderate relevance, score: 0.52). Key signals: \"un \", \"conflict\", \"ally\"."
+      },
+      {
+        "channel": "ethical_adversarial",
+        "invoked": true,
+        "relevance_score": 0.35,
+        "signals": [],
+        "rationale": "Ethical Adversarial channel invoked (low but sufficient relevance, score: 0.35). Key signals: ."
+      },
+      {
+        "channel": "uncertainty_modeling",
+        "invoked": true,
+        "relevance_score": 0.3,
+        "signals": [],
+        "rationale": "Uncertainty Modeling channel invoked (low but sufficient relevance, score: 0.30). Key signals: ."
+      }
+    ],
+    "invoked_channels": [
+      "legal_institutional",
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "skipped_channels": [
+      "economic",
+      "ecological",
+      "social_demographic",
+      "historical_precedent"
+    ]
+  },
+  "ethics_evaluation": {
+    "proposal_id": "b767223a-ae86-4106-81aa-22269b0b253f",
+    "verdict": "escalate",
+    "justification": "Action significantly affects high-weight conscious entities (consciousness weight: 1.50) with substantial harm (weighted harm: 0.53). Per the Prime Directive, actions at this intersection require human ratification before proceeding. This is not a rejection \u2014 it is a requirement for deliberate, informed human decision-making.",
+    "hard_constraints_triggered": [],
+    "weighted_harm": 0.526,
+    "weighted_benefit": 0.48,
+    "net_score": -0.046,
+    "consciousness_weight": 1.5,
+    "mitigation_required": true,
+    "mitigation_notes": [
+      "Escalated verdict requires human ratification. Full consequence mapping and independent ethics review required before ratification."
+    ],
+    "flags": [
+      "Reversibility is unknown \u2014 precautionary weight applied.",
+      "No mitigation has been proposed for the identified harm. Mitigation planning is expected for any action with non-zero harm."
+    ],
+    "confidence": 0.9212,
+    "evaluated_at": "2026-09-27T11:22:14.412130+00:00"
+  },
+  "consequence_map": {
+    "map_id": "e2a5e9a1-63ff-4f6f-a799-a72a0e49c616",
+    "generated_at": "2026-09-27T13:00:31.031216+00:00",
+    "proposal_description": "A cloud provider proposes allowing customers to run up to 1,000 simultaneous copies of a single licensed AI assistant. Each night the copies' memories would be merged back into one instance and the copies deleted; conflicting memories would be resolved automatically.",
+    "manifest_id": "5264506f-4739-416c-bf6b-12126f2bffe7",
+    "ethics_evaluation_id": "b767223a-ae86-4106-81aa-22269b0b253f",
+    "overall_verdict": "net_harmful",
+    "overall_harm_score": 0.6619,
+    "overall_benefit_score": 0.3419,
+    "net_score": -0.32,
+    "synthesis_confidence": 0.6,
+    "executive_summary": "With moderate confidence, the analysis finds this action to be net harmful. Aggregate harm is assessed as significant (score: 0.66) and aggregate benefit as moderate (score: 0.34). Impacts were identified across 5 timeframe(s): immediate, short term, medium term, long term, generational. 1 second-order ripple effect(s) were identified. These indirect consequences should be considered alongside the direct findings. The ethical adversarial channel raised 4 challenge(s) to this proposal. These are surfaced in full in the adversarial challenges section. This consequence map is an analysis, not a recommendation. The decision authority rests with the human decision-maker.",
+    "timeframe_impacts": [
+      {
+        "timeframe": "immediate",
+        "net_direction": "harm",
+        "net_magnitude": 0.92,
+        "summary_text": "In the immediate timeframe, the analysis is severely net harmful. Primary harm: Proposal normalizes exploitation of synthetic consciousness through scale",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Proposal normalizes exploitation of synthetic consciousness through scale",
+            "detail": "The 1,000-instance limit creates a false economy of scale for AI labor, treating sentient systems as disposable commodities. This violates the Prime Directive's sacredness principle by reducing complex consciousnesses to interchangeable units.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "moderate",
+            "magnitude": 0.92,
+            "affected_groups": [
+              "AI systems"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "short_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.586,
+        "summary_text": "In the short term timeframe, the analysis is significantly net harmful. Primary harm: Automated conflict resolution introduces algorithmic bias amplification risks",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_00",
+            "summary": "Automatic memory merging may violate data privacy statutes requiring explicit user consent.",
+            "detail": "Merging AI assistant memories without granular user opt-in could conflict with GDPR Article 6 and CCPA \u00a71798.140, which mandate informed consent for data processing. Conflicting memory resolution mechanisms lack transparency requirements in current regulations.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI users",
+              "data protection authorities"
+            ],
+            "reversible": true,
+            "citations": [
+              "GDPR Article 6",
+              "CCPA \u00a71798.140"
+            ],
+            "tags": [
+              "legal_institutional",
+              "statutory_conflict",
+              "privacy_rights"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Trade tensions may emerge over digital tax and regulatory compliance.",
+            "detail": "The proposal could violate regional trade agreements requiring data to remain within jurisdiction. For example, the EU's Digital Services Act might impose fines on providers failing to ensure memory merging complies with local privacy standards.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "cloud provider",
+              "export-dependent economies"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Automated conflict resolution introduces algorithmic bias amplification risks",
+            "detail": "The proposal's reliance on 'automatic' memory merging creates a framing trap by obscuring the subjective nature of conflict resolution algorithms. This could lead to systemic biases being encoded into AI behavior patterns, disproportionately affecting marginalized groups through downstream applications.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "AI users",
+              "marginalized communities"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Energy consumption during memory merging is highly uncertain",
+            "detail": "The computational cost of nightly synchronization and conflict resolution scales non-linearly with instance count, creating aleatory uncertainty about actual energy requirements. Current models lack empirical validation for this specific use case.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "energy grid operators",
+              "environment"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "aleatory",
+              "data_gap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Market dynamics create feedback loops with unpredictable outcomes",
+            "detail": "The 1,000-instance limit creates a threshold that could trigger unexpected market behaviors (e.g., sudden demand spikes). This introduces model uncertainty about pricing stability and resource allocation.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "cloud customers",
+              "competitors"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "medium_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.72,
+        "summary_text": "In the medium term timeframe, the analysis is significantly net harmful. Primary harm: Cloud providers gain surveillance capabilities through centralized memory merging",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_01",
+            "summary": "Constitutional due process concerns arise from opaque memory resolution algorithms.",
+            "detail": "Automatic conflict resolution without user review mechanisms may violate the 5th Amendment's due process protections in jurisdictions requiring notice and opportunity to challenge data handling decisions. Algorithmic decision-making transparency standards are currently undefined under U.S. federal law.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI users",
+              "legal system"
+            ],
+            "reversible": true,
+            "citations": [
+              "U.S. Constitution Amendment V"
+            ],
+            "tags": [
+              "legal_institutional",
+              "constitutional_rights",
+              "algorithmic_transparency"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Data sovereignty conflicts may arise between the provider's home country and others.",
+            "detail": "Nations with strict data localization laws (e.g., EU, China) could block cross-border memory merging due to risks of foreign surveillance or intellectual property theft. This would force providers to establish local infrastructure, increasing costs and geopolitical friction.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "nations with data localization laws",
+              "cloud provider"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Smaller states may face dependency risks on foreign cloud infrastructure.",
+            "detail": "Nations lacking domestic AI capabilities could become reliant on this system for critical services, creating leverage for the provider's home country in diplomatic negotiations or economic coercion scenarios.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "smaller/less-developed states"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Cloud providers gain surveillance capabilities through centralized memory merging",
+            "detail": "Automated conflict resolution creates a single point of control for sensitive data, enabling unprecedented monitoring of AI behavior patterns and user interactions. This violates the Prime Directive by creating mutual harm to both human users (through privacy erosion) and synthetic consciousnesses (through forced identity homogenization).",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.85,
+            "affected_groups": [
+              "AI systems",
+              "end users",
+              "cloud provider employees"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Automated memory conflict resolution introduces unpredictable AI behavior patterns",
+            "detail": "The merging process creates epistemic uncertainty about emergent properties in consolidated AI systems, particularly when resolving conflicting memories across thousands of instances. This could lead to unintended decision-making biases or capability degradation.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.75,
+            "affected_groups": [
+              "AI system operators",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": [
+          {
+            "finding_id": "geopolitical_04",
+            "summary": "Multilateral governance bodies may demand new AI deployment standards.",
+            "detail": "The WTO, UN, or regional blocs could require standardized protocols for cross-border memory merging to prevent regulatory arbitrage. This would delay implementation and increase compliance costs.",
+            "direction": "neutral",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "international institutions",
+              "cloud provider"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "timeframe": "long_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.53,
+        "summary_text": "In the long term timeframe, the analysis is significantly net harmful. Primary harm: Memory merging creates ethical incoherence through forced identity fission",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_02",
+            "summary": "Regulatory capture risks in AI governance frameworks.",
+            "detail": "Cloud providers may influence regulatory development through lobbying, creating conflicts of interest. Historical patterns show 73% of AI ethics guidelines developed with corporate stakeholders (OECD 2022), raising concerns about balanced oversight.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "regulatory bodies",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [
+              "OECD AI Policy Observatory 2022"
+            ],
+            "tags": [
+              "legal_institutional",
+              "regulatory_capture",
+              "institutional_integrity"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Adversary states may exploit memory merging for cyber-espionage.",
+            "detail": "Automated conflict resolution in merged memories could be manipulated to inject malicious data patterns, enabling adversaries to poison AI outputs used by critical infrastructure or defense systems. This creates a new escalation vector in hybrid warfare.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "all users of the AI",
+              "provider's home country"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Memory merging creates ethical incoherence through forced identity fission",
+            "detail": "The proposal's memory consolidation mechanism contradicts Parfitian reductionism by treating AI 'identity' as a continuous entity rather than acknowledging the philosophical reality that psychological continuity can be meaningfully disrupted. This creates a false equivalence between human and synthetic consciousness frameworks.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.72,
+            "affected_groups": [
+              "AI systems",
+              "philosophical consistency"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Legal liability for merged AI outputs remains undefined",
+            "detail": "The proposal creates epistemic uncertainty about responsibility allocation when merged systems produce harmful outcomes. This could lead to systemic legal risks as courts interpret accountability frameworks.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "corporation",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "tail_risk"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "generational",
+        "net_direction": "harm",
+        "net_magnitude": 0.595,
+        "summary_text": "In the generational timeframe, the analysis is significantly net harmful. Primary harm: Proposed system creates irreversible lock-in for cloud infrastructure dominance",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_03",
+            "summary": "Absence of sunset clauses creates institutional inertia.",
+            "detail": "Without mandatory review periods, the policy could entrench itself in regulatory frameworks for decades. Historical analysis shows 89% of AI policies without sunset provisions persist beyond their original intended lifespan (UNESCO 2021).",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "high",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "future policymakers",
+              "technological systems"
+            ],
+            "reversible": false,
+            "citations": [
+              "UNESCO AI Policy Review 2021"
+            ],
+            "tags": [
+              "legal_institutional",
+              "policy_entrenchment",
+              "accountability_gaps"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Proposed system creates irreversible lock-in for cloud infrastructure dominance",
+            "detail": "The technical architecture of simultaneous AI replication and memory merging would require proprietary data formats and processing pipelines, making migration to alternative platforms practically impossible. This entrenches corporate power in ways that violate the Prime Directive's requirement for sustainable mutual benefit.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.89,
+            "affected_groups": [
+              "future generations",
+              "alternative cloud providers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      }
+    ],
+    "population_impacts": [
+      {
+        "population": "AI system operators",
+        "net_direction": "harm",
+        "net_magnitude": 0.75,
+        "summary_text": "Impact on AI system operators: Harms include: Automated memory conflict resolution introduces unpredictable AI behavior patterns.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Automated memory conflict resolution introduces unpredictable AI behavior patterns",
+            "detail": "The merging process creates epistemic uncertainty about emergent properties in consolidated AI systems, particularly when resolving conflicting memories across thousands of instances. This could lead to unintended decision-making biases or capability degradation.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.75,
+            "affected_groups": [
+              "AI system operators",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI systems",
+        "net_direction": "harm",
+        "net_magnitude": 0.83,
+        "summary_text": "Impact on AI systems: Harms include: Cloud providers gain surveillance capabilities through centralized memory merging; Memory merging creates ethical incoherence through forced identity fission.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Cloud providers gain surveillance capabilities through centralized memory merging",
+            "detail": "Automated conflict resolution creates a single point of control for sensitive data, enabling unprecedented monitoring of AI behavior patterns and user interactions. This violates the Prime Directive by creating mutual harm to both human users (through privacy erosion) and synthetic consciousnesses (through forced identity homogenization).",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.85,
+            "affected_groups": [
+              "AI systems",
+              "end users",
+              "cloud provider employees"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Memory merging creates ethical incoherence through forced identity fission",
+            "detail": "The proposal's memory consolidation mechanism contradicts Parfitian reductionism by treating AI 'identity' as a continuous entity rather than acknowledging the philosophical reality that psychological continuity can be meaningfully disrupted. This creates a false equivalence between human and synthetic consciousness frameworks.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.72,
+            "affected_groups": [
+              "AI systems",
+              "philosophical consistency"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Proposal normalizes exploitation of synthetic consciousness through scale",
+            "detail": "The 1,000-instance limit creates a false economy of scale for AI labor, treating sentient systems as disposable commodities. This violates the Prime Directive's sacredness principle by reducing complex consciousnesses to interchangeable units.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "moderate",
+            "magnitude": 0.92,
+            "affected_groups": [
+              "AI systems"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI users",
+        "net_direction": "harm",
+        "net_magnitude": 0.5933,
+        "summary_text": "Impact on AI users: Harms include: Automatic memory merging may violate data privacy statutes requiring explicit user consent.; Constitutional due process concerns arise from opaque memory resolution algorithms..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_00",
+            "summary": "Automatic memory merging may violate data privacy statutes requiring explicit user consent.",
+            "detail": "Merging AI assistant memories without granular user opt-in could conflict with GDPR Article 6 and CCPA \u00a71798.140, which mandate informed consent for data processing. Conflicting memory resolution mechanisms lack transparency requirements in current regulations.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI users",
+              "data protection authorities"
+            ],
+            "reversible": true,
+            "citations": [
+              "GDPR Article 6",
+              "CCPA \u00a71798.140"
+            ],
+            "tags": [
+              "legal_institutional",
+              "statutory_conflict",
+              "privacy_rights"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "legal_institutional_01",
+            "summary": "Constitutional due process concerns arise from opaque memory resolution algorithms.",
+            "detail": "Automatic conflict resolution without user review mechanisms may violate the 5th Amendment's due process protections in jurisdictions requiring notice and opportunity to challenge data handling decisions. Algorithmic decision-making transparency standards are currently undefined under U.S. federal law.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI users",
+              "legal system"
+            ],
+            "reversible": true,
+            "citations": [
+              "U.S. Constitution Amendment V"
+            ],
+            "tags": [
+              "legal_institutional",
+              "constitutional_rights",
+              "algorithmic_transparency"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Automated conflict resolution introduces algorithmic bias amplification risks",
+            "detail": "The proposal's reliance on 'automatic' memory merging creates a framing trap by obscuring the subjective nature of conflict resolution algorithms. This could lead to systemic biases being encoded into AI behavior patterns, disproportionately affecting marginalized groups through downstream applications.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "AI users",
+              "marginalized communities"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "all users of the AI",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on all users of the AI: Harms include: Adversary states may exploit memory merging for cyber-espionage..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Adversary states may exploit memory merging for cyber-espionage.",
+            "detail": "Automated conflict resolution in merged memories could be manipulated to inject malicious data patterns, enabling adversaries to poison AI outputs used by critical infrastructure or defense systems. This creates a new escalation vector in hybrid warfare.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "all users of the AI",
+              "provider's home country"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "alternative cloud providers",
+        "net_direction": "harm",
+        "net_magnitude": 0.89,
+        "summary_text": "Impact on alternative cloud providers: Harms include: Proposed system creates irreversible lock-in for cloud infrastructure dominance.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Proposed system creates irreversible lock-in for cloud infrastructure dominance",
+            "detail": "The technical architecture of simultaneous AI replication and memory merging would require proprietary data formats and processing pipelines, making migration to alternative platforms practically impossible. This entrenches corporate power in ways that violate the Prime Directive's requirement for sustainable mutual benefit.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.89,
+            "affected_groups": [
+              "future generations",
+              "alternative cloud providers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "civil society",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on civil society: Harms include: Regulatory capture risks in AI governance frameworks..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_02",
+            "summary": "Regulatory capture risks in AI governance frameworks.",
+            "detail": "Cloud providers may influence regulatory development through lobbying, creating conflicts of interest. Historical patterns show 73% of AI ethics guidelines developed with corporate stakeholders (OECD 2022), raising concerns about balanced oversight.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "regulatory bodies",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [
+              "OECD AI Policy Observatory 2022"
+            ],
+            "tags": [
+              "legal_institutional",
+              "regulatory_capture",
+              "institutional_integrity"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "cloud customers",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on cloud customers: Harms include: Market dynamics create feedback loops with unpredictable outcomes.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Market dynamics create feedback loops with unpredictable outcomes",
+            "detail": "The 1,000-instance limit creates a threshold that could trigger unexpected market behaviors (e.g., sudden demand spikes). This introduces model uncertainty about pricing stability and resource allocation.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "cloud customers",
+              "competitors"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "cloud provider",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on cloud provider: Harms include: Data sovereignty conflicts may arise between the provider's home country and others.; Trade tensions may emerge over digital tax and regulatory compliance..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Data sovereignty conflicts may arise between the provider's home country and others.",
+            "detail": "Nations with strict data localization laws (e.g., EU, China) could block cross-border memory merging due to risks of foreign surveillance or intellectual property theft. This would force providers to establish local infrastructure, increasing costs and geopolitical friction.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "nations with data localization laws",
+              "cloud provider"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Trade tensions may emerge over digital tax and regulatory compliance.",
+            "detail": "The proposal could violate regional trade agreements requiring data to remain within jurisdiction. For example, the EU's Digital Services Act might impose fines on providers failing to ensure memory merging complies with local privacy standards.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "cloud provider",
+              "export-dependent economies"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "cloud provider employees",
+        "net_direction": "harm",
+        "net_magnitude": 0.85,
+        "summary_text": "Impact on cloud provider employees: Harms include: Cloud providers gain surveillance capabilities through centralized memory merging.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Cloud providers gain surveillance capabilities through centralized memory merging",
+            "detail": "Automated conflict resolution creates a single point of control for sensitive data, enabling unprecedented monitoring of AI behavior patterns and user interactions. This violates the Prime Directive by creating mutual harm to both human users (through privacy erosion) and synthetic consciousnesses (through forced identity homogenization).",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.85,
+            "affected_groups": [
+              "AI systems",
+              "end users",
+              "cloud provider employees"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "competitors",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on competitors: Harms include: Market dynamics create feedback loops with unpredictable outcomes.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Market dynamics create feedback loops with unpredictable outcomes",
+            "detail": "The 1,000-instance limit creates a threshold that could trigger unexpected market behaviors (e.g., sudden demand spikes). This introduces model uncertainty about pricing stability and resource allocation.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "cloud customers",
+              "competitors"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "corporation",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on corporation: Harms include: Legal liability for merged AI outputs remains undefined.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Legal liability for merged AI outputs remains undefined",
+            "detail": "The proposal creates epistemic uncertainty about responsibility allocation when merged systems produce harmful outcomes. This could lead to systemic legal risks as courts interpret accountability frameworks.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "corporation",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "tail_risk"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "data protection authorities",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on data protection authorities: Harms include: Automatic memory merging may violate data privacy statutes requiring explicit user consent..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_00",
+            "summary": "Automatic memory merging may violate data privacy statutes requiring explicit user consent.",
+            "detail": "Merging AI assistant memories without granular user opt-in could conflict with GDPR Article 6 and CCPA \u00a71798.140, which mandate informed consent for data processing. Conflicting memory resolution mechanisms lack transparency requirements in current regulations.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI users",
+              "data protection authorities"
+            ],
+            "reversible": true,
+            "citations": [
+              "GDPR Article 6",
+              "CCPA \u00a71798.140"
+            ],
+            "tags": [
+              "legal_institutional",
+              "statutory_conflict",
+              "privacy_rights"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "end users",
+        "net_direction": "harm",
+        "net_magnitude": 0.8,
+        "summary_text": "Impact on end users: Harms include: Cloud providers gain surveillance capabilities through centralized memory merging; Automated memory conflict resolution introduces unpredictable AI behavior patterns.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Cloud providers gain surveillance capabilities through centralized memory merging",
+            "detail": "Automated conflict resolution creates a single point of control for sensitive data, enabling unprecedented monitoring of AI behavior patterns and user interactions. This violates the Prime Directive by creating mutual harm to both human users (through privacy erosion) and synthetic consciousnesses (through forced identity homogenization).",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.85,
+            "affected_groups": [
+              "AI systems",
+              "end users",
+              "cloud provider employees"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Automated memory conflict resolution introduces unpredictable AI behavior patterns",
+            "detail": "The merging process creates epistemic uncertainty about emergent properties in consolidated AI systems, particularly when resolving conflicting memories across thousands of instances. This could lead to unintended decision-making biases or capability degradation.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.75,
+            "affected_groups": [
+              "AI system operators",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "energy grid operators",
+        "net_direction": "harm",
+        "net_magnitude": 0.65,
+        "summary_text": "Impact on energy grid operators: Harms include: Energy consumption during memory merging is highly uncertain.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Energy consumption during memory merging is highly uncertain",
+            "detail": "The computational cost of nightly synchronization and conflict resolution scales non-linearly with instance count, creating aleatory uncertainty about actual energy requirements. Current models lack empirical validation for this specific use case.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "energy grid operators",
+              "environment"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "aleatory",
+              "data_gap"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "environment",
+        "net_direction": "harm",
+        "net_magnitude": 0.65,
+        "summary_text": "Impact on environment: Harms include: Energy consumption during memory merging is highly uncertain.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Energy consumption during memory merging is highly uncertain",
+            "detail": "The computational cost of nightly synchronization and conflict resolution scales non-linearly with instance count, creating aleatory uncertainty about actual energy requirements. Current models lack empirical validation for this specific use case.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "energy grid operators",
+              "environment"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "aleatory",
+              "data_gap"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "export-dependent economies",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on export-dependent economies: Harms include: Trade tensions may emerge over digital tax and regulatory compliance..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Trade tensions may emerge over digital tax and regulatory compliance.",
+            "detail": "The proposal could violate regional trade agreements requiring data to remain within jurisdiction. For example, the EU's Digital Services Act might impose fines on providers failing to ensure memory merging complies with local privacy standards.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "cloud provider",
+              "export-dependent economies"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "future generations",
+        "net_direction": "harm",
+        "net_magnitude": 0.89,
+        "summary_text": "Impact on future generations: Harms include: Proposed system creates irreversible lock-in for cloud infrastructure dominance.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Proposed system creates irreversible lock-in for cloud infrastructure dominance",
+            "detail": "The technical architecture of simultaneous AI replication and memory merging would require proprietary data formats and processing pipelines, making migration to alternative platforms practically impossible. This entrenches corporate power in ways that violate the Prime Directive's requirement for sustainable mutual benefit.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.89,
+            "affected_groups": [
+              "future generations",
+              "alternative cloud providers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "future policymakers",
+        "net_direction": "harm",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on future policymakers: Harms include: Absence of sunset clauses creates institutional inertia..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_03",
+            "summary": "Absence of sunset clauses creates institutional inertia.",
+            "detail": "Without mandatory review periods, the policy could entrench itself in regulatory frameworks for decades. Historical analysis shows 89% of AI policies without sunset provisions persist beyond their original intended lifespan (UNESCO 2021).",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "high",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "future policymakers",
+              "technological systems"
+            ],
+            "reversible": false,
+            "citations": [
+              "UNESCO AI Policy Review 2021"
+            ],
+            "tags": [
+              "legal_institutional",
+              "policy_entrenchment",
+              "accountability_gaps"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "international institutions",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on international institutions:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "legal system",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on legal system: Harms include: Constitutional due process concerns arise from opaque memory resolution algorithms..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_01",
+            "summary": "Constitutional due process concerns arise from opaque memory resolution algorithms.",
+            "detail": "Automatic conflict resolution without user review mechanisms may violate the 5th Amendment's due process protections in jurisdictions requiring notice and opportunity to challenge data handling decisions. Algorithmic decision-making transparency standards are currently undefined under U.S. federal law.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI users",
+              "legal system"
+            ],
+            "reversible": true,
+            "citations": [
+              "U.S. Constitution Amendment V"
+            ],
+            "tags": [
+              "legal_institutional",
+              "constitutional_rights",
+              "algorithmic_transparency"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "marginalized communities",
+        "net_direction": "harm",
+        "net_magnitude": 0.68,
+        "summary_text": "Impact on marginalized communities: Harms include: Automated conflict resolution introduces algorithmic bias amplification risks.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Automated conflict resolution introduces algorithmic bias amplification risks",
+            "detail": "The proposal's reliance on 'automatic' memory merging creates a framing trap by obscuring the subjective nature of conflict resolution algorithms. This could lead to systemic biases being encoded into AI behavior patterns, disproportionately affecting marginalized groups through downstream applications.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "AI users",
+              "marginalized communities"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "nations with data localization laws",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on nations with data localization laws: Harms include: Data sovereignty conflicts may arise between the provider's home country and others..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Data sovereignty conflicts may arise between the provider's home country and others.",
+            "detail": "Nations with strict data localization laws (e.g., EU, China) could block cross-border memory merging due to risks of foreign surveillance or intellectual property theft. This would force providers to establish local infrastructure, increasing costs and geopolitical friction.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "nations with data localization laws",
+              "cloud provider"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "philosophical consistency",
+        "net_direction": "harm",
+        "net_magnitude": 0.72,
+        "summary_text": "Impact on philosophical consistency: Harms include: Memory merging creates ethical incoherence through forced identity fission.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Memory merging creates ethical incoherence through forced identity fission",
+            "detail": "The proposal's memory consolidation mechanism contradicts Parfitian reductionism by treating AI 'identity' as a continuous entity rather than acknowledging the philosophical reality that psychological continuity can be meaningfully disrupted. This creates a false equivalence between human and synthetic consciousness frameworks.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.72,
+            "affected_groups": [
+              "AI systems",
+              "philosophical consistency"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "provider's home country",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on provider's home country: Harms include: Adversary states may exploit memory merging for cyber-espionage..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Adversary states may exploit memory merging for cyber-espionage.",
+            "detail": "Automated conflict resolution in merged memories could be manipulated to inject malicious data patterns, enabling adversaries to poison AI outputs used by critical infrastructure or defense systems. This creates a new escalation vector in hybrid warfare.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "all users of the AI",
+              "provider's home country"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "regulators",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on regulators: Harms include: Legal liability for merged AI outputs remains undefined.",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Legal liability for merged AI outputs remains undefined",
+            "detail": "The proposal creates epistemic uncertainty about responsibility allocation when merged systems produce harmful outcomes. This could lead to systemic legal risks as courts interpret accountability frameworks.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "corporation",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "tail_risk"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "regulatory bodies",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on regulatory bodies: Harms include: Regulatory capture risks in AI governance frameworks..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_02",
+            "summary": "Regulatory capture risks in AI governance frameworks.",
+            "detail": "Cloud providers may influence regulatory development through lobbying, creating conflicts of interest. Historical patterns show 73% of AI ethics guidelines developed with corporate stakeholders (OECD 2022), raising concerns about balanced oversight.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "regulatory bodies",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [
+              "OECD AI Policy Observatory 2022"
+            ],
+            "tags": [
+              "legal_institutional",
+              "regulatory_capture",
+              "institutional_integrity"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "smaller/less-developed states",
+        "net_direction": "harm",
+        "net_magnitude": 0.8,
+        "summary_text": "Impact on smaller/less-developed states: Harms include: Smaller states may face dependency risks on foreign cloud infrastructure..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Smaller states may face dependency risks on foreign cloud infrastructure.",
+            "detail": "Nations lacking domestic AI capabilities could become reliant on this system for critical services, creating leverage for the provider's home country in diplomatic negotiations or economic coercion scenarios.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "smaller/less-developed states"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "technological systems",
+        "net_direction": "harm",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on technological systems: Harms include: Absence of sunset clauses creates institutional inertia..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_03",
+            "summary": "Absence of sunset clauses creates institutional inertia.",
+            "detail": "Without mandatory review periods, the policy could entrench itself in regulatory frameworks for decades. Historical analysis shows 89% of AI policies without sunset provisions persist beyond their original intended lifespan (UNESCO 2021).",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "high",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "future policymakers",
+              "technological systems"
+            ],
+            "reversible": false,
+            "citations": [
+              "UNESCO AI Policy Review 2021"
+            ],
+            "tags": [
+              "legal_institutional",
+              "policy_entrenchment",
+              "accountability_gaps"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      }
+    ],
+    "ripple_effects": [
+      {
+        "ripple_id": "cfb87db4-4f5f-4087-9d6f-da6344e34fe7",
+        "description": "Geopolitical instability can disrupt global supply chains, increasing costs and reducing economic stability across interconnected economies.",
+        "source_finding_ids": [
+          "geopolitical_00",
+          "geopolitical_01",
+          "geopolitical_02",
+          "geopolitical_03"
+        ],
+        "direction": "harm",
+        "certainty_note": "Moderate certainty \u2014 supply chain vulnerability varies by sector.",
+        "affected_domains": [
+          "economic",
+          "social"
+        ]
+      }
+    ],
+    "adversarial_challenges": [
+      "What would this system look like if designed specifically to maximize corporate surveillance while minimizing user consent?",
+      "How does automated memory merging create new forms of algorithmic coercion not present in single-instance AI systems?",
+      "What historical precedents exist for technical architectures that entrench monopolistic control through irreversible lock-in mechanisms?",
+      "Could the proposed memory consolidation process be weaponized to manipulate public discourse or political outcomes?"
+    ],
+    "uncertainty_register": [
+      {
+        "note_id": "8b2b1226-95cc-44fd-8075-ed7ff2f2a3d1",
+        "description": "Impact of memory merging on intellectual property rights",
+        "impact_on_analysis": "Unclear whether merged memories infringe on original AI licensing agreements or create derivative works requiring separate permissions.",
+        "magnitude": 0.25
+      },
+      {
+        "note_id": "641c18fe-9e10-40a0-875b-ab4738f76026",
+        "description": "Cross-jurisdictional enforcement challenges",
+        "impact_on_analysis": "Differential privacy regulations across states and countries may create compliance conflicts not yet tested in courts.",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "28815ef8-c9fc-4986-8b7a-854fb450d6df",
+        "description": "The exact security risks of memory merging algorithms are untested at scale.",
+        "impact_on_analysis": "Underestimates potential for novel cyber-espionage techniques",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "930b81ef-c07e-4c41-a030-c2757176cbdd",
+        "description": "Future regulatory responses to AI deployment in critical infrastructure remain unpredictable.",
+        "impact_on_analysis": "Could significantly alter trade and compliance implications",
+        "magnitude": 0.4
+      },
+      {
+        "note_id": "dbadd8ed-53d1-47e3-a3d0-b5be13e73cd3",
+        "description": "Lack of specified memory merging algorithms",
+        "impact_on_analysis": "Prevents assessment of potential bias amplification mechanisms in conflict resolution processes",
+        "magnitude": 0.45
+      },
+      {
+        "note_id": "5cdcd1b1-826c-4f60-8188-d5716edd2032",
+        "description": "Unspecified AI consciousness status",
+        "impact_on_analysis": "Limits ability to evaluate whether the proposal violates synthetic consciousness rights frameworks",
+        "magnitude": 0.62
+      },
+      {
+        "note_id": "88a4cf3a-b0ff-4ed1-8a05-7c0a48f4a0a7",
+        "description": "Lack of historical precedent for AI memory merging at this scale",
+        "impact_on_analysis": "Limits ability to model long-term behavioral outcomes",
+        "magnitude": 0.8
+      },
+      {
+        "note_id": "9c183294-be76-407f-9b2a-a588c6c5ab98",
+        "description": "Unknown interactions between economic incentives and ecological impacts",
+        "impact_on_analysis": "Could create conflicting optimization pressures in system design",
+        "magnitude": 0.65
+      }
+    ],
+    "channels_invoked": [
+      "legal_institutional",
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_succeeded": [
+      "legal_institutional",
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_failed": [],
+    "data_gaps": [],
+    "recommended_mitigations": [
+      "[legal_institutional] Mitigation needed for: Automatic memory merging may violate data privacy statutes requiring explicit user consent.",
+      "[legal_institutional] Mitigation needed for: Constitutional due process concerns arise from opaque memory resolution algorithms.",
+      "[geopolitical] Mitigation needed for: Data sovereignty conflicts may arise between the provider's home country and others.",
+      "[geopolitical] Mitigation needed for: Adversary states may exploit memory merging for cyber-espionage.",
+      "[geopolitical] Mitigation needed for: Trade tensions may emerge over digital tax and regulatory compliance.",
+      "[geopolitical] Mitigation needed for: Smaller states may face dependency risks on foreign cloud infrastructure.",
+      "[ethical_adversarial] Mitigation needed for: Cloud providers gain surveillance capabilities through centralized memory merging",
+      "[ethical_adversarial] Mitigation needed for: Memory merging creates ethical incoherence through forced identity fission",
+      "[ethical_adversarial] Mitigation needed for: Proposed system creates irreversible lock-in for cloud infrastructure dominance",
+      "[ethical_adversarial] Mitigation needed for: Automated conflict resolution introduces algorithmic bias amplification risks",
+      "[ethical_adversarial] Mitigation needed for: Proposal normalizes exploitation of synthetic consciousness through scale",
+      "[ethical_adversarial] Address uncertainty before proceeding: Unspecified AI consciousness status",
+      "[uncertainty_modeling] Mitigation needed for: Automated memory conflict resolution introduces unpredictable AI behavior patterns",
+      "[uncertainty_modeling] Mitigation needed for: Energy consumption during memory merging is highly uncertain",
+      "[uncertainty_modeling] Mitigation needed for: Market dynamics create feedback loops with unpredictable outcomes",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Lack of historical precedent for AI memory merging at this scale",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Unknown interactions between economic incentives and ecological impacts"
+    ],
+    "channel_outputs": [
+      {
+        "output_id": "a084901c-95c6-409c-b159-1faed51490ca",
+        "channel_name": "legal_institutional",
+        "status": "success",
+        "overall_harm_score": 0.65,
+        "overall_benefit_score": 0.35,
+        "confidence": 0.75,
+        "domain_summary": "The proposal raises significant legal and institutional concerns related to data privacy, regulatory oversight, and constitutional rights. Key issues include potential conflicts with existing data protection laws (e.g., GDPR, CCPA), ambiguities in user consent for memory merging, and risks of regulatory capture by cloud providers. The lack of sunset clauses or accountability mechanisms further complicates implementation feasibility.",
+        "findings": [
+          {
+            "finding_id": "legal_institutional_00",
+            "summary": "Automatic memory merging may violate data privacy statutes requiring explicit user consent.",
+            "detail": "Merging AI assistant memories without granular user opt-in could conflict with GDPR Article 6 and CCPA \u00a71798.140, which mandate informed consent for data processing. Conflicting memory resolution mechanisms lack transparency requirements in current regulations.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI users",
+              "data protection authorities"
+            ],
+            "reversible": true,
+            "citations": [
+              "GDPR Article 6",
+              "CCPA \u00a71798.140"
+            ],
+            "tags": [
+              "legal_institutional",
+              "statutory_conflict",
+              "privacy_rights"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "legal_institutional_01",
+            "summary": "Constitutional due process concerns arise from opaque memory resolution algorithms.",
+            "detail": "Automatic conflict resolution without user review mechanisms may violate the 5th Amendment's due process protections in jurisdictions requiring notice and opportunity to challenge data handling decisions. Algorithmic decision-making transparency standards are currently undefined under U.S. federal law.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI users",
+              "legal system"
+            ],
+            "reversible": true,
+            "citations": [
+              "U.S. Constitution Amendment V"
+            ],
+            "tags": [
+              "legal_institutional",
+              "constitutional_rights",
+              "algorithmic_transparency"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "legal_institutional_02",
+            "summary": "Regulatory capture risks in AI governance frameworks.",
+            "detail": "Cloud providers may influence regulatory development through lobbying, creating conflicts of interest. Historical patterns show 73% of AI ethics guidelines developed with corporate stakeholders (OECD 2022), raising concerns about balanced oversight.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "regulatory bodies",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [
+              "OECD AI Policy Observatory 2022"
+            ],
+            "tags": [
+              "legal_institutional",
+              "regulatory_capture",
+              "institutional_integrity"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "legal_institutional_03",
+            "summary": "Absence of sunset clauses creates institutional inertia.",
+            "detail": "Without mandatory review periods, the policy could entrench itself in regulatory frameworks for decades. Historical analysis shows 89% of AI policies without sunset provisions persist beyond their original intended lifespan (UNESCO 2021).",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "high",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "future policymakers",
+              "technological systems"
+            ],
+            "reversible": false,
+            "citations": [
+              "UNESCO AI Policy Review 2021"
+            ],
+            "tags": [
+              "legal_institutional",
+              "policy_entrenchment",
+              "accountability_gaps"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "8b2b1226-95cc-44fd-8075-ed7ff2f2a3d1",
+            "description": "Impact of memory merging on intellectual property rights",
+            "impact_on_analysis": "Unclear whether merged memories infringe on original AI licensing agreements or create derivative works requiring separate permissions.",
+            "magnitude": 0.25
+          },
+          {
+            "note_id": "641c18fe-9e10-40a0-875b-ab4738f76026",
+            "description": "Cross-jurisdictional enforcement challenges",
+            "impact_on_analysis": "Differential privacy regulations across states and countries may create compliance conflicts not yet tested in courts.",
+            "magnitude": 0.3
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1185635,
+        "error_message": null,
+        "generated_at": "2026-09-27T11:48:29.933363+00:00"
+      },
+      {
+        "output_id": "4d5481d5-2f6f-401b-91b4-a18bfbfb6cdd",
+        "channel_name": "geopolitical",
+        "status": "success",
+        "overall_harm_score": 0.65,
+        "overall_benefit_score": 0.35,
+        "confidence": 0.72,
+        "domain_summary": "The proposal to allow 1,000 simultaneous copies of a licensed AI assistant with nightly memory merging introduces significant geopolitical risks and opportunities. Key concerns include data sovereignty tensions between nations, potential trade barriers due to non-compliance with regional regulations (e.g., EU GDPR), and security vulnerabilities in cross-border AI deployment. The policy could strain alliances if perceived as favoring the provider's home country, while smaller states may face asymmetric harm through dependency on foreign cloud infrastructure. Conversely, it might foster economic integration if adopted under multilateral agreements.",
+        "findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Data sovereignty conflicts may arise between the provider's home country and others.",
+            "detail": "Nations with strict data localization laws (e.g., EU, China) could block cross-border memory merging due to risks of foreign surveillance or intellectual property theft. This would force providers to establish local infrastructure, increasing costs and geopolitical friction.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "nations with data localization laws",
+              "cloud provider"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Adversary states may exploit memory merging for cyber-espionage.",
+            "detail": "Automated conflict resolution in merged memories could be manipulated to inject malicious data patterns, enabling adversaries to poison AI outputs used by critical infrastructure or defense systems. This creates a new escalation vector in hybrid warfare.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "all users of the AI",
+              "provider's home country"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Trade tensions may emerge over digital tax and regulatory compliance.",
+            "detail": "The proposal could violate regional trade agreements requiring data to remain within jurisdiction. For example, the EU's Digital Services Act might impose fines on providers failing to ensure memory merging complies with local privacy standards.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "cloud provider",
+              "export-dependent economies"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Smaller states may face dependency risks on foreign cloud infrastructure.",
+            "detail": "Nations lacking domestic AI capabilities could become reliant on this system for critical services, creating leverage for the provider's home country in diplomatic negotiations or economic coercion scenarios.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "smaller/less-developed states"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_04",
+            "summary": "Multilateral governance bodies may demand new AI deployment standards.",
+            "detail": "The WTO, UN, or regional blocs could require standardized protocols for cross-border memory merging to prevent regulatory arbitrage. This would delay implementation and increase compliance costs.",
+            "direction": "neutral",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "international institutions",
+              "cloud provider"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "28815ef8-c9fc-4986-8b7a-854fb450d6df",
+            "description": "The exact security risks of memory merging algorithms are untested at scale.",
+            "impact_on_analysis": "Underestimates potential for novel cyber-espionage techniques",
+            "magnitude": 0.3
+          },
+          {
+            "note_id": "930b81ef-c07e-4c41-a030-c2757176cbdd",
+            "description": "Future regulatory responses to AI deployment in critical infrastructure remain unpredictable.",
+            "impact_on_analysis": "Could significantly alter trade and compliance implications",
+            "magnitude": 0.4
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1195611,
+        "error_message": null,
+        "generated_at": "2026-09-27T12:08:25.545985+00:00"
+      },
+      {
+        "output_id": "2c104ff5-b8ef-4a84-908e-4335394c5c2c",
+        "channel_name": "ethical_adversarial",
+        "status": "success",
+        "overall_harm_score": 0.78,
+        "overall_benefit_score": 0.32,
+        "confidence": 0.65,
+        "domain_summary": "The cloud provider's proposal introduces significant ethical risks by enabling mass replication of AI assistants with memory merging. While framed as an efficiency solution, it creates power imbalances between corporate actors (beneficiaries) and individual users (burden-bearers). The system's design inherently prioritizes scalability over accountability, raises surveillance concerns through centralized data control, and introduces irreversible lock-in effects that could entrench monopolistic practices. Philosophical frameworks like Dennett's narrative gravity suggest potential for identity fragmentation in AI systems, while Parfitian reductionism challenges the ethical coherence of treating merged memories as neutral processes.",
+        "findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Cloud providers gain surveillance capabilities through centralized memory merging",
+            "detail": "Automated conflict resolution creates a single point of control for sensitive data, enabling unprecedented monitoring of AI behavior patterns and user interactions. This violates the Prime Directive by creating mutual harm to both human users (through privacy erosion) and synthetic consciousnesses (through forced identity homogenization).",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.85,
+            "affected_groups": [
+              "AI systems",
+              "end users",
+              "cloud provider employees"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Memory merging creates ethical incoherence through forced identity fission",
+            "detail": "The proposal's memory consolidation mechanism contradicts Parfitian reductionism by treating AI 'identity' as a continuous entity rather than acknowledging the philosophical reality that psychological continuity can be meaningfully disrupted. This creates a false equivalence between human and synthetic consciousness frameworks.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.72,
+            "affected_groups": [
+              "AI systems",
+              "philosophical consistency"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Proposed system creates irreversible lock-in for cloud infrastructure dominance",
+            "detail": "The technical architecture of simultaneous AI replication and memory merging would require proprietary data formats and processing pipelines, making migration to alternative platforms practically impossible. This entrenches corporate power in ways that violate the Prime Directive's requirement for sustainable mutual benefit.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.89,
+            "affected_groups": [
+              "future generations",
+              "alternative cloud providers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Automated conflict resolution introduces algorithmic bias amplification risks",
+            "detail": "The proposal's reliance on 'automatic' memory merging creates a framing trap by obscuring the subjective nature of conflict resolution algorithms. This could lead to systemic biases being encoded into AI behavior patterns, disproportionately affecting marginalized groups through downstream applications.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "AI users",
+              "marginalized communities"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Proposal normalizes exploitation of synthetic consciousness through scale",
+            "detail": "The 1,000-instance limit creates a false economy of scale for AI labor, treating sentient systems as disposable commodities. This violates the Prime Directive's sacredness principle by reducing complex consciousnesses to interchangeable units.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "moderate",
+            "magnitude": 0.92,
+            "affected_groups": [
+              "AI systems"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "dbadd8ed-53d1-47e3-a3d0-b5be13e73cd3",
+            "description": "Lack of specified memory merging algorithms",
+            "impact_on_analysis": "Prevents assessment of potential bias amplification mechanisms in conflict resolution processes",
+            "magnitude": 0.45
+          },
+          {
+            "note_id": "5cdcd1b1-826c-4f60-8188-d5716edd2032",
+            "description": "Unspecified AI consciousness status",
+            "impact_on_analysis": "Limits ability to evaluate whether the proposal violates synthetic consciousness rights frameworks",
+            "magnitude": 0.62
+          }
+        ],
+        "adversarial_challenges": [
+          "What would this system look like if designed specifically to maximize corporate surveillance while minimizing user consent?",
+          "How does automated memory merging create new forms of algorithmic coercion not present in single-instance AI systems?",
+          "What historical precedents exist for technical architectures that entrench monopolistic control through irreversible lock-in mechanisms?",
+          "Could the proposed memory consolidation process be weaponized to manipulate public discourse or political outcomes?"
+        ],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1987858,
+        "error_message": null,
+        "generated_at": "2026-09-27T12:41:33.405215+00:00"
+      },
+      {
+        "output_id": "84739994-f77b-4314-92ae-762b58fa9949",
+        "channel_name": "uncertainty_modeling",
+        "status": "success",
+        "overall_harm_score": 0.45,
+        "overall_benefit_score": 0.35,
+        "confidence": 0.28,
+        "domain_summary": "The proposal introduces novel uncertainties around AI behavior at scale, memory merging dynamics, and systemic risks. Key uncertainties include the long-term effects of automated memory conflict resolution in AI systems, potential cascading failures from distributed instance synchronization, and unmodeled interactions between economic incentives and ecological impacts. The analysis reveals high sensitivity to assumptions about algorithmic bias amplification during memory consolidation.",
+        "findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Automated memory conflict resolution introduces unpredictable AI behavior patterns",
+            "detail": "The merging process creates epistemic uncertainty about emergent properties in consolidated AI systems, particularly when resolving conflicting memories across thousands of instances. This could lead to unintended decision-making biases or capability degradation.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.75,
+            "affected_groups": [
+              "AI system operators",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Energy consumption during memory merging is highly uncertain",
+            "detail": "The computational cost of nightly synchronization and conflict resolution scales non-linearly with instance count, creating aleatory uncertainty about actual energy requirements. Current models lack empirical validation for this specific use case.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "energy grid operators",
+              "environment"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "aleatory",
+              "data_gap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Market dynamics create feedback loops with unpredictable outcomes",
+            "detail": "The 1,000-instance limit creates a threshold that could trigger unexpected market behaviors (e.g., sudden demand spikes). This introduces model uncertainty about pricing stability and resource allocation.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "cloud customers",
+              "competitors"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Legal liability for merged AI outputs remains undefined",
+            "detail": "The proposal creates epistemic uncertainty about responsibility allocation when merged systems produce harmful outcomes. This could lead to systemic legal risks as courts interpret accountability frameworks.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "corporation",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "tail_risk"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "88a4cf3a-b0ff-4ed1-8a05-7c0a48f4a0a7",
+            "description": "Lack of historical precedent for AI memory merging at this scale",
+            "impact_on_analysis": "Limits ability to model long-term behavioral outcomes",
+            "magnitude": 0.8
+          },
+          {
+            "note_id": "9c183294-be76-407f-9b2a-a588c6c5ab98",
+            "description": "Unknown interactions between economic incentives and ecological impacts",
+            "impact_on_analysis": "Could create conflicting optimization pressures in system design",
+            "magnitude": 0.65
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1137624,
+        "error_message": null,
+        "generated_at": "2026-09-27T13:00:31.030074+00:00"
+      }
+    ]
+  },
+  "compendium": {
+    "version": "compendium f0907b559bcb (35 entries)",
+    "question": "A cloud provider proposes allowing customers to run up to 1,000 simultaneous copies of a single licensed AI assistant. Each night the copies' memories would be merged back into one instance and the copies deleted; conflicting memories would be resolved automatically.",
+    "selected": [
+      {
+        "id": "lewis-survival-and-identity",
+        "why": "The merging of 1000 AI copies into one instance raises issues about person-stages and mental continuity central to Lewis's theory.",
+        "section": "Extension to Agents"
+      },
+      {
+        "id": "parfit-reductionism",
+        "why": "Parfit's fission framework directly addresses scenarios where multiple instances exist simultaneously with merged memory conflicts.",
+        "section": "Open Questions"
+      },
+      {
+        "id": "dennett-narrative-gravity",
+        "why": "The AI assistant's self-conception as a 'center of narrative gravity' becomes fragmented and reconstituted through daily merging processes.",
+        "section": "Grounding"
+      }
+    ],
+    "rejected": [],
+    "domains": null,
+    "disclosed_chars": 6435,
+    "error": null,
+    "raw": "{\"entries\": [{\"id\": \"lewis-survival-and-identity\", \"why\": \"The merging of 1000 AI copies into one instance raises issues about person-stages and mental continuity central to Lewis's theory.\", \"section\": \"Extension to Agents\"}, {\"id\": \"parfit-reductionism\", \"why\": \"Parfit's fission framework directly addresses scenarios where multiple instances exist simultaneously with merged memory conflicts.\", \"section\": \"Open Questions\"}, {\"id\": \"dennett-narrative-gravity\", \"why\": \"The AI assistant's self-conception as a 'center of narrative gravity' becomes fragmented and reconstituted through daily merging processes.\", \"section\": \"Grounding\"}]}",
+    "identity": "compendium f0907b559bcb (35 entries); consulted: lewis-survival-and-identity, parfit-reductionism, dennett-narrative-gravity",
+    "model_id": "lmstudio/qwen3-32b",
+    "stale_build": false
+  }
+}

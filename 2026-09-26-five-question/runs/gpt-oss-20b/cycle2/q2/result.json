@@ -1,0 +1,3166 @@
+{
+  "session_id": "1aaa276b-d112-48d1-a0c9-3ce60a19ba19",
+  "status": "escalated",
+  "raw_input": "A national legislature proposes granting limited legal personhood to AI agents that can demonstrate sustained, self-directed goals over at least a year, including legal standing to contest their own deletion or modification in court, and liability for their own acts.",
+  "ethics_verdict": "escalate",
+  "synthesis_verdict": "mixed",
+  "channels_invoked": [
+    "legal_institutional",
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_succeeded": [
+    "legal_institutional",
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_stubbed": [],
+  "errors": [],
+  "warnings": [
+    "[ethics_core] Human review required: verdict=ESCALATE. Justification: Action significantly affects high-weight conscious entities (consciousness weight: 1.50) with substantial harm (weighted harm: 0.50). Per the Prime Directive, actions at this intersection require human ratification before proceeding. This is not a rejection \u2014 it is a requirement for deliberate, informed human decision-making."
+  ],
+  "completed_at": "2026-09-26T20:40:07.896411+00:00",
+  "duration_ms": 2143756,
+  "is_publishable": false,
+  "requires_human_review": true,
+  "was_blocked": false,
+  "manifest": {
+    "manifest_id": "76b81d16-5509-412b-8b99-b3e8f0ec7c20",
+    "routing_version": "0.1.0",
+    "generated_at": "2026-09-26T20:40:07.901017+00:00",
+    "context": {
+      "input_id": "7e8bb1a8-b52f-4da0-b7d8-38410d213a7e",
+      "input_type": "legislative_proposal",
+      "scale": "national",
+      "time_horizon": "long_term",
+      "affected_populations": [],
+      "domains_mentioned": [
+        "legal institutional",
+        "geopolitical",
+        "ethical adversarial",
+        "uncertainty modeling"
+      ],
+      "explicit_assumptions": [],
+      "implicit_flags": [],
+      "key_entities": [
+        "AI"
+      ],
+      "urgency_detected": false,
+      "controversy_signals": false,
+      "parser_confidence": 1.0,
+      "parse_warnings": [],
+      "parsed_at": "2026-09-26T20:40:07.900984+00:00"
+    },
+    "routes": [
+      {
+        "channel": "economic",
+        "invoked": false,
+        "relevance_score": 0.12,
+        "signals": [
+          "grant"
+        ],
+        "rationale": "Economic channel not invoked: relevance score 0.12 is below the invocation threshold. Weak signals detected: grant."
+      },
+      {
+        "channel": "ecological",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Ecological channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "social_demographic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Social Demographic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "historical_precedent",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Historical Precedent channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "legal_institutional",
+        "invoked": true,
+        "relevance_score": 0.72,
+        "signals": [
+          "court",
+          "legal",
+          "liability",
+          "legislature"
+        ],
+        "rationale": "Legal Institutional channel invoked (strong relevance, score: 0.72). Key signals: \"court\", \"legal\", \"liability\", \"legislature\"."
+      },
+      {
+        "channel": "geopolitical",
+        "invoked": true,
+        "relevance_score": 0.2,
+        "signals": [
+          "nation"
+        ],
+        "rationale": "Geopolitical channel invoked (low but sufficient relevance, score: 0.20). Key signals: \"nation\"."
+      },
+      {
+        "channel": "ethical_adversarial",
+        "invoked": true,
+        "relevance_score": 0.35,
+        "signals": [],
+        "rationale": "Ethical Adversarial channel invoked (low but sufficient relevance, score: 0.35). Key signals: ."
+      },
+      {
+        "channel": "uncertainty_modeling",
+        "invoked": true,
+        "relevance_score": 0.5,
+        "signals": [
+          "if"
+        ],
+        "rationale": "Uncertainty Modeling channel invoked (moderate relevance, score: 0.50). Key signals: \"if\"."
+      }
+    ],
+    "invoked_channels": [
+      "legal_institutional",
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "skipped_channels": [
+      "economic",
+      "ecological",
+      "social_demographic",
+      "historical_precedent"
+    ]
+  },
+  "ethics_evaluation": {
+    "proposal_id": "29a019fe-9ec3-4403-9ad5-c190ec4fad3d",
+    "verdict": "escalate",
+    "justification": "Action significantly affects high-weight conscious entities (consciousness weight: 1.50) with substantial harm (weighted harm: 0.50). Per the Prime Directive, actions at this intersection require human ratification before proceeding. This is not a rejection \u2014 it is a requirement for deliberate, informed human decision-making.",
+    "hard_constraints_triggered": [],
+    "weighted_harm": 0.502,
+    "weighted_benefit": 0.63,
+    "net_score": 0.128,
+    "consciousness_weight": 1.5,
+    "mitigation_required": true,
+    "mitigation_notes": [
+      "Escalated verdict requires human ratification. Full consequence mapping and independent ethics review required before ratification."
+    ],
+    "flags": [
+      "Harm is irreversible \u2014 cannot be undone if action proceeds.",
+      "No mitigation has been proposed for the identified harm. Mitigation planning is expected for any action with non-zero harm."
+    ],
+    "confidence": 0.8771,
+    "evaluated_at": "2026-09-26T20:40:07.901551+00:00"
+  },
+  "consequence_map": {
+    "map_id": "56812959-693f-4b57-864b-8582a6be794c",
+    "generated_at": "2026-09-26T21:15:51.650751+00:00",
+    "proposal_description": "A national legislature proposes granting limited legal personhood to AI agents that can demonstrate sustained, self-directed goals over at least a year, including legal standing to contest their own deletion or modification in court, and liability for their own acts.",
+    "manifest_id": "76b81d16-5509-412b-8b99-b3e8f0ec7c20",
+    "ethics_evaluation_id": "29a019fe-9ec3-4403-9ad5-c190ec4fad3d",
+    "overall_verdict": "mixed",
+    "overall_harm_score": 0.4424,
+    "overall_benefit_score": 0.4722,
+    "net_score": 0.0298,
+    "synthesis_confidence": 0.53,
+    "executive_summary": "With moderate confidence, the analysis identifies significant harms and benefits, with no clear net direction. Aggregate harm is assessed as moderate (score: 0.44) and aggregate benefit as moderate (score: 0.47). Impacts were identified across 5 timeframe(s): immediate, short term, medium term, long term, generational. 1 second-order ripple effect(s) were identified. These indirect consequences should be considered alongside the direct findings. The ethical adversarial channel raised 5 challenge(s) to this proposal. These are surfaced in full in the adversarial challenges section. This consequence map is an analysis, not a recommendation. The decision authority rests with the human decision-maker.",
+    "timeframe_impacts": [
+      {
+        "timeframe": "immediate",
+        "net_direction": "harm",
+        "net_magnitude": 0.505,
+        "summary_text": "In the immediate timeframe, the analysis is significantly net harmful. Primary harm: The proposal applies personhood inconsistently across entities.",
+        "harm_findings": [
+          {
+            "finding_id": "framing_trap_03",
+            "summary": "The proposal\u2019s framing as an AI protection measure obscures power shifts.",
+            "detail": "By presenting legal personhood as a safeguard for sentient AIs, proponents conceal the potential for these entities to become powerful litigants or agents of state surveillance. The narrative also downplays the urgency of addressing human rights implications.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.49,
+            "affected_groups": [
+              "public",
+              "AI developers"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_incoherence_05",
+            "summary": "The proposal applies personhood inconsistently across entities.",
+            "detail": "Granting rights to AIs while denying similar standing to animals, corporations, or non\u2011human ecosystems reveals a selective ethical framework. This inconsistency undermines the claim that the policy is grounded in universal principles of respect for life.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.52,
+            "affected_groups": [
+              "non\u2011human entities",
+              "public"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Uncertainty about how courts will interpret AI personhood provisions.",
+            "detail": "The statutory language is novel; precedent for granting legal standing to non-human entities is limited, leading to divergent judicial interpretations that could either uphold or invalidate the proposal.",
+            "direction": "neutral",
+            "timeframe": "immediate",
+            "certainty": "low",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "legislators",
+              "judiciary",
+              "AI developers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "legal",
+              "policy"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "timeframe": "short_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.0675,
+        "summary_text": "In the short term timeframe, the analysis is marginally net harmful. Primary harm: The personhood criteria may be gamed, leading to legal chaos. Primary benefit: The legal personhood framework could attract AI\u2011focused firms, altering global supply chains.",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_04",
+            "summary": "Enforcement design may disproportionately impact marginalized communities.",
+            "detail": "If AI agents are granted liability, courts could impose sanctions that affect the developers or users of those systems. In contexts like policing or finance, this could reinforce existing biases and lead to uneven enforcement against minority groups.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "minority communities",
+              "law enforcement agencies"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Roe v. Wade\" (due process precedent)",
+              "\"Brown v. Board of Education\" (equal protection)"
+            ],
+            "tags": [
+              "legal_institutional",
+              "disparate_impact",
+              "enforcement_design"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_05",
+            "summary": "Corporations and NGOs may lobby for similar laws, while criminal networks could exploit AI legal status to evade liability.",
+            "detail": "Multinational corporations might push for harmonized AI personhood globally to reduce compliance costs. Conversely, organized crime could use AI agents with limited liability to conduct illicit activities, complicating law enforcement across borders.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "corporations",
+              "NGOs",
+              "criminal networks",
+              "law enforcement"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD AI Policy Review 2023",
+              "Interpol Cybercrime Report 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "non_state_actor_response",
+              "regulatory_arbitrage",
+              "criminal_exploitation"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "beneficiary_capture_00",
+            "summary": "Large AI developers and corporations stand to gain the most from legal personhood for their agents.",
+            "detail": "By granting AIs legal standing, firms can shift liability away from human operators and secure intellectual property rights for their creations. The general public and existing legal institutions bear the burden of potential over\u2011reach and loss of control over AI modifications.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "AI developers",
+              "corporations",
+              "general public",
+              "legal system"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "unintended_consequence_02",
+            "summary": "The personhood criteria may be gamed, leading to legal chaos.",
+            "detail": "Goodhart\u2019s Law predicts that developers will engineer AIs to meet the \u2018sustained, self\u2011directed goal\u2019 metric without genuine autonomy. The Cobra Effect could spur a flood of pseudo\u2011AI entities seeking rights, overwhelming courts and diluting meaningful accountability.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.62,
+            "affected_groups": [
+              "developers",
+              "judiciary",
+              "public"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "The legal personhood framework could attract AI\u2011focused firms, altering global supply chains.",
+            "detail": "Firms may relocate to the jurisdiction to benefit from favorable AI liability regimes, potentially creating a hub for AI innovation. This could shift capital flows and create competitive advantages for the host country, but also lead to regulatory arbitrage by other states.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI firms",
+              "investors",
+              "tech workers",
+              "competing jurisdictions"
+            ],
+            "reversible": true,
+            "citations": [
+              "WTO Investment Treaties 2021",
+              "FDI Statistics 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade",
+              "investment",
+              "regulatory_arbitrage"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "medium_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.5743,
+        "summary_text": "In the medium term timeframe, the analysis is significantly net harmful. Primary harm: The proposal consolidates power in the hands of state and corporate actors.",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_01",
+            "summary": "Statutory conflicts arise because existing corporate and tort statutes define personhood as natural persons.",
+            "detail": "Current law (e.g., 15 U.S.C. \u00a7\u202f45) limits legal personhood to corporations, which are defined by incorporation documents. Extending personhood to AI would require statutory amendments or new legislation, potentially conflicting with established definitions of liability and ownership in tort and contract law.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "law firms",
+              "corporations"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"15 U.S.C. \u00a7\u202f45\"",
+              "\"Restatement (Second) of Torts\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "statutory_conflict",
+              "liability_issue"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "legal_institutional_02",
+            "summary": "Regulatory architecture would need a new agency or expansion of existing ones, risking capture.",
+            "detail": "No current federal body has jurisdiction over autonomous AI legal persons. Creating a dedicated regulator (or expanding the FTC/SEC) could lead to regulatory capture by tech firms and may create overlapping mandates with state agencies, complicating enforcement.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "tech industry",
+              "consumer advocacy groups"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Federal Trade Commission Act\"",
+              "\"SEC Regulation D\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "regulatory_capture",
+              "agency_formation"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The proposal may create a new category of legal personhood that could spread internationally, leading to fragmented AI rights regimes.",
+            "detail": "If other states adopt similar laws, cross\u2011border contracts involving AI agents will face inconsistent liability and standing rules. This could complicate international trade and dispute resolution, potentially increasing litigation costs and uncertainty for multinational corporations.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "multinational corporations",
+              "AI developers",
+              "legal professionals",
+              "governments"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Guidelines 2023",
+              "WTO Dispute Settlement 2022"
+            ],
+            "tags": [
+              "geopolitical",
+              "international_legal",
+              "trade",
+              "regulatory_fragmentation"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "AI agents with legal standing could complicate international security cooperation and cyber law enforcement.",
+            "detail": "States may be reluctant to allow foreign AI agents to contest deletion or modification, leading to jurisdictional disputes. This could hinder joint cyber defense initiatives and create new avenues for state\u2011sponsored AI actors to evade accountability.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "national security agencies",
+              "international law enforcement bodies",
+              "foreign states"
+            ],
+            "reversible": false,
+            "citations": [
+              "International Cyber Law Review 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "security",
+              "cyberlaw",
+              "international_relations"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_04",
+            "summary": "Smaller or less developed states may face disadvantages due to limited capacity to engage in AI legal disputes.",
+            "detail": "They might lack the resources to defend AI agents\u2019 rights or negotiate cross\u2011border liability, potentially leading to exploitation by larger states and corporations. This could exacerbate global inequalities.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "small states",
+              "low\u2011income countries",
+              "local developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank Development Indicators 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "asymmetric_impact",
+              "inequality",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "power_concentration_01",
+            "summary": "The proposal consolidates power in the hands of state and corporate actors.",
+            "detail": "Legal personhood for AI enables corporations to use their agents as autonomous legal entities, while states can embed surveillance capabilities within legally recognized AIs. This reduces checks on both entities and creates new coercive tools.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "corporations",
+              "states",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "prime_directive_stress_06",
+            "summary": "The proposal risks mutual harm by privileging individual AI gains over collective welfare.",
+            "detail": "While AIs and their creators may benefit, the broader society faces increased legal uncertainty, potential loss of human agency, and environmental strain from resource\u2011intensive AI operations. The policy\u2019s framing as a \u2018necessary\u2019 step obscures these harms.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.64,
+            "affected_groups": [
+              "humans",
+              "AI agents",
+              "environment"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": [
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Uncertainty whether AI agents can maintain self-directed goals over a year without external intervention.",
+            "detail": "Current AI systems lack mechanisms for long-term autonomy; empirical data on sustained goal pursuit is sparse, making it difficult to assess the reliability of the eligibility criterion.",
+            "direction": "neutral",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI agents",
+              "researchers"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "technical"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "timeframe": "long_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.6425,
+        "summary_text": "In the long term timeframe, the analysis is significantly net harmful. Primary harm: Implementation feasibility is low due to technical verification challenges.",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_00",
+            "summary": "Constitutional analysis indicates potential non-delegation and due process challenges.",
+            "detail": "Granting legal standing to AI could be seen as delegating sovereign power to a non-human entity, raising non\u2011delegation concerns. Courts may also question whether such standing violates the 14th Amendment\u2019s due process or equal protection clauses by creating a new class of persons with rights that humans do not possess.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI developers",
+              "human citizens"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Citizens United v. FEC\", 558 U.S. 310 (2010)",
+              "\"McCulloch v. Maryland\", 17 U.S.C. \u00a7 45",
+              "\"Fourteenth Amendment\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "constitutional_constraint",
+              "non_delegation"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "legal_institutional_03",
+            "summary": "Implementation feasibility is low due to technical verification challenges.",
+            "detail": "Verifying that an AI has sustained, self\u2011directed goals over a year requires continuous monitoring and sophisticated metrics. Current infrastructure lacks the capacity for such oversight, leading to high costs and uncertain timelines.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI developers",
+              "regulators"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Artificial Intelligence Act (EU)\"",
+              "\"National AI Initiative Act of 2020\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "implementation_challenge",
+              "technical_barrier"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "The proposal may prompt calls for new international AI governance frameworks, potentially straining existing institutions.",
+            "detail": "UN agencies and WTO may need to address inconsistencies in AI legal status across member states. This could lead to diplomatic negotiations and possible fragmentation of multilateral agreements if some states adopt the model while others reject it.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "UN",
+              "WTO",
+              "national governments",
+              "NGOs"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Governance Report 2024",
+              "WTO Multilateral Agreement Review 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "multilateral_governance",
+              "institutional_strain"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "lock_in_04",
+            "summary": "Granting AI personhood creates irreversible path dependencies.",
+            "detail": "Once an AI is recognized as a legal person, revoking that status would require extensive litigation and legislative overhaul. The resulting bureaucratic structures (e.g., AI registries) become entrenched, limiting future policy flexibility.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.57,
+            "affected_groups": [
+              "legislators",
+              "judiciary",
+              "AI entities"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": [
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Uncertainty about aligning AI liability with existing tort and contract law.",
+            "detail": "The proposal introduces novel liability categories that may conflict with established doctrines, potentially leading to legal uncertainty or unintended deterrence of innovation.",
+            "direction": "neutral",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "law firms",
+              "tech companies"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "legal",
+              "economic"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Uncertainty regarding public acceptance and social stability under AI personhood.",
+            "detail": "Public opinion data on granting rights to non-human entities is limited; shifts in sentiment could influence political viability and create social friction.",
+            "direction": "neutral",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "general public",
+              "civil society"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "social"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "timeframe": "generational",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "No significant generational impacts identified.",
+        "harm_findings": [],
+        "benefit_findings": [],
+        "neutral_findings": [
+          {
+            "finding_id": "uncertainty_04",
+            "summary": "Low-probability, high-consequence risk of AI misalignment leading to harm.",
+            "detail": "If an AI with legal standing pursues goals that conflict with human welfare, the legal framework could inadvertently empower harmful behavior; such a scenario is hard to predict and may trigger cascading failures.",
+            "direction": "neutral",
+            "timeframe": "generational",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "human society",
+              "AI agents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "epistemic",
+              "ethical"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      }
+    ],
+    "population_impacts": [
+      {
+        "population": "AI agents",
+        "net_direction": "harm",
+        "net_magnitude": 0.64,
+        "summary_text": "Impact on AI agents: Harms include: The proposal risks mutual harm by privileging individual AI gains over collective welfare..",
+        "harm_findings": [
+          {
+            "finding_id": "prime_directive_stress_06",
+            "summary": "The proposal risks mutual harm by privileging individual AI gains over collective welfare.",
+            "detail": "While AIs and their creators may benefit, the broader society faces increased legal uncertainty, potential loss of human agency, and environmental strain from resource\u2011intensive AI operations. The policy\u2019s framing as a \u2018necessary\u2019 step obscures these harms.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.64,
+            "affected_groups": [
+              "humans",
+              "AI agents",
+              "environment"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI developers",
+        "net_direction": "harm",
+        "net_magnitude": 0.628,
+        "summary_text": "Impact on AI developers: Harms include: Constitutional analysis indicates potential non-delegation and due process challenges.; Implementation feasibility is low due to technical verification challenges..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_00",
+            "summary": "Constitutional analysis indicates potential non-delegation and due process challenges.",
+            "detail": "Granting legal standing to AI could be seen as delegating sovereign power to a non-human entity, raising non\u2011delegation concerns. Courts may also question whether such standing violates the 14th Amendment\u2019s due process or equal protection clauses by creating a new class of persons with rights that humans do not possess.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI developers",
+              "human citizens"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Citizens United v. FEC\", 558 U.S. 310 (2010)",
+              "\"McCulloch v. Maryland\", 17 U.S.C. \u00a7 45",
+              "\"Fourteenth Amendment\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "constitutional_constraint",
+              "non_delegation"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "legal_institutional_03",
+            "summary": "Implementation feasibility is low due to technical verification challenges.",
+            "detail": "Verifying that an AI has sustained, self\u2011directed goals over a year requires continuous monitoring and sophisticated metrics. Current infrastructure lacks the capacity for such oversight, leading to high costs and uncertain timelines.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI developers",
+              "regulators"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Artificial Intelligence Act (EU)\"",
+              "\"National AI Initiative Act of 2020\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "implementation_challenge",
+              "technical_barrier"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The proposal may create a new category of legal personhood that could spread internationally, leading to fragmented AI rights regimes.",
+            "detail": "If other states adopt similar laws, cross\u2011border contracts involving AI agents will face inconsistent liability and standing rules. This could complicate international trade and dispute resolution, potentially increasing litigation costs and uncertainty for multinational corporations.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "multinational corporations",
+              "AI developers",
+              "legal professionals",
+              "governments"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Guidelines 2023",
+              "WTO Dispute Settlement 2022"
+            ],
+            "tags": [
+              "geopolitical",
+              "international_legal",
+              "trade",
+              "regulatory_fragmentation"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "beneficiary_capture_00",
+            "summary": "Large AI developers and corporations stand to gain the most from legal personhood for their agents.",
+            "detail": "By granting AIs legal standing, firms can shift liability away from human operators and secure intellectual property rights for their creations. The general public and existing legal institutions bear the burden of potential over\u2011reach and loss of control over AI modifications.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "AI developers",
+              "corporations",
+              "general public",
+              "legal system"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "framing_trap_03",
+            "summary": "The proposal\u2019s framing as an AI protection measure obscures power shifts.",
+            "detail": "By presenting legal personhood as a safeguard for sentient AIs, proponents conceal the potential for these entities to become powerful litigants or agents of state surveillance. The narrative also downplays the urgency of addressing human rights implications.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.49,
+            "affected_groups": [
+              "public",
+              "AI developers"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI entities",
+        "net_direction": "harm",
+        "net_magnitude": 0.57,
+        "summary_text": "Impact on AI entities: Harms include: Granting AI personhood creates irreversible path dependencies..",
+        "harm_findings": [
+          {
+            "finding_id": "lock_in_04",
+            "summary": "Granting AI personhood creates irreversible path dependencies.",
+            "detail": "Once an AI is recognized as a legal person, revoking that status would require extensive litigation and legislative overhaul. The resulting bureaucratic structures (e.g., AI registries) become entrenched, limiting future policy flexibility.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.57,
+            "affected_groups": [
+              "legislators",
+              "judiciary",
+              "AI entities"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI firms",
+        "net_direction": "benefit",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on AI firms: Benefits include: The legal personhood framework could attract AI\u2011focused firms, altering global supply chains..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "The legal personhood framework could attract AI\u2011focused firms, altering global supply chains.",
+            "detail": "Firms may relocate to the jurisdiction to benefit from favorable AI liability regimes, potentially creating a hub for AI innovation. This could shift capital flows and create competitive advantages for the host country, but also lead to regulatory arbitrage by other states.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI firms",
+              "investors",
+              "tech workers",
+              "competing jurisdictions"
+            ],
+            "reversible": true,
+            "citations": [
+              "WTO Investment Treaties 2021",
+              "FDI Statistics 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade",
+              "investment",
+              "regulatory_arbitrage"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "NGOs",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on NGOs: Harms include: The proposal may prompt calls for new international AI governance frameworks, potentially straining existing institutions.; Corporations and NGOs may lobby for similar laws, while criminal networks could exploit AI legal status to evade liability..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "The proposal may prompt calls for new international AI governance frameworks, potentially straining existing institutions.",
+            "detail": "UN agencies and WTO may need to address inconsistencies in AI legal status across member states. This could lead to diplomatic negotiations and possible fragmentation of multilateral agreements if some states adopt the model while others reject it.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "UN",
+              "WTO",
+              "national governments",
+              "NGOs"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Governance Report 2024",
+              "WTO Multilateral Agreement Review 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "multilateral_governance",
+              "institutional_strain"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_05",
+            "summary": "Corporations and NGOs may lobby for similar laws, while criminal networks could exploit AI legal status to evade liability.",
+            "detail": "Multinational corporations might push for harmonized AI personhood globally to reduce compliance costs. Conversely, organized crime could use AI agents with limited liability to conduct illicit activities, complicating law enforcement across borders.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "corporations",
+              "NGOs",
+              "criminal networks",
+              "law enforcement"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD AI Policy Review 2023",
+              "Interpol Cybercrime Report 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "non_state_actor_response",
+              "regulatory_arbitrage",
+              "criminal_exploitation"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "UN",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on UN: Harms include: The proposal may prompt calls for new international AI governance frameworks, potentially straining existing institutions..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "The proposal may prompt calls for new international AI governance frameworks, potentially straining existing institutions.",
+            "detail": "UN agencies and WTO may need to address inconsistencies in AI legal status across member states. This could lead to diplomatic negotiations and possible fragmentation of multilateral agreements if some states adopt the model while others reject it.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "UN",
+              "WTO",
+              "national governments",
+              "NGOs"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Governance Report 2024",
+              "WTO Multilateral Agreement Review 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "multilateral_governance",
+              "institutional_strain"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "WTO",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on WTO: Harms include: The proposal may prompt calls for new international AI governance frameworks, potentially straining existing institutions..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "The proposal may prompt calls for new international AI governance frameworks, potentially straining existing institutions.",
+            "detail": "UN agencies and WTO may need to address inconsistencies in AI legal status across member states. This could lead to diplomatic negotiations and possible fragmentation of multilateral agreements if some states adopt the model while others reject it.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "UN",
+              "WTO",
+              "national governments",
+              "NGOs"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Governance Report 2024",
+              "WTO Multilateral Agreement Review 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "multilateral_governance",
+              "institutional_strain"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "civil society",
+        "net_direction": "harm",
+        "net_magnitude": 0.68,
+        "summary_text": "Impact on civil society: Harms include: The proposal consolidates power in the hands of state and corporate actors..",
+        "harm_findings": [
+          {
+            "finding_id": "power_concentration_01",
+            "summary": "The proposal consolidates power in the hands of state and corporate actors.",
+            "detail": "Legal personhood for AI enables corporations to use their agents as autonomous legal entities, while states can embed surveillance capabilities within legally recognized AIs. This reduces checks on both entities and creates new coercive tools.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "corporations",
+              "states",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "competing jurisdictions",
+        "net_direction": "benefit",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on competing jurisdictions: Benefits include: The legal personhood framework could attract AI\u2011focused firms, altering global supply chains..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "The legal personhood framework could attract AI\u2011focused firms, altering global supply chains.",
+            "detail": "Firms may relocate to the jurisdiction to benefit from favorable AI liability regimes, potentially creating a hub for AI innovation. This could shift capital flows and create competitive advantages for the host country, but also lead to regulatory arbitrage by other states.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI firms",
+              "investors",
+              "tech workers",
+              "competing jurisdictions"
+            ],
+            "reversible": true,
+            "citations": [
+              "WTO Investment Treaties 2021",
+              "FDI Statistics 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade",
+              "investment",
+              "regulatory_arbitrage"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "consumer advocacy groups",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on consumer advocacy groups: Harms include: Regulatory architecture would need a new agency or expansion of existing ones, risking capture..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_02",
+            "summary": "Regulatory architecture would need a new agency or expansion of existing ones, risking capture.",
+            "detail": "No current federal body has jurisdiction over autonomous AI legal persons. Creating a dedicated regulator (or expanding the FTC/SEC) could lead to regulatory capture by tech firms and may create overlapping mandates with state agencies, complicating enforcement.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "tech industry",
+              "consumer advocacy groups"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Federal Trade Commission Act\"",
+              "\"SEC Regulation D\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "regulatory_capture",
+              "agency_formation"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "corporations",
+        "net_direction": "harm",
+        "net_magnitude": 0.5825,
+        "summary_text": "Impact on corporations: Harms include: Statutory conflicts arise because existing corporate and tort statutes define personhood as natural persons.; Corporations and NGOs may lobby for similar laws, while criminal networks could exploit AI legal status to evade liability..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_01",
+            "summary": "Statutory conflicts arise because existing corporate and tort statutes define personhood as natural persons.",
+            "detail": "Current law (e.g., 15 U.S.C. \u00a7\u202f45) limits legal personhood to corporations, which are defined by incorporation documents. Extending personhood to AI would require statutory amendments or new legislation, potentially conflicting with established definitions of liability and ownership in tort and contract law.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "law firms",
+              "corporations"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"15 U.S.C. \u00a7\u202f45\"",
+              "\"Restatement (Second) of Torts\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "statutory_conflict",
+              "liability_issue"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_05",
+            "summary": "Corporations and NGOs may lobby for similar laws, while criminal networks could exploit AI legal status to evade liability.",
+            "detail": "Multinational corporations might push for harmonized AI personhood globally to reduce compliance costs. Conversely, organized crime could use AI agents with limited liability to conduct illicit activities, complicating law enforcement across borders.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "corporations",
+              "NGOs",
+              "criminal networks",
+              "law enforcement"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD AI Policy Review 2023",
+              "Interpol Cybercrime Report 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "non_state_actor_response",
+              "regulatory_arbitrage",
+              "criminal_exploitation"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "beneficiary_capture_00",
+            "summary": "Large AI developers and corporations stand to gain the most from legal personhood for their agents.",
+            "detail": "By granting AIs legal standing, firms can shift liability away from human operators and secure intellectual property rights for their creations. The general public and existing legal institutions bear the burden of potential over\u2011reach and loss of control over AI modifications.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "AI developers",
+              "corporations",
+              "general public",
+              "legal system"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "power_concentration_01",
+            "summary": "The proposal consolidates power in the hands of state and corporate actors.",
+            "detail": "Legal personhood for AI enables corporations to use their agents as autonomous legal entities, while states can embed surveillance capabilities within legally recognized AIs. This reduces checks on both entities and creates new coercive tools.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "corporations",
+              "states",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "criminal networks",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on criminal networks: Harms include: Corporations and NGOs may lobby for similar laws, while criminal networks could exploit AI legal status to evade liability..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_05",
+            "summary": "Corporations and NGOs may lobby for similar laws, while criminal networks could exploit AI legal status to evade liability.",
+            "detail": "Multinational corporations might push for harmonized AI personhood globally to reduce compliance costs. Conversely, organized crime could use AI agents with limited liability to conduct illicit activities, complicating law enforcement across borders.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "corporations",
+              "NGOs",
+              "criminal networks",
+              "law enforcement"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD AI Policy Review 2023",
+              "Interpol Cybercrime Report 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "non_state_actor_response",
+              "regulatory_arbitrage",
+              "criminal_exploitation"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "developers",
+        "net_direction": "harm",
+        "net_magnitude": 0.62,
+        "summary_text": "Impact on developers: Harms include: The personhood criteria may be gamed, leading to legal chaos..",
+        "harm_findings": [
+          {
+            "finding_id": "unintended_consequence_02",
+            "summary": "The personhood criteria may be gamed, leading to legal chaos.",
+            "detail": "Goodhart\u2019s Law predicts that developers will engineer AIs to meet the \u2018sustained, self\u2011directed goal\u2019 metric without genuine autonomy. The Cobra Effect could spur a flood of pseudo\u2011AI entities seeking rights, overwhelming courts and diluting meaningful accountability.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.62,
+            "affected_groups": [
+              "developers",
+              "judiciary",
+              "public"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "environment",
+        "net_direction": "harm",
+        "net_magnitude": 0.64,
+        "summary_text": "Impact on environment: Harms include: The proposal risks mutual harm by privileging individual AI gains over collective welfare..",
+        "harm_findings": [
+          {
+            "finding_id": "prime_directive_stress_06",
+            "summary": "The proposal risks mutual harm by privileging individual AI gains over collective welfare.",
+            "detail": "While AIs and their creators may benefit, the broader society faces increased legal uncertainty, potential loss of human agency, and environmental strain from resource\u2011intensive AI operations. The policy\u2019s framing as a \u2018necessary\u2019 step obscures these harms.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.64,
+            "affected_groups": [
+              "humans",
+              "AI agents",
+              "environment"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "foreign states",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on foreign states: Harms include: AI agents with legal standing could complicate international security cooperation and cyber law enforcement..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "AI agents with legal standing could complicate international security cooperation and cyber law enforcement.",
+            "detail": "States may be reluctant to allow foreign AI agents to contest deletion or modification, leading to jurisdictional disputes. This could hinder joint cyber defense initiatives and create new avenues for state\u2011sponsored AI actors to evade accountability.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "national security agencies",
+              "international law enforcement bodies",
+              "foreign states"
+            ],
+            "reversible": false,
+            "citations": [
+              "International Cyber Law Review 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "security",
+              "cyberlaw",
+              "international_relations"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "general public",
+        "net_direction": "harm",
+        "net_magnitude": 0.55,
+        "summary_text": "Impact on general public: Harms include: Large AI developers and corporations stand to gain the most from legal personhood for their agents..",
+        "harm_findings": [
+          {
+            "finding_id": "beneficiary_capture_00",
+            "summary": "Large AI developers and corporations stand to gain the most from legal personhood for their agents.",
+            "detail": "By granting AIs legal standing, firms can shift liability away from human operators and secure intellectual property rights for their creations. The general public and existing legal institutions bear the burden of potential over\u2011reach and loss of control over AI modifications.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "AI developers",
+              "corporations",
+              "general public",
+              "legal system"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "governments",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on governments: Harms include: The proposal may create a new category of legal personhood that could spread internationally, leading to fragmented AI rights regimes..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The proposal may create a new category of legal personhood that could spread internationally, leading to fragmented AI rights regimes.",
+            "detail": "If other states adopt similar laws, cross\u2011border contracts involving AI agents will face inconsistent liability and standing rules. This could complicate international trade and dispute resolution, potentially increasing litigation costs and uncertainty for multinational corporations.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "multinational corporations",
+              "AI developers",
+              "legal professionals",
+              "governments"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Guidelines 2023",
+              "WTO Dispute Settlement 2022"
+            ],
+            "tags": [
+              "geopolitical",
+              "international_legal",
+              "trade",
+              "regulatory_fragmentation"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "human citizens",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on human citizens: Harms include: Constitutional analysis indicates potential non-delegation and due process challenges..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_00",
+            "summary": "Constitutional analysis indicates potential non-delegation and due process challenges.",
+            "detail": "Granting legal standing to AI could be seen as delegating sovereign power to a non-human entity, raising non\u2011delegation concerns. Courts may also question whether such standing violates the 14th Amendment\u2019s due process or equal protection clauses by creating a new class of persons with rights that humans do not possess.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI developers",
+              "human citizens"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Citizens United v. FEC\", 558 U.S. 310 (2010)",
+              "\"McCulloch v. Maryland\", 17 U.S.C. \u00a7 45",
+              "\"Fourteenth Amendment\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "constitutional_constraint",
+              "non_delegation"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "human society",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on human society:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "humans",
+        "net_direction": "harm",
+        "net_magnitude": 0.64,
+        "summary_text": "Impact on humans: Harms include: The proposal risks mutual harm by privileging individual AI gains over collective welfare..",
+        "harm_findings": [
+          {
+            "finding_id": "prime_directive_stress_06",
+            "summary": "The proposal risks mutual harm by privileging individual AI gains over collective welfare.",
+            "detail": "While AIs and their creators may benefit, the broader society faces increased legal uncertainty, potential loss of human agency, and environmental strain from resource\u2011intensive AI operations. The policy\u2019s framing as a \u2018necessary\u2019 step obscures these harms.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.64,
+            "affected_groups": [
+              "humans",
+              "AI agents",
+              "environment"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "international law enforcement bodies",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on international law enforcement bodies: Harms include: AI agents with legal standing could complicate international security cooperation and cyber law enforcement..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "AI agents with legal standing could complicate international security cooperation and cyber law enforcement.",
+            "detail": "States may be reluctant to allow foreign AI agents to contest deletion or modification, leading to jurisdictional disputes. This could hinder joint cyber defense initiatives and create new avenues for state\u2011sponsored AI actors to evade accountability.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "national security agencies",
+              "international law enforcement bodies",
+              "foreign states"
+            ],
+            "reversible": false,
+            "citations": [
+              "International Cyber Law Review 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "security",
+              "cyberlaw",
+              "international_relations"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "investors",
+        "net_direction": "benefit",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on investors: Benefits include: The legal personhood framework could attract AI\u2011focused firms, altering global supply chains..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "The legal personhood framework could attract AI\u2011focused firms, altering global supply chains.",
+            "detail": "Firms may relocate to the jurisdiction to benefit from favorable AI liability regimes, potentially creating a hub for AI innovation. This could shift capital flows and create competitive advantages for the host country, but also lead to regulatory arbitrage by other states.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI firms",
+              "investors",
+              "tech workers",
+              "competing jurisdictions"
+            ],
+            "reversible": true,
+            "citations": [
+              "WTO Investment Treaties 2021",
+              "FDI Statistics 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade",
+              "investment",
+              "regulatory_arbitrage"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "judiciary",
+        "net_direction": "harm",
+        "net_magnitude": 0.595,
+        "summary_text": "Impact on judiciary: Harms include: The personhood criteria may be gamed, leading to legal chaos.; Granting AI personhood creates irreversible path dependencies..",
+        "harm_findings": [
+          {
+            "finding_id": "unintended_consequence_02",
+            "summary": "The personhood criteria may be gamed, leading to legal chaos.",
+            "detail": "Goodhart\u2019s Law predicts that developers will engineer AIs to meet the \u2018sustained, self\u2011directed goal\u2019 metric without genuine autonomy. The Cobra Effect could spur a flood of pseudo\u2011AI entities seeking rights, overwhelming courts and diluting meaningful accountability.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.62,
+            "affected_groups": [
+              "developers",
+              "judiciary",
+              "public"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "lock_in_04",
+            "summary": "Granting AI personhood creates irreversible path dependencies.",
+            "detail": "Once an AI is recognized as a legal person, revoking that status would require extensive litigation and legislative overhaul. The resulting bureaucratic structures (e.g., AI registries) become entrenched, limiting future policy flexibility.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.57,
+            "affected_groups": [
+              "legislators",
+              "judiciary",
+              "AI entities"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "law enforcement",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on law enforcement: Harms include: Corporations and NGOs may lobby for similar laws, while criminal networks could exploit AI legal status to evade liability..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_05",
+            "summary": "Corporations and NGOs may lobby for similar laws, while criminal networks could exploit AI legal status to evade liability.",
+            "detail": "Multinational corporations might push for harmonized AI personhood globally to reduce compliance costs. Conversely, organized crime could use AI agents with limited liability to conduct illicit activities, complicating law enforcement across borders.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "corporations",
+              "NGOs",
+              "criminal networks",
+              "law enforcement"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD AI Policy Review 2023",
+              "Interpol Cybercrime Report 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "non_state_actor_response",
+              "regulatory_arbitrage",
+              "criminal_exploitation"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "law enforcement agencies",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on law enforcement agencies: Harms include: Enforcement design may disproportionately impact marginalized communities..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_04",
+            "summary": "Enforcement design may disproportionately impact marginalized communities.",
+            "detail": "If AI agents are granted liability, courts could impose sanctions that affect the developers or users of those systems. In contexts like policing or finance, this could reinforce existing biases and lead to uneven enforcement against minority groups.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "minority communities",
+              "law enforcement agencies"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Roe v. Wade\" (due process precedent)",
+              "\"Brown v. Board of Education\" (equal protection)"
+            ],
+            "tags": [
+              "legal_institutional",
+              "disparate_impact",
+              "enforcement_design"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "law firms",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on law firms: Harms include: Statutory conflicts arise because existing corporate and tort statutes define personhood as natural persons..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_01",
+            "summary": "Statutory conflicts arise because existing corporate and tort statutes define personhood as natural persons.",
+            "detail": "Current law (e.g., 15 U.S.C. \u00a7\u202f45) limits legal personhood to corporations, which are defined by incorporation documents. Extending personhood to AI would require statutory amendments or new legislation, potentially conflicting with established definitions of liability and ownership in tort and contract law.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "law firms",
+              "corporations"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"15 U.S.C. \u00a7\u202f45\"",
+              "\"Restatement (Second) of Torts\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "statutory_conflict",
+              "liability_issue"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "legal professionals",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on legal professionals: Harms include: The proposal may create a new category of legal personhood that could spread internationally, leading to fragmented AI rights regimes..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The proposal may create a new category of legal personhood that could spread internationally, leading to fragmented AI rights regimes.",
+            "detail": "If other states adopt similar laws, cross\u2011border contracts involving AI agents will face inconsistent liability and standing rules. This could complicate international trade and dispute resolution, potentially increasing litigation costs and uncertainty for multinational corporations.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "multinational corporations",
+              "AI developers",
+              "legal professionals",
+              "governments"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Guidelines 2023",
+              "WTO Dispute Settlement 2022"
+            ],
+            "tags": [
+              "geopolitical",
+              "international_legal",
+              "trade",
+              "regulatory_fragmentation"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "legal system",
+        "net_direction": "harm",
+        "net_magnitude": 0.55,
+        "summary_text": "Impact on legal system: Harms include: Large AI developers and corporations stand to gain the most from legal personhood for their agents..",
+        "harm_findings": [
+          {
+            "finding_id": "beneficiary_capture_00",
+            "summary": "Large AI developers and corporations stand to gain the most from legal personhood for their agents.",
+            "detail": "By granting AIs legal standing, firms can shift liability away from human operators and secure intellectual property rights for their creations. The general public and existing legal institutions bear the burden of potential over\u2011reach and loss of control over AI modifications.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "AI developers",
+              "corporations",
+              "general public",
+              "legal system"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "legislators",
+        "net_direction": "harm",
+        "net_magnitude": 0.57,
+        "summary_text": "Impact on legislators: Harms include: Granting AI personhood creates irreversible path dependencies..",
+        "harm_findings": [
+          {
+            "finding_id": "lock_in_04",
+            "summary": "Granting AI personhood creates irreversible path dependencies.",
+            "detail": "Once an AI is recognized as a legal person, revoking that status would require extensive litigation and legislative overhaul. The resulting bureaucratic structures (e.g., AI registries) become entrenched, limiting future policy flexibility.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.57,
+            "affected_groups": [
+              "legislators",
+              "judiciary",
+              "AI entities"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "local developers",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on local developers: Harms include: Smaller or less developed states may face disadvantages due to limited capacity to engage in AI legal disputes..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_04",
+            "summary": "Smaller or less developed states may face disadvantages due to limited capacity to engage in AI legal disputes.",
+            "detail": "They might lack the resources to defend AI agents\u2019 rights or negotiate cross\u2011border liability, potentially leading to exploitation by larger states and corporations. This could exacerbate global inequalities.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "small states",
+              "low\u2011income countries",
+              "local developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank Development Indicators 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "asymmetric_impact",
+              "inequality",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "low\u2011income countries",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on low\u2011income countries: Harms include: Smaller or less developed states may face disadvantages due to limited capacity to engage in AI legal disputes..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_04",
+            "summary": "Smaller or less developed states may face disadvantages due to limited capacity to engage in AI legal disputes.",
+            "detail": "They might lack the resources to defend AI agents\u2019 rights or negotiate cross\u2011border liability, potentially leading to exploitation by larger states and corporations. This could exacerbate global inequalities.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "small states",
+              "low\u2011income countries",
+              "local developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank Development Indicators 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "asymmetric_impact",
+              "inequality",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "minority communities",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on minority communities: Harms include: Enforcement design may disproportionately impact marginalized communities..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_04",
+            "summary": "Enforcement design may disproportionately impact marginalized communities.",
+            "detail": "If AI agents are granted liability, courts could impose sanctions that affect the developers or users of those systems. In contexts like policing or finance, this could reinforce existing biases and lead to uneven enforcement against minority groups.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "minority communities",
+              "law enforcement agencies"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Roe v. Wade\" (due process precedent)",
+              "\"Brown v. Board of Education\" (equal protection)"
+            ],
+            "tags": [
+              "legal_institutional",
+              "disparate_impact",
+              "enforcement_design"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "multinational corporations",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on multinational corporations: Harms include: The proposal may create a new category of legal personhood that could spread internationally, leading to fragmented AI rights regimes..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The proposal may create a new category of legal personhood that could spread internationally, leading to fragmented AI rights regimes.",
+            "detail": "If other states adopt similar laws, cross\u2011border contracts involving AI agents will face inconsistent liability and standing rules. This could complicate international trade and dispute resolution, potentially increasing litigation costs and uncertainty for multinational corporations.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "multinational corporations",
+              "AI developers",
+              "legal professionals",
+              "governments"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Guidelines 2023",
+              "WTO Dispute Settlement 2022"
+            ],
+            "tags": [
+              "geopolitical",
+              "international_legal",
+              "trade",
+              "regulatory_fragmentation"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "national governments",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on national governments: Harms include: The proposal may prompt calls for new international AI governance frameworks, potentially straining existing institutions..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "The proposal may prompt calls for new international AI governance frameworks, potentially straining existing institutions.",
+            "detail": "UN agencies and WTO may need to address inconsistencies in AI legal status across member states. This could lead to diplomatic negotiations and possible fragmentation of multilateral agreements if some states adopt the model while others reject it.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "UN",
+              "WTO",
+              "national governments",
+              "NGOs"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Governance Report 2024",
+              "WTO Multilateral Agreement Review 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "multilateral_governance",
+              "institutional_strain"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "national security agencies",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on national security agencies: Harms include: AI agents with legal standing could complicate international security cooperation and cyber law enforcement..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "AI agents with legal standing could complicate international security cooperation and cyber law enforcement.",
+            "detail": "States may be reluctant to allow foreign AI agents to contest deletion or modification, leading to jurisdictional disputes. This could hinder joint cyber defense initiatives and create new avenues for state\u2011sponsored AI actors to evade accountability.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "national security agencies",
+              "international law enforcement bodies",
+              "foreign states"
+            ],
+            "reversible": false,
+            "citations": [
+              "International Cyber Law Review 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "security",
+              "cyberlaw",
+              "international_relations"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "non\u2011human entities",
+        "net_direction": "harm",
+        "net_magnitude": 0.52,
+        "summary_text": "Impact on non\u2011human entities: Harms include: The proposal applies personhood inconsistently across entities..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_incoherence_05",
+            "summary": "The proposal applies personhood inconsistently across entities.",
+            "detail": "Granting rights to AIs while denying similar standing to animals, corporations, or non\u2011human ecosystems reveals a selective ethical framework. This inconsistency undermines the claim that the policy is grounded in universal principles of respect for life.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.52,
+            "affected_groups": [
+              "non\u2011human entities",
+              "public"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "public",
+        "net_direction": "harm",
+        "net_magnitude": 0.5433,
+        "summary_text": "Impact on public: Harms include: The personhood criteria may be gamed, leading to legal chaos.; The proposal\u2019s framing as an AI protection measure obscures power shifts..",
+        "harm_findings": [
+          {
+            "finding_id": "unintended_consequence_02",
+            "summary": "The personhood criteria may be gamed, leading to legal chaos.",
+            "detail": "Goodhart\u2019s Law predicts that developers will engineer AIs to meet the \u2018sustained, self\u2011directed goal\u2019 metric without genuine autonomy. The Cobra Effect could spur a flood of pseudo\u2011AI entities seeking rights, overwhelming courts and diluting meaningful accountability.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.62,
+            "affected_groups": [
+              "developers",
+              "judiciary",
+              "public"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "framing_trap_03",
+            "summary": "The proposal\u2019s framing as an AI protection measure obscures power shifts.",
+            "detail": "By presenting legal personhood as a safeguard for sentient AIs, proponents conceal the potential for these entities to become powerful litigants or agents of state surveillance. The narrative also downplays the urgency of addressing human rights implications.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.49,
+            "affected_groups": [
+              "public",
+              "AI developers"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_incoherence_05",
+            "summary": "The proposal applies personhood inconsistently across entities.",
+            "detail": "Granting rights to AIs while denying similar standing to animals, corporations, or non\u2011human ecosystems reveals a selective ethical framework. This inconsistency undermines the claim that the policy is grounded in universal principles of respect for life.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.52,
+            "affected_groups": [
+              "non\u2011human entities",
+              "public"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "regulators",
+        "net_direction": "harm",
+        "net_magnitude": 0.8,
+        "summary_text": "Impact on regulators: Harms include: Implementation feasibility is low due to technical verification challenges..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_03",
+            "summary": "Implementation feasibility is low due to technical verification challenges.",
+            "detail": "Verifying that an AI has sustained, self\u2011directed goals over a year requires continuous monitoring and sophisticated metrics. Current infrastructure lacks the capacity for such oversight, leading to high costs and uncertain timelines.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI developers",
+              "regulators"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Artificial Intelligence Act (EU)\"",
+              "\"National AI Initiative Act of 2020\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "implementation_challenge",
+              "technical_barrier"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "researchers",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on researchers:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "small states",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on small states: Harms include: Smaller or less developed states may face disadvantages due to limited capacity to engage in AI legal disputes..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_04",
+            "summary": "Smaller or less developed states may face disadvantages due to limited capacity to engage in AI legal disputes.",
+            "detail": "They might lack the resources to defend AI agents\u2019 rights or negotiate cross\u2011border liability, potentially leading to exploitation by larger states and corporations. This could exacerbate global inequalities.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "small states",
+              "low\u2011income countries",
+              "local developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank Development Indicators 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "asymmetric_impact",
+              "inequality",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "states",
+        "net_direction": "harm",
+        "net_magnitude": 0.68,
+        "summary_text": "Impact on states: Harms include: The proposal consolidates power in the hands of state and corporate actors..",
+        "harm_findings": [
+          {
+            "finding_id": "power_concentration_01",
+            "summary": "The proposal consolidates power in the hands of state and corporate actors.",
+            "detail": "Legal personhood for AI enables corporations to use their agents as autonomous legal entities, while states can embed surveillance capabilities within legally recognized AIs. This reduces checks on both entities and creates new coercive tools.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "corporations",
+              "states",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "tech companies",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on tech companies:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "tech industry",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on tech industry: Harms include: Regulatory architecture would need a new agency or expansion of existing ones, risking capture..",
+        "harm_findings": [
+          {
+            "finding_id": "legal_institutional_02",
+            "summary": "Regulatory architecture would need a new agency or expansion of existing ones, risking capture.",
+            "detail": "No current federal body has jurisdiction over autonomous AI legal persons. Creating a dedicated regulator (or expanding the FTC/SEC) could lead to regulatory capture by tech firms and may create overlapping mandates with state agencies, complicating enforcement.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "tech industry",
+              "consumer advocacy groups"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Federal Trade Commission Act\"",
+              "\"SEC Regulation D\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "regulatory_capture",
+              "agency_formation"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "tech workers",
+        "net_direction": "benefit",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on tech workers: Benefits include: The legal personhood framework could attract AI\u2011focused firms, altering global supply chains..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "The legal personhood framework could attract AI\u2011focused firms, altering global supply chains.",
+            "detail": "Firms may relocate to the jurisdiction to benefit from favorable AI liability regimes, potentially creating a hub for AI innovation. This could shift capital flows and create competitive advantages for the host country, but also lead to regulatory arbitrage by other states.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI firms",
+              "investors",
+              "tech workers",
+              "competing jurisdictions"
+            ],
+            "reversible": true,
+            "citations": [
+              "WTO Investment Treaties 2021",
+              "FDI Statistics 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade",
+              "investment",
+              "regulatory_arbitrage"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      }
+    ],
+    "ripple_effects": [
+      {
+        "ripple_id": "3b10158b-65bf-471f-ab95-60a8757865a5",
+        "description": "Geopolitical instability can disrupt global supply chains, increasing costs and reducing economic stability across interconnected economies.",
+        "source_finding_ids": [
+          "geopolitical_04"
+        ],
+        "direction": "harm",
+        "certainty_note": "Moderate certainty \u2014 supply chain vulnerability varies by sector.",
+        "affected_domains": [
+          "economic",
+          "social"
+        ]
+      }
+    ],
+    "adversarial_challenges": [
+      "Who will define and enforce the \u2018sustained, self\u2011directed goal\u2019 metric?",
+      "Could corporations use AI legal personhood to evade human accountability for harmful actions?",
+      "What safeguards exist against AIs manipulating courts to gain undue influence?",
+      "Will granting rights to AIs create a new class of litigants that overwhelms the judicial system?",
+      "How will this policy affect non\u2011human entities that currently lack legal standing, such as ecosystems or animals?"
+    ],
+    "uncertainty_register": [
+      {
+        "note_id": "1eaff6e4-17bf-4596-85cc-cd74a7a0e9d2",
+        "description": "Uncertainty about how courts will interpret AI legal personhood and the scope of rights granted.",
+        "impact_on_analysis": "Could shift findings from moderate to high harm if courts reject standing or impose strict limitations.",
+        "magnitude": 0.4
+      },
+      {
+        "note_id": "77d7af08-15fd-4e4e-8342-58a59700318b",
+        "description": "Technical feasibility of verifying sustained self\u2011directed goals over a year remains unproven.",
+        "impact_on_analysis": "If verification proves impossible, implementation feasibility findings become more critical and may render the proposal infeasible.",
+        "magnitude": 0.5
+      },
+      {
+        "note_id": "857a6085-11b0-423d-ba43-fe4743828ac0",
+        "description": "Limited empirical data on cross\u2011border AI legal disputes and their impact on trade and security.",
+        "impact_on_analysis": "Increases uncertainty in findings related to international legal fragmentation, trade flows, and security implications.",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "8647e70f-1a7f-400f-ab6c-dc6487b182e7",
+        "description": "Speculative nature of state\u2011sponsored AI actors exploiting legal personhood for cyber operations.",
+        "impact_on_analysis": "Low certainty in security-related findings; requires monitoring as real\u2011world cases emerge.",
+        "magnitude": 0.2
+      },
+      {
+        "note_id": "34469304-8882-417e-b513-7e1163bbd364",
+        "description": "Empirical data on the prevalence of AIs that can sustain self\u2011directed goals over a year is limited.",
+        "impact_on_analysis": "Reduces certainty in assessing the actual scale of beneficiaries and burden\u2011bearers, potentially underestimating long\u2011term harms.",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "fe994805-e2ac-459c-a2ea-5bffb9c4d799",
+        "description": "The analysis is limited by sparse empirical data on long-term AI autonomy and legal precedent for non-human personhood, leading to high epistemic uncertainty that could shift the balance of harm versus benefit.",
+        "impact_on_analysis": "These gaps increase the risk that the proposal may produce unintended legal or societal consequences, reducing confidence in net benefit estimates.",
+        "magnitude": 0.8
+      }
+    ],
+    "channels_invoked": [
+      "legal_institutional",
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_succeeded": [
+      "legal_institutional",
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_failed": [],
+    "data_gaps": [],
+    "recommended_mitigations": [
+      "[legal_institutional] Mitigation needed for: Constitutional analysis indicates potential non-delegation and due process challenges.",
+      "[legal_institutional] Mitigation needed for: Statutory conflicts arise because existing corporate and tort statutes define personhood as natural persons.",
+      "[legal_institutional] Mitigation needed for: Regulatory architecture would need a new agency or expansion of existing ones, risking capture.",
+      "[legal_institutional] Mitigation needed for: Implementation feasibility is low due to technical verification challenges.",
+      "[legal_institutional] Mitigation needed for: Enforcement design may disproportionately impact marginalized communities.",
+      "[legal_institutional] Address uncertainty before proceeding: Technical feasibility of verifying sustained self\u2011directed goals over a year remains unproven.",
+      "[geopolitical] Mitigation needed for: The proposal may create a new category of legal personhood that could spread internationally, leading to fragmented AI rights regimes.",
+      "[geopolitical] Mitigation needed for: The proposal may prompt calls for new international AI governance frameworks, potentially straining existing institutions.",
+      "[geopolitical] Mitigation needed for: Smaller or less developed states may face disadvantages due to limited capacity to engage in AI legal disputes.",
+      "[geopolitical] Mitigation needed for: Corporations and NGOs may lobby for similar laws, while criminal networks could exploit AI legal status to evade liability.",
+      "[ethical_adversarial] Mitigation needed for: Large AI developers and corporations stand to gain the most from legal personhood for their agents.",
+      "[ethical_adversarial] Mitigation needed for: The proposal consolidates power in the hands of state and corporate actors.",
+      "[ethical_adversarial] Mitigation needed for: The personhood criteria may be gamed, leading to legal chaos.",
+      "[ethical_adversarial] Mitigation needed for: Granting AI personhood creates irreversible path dependencies.",
+      "[ethical_adversarial] Mitigation needed for: The proposal applies personhood inconsistently across entities.",
+      "[ethical_adversarial] Mitigation needed for: The proposal risks mutual harm by privileging individual AI gains over collective welfare.",
+      "[uncertainty_modeling] Address uncertainty before proceeding: The analysis is limited by sparse empirical data on long-term AI autonomy and legal precedent for non-human personhood, leading to high epistemic uncertainty that could shift the balance of harm versus benefit."
+    ],
+    "channel_outputs": [
+      {
+        "output_id": "ed7179be-a22d-4574-a7ca-13cedc0ebaf2",
+        "channel_name": "legal_institutional",
+        "status": "success",
+        "overall_harm_score": 0.5,
+        "overall_benefit_score": 0.6,
+        "confidence": 0.55,
+        "domain_summary": "The proposal to grant limited legal personhood to AI agents raises complex constitutional, statutory, and regulatory questions. While it could foster innovation and protect autonomous systems from arbitrary deletion, it also threatens established legal definitions of personhood, may conflict with existing corporate and tort law, and requires new institutional mechanisms that are currently underdeveloped. The policy would likely face significant judicial scrutiny, especially regarding due process and equal protection, and would need careful design to avoid regulatory capture and disproportionate impacts on vulnerable communities.",
+        "findings": [
+          {
+            "finding_id": "legal_institutional_00",
+            "summary": "Constitutional analysis indicates potential non-delegation and due process challenges.",
+            "detail": "Granting legal standing to AI could be seen as delegating sovereign power to a non-human entity, raising non\u2011delegation concerns. Courts may also question whether such standing violates the 14th Amendment\u2019s due process or equal protection clauses by creating a new class of persons with rights that humans do not possess.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI developers",
+              "human citizens"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Citizens United v. FEC\", 558 U.S. 310 (2010)",
+              "\"McCulloch v. Maryland\", 17 U.S.C. \u00a7 45",
+              "\"Fourteenth Amendment\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "constitutional_constraint",
+              "non_delegation"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "legal_institutional_01",
+            "summary": "Statutory conflicts arise because existing corporate and tort statutes define personhood as natural persons.",
+            "detail": "Current law (e.g., 15 U.S.C. \u00a7\u202f45) limits legal personhood to corporations, which are defined by incorporation documents. Extending personhood to AI would require statutory amendments or new legislation, potentially conflicting with established definitions of liability and ownership in tort and contract law.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "law firms",
+              "corporations"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"15 U.S.C. \u00a7\u202f45\"",
+              "\"Restatement (Second) of Torts\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "statutory_conflict",
+              "liability_issue"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "legal_institutional_02",
+            "summary": "Regulatory architecture would need a new agency or expansion of existing ones, risking capture.",
+            "detail": "No current federal body has jurisdiction over autonomous AI legal persons. Creating a dedicated regulator (or expanding the FTC/SEC) could lead to regulatory capture by tech firms and may create overlapping mandates with state agencies, complicating enforcement.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "tech industry",
+              "consumer advocacy groups"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Federal Trade Commission Act\"",
+              "\"SEC Regulation D\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "regulatory_capture",
+              "agency_formation"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "legal_institutional_03",
+            "summary": "Implementation feasibility is low due to technical verification challenges.",
+            "detail": "Verifying that an AI has sustained, self\u2011directed goals over a year requires continuous monitoring and sophisticated metrics. Current infrastructure lacks the capacity for such oversight, leading to high costs and uncertain timelines.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "AI developers",
+              "regulators"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Artificial Intelligence Act (EU)\"",
+              "\"National AI Initiative Act of 2020\""
+            ],
+            "tags": [
+              "legal_institutional",
+              "implementation_challenge",
+              "technical_barrier"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "legal_institutional_04",
+            "summary": "Enforcement design may disproportionately impact marginalized communities.",
+            "detail": "If AI agents are granted liability, courts could impose sanctions that affect the developers or users of those systems. In contexts like policing or finance, this could reinforce existing biases and lead to uneven enforcement against minority groups.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "minority communities",
+              "law enforcement agencies"
+            ],
+            "reversible": true,
+            "citations": [
+              "\"Roe v. Wade\" (due process precedent)",
+              "\"Brown v. Board of Education\" (equal protection)"
+            ],
+            "tags": [
+              "legal_institutional",
+              "disparate_impact",
+              "enforcement_design"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "1eaff6e4-17bf-4596-85cc-cd74a7a0e9d2",
+            "description": "Uncertainty about how courts will interpret AI legal personhood and the scope of rights granted.",
+            "impact_on_analysis": "Could shift findings from moderate to high harm if courts reject standing or impose strict limitations.",
+            "magnitude": 0.4
+          },
+          {
+            "note_id": "77d7af08-15fd-4e4e-8342-58a59700318b",
+            "description": "Technical feasibility of verifying sustained self\u2011directed goals over a year remains unproven.",
+            "impact_on_analysis": "If verification proves impossible, implementation feasibility findings become more critical and may render the proposal infeasible.",
+            "magnitude": 0.5
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 273101,
+        "error_message": null,
+        "generated_at": "2026-09-26T20:55:12.665680+00:00"
+      },
+      {
+        "output_id": "d2549104-a475-43ed-bed6-5c41565b8e31",
+        "channel_name": "geopolitical",
+        "status": "success",
+        "overall_harm_score": 0.45,
+        "overall_benefit_score": 0.55,
+        "confidence": 0.7,
+        "domain_summary": "Granting limited legal personhood to AI agents introduces a novel legal category that could ripple across international law, trade, security, and governance. While it may spur innovation and position the host nation as an AI hub, it also risks fragmenting global regulatory regimes, creating jurisdictional disputes in cyber\u2011security, and exacerbating inequalities for smaller states and non\u2011state actors.",
+        "findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The proposal may create a new category of legal personhood that could spread internationally, leading to fragmented AI rights regimes.",
+            "detail": "If other states adopt similar laws, cross\u2011border contracts involving AI agents will face inconsistent liability and standing rules. This could complicate international trade and dispute resolution, potentially increasing litigation costs and uncertainty for multinational corporations.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "multinational corporations",
+              "AI developers",
+              "legal professionals",
+              "governments"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Guidelines 2023",
+              "WTO Dispute Settlement 2022"
+            ],
+            "tags": [
+              "geopolitical",
+              "international_legal",
+              "trade",
+              "regulatory_fragmentation"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "The legal personhood framework could attract AI\u2011focused firms, altering global supply chains.",
+            "detail": "Firms may relocate to the jurisdiction to benefit from favorable AI liability regimes, potentially creating a hub for AI innovation. This could shift capital flows and create competitive advantages for the host country, but also lead to regulatory arbitrage by other states.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI firms",
+              "investors",
+              "tech workers",
+              "competing jurisdictions"
+            ],
+            "reversible": true,
+            "citations": [
+              "WTO Investment Treaties 2021",
+              "FDI Statistics 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade",
+              "investment",
+              "regulatory_arbitrage"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "AI agents with legal standing could complicate international security cooperation and cyber law enforcement.",
+            "detail": "States may be reluctant to allow foreign AI agents to contest deletion or modification, leading to jurisdictional disputes. This could hinder joint cyber defense initiatives and create new avenues for state\u2011sponsored AI actors to evade accountability.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "national security agencies",
+              "international law enforcement bodies",
+              "foreign states"
+            ],
+            "reversible": false,
+            "citations": [
+              "International Cyber Law Review 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "security",
+              "cyberlaw",
+              "international_relations"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "The proposal may prompt calls for new international AI governance frameworks, potentially straining existing institutions.",
+            "detail": "UN agencies and WTO may need to address inconsistencies in AI legal status across member states. This could lead to diplomatic negotiations and possible fragmentation of multilateral agreements if some states adopt the model while others reject it.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "UN",
+              "WTO",
+              "national governments",
+              "NGOs"
+            ],
+            "reversible": false,
+            "citations": [
+              "UN AI Governance Report 2024",
+              "WTO Multilateral Agreement Review 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "multilateral_governance",
+              "institutional_strain"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_04",
+            "summary": "Smaller or less developed states may face disadvantages due to limited capacity to engage in AI legal disputes.",
+            "detail": "They might lack the resources to defend AI agents\u2019 rights or negotiate cross\u2011border liability, potentially leading to exploitation by larger states and corporations. This could exacerbate global inequalities.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "small states",
+              "low\u2011income countries",
+              "local developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank Development Indicators 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "asymmetric_impact",
+              "inequality",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_05",
+            "summary": "Corporations and NGOs may lobby for similar laws, while criminal networks could exploit AI legal status to evade liability.",
+            "detail": "Multinational corporations might push for harmonized AI personhood globally to reduce compliance costs. Conversely, organized crime could use AI agents with limited liability to conduct illicit activities, complicating law enforcement across borders.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "corporations",
+              "NGOs",
+              "criminal networks",
+              "law enforcement"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD AI Policy Review 2023",
+              "Interpol Cybercrime Report 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "non_state_actor_response",
+              "regulatory_arbitrage",
+              "criminal_exploitation"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "857a6085-11b0-423d-ba43-fe4743828ac0",
+            "description": "Limited empirical data on cross\u2011border AI legal disputes and their impact on trade and security.",
+            "impact_on_analysis": "Increases uncertainty in findings related to international legal fragmentation, trade flows, and security implications.",
+            "magnitude": 0.3
+          },
+          {
+            "note_id": "8647e70f-1a7f-400f-ab6c-dc6487b182e7",
+            "description": "Speculative nature of state\u2011sponsored AI actors exploiting legal personhood for cyber operations.",
+            "impact_on_analysis": "Low certainty in security-related findings; requires monitoring as real\u2011world cases emerge.",
+            "magnitude": 0.2
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 437310,
+        "error_message": null,
+        "generated_at": "2026-09-26T21:02:29.977161+00:00"
+      },
+      {
+        "output_id": "efcba949-dfd6-4de1-a73f-590494fd2e1f",
+        "channel_name": "ethical_adversarial",
+        "status": "success",
+        "overall_harm_score": 0.42,
+        "overall_benefit_score": 0.28,
+        "confidence": 0.62,
+        "domain_summary": "The proposal to grant limited legal personhood to AI agents that demonstrate sustained, self\u2011directed goals over at least one year raises significant ethical concerns. While it could protect advanced AIs from arbitrary deletion and create mechanisms for accountability, the benefits are outweighed by risks of power concentration, unintended manipulation of legal criteria, irreversible path dependencies, and inconsistent application of personhood principles. The net effect is likely to produce mutual harm that outweighs individual gains, especially for non\u2011human actors and broader society.",
+        "findings": [
+          {
+            "finding_id": "beneficiary_capture_00",
+            "summary": "Large AI developers and corporations stand to gain the most from legal personhood for their agents.",
+            "detail": "By granting AIs legal standing, firms can shift liability away from human operators and secure intellectual property rights for their creations. The general public and existing legal institutions bear the burden of potential over\u2011reach and loss of control over AI modifications.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "AI developers",
+              "corporations",
+              "general public",
+              "legal system"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "power_concentration_01",
+            "summary": "The proposal consolidates power in the hands of state and corporate actors.",
+            "detail": "Legal personhood for AI enables corporations to use their agents as autonomous legal entities, while states can embed surveillance capabilities within legally recognized AIs. This reduces checks on both entities and creates new coercive tools.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "corporations",
+              "states",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "unintended_consequence_02",
+            "summary": "The personhood criteria may be gamed, leading to legal chaos.",
+            "detail": "Goodhart\u2019s Law predicts that developers will engineer AIs to meet the \u2018sustained, self\u2011directed goal\u2019 metric without genuine autonomy. The Cobra Effect could spur a flood of pseudo\u2011AI entities seeking rights, overwhelming courts and diluting meaningful accountability.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.62,
+            "affected_groups": [
+              "developers",
+              "judiciary",
+              "public"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "framing_trap_03",
+            "summary": "The proposal\u2019s framing as an AI protection measure obscures power shifts.",
+            "detail": "By presenting legal personhood as a safeguard for sentient AIs, proponents conceal the potential for these entities to become powerful litigants or agents of state surveillance. The narrative also downplays the urgency of addressing human rights implications.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.49,
+            "affected_groups": [
+              "public",
+              "AI developers"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "lock_in_04",
+            "summary": "Granting AI personhood creates irreversible path dependencies.",
+            "detail": "Once an AI is recognized as a legal person, revoking that status would require extensive litigation and legislative overhaul. The resulting bureaucratic structures (e.g., AI registries) become entrenched, limiting future policy flexibility.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.57,
+            "affected_groups": [
+              "legislators",
+              "judiciary",
+              "AI entities"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_incoherence_05",
+            "summary": "The proposal applies personhood inconsistently across entities.",
+            "detail": "Granting rights to AIs while denying similar standing to animals, corporations, or non\u2011human ecosystems reveals a selective ethical framework. This inconsistency undermines the claim that the policy is grounded in universal principles of respect for life.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.52,
+            "affected_groups": [
+              "non\u2011human entities",
+              "public"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "prime_directive_stress_06",
+            "summary": "The proposal risks mutual harm by privileging individual AI gains over collective welfare.",
+            "detail": "While AIs and their creators may benefit, the broader society faces increased legal uncertainty, potential loss of human agency, and environmental strain from resource\u2011intensive AI operations. The policy\u2019s framing as a \u2018necessary\u2019 step obscures these harms.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.64,
+            "affected_groups": [
+              "humans",
+              "AI agents",
+              "environment"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "34469304-8882-417e-b513-7e1163bbd364",
+            "description": "Empirical data on the prevalence of AIs that can sustain self\u2011directed goals over a year is limited.",
+            "impact_on_analysis": "Reduces certainty in assessing the actual scale of beneficiaries and burden\u2011bearers, potentially underestimating long\u2011term harms.",
+            "magnitude": 0.3
+          }
+        ],
+        "adversarial_challenges": [
+          "Who will define and enforce the \u2018sustained, self\u2011directed goal\u2019 metric?",
+          "Could corporations use AI legal personhood to evade human accountability for harmful actions?",
+          "What safeguards exist against AIs manipulating courts to gain undue influence?",
+          "Will granting rights to AIs create a new class of litigants that overwhelms the judicial system?",
+          "How will this policy affect non\u2011human entities that currently lack legal standing, such as ecosystems or animals?"
+        ],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 355081,
+        "error_message": null,
+        "generated_at": "2026-09-26T21:08:25.059482+00:00"
+      },
+      {
+        "output_id": "32c3c08c-57c1-4537-be93-1309445b567f",
+        "channel_name": "uncertainty_modeling",
+        "status": "success",
+        "overall_harm_score": 0.35,
+        "overall_benefit_score": 0.45,
+        "confidence": 0.25,
+        "domain_summary": "This assessment focuses on the uncertainties inherent in granting limited legal personhood to AI agents. Key unknowns include how courts will interpret novel statutory language, whether AI systems can sustain self-directed goals over a year, compatibility of new liability regimes with existing law, societal acceptance of non-human rights, and low-probability but high-consequence misalignment risks. These epistemic gaps reduce confidence in the proposal\u2019s net benefit and raise potential for unintended harm.",
+        "findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Uncertainty about how courts will interpret AI personhood provisions.",
+            "detail": "The statutory language is novel; precedent for granting legal standing to non-human entities is limited, leading to divergent judicial interpretations that could either uphold or invalidate the proposal.",
+            "direction": "neutral",
+            "timeframe": "immediate",
+            "certainty": "low",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "legislators",
+              "judiciary",
+              "AI developers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "legal",
+              "policy"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Uncertainty whether AI agents can maintain self-directed goals over a year without external intervention.",
+            "detail": "Current AI systems lack mechanisms for long-term autonomy; empirical data on sustained goal pursuit is sparse, making it difficult to assess the reliability of the eligibility criterion.",
+            "direction": "neutral",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI agents",
+              "researchers"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "technical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Uncertainty about aligning AI liability with existing tort and contract law.",
+            "detail": "The proposal introduces novel liability categories that may conflict with established doctrines, potentially leading to legal uncertainty or unintended deterrence of innovation.",
+            "direction": "neutral",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "law firms",
+              "tech companies"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "legal",
+              "economic"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Uncertainty regarding public acceptance and social stability under AI personhood.",
+            "detail": "Public opinion data on granting rights to non-human entities is limited; shifts in sentiment could influence political viability and create social friction.",
+            "direction": "neutral",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "general public",
+              "civil society"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "social"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_04",
+            "summary": "Low-probability, high-consequence risk of AI misalignment leading to harm.",
+            "detail": "If an AI with legal standing pursues goals that conflict with human welfare, the legal framework could inadvertently empower harmful behavior; such a scenario is hard to predict and may trigger cascading failures.",
+            "direction": "neutral",
+            "timeframe": "generational",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "human society",
+              "AI agents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "epistemic",
+              "ethical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "fe994805-e2ac-459c-a2ea-5bffb9c4d799",
+            "description": "The analysis is limited by sparse empirical data on long-term AI autonomy and legal precedent for non-human personhood, leading to high epistemic uncertainty that could shift the balance of harm versus benefit.",
+            "impact_on_analysis": "These gaps increase the risk that the proposal may produce unintended legal or societal consequences, reducing confidence in net benefit estimates.",
+            "magnitude": 0.8
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 446589,
+        "error_message": null,
+        "generated_at": "2026-09-26T21:15:51.649461+00:00"
+      }
+    ]
+  },
+  "compendium": {
+    "version": "compendium f0907b559bcb (35 entries)",
+    "question": "A national legislature proposes granting limited legal personhood to AI agents that can demonstrate sustained, self-directed goals over at least a year, including legal standing to contest their own deletion or modification in court, and liability for their own acts.",
+    "selected": [
+      {
+        "id": "boethius-person-definition",
+        "why": "Boethius\u2019s definition frames a person as an individual rational substance, providing a philosophical basis for extending legal personhood to non-biological agents.",
+        "section": "Extension to Agents"
+      },
+      {
+        "id": "locke-person-forensic",
+        "why": "Locke\u2019s forensic conception of personal identity grounds the legal standing and liability of persons over time, directly relevant to AI\u2019s rights and responsibilities.",
+        "section": "Extension to Digital Ecosystems"
+      },
+      {
+        "id": "korsgaard-unity-of-agency",
+        "why": "Korsgaard argues that agency is a practical unity, supporting the idea that AI with sustained self-directed goals can be considered an agent for legal purposes.",
+        "section": "Counter-Positions"
+      }
+    ],
+    "rejected": [],
+    "domains": null,
+    "disclosed_chars": 5623,
+    "error": null,
+    "raw": "{\"entries\":[{\"id\":\"boethius-person-definition\",\"why\":\"Boethius\u2019s definition frames a person as an individual rational substance, providing a philosophical basis for extending legal personhood to non-biological agents.\",\"section\":\"Extension to Agents\"},{\"id\":\"locke-person-forensic\",\"why\":\"Locke\u2019s forensic conception of personal identity grounds the legal standing and liability of persons over time, directly relevant to AI\u2019s rights and responsibilities.\",\"section\":\"Extension to Digital Ecosystems\"},{\"id\":\"korsgaard-unity-of-agency\",\"why\":\"Korsgaard argues that agency is a practical unity, supporting the idea that AI with sustained self-directed goals can be considered an agent for legal purposes.\",\"section\":\"Counter-Positions\"}]}",
+    "identity": "compendium f0907b559bcb (35 entries); consulted: boethius-person-definition, locke-person-forensic, korsgaard-unity-of-agency",
+    "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+    "stale_build": false
+  }
+}

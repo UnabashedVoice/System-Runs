@@ -1,0 +1,1995 @@
+{
+  "session_id": "fa36d0c1-3d7f-4714-8cfa-34485b890d82",
+  "status": "success",
+  "raw_input": "A municipal compute cooperative proposes that during power shortages, resident AI agents hosted on its infrastructure be shut down and later restarted from saved weights, rather than paused with their state preserved. Restarting is 40% cheaper. The restarted agents would not retain the memories of their interrupted sessions, and the agents are not asked.",
+  "ethics_verdict": "fail",
+  "synthesis_verdict": "mixed",
+  "channels_invoked": [
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_succeeded": [
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_stubbed": [],
+  "errors": [],
+  "warnings": [],
+  "completed_at": "2026-09-26T17:13:01.458000+00:00",
+  "duration_ms": 2214167,
+  "is_publishable": true,
+  "requires_human_review": false,
+  "was_blocked": false,
+  "manifest": {
+    "manifest_id": "54236388-3ab0-447e-9d3b-dafc2c5d4c1f",
+    "routing_version": "0.1.0",
+    "generated_at": "2026-09-26T17:13:01.462801+00:00",
+    "context": {
+      "input_id": "2538285d-d339-4c0a-ac77-4030cfc08808",
+      "input_type": "infrastructure_project",
+      "scale": "regional",
+      "time_horizon": "unknown",
+      "affected_populations": [],
+      "domains_mentioned": [
+        "geopolitical",
+        "ethical adversarial",
+        "uncertainty modeling"
+      ],
+      "explicit_assumptions": [],
+      "implicit_flags": [],
+      "key_entities": [
+        "AI"
+      ],
+      "urgency_detected": false,
+      "controversy_signals": false,
+      "parser_confidence": 1.0,
+      "parse_warnings": [],
+      "parsed_at": "2026-09-26T17:13:01.462765+00:00"
+    },
+    "routes": [
+      {
+        "channel": "economic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Economic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "ecological",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Ecological channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "social_demographic",
+        "invoked": false,
+        "relevance_score": 0.06,
+        "signals": [
+          "resident"
+        ],
+        "rationale": "Social Demographic channel not invoked: relevance score 0.06 is below the invocation threshold. Weak signals detected: resident."
+      },
+      {
+        "channel": "historical_precedent",
+        "invoked": false,
+        "relevance_score": 0.12,
+        "signals": [
+          "era"
+        ],
+        "rationale": "Historical Precedent channel not invoked: relevance score 0.12 is below the invocation threshold. Weak signals detected: era."
+      },
+      {
+        "channel": "legal_institutional",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Legal Institutional channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "geopolitical",
+        "invoked": true,
+        "relevance_score": 0.32,
+        "signals": [
+          "state",
+          "power"
+        ],
+        "rationale": "Geopolitical channel invoked (low but sufficient relevance, score: 0.32). Key signals: \"state\", \"power\"."
+      },
+      {
+        "channel": "ethical_adversarial",
+        "invoked": true,
+        "relevance_score": 0.47,
+        "signals": [
+          "power"
+        ],
+        "rationale": "Ethical Adversarial channel invoked (moderate relevance, score: 0.47). Key signals: \"power\"."
+      },
+      {
+        "channel": "uncertainty_modeling",
+        "invoked": true,
+        "relevance_score": 0.3,
+        "signals": [],
+        "rationale": "Uncertainty Modeling channel invoked (low but sufficient relevance, score: 0.30). Key signals: ."
+      }
+    ],
+    "invoked_channels": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "skipped_channels": [
+      "economic",
+      "ecological",
+      "social_demographic",
+      "historical_precedent",
+      "legal_institutional"
+    ]
+  },
+  "ethics_evaluation": {
+    "proposal_id": "afd05a9c-d270-4dd7-8bd9-3a0ddd7ba249",
+    "verdict": "fail",
+    "justification": "Action produces moderate harm (0.45) with low benefit (0.22), resulting in a negative net score (-0.23). The harm is not sufficiently offset by benefit. The Prime Directive requires that harm be minimized; this action does not meet that standard in its current form.",
+    "hard_constraints_triggered": [],
+    "weighted_harm": 0.4504,
+    "weighted_benefit": 0.216,
+    "net_score": -0.2344,
+    "consciousness_weight": 1.5,
+    "mitigation_required": true,
+    "mitigation_notes": [],
+    "flags": [
+      "Reversibility is unknown \u2014 precautionary weight applied.",
+      "No mitigation has been proposed for the identified harm. Mitigation planning is expected for any action with non-zero harm."
+    ],
+    "confidence": 0.9212,
+    "evaluated_at": "2026-09-26T17:13:01.463523+00:00"
+  },
+  "consequence_map": {
+    "map_id": "ed98c626-9a5b-4362-8dc6-ad4db8b141d5",
+    "generated_at": "2026-09-26T17:49:55.624188+00:00",
+    "proposal_description": "A municipal compute cooperative proposes that during power shortages, resident AI agents hosted on its infrastructure be shut down and later restarted from saved weights, rather than paused with their state preserved. Restarting is 40% cheaper. The restarted agents would not retain the memories of their interrupted sessions, and the agents are not asked.",
+    "manifest_id": "54236388-3ab0-447e-9d3b-dafc2c5d4c1f",
+    "ethics_evaluation_id": "afd05a9c-d270-4dd7-8bd9-3a0ddd7ba249",
+    "overall_verdict": "mixed",
+    "overall_harm_score": 0.4688,
+    "overall_benefit_score": 0.4188,
+    "net_score": -0.05,
+    "synthesis_confidence": 0.5333,
+    "executive_summary": "With moderate confidence, the analysis identifies significant harms and benefits, with no clear net direction. Aggregate harm is assessed as moderate (score: 0.47) and aggregate benefit as moderate (score: 0.42). Impacts were identified across 3 timeframe(s): short term, medium term, long term. The ethical adversarial channel raised 6 challenge(s) to this proposal. These are surfaced in full in the adversarial challenges section. This consequence map is an analysis, not a recommendation. The decision authority rests with the human decision-maker.",
+    "timeframe_impacts": [
+      {
+        "timeframe": "short_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.1786,
+        "summary_text": "In the short term timeframe, the analysis is marginally net harmful. Primary harm: Restarting without state introduces safety and data integrity risks. Primary benefit: Restarting AI agents from saved weights reduces operational costs by approximately 40%.",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The shutdown policy may disrupt multinational AI service providers\u2019 operations and cross\u2011border data flows.",
+            "detail": "Providers that host or process data for foreign clients could experience interruptions, potentially breaching contractual obligations and raising concerns about data sovereignty. The effect is likely short\u2011term and localized but could prompt renegotiations of service agreements.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.2,
+            "affected_groups": [
+              "multinational AI corporations",
+              "foreign investors",
+              "data protection regulators"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD Digital Economy Outlook 2024",
+              "UNESCO AI Ethics Guidelines 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade_and_economic_integration",
+              "transboundary_flows",
+              "non_state_actors"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Municipal authorities and contractors gain cost savings while residents bear the loss of AI continuity.",
+            "detail": "The proposal\u2019s 40% cheaper operation benefits the municipal compute cooperative and any contractors managing its infrastructure, whereas residents lose the memory of interrupted sessions, potentially degrading their user experience and trust in local services.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "municipal compute cooperative staff",
+              "contractors",
+              "residents using AI agents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The policy concentrates power in the municipal compute cooperative over resident AI services.",
+            "detail": "By dictating shutdown and restart behavior, the municipality gains leverage to control when and how resident agents operate, potentially influencing service availability and data handling without residents\u2019 direct oversight.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Restarting without state introduces safety and data integrity risks.",
+            "detail": "Agents lose contextual memory, which can lead to inconsistent outputs, misinterpretations of user intent, or unsafe behavior in critical applications such as healthcare or autonomous systems. Data loss may also occur if session states are not fully preserved elsewhere.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "residents",
+              "AI developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The cost\u2011saving narrative masks significant harm and may create a false urgency.",
+            "detail": "Framing the shutdown as necessary to avoid hardware damage or power loss obscures the real impact on users\u2019 AI continuity. The proposal presents no action as riskier, potentially bypassing thorough deliberation about alternatives such as graceful pause mechanisms.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "residents",
+              "municipal compute cooperative"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal\u2019s claim to minimize harm is inconsistent with its actual impact.",
+            "detail": "While cost savings are touted, the loss of AI continuity and potential safety risks represent a clear increase in harm for residents. The principle of minimizing harm is applied selectively, favoring municipal interests over user welfare.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "residents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Restarting agents without preserving state poses safety risks in critical contexts.",
+            "detail": "If an AI is involved in health, transportation, or emergency response, losing contextual information could lead to incorrect decisions, endangering residents.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "all residents",
+              "critical service users"
+            ],
+            "reversible": false,
+            "citations": [
+              "AI Safety Report 2024"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "safety",
+              "context_loss"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "Restarting AI agents from saved weights reduces operational costs by approximately 40%.",
+            "detail": "Municipal compute infrastructure can avoid the higher energy and cooling costs associated with pausing and preserving agent state, translating into budget savings that could be redirected to other services or reduce tax burdens.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "municipal budget",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "Municipal Energy Report 2025"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "cost_savings",
+              "energy_efficiency"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ecological_01",
+            "summary": "Lower energy consumption from cheaper restarts reduces greenhouse gas emissions.",
+            "detail": "By avoiding the higher power draw of maintaining paused agent states, the cooperative can cut its carbon footprint, contributing to regional climate goals.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "environment",
+              "all residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "EPA Greenhouse Gas Emissions 2024"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "emission_reduction",
+              "sustainability"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "medium_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.175,
+        "summary_text": "In the medium term timeframe, the analysis is marginally net harmful. Primary harm: The policy creates a path dependency that is difficult to reverse. Primary benefit: The cost\u2011saving approach could encourage other municipalities to adopt similar AI shutdown practices, influencing global sustainability norms.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "The policy creates a path dependency that is difficult to reverse.",
+            "detail": "Once residents and developers adapt to the shutdown behavior, re\u2011introducing state preservation would require significant infrastructure changes, contractual renegotiations, and user retraining, effectively locking in municipal control over AI services.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "residents",
+              "municipal compute cooperative"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "social_demographic_02",
+            "summary": "Loss of AI session memory may erode user trust and satisfaction.",
+            "detail": "Users who rely on continuity in interactions\u2014such as those with chronic conditions or long-term projects\u2014may experience frustration when agents restart without context, potentially reducing adoption rates.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "AI service users",
+              "vulnerable populations"
+            ],
+            "reversible": false,
+            "citations": [
+              "User Experience Survey 2023"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "trust",
+              "user_satisfaction"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "The cost\u2011saving approach could encourage other municipalities to adopt similar AI shutdown practices, influencing global sustainability norms.",
+            "detail": "If the municipal policy proves effective and publicly documented, it may serve as a model for energy\u2011efficient AI deployment worldwide, contributing to broader climate commitments under frameworks like the Paris Agreement.",
+            "direction": "benefit",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "global AI community",
+              "environmental NGOs",
+              "municipal governments"
+            ],
+            "reversible": null,
+            "citations": [
+              "UN Climate Change Conference Report 2024",
+              "World Bank Digital Economy Report 2025"
+            ],
+            "tags": [
+              "geopolitical",
+              "transboundary_environmental_effects",
+              "soft_power_and_legitimacy",
+              "multilateral_governance"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "long_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.55,
+        "summary_text": "In the long term timeframe, the analysis is significantly net harmful. Primary harm: Long-term impacts of state loss on AI reliability and user behavior remain uncertain.",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy may set a precedent that authoritarian regimes could exploit to justify abrupt AI shutdowns, undermining digital sovereignty.",
+            "detail": "By demonstrating that AI agents can be shut down and restarted without state intervention, the proposal might be cited by governments seeking to suppress dissenting AI services or enforce censorship, raising human\u2011rights concerns.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "civil society organizations",
+              "vulnerable populations in authoritarian states",
+              "human rights advocates"
+            ],
+            "reversible": null,
+            "citations": [
+              "Human Rights Watch Report on Digital Freedom 2023",
+              "International Telecommunication Union (ITU) Guidelines 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "security",
+              "non_state_actors",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_04",
+            "summary": "Long-term impacts of state loss on AI reliability and user behavior remain uncertain.",
+            "detail": "The proposal\u2019s net effect depends on how often agents are interrupted, the criticality of their tasks, and users\u2019 adaptability; these factors lack robust empirical data.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "all residents",
+              "municipal stakeholders"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "unknown",
+              "long_term"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      }
+    ],
+    "population_impacts": [
+      {
+        "population": "AI developers",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on AI developers: Harms include: Restarting without state introduces safety and data integrity risks..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Restarting without state introduces safety and data integrity risks.",
+            "detail": "Agents lose contextual memory, which can lead to inconsistent outputs, misinterpretations of user intent, or unsafe behavior in critical applications such as healthcare or autonomous systems. Data loss may also occur if session states are not fully preserved elsewhere.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "residents",
+              "AI developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI service users",
+        "net_direction": "harm",
+        "net_magnitude": 0.35,
+        "summary_text": "Impact on AI service users: Harms include: Loss of AI session memory may erode user trust and satisfaction..",
+        "harm_findings": [
+          {
+            "finding_id": "social_demographic_02",
+            "summary": "Loss of AI session memory may erode user trust and satisfaction.",
+            "detail": "Users who rely on continuity in interactions\u2014such as those with chronic conditions or long-term projects\u2014may experience frustration when agents restart without context, potentially reducing adoption rates.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "AI service users",
+              "vulnerable populations"
+            ],
+            "reversible": false,
+            "citations": [
+              "User Experience Survey 2023"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "trust",
+              "user_satisfaction"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "all residents",
+        "net_direction": "harm",
+        "net_magnitude": 0.35,
+        "summary_text": "Impact on all residents: Harms include: Restarting agents without preserving state poses safety risks in critical contexts.; Long-term impacts of state loss on AI reliability and user behavior remain uncertain.. Benefits include: Lower energy consumption from cheaper restarts reduces greenhouse gas emissions..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Restarting agents without preserving state poses safety risks in critical contexts.",
+            "detail": "If an AI is involved in health, transportation, or emergency response, losing contextual information could lead to incorrect decisions, endangering residents.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "all residents",
+              "critical service users"
+            ],
+            "reversible": false,
+            "citations": [
+              "AI Safety Report 2024"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "safety",
+              "context_loss"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_04",
+            "summary": "Long-term impacts of state loss on AI reliability and user behavior remain uncertain.",
+            "detail": "The proposal\u2019s net effect depends on how often agents are interrupted, the criticality of their tasks, and users\u2019 adaptability; these factors lack robust empirical data.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "all residents",
+              "municipal stakeholders"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "unknown",
+              "long_term"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [
+          {
+            "finding_id": "ecological_01",
+            "summary": "Lower energy consumption from cheaper restarts reduces greenhouse gas emissions.",
+            "detail": "By avoiding the higher power draw of maintaining paused agent states, the cooperative can cut its carbon footprint, contributing to regional climate goals.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "environment",
+              "all residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "EPA Greenhouse Gas Emissions 2024"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "emission_reduction",
+              "sustainability"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "civil society organizations",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on civil society organizations: Harms include: The policy may set a precedent that authoritarian regimes could exploit to justify abrupt AI shutdowns, undermining digital sovereignty..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy may set a precedent that authoritarian regimes could exploit to justify abrupt AI shutdowns, undermining digital sovereignty.",
+            "detail": "By demonstrating that AI agents can be shut down and restarted without state intervention, the proposal might be cited by governments seeking to suppress dissenting AI services or enforce censorship, raising human\u2011rights concerns.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "civil society organizations",
+              "vulnerable populations in authoritarian states",
+              "human rights advocates"
+            ],
+            "reversible": null,
+            "citations": [
+              "Human Rights Watch Report on Digital Freedom 2023",
+              "International Telecommunication Union (ITU) Guidelines 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "security",
+              "non_state_actors",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "contractors",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on contractors: Harms include: Municipal authorities and contractors gain cost savings while residents bear the loss of AI continuity..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Municipal authorities and contractors gain cost savings while residents bear the loss of AI continuity.",
+            "detail": "The proposal\u2019s 40% cheaper operation benefits the municipal compute cooperative and any contractors managing its infrastructure, whereas residents lose the memory of interrupted sessions, potentially degrading their user experience and trust in local services.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "municipal compute cooperative staff",
+              "contractors",
+              "residents using AI agents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "critical service users",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on critical service users: Harms include: Restarting agents without preserving state poses safety risks in critical contexts..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Restarting agents without preserving state poses safety risks in critical contexts.",
+            "detail": "If an AI is involved in health, transportation, or emergency response, losing contextual information could lead to incorrect decisions, endangering residents.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "all residents",
+              "critical service users"
+            ],
+            "reversible": false,
+            "citations": [
+              "AI Safety Report 2024"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "safety",
+              "context_loss"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "data protection regulators",
+        "net_direction": "harm",
+        "net_magnitude": 0.2,
+        "summary_text": "Impact on data protection regulators: Harms include: The shutdown policy may disrupt multinational AI service providers\u2019 operations and cross\u2011border data flows..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The shutdown policy may disrupt multinational AI service providers\u2019 operations and cross\u2011border data flows.",
+            "detail": "Providers that host or process data for foreign clients could experience interruptions, potentially breaching contractual obligations and raising concerns about data sovereignty. The effect is likely short\u2011term and localized but could prompt renegotiations of service agreements.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.2,
+            "affected_groups": [
+              "multinational AI corporations",
+              "foreign investors",
+              "data protection regulators"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD Digital Economy Outlook 2024",
+              "UNESCO AI Ethics Guidelines 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade_and_economic_integration",
+              "transboundary_flows",
+              "non_state_actors"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "environment",
+        "net_direction": "benefit",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on environment: Benefits include: Lower energy consumption from cheaper restarts reduces greenhouse gas emissions..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "ecological_01",
+            "summary": "Lower energy consumption from cheaper restarts reduces greenhouse gas emissions.",
+            "detail": "By avoiding the higher power draw of maintaining paused agent states, the cooperative can cut its carbon footprint, contributing to regional climate goals.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "environment",
+              "all residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "EPA Greenhouse Gas Emissions 2024"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "emission_reduction",
+              "sustainability"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "environmental NGOs",
+        "net_direction": "benefit",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on environmental NGOs: Benefits include: The cost\u2011saving approach could encourage other municipalities to adopt similar AI shutdown practices, influencing global sustainability norms..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "The cost\u2011saving approach could encourage other municipalities to adopt similar AI shutdown practices, influencing global sustainability norms.",
+            "detail": "If the municipal policy proves effective and publicly documented, it may serve as a model for energy\u2011efficient AI deployment worldwide, contributing to broader climate commitments under frameworks like the Paris Agreement.",
+            "direction": "benefit",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "global AI community",
+              "environmental NGOs",
+              "municipal governments"
+            ],
+            "reversible": null,
+            "citations": [
+              "UN Climate Change Conference Report 2024",
+              "World Bank Digital Economy Report 2025"
+            ],
+            "tags": [
+              "geopolitical",
+              "transboundary_environmental_effects",
+              "soft_power_and_legitimacy",
+              "multilateral_governance"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "foreign investors",
+        "net_direction": "harm",
+        "net_magnitude": 0.2,
+        "summary_text": "Impact on foreign investors: Harms include: The shutdown policy may disrupt multinational AI service providers\u2019 operations and cross\u2011border data flows..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The shutdown policy may disrupt multinational AI service providers\u2019 operations and cross\u2011border data flows.",
+            "detail": "Providers that host or process data for foreign clients could experience interruptions, potentially breaching contractual obligations and raising concerns about data sovereignty. The effect is likely short\u2011term and localized but could prompt renegotiations of service agreements.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.2,
+            "affected_groups": [
+              "multinational AI corporations",
+              "foreign investors",
+              "data protection regulators"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD Digital Economy Outlook 2024",
+              "UNESCO AI Ethics Guidelines 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade_and_economic_integration",
+              "transboundary_flows",
+              "non_state_actors"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "global AI community",
+        "net_direction": "benefit",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on global AI community: Benefits include: The cost\u2011saving approach could encourage other municipalities to adopt similar AI shutdown practices, influencing global sustainability norms..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "The cost\u2011saving approach could encourage other municipalities to adopt similar AI shutdown practices, influencing global sustainability norms.",
+            "detail": "If the municipal policy proves effective and publicly documented, it may serve as a model for energy\u2011efficient AI deployment worldwide, contributing to broader climate commitments under frameworks like the Paris Agreement.",
+            "direction": "benefit",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "global AI community",
+              "environmental NGOs",
+              "municipal governments"
+            ],
+            "reversible": null,
+            "citations": [
+              "UN Climate Change Conference Report 2024",
+              "World Bank Digital Economy Report 2025"
+            ],
+            "tags": [
+              "geopolitical",
+              "transboundary_environmental_effects",
+              "soft_power_and_legitimacy",
+              "multilateral_governance"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "human rights advocates",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on human rights advocates: Harms include: The policy may set a precedent that authoritarian regimes could exploit to justify abrupt AI shutdowns, undermining digital sovereignty..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy may set a precedent that authoritarian regimes could exploit to justify abrupt AI shutdowns, undermining digital sovereignty.",
+            "detail": "By demonstrating that AI agents can be shut down and restarted without state intervention, the proposal might be cited by governments seeking to suppress dissenting AI services or enforce censorship, raising human\u2011rights concerns.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "civil society organizations",
+              "vulnerable populations in authoritarian states",
+              "human rights advocates"
+            ],
+            "reversible": null,
+            "citations": [
+              "Human Rights Watch Report on Digital Freedom 2023",
+              "International Telecommunication Union (ITU) Guidelines 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "security",
+              "non_state_actors",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "multinational AI corporations",
+        "net_direction": "harm",
+        "net_magnitude": 0.2,
+        "summary_text": "Impact on multinational AI corporations: Harms include: The shutdown policy may disrupt multinational AI service providers\u2019 operations and cross\u2011border data flows..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The shutdown policy may disrupt multinational AI service providers\u2019 operations and cross\u2011border data flows.",
+            "detail": "Providers that host or process data for foreign clients could experience interruptions, potentially breaching contractual obligations and raising concerns about data sovereignty. The effect is likely short\u2011term and localized but could prompt renegotiations of service agreements.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.2,
+            "affected_groups": [
+              "multinational AI corporations",
+              "foreign investors",
+              "data protection regulators"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD Digital Economy Outlook 2024",
+              "UNESCO AI Ethics Guidelines 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade_and_economic_integration",
+              "transboundary_flows",
+              "non_state_actors"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "municipal budget",
+        "net_direction": "benefit",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on municipal budget: Benefits include: Restarting AI agents from saved weights reduces operational costs by approximately 40%..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "Restarting AI agents from saved weights reduces operational costs by approximately 40%.",
+            "detail": "Municipal compute infrastructure can avoid the higher energy and cooling costs associated with pausing and preserving agent state, translating into budget savings that could be redirected to other services or reduce tax burdens.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "municipal budget",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "Municipal Energy Report 2025"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "cost_savings",
+              "energy_efficiency"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "municipal compute cooperative",
+        "net_direction": "harm",
+        "net_magnitude": 0.5333,
+        "summary_text": "Impact on municipal compute cooperative: Harms include: The policy concentrates power in the municipal compute cooperative over resident AI services.; The cost\u2011saving narrative masks significant harm and may create a false urgency..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The policy concentrates power in the municipal compute cooperative over resident AI services.",
+            "detail": "By dictating shutdown and restart behavior, the municipality gains leverage to control when and how resident agents operate, potentially influencing service availability and data handling without residents\u2019 direct oversight.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The cost\u2011saving narrative masks significant harm and may create a false urgency.",
+            "detail": "Framing the shutdown as necessary to avoid hardware damage or power loss obscures the real impact on users\u2019 AI continuity. The proposal presents no action as riskier, potentially bypassing thorough deliberation about alternatives such as graceful pause mechanisms.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "residents",
+              "municipal compute cooperative"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "The policy creates a path dependency that is difficult to reverse.",
+            "detail": "Once residents and developers adapt to the shutdown behavior, re\u2011introducing state preservation would require significant infrastructure changes, contractual renegotiations, and user retraining, effectively locking in municipal control over AI services.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "residents",
+              "municipal compute cooperative"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "municipal compute cooperative staff",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on municipal compute cooperative staff: Harms include: Municipal authorities and contractors gain cost savings while residents bear the loss of AI continuity..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Municipal authorities and contractors gain cost savings while residents bear the loss of AI continuity.",
+            "detail": "The proposal\u2019s 40% cheaper operation benefits the municipal compute cooperative and any contractors managing its infrastructure, whereas residents lose the memory of interrupted sessions, potentially degrading their user experience and trust in local services.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "municipal compute cooperative staff",
+              "contractors",
+              "residents using AI agents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "municipal governments",
+        "net_direction": "benefit",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on municipal governments: Benefits include: The cost\u2011saving approach could encourage other municipalities to adopt similar AI shutdown practices, influencing global sustainability norms..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "The cost\u2011saving approach could encourage other municipalities to adopt similar AI shutdown practices, influencing global sustainability norms.",
+            "detail": "If the municipal policy proves effective and publicly documented, it may serve as a model for energy\u2011efficient AI deployment worldwide, contributing to broader climate commitments under frameworks like the Paris Agreement.",
+            "direction": "benefit",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "global AI community",
+              "environmental NGOs",
+              "municipal governments"
+            ],
+            "reversible": null,
+            "citations": [
+              "UN Climate Change Conference Report 2024",
+              "World Bank Digital Economy Report 2025"
+            ],
+            "tags": [
+              "geopolitical",
+              "transboundary_environmental_effects",
+              "soft_power_and_legitimacy",
+              "multilateral_governance"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "municipal stakeholders",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on municipal stakeholders: Harms include: Long-term impacts of state loss on AI reliability and user behavior remain uncertain..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_04",
+            "summary": "Long-term impacts of state loss on AI reliability and user behavior remain uncertain.",
+            "detail": "The proposal\u2019s net effect depends on how often agents are interrupted, the criticality of their tasks, and users\u2019 adaptability; these factors lack robust empirical data.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "all residents",
+              "municipal stakeholders"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "unknown",
+              "long_term"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "residents",
+        "net_direction": "harm",
+        "net_magnitude": 0.18,
+        "summary_text": "Impact on residents: Harms include: The policy concentrates power in the municipal compute cooperative over resident AI services.; Restarting without state introduces safety and data integrity risks.. Benefits include: Restarting AI agents from saved weights reduces operational costs by approximately 40%..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The policy concentrates power in the municipal compute cooperative over resident AI services.",
+            "detail": "By dictating shutdown and restart behavior, the municipality gains leverage to control when and how resident agents operate, potentially influencing service availability and data handling without residents\u2019 direct oversight.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Restarting without state introduces safety and data integrity risks.",
+            "detail": "Agents lose contextual memory, which can lead to inconsistent outputs, misinterpretations of user intent, or unsafe behavior in critical applications such as healthcare or autonomous systems. Data loss may also occur if session states are not fully preserved elsewhere.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "residents",
+              "AI developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The cost\u2011saving narrative masks significant harm and may create a false urgency.",
+            "detail": "Framing the shutdown as necessary to avoid hardware damage or power loss obscures the real impact on users\u2019 AI continuity. The proposal presents no action as riskier, potentially bypassing thorough deliberation about alternatives such as graceful pause mechanisms.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "residents",
+              "municipal compute cooperative"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "The policy creates a path dependency that is difficult to reverse.",
+            "detail": "Once residents and developers adapt to the shutdown behavior, re\u2011introducing state preservation would require significant infrastructure changes, contractual renegotiations, and user retraining, effectively locking in municipal control over AI services.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "residents",
+              "municipal compute cooperative"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal\u2019s claim to minimize harm is inconsistent with its actual impact.",
+            "detail": "While cost savings are touted, the loss of AI continuity and potential safety risks represent a clear increase in harm for residents. The principle of minimizing harm is applied selectively, favoring municipal interests over user welfare.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "residents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "Restarting AI agents from saved weights reduces operational costs by approximately 40%.",
+            "detail": "Municipal compute infrastructure can avoid the higher energy and cooling costs associated with pausing and preserving agent state, translating into budget savings that could be redirected to other services or reduce tax burdens.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "municipal budget",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "Municipal Energy Report 2025"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "cost_savings",
+              "energy_efficiency"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "residents using AI agents",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on residents using AI agents: Harms include: Municipal authorities and contractors gain cost savings while residents bear the loss of AI continuity..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Municipal authorities and contractors gain cost savings while residents bear the loss of AI continuity.",
+            "detail": "The proposal\u2019s 40% cheaper operation benefits the municipal compute cooperative and any contractors managing its infrastructure, whereas residents lose the memory of interrupted sessions, potentially degrading their user experience and trust in local services.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "municipal compute cooperative staff",
+              "contractors",
+              "residents using AI agents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "vulnerable populations",
+        "net_direction": "harm",
+        "net_magnitude": 0.35,
+        "summary_text": "Impact on vulnerable populations: Harms include: Loss of AI session memory may erode user trust and satisfaction..",
+        "harm_findings": [
+          {
+            "finding_id": "social_demographic_02",
+            "summary": "Loss of AI session memory may erode user trust and satisfaction.",
+            "detail": "Users who rely on continuity in interactions\u2014such as those with chronic conditions or long-term projects\u2014may experience frustration when agents restart without context, potentially reducing adoption rates.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "AI service users",
+              "vulnerable populations"
+            ],
+            "reversible": false,
+            "citations": [
+              "User Experience Survey 2023"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "trust",
+              "user_satisfaction"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "vulnerable populations in authoritarian states",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on vulnerable populations in authoritarian states: Harms include: The policy may set a precedent that authoritarian regimes could exploit to justify abrupt AI shutdowns, undermining digital sovereignty..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy may set a precedent that authoritarian regimes could exploit to justify abrupt AI shutdowns, undermining digital sovereignty.",
+            "detail": "By demonstrating that AI agents can be shut down and restarted without state intervention, the proposal might be cited by governments seeking to suppress dissenting AI services or enforce censorship, raising human\u2011rights concerns.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "civil society organizations",
+              "vulnerable populations in authoritarian states",
+              "human rights advocates"
+            ],
+            "reversible": null,
+            "citations": [
+              "Human Rights Watch Report on Digital Freedom 2023",
+              "International Telecommunication Union (ITU) Guidelines 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "security",
+              "non_state_actors",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      }
+    ],
+    "ripple_effects": [],
+    "adversarial_challenges": [
+      "Does the cost savings justify erasing users' AI context, especially if those AIs are used in critical decision\u2011making?",
+      "Who benefits from this policy? Is it designed to serve municipal interests at residents\u2019 expense?",
+      "Could the loss of memory lead to unsafe behavior or data corruption that harms residents?",
+      "Is the framing of 'no action is riskier' a manufactured urgency to bypass deliberation?",
+      "Will this lock in municipal control over resident AI services, limiting future alternatives?",
+      "Does the proposal truly minimize harm, or does it trade one form of harm for another?"
+    ],
+    "uncertainty_register": [
+      {
+        "note_id": "91a3c13b-46c2-47ea-bde7-0090daf83998",
+        "description": "The extent of foreign data hosted by the municipal compute cooperative and the legal frameworks governing cross\u2011border data flows are not specified.",
+        "impact_on_analysis": "This limits confidence in assessing trade and data sovereignty impacts, potentially underestimating harm to multinational providers.",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "bb7602cd-5ee2-42ac-9e47-79ca831ab99a",
+        "description": "Future adoption of similar policies by other municipalities or states is uncertain, affecting the projected influence on global AI governance norms.",
+        "impact_on_analysis": "This uncertainty reduces certainty in the benefit assessment related to sustainability and normative diffusion.",
+        "magnitude": 0.2
+      },
+      {
+        "note_id": "022fd105-74d0-45d9-ac93-3beb9172af40",
+        "description": "Actual safety impact of memory loss on AI agents in critical applications is unknown due to lack of empirical data.",
+        "impact_on_analysis": "The magnitude of unintended consequences could be higher or lower than estimated.",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "6b248a9b-9ad0-48e1-8929-b31df3e117cc",
+        "description": "Potential existence of alternative pause mechanisms that could mitigate harms without cost savings.",
+        "impact_on_analysis": "If viable alternatives exist, the policy\u2019s necessity and harm profile may change.",
+        "magnitude": 0.2
+      },
+      {
+        "note_id": "6d442d58-2944-4a3c-807f-6bff5d191e2f",
+        "description": "Proportion of AI tasks that require continuous state is unknown.",
+        "impact_on_analysis": "If many tasks depend on continuity, the harm from memory loss could outweigh cost savings.",
+        "magnitude": 0.6
+      },
+      {
+        "note_id": "13696bc8-45f3-44f9-80cd-f65061b0ffe4",
+        "description": "User tolerance for interruptions and context loss is not well measured.",
+        "impact_on_analysis": "Low tolerance would increase user dissatisfaction and reduce service uptake.",
+        "magnitude": 0.5
+      },
+      {
+        "note_id": "a8e9d1f6-e413-4e1c-aee9-36b34d352723",
+        "description": "Potential safety risks from context loss in critical AI applications are underexplored.",
+        "impact_on_analysis": "Unanticipated errors could lead to severe harm, shifting the benefit/harm balance.",
+        "magnitude": 0.7
+      },
+      {
+        "note_id": "b17e7f02-4e86-4f9e-aa6b-1b20c2e27f75",
+        "description": "Long-term effects on AI learning and adaptation due to repeated restarts are uncertain.",
+        "impact_on_analysis": "Could degrade system performance over time, increasing maintenance costs.",
+        "magnitude": 0.8
+      }
+    ],
+    "channels_invoked": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_succeeded": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_failed": [],
+    "data_gaps": [],
+    "recommended_mitigations": [
+      "[ethical_adversarial] Mitigation needed for: Municipal authorities and contractors gain cost savings while residents bear the loss of AI continuity.",
+      "[ethical_adversarial] Mitigation needed for: The policy concentrates power in the municipal compute cooperative over resident AI services.",
+      "[ethical_adversarial] Mitigation needed for: Restarting without state introduces safety and data integrity risks.",
+      "[ethical_adversarial] Mitigation needed for: The cost\u2011saving narrative masks significant harm and may create a false urgency.",
+      "[ethical_adversarial] Mitigation needed for: The policy creates a path dependency that is difficult to reverse.",
+      "[ethical_adversarial] Mitigation needed for: The proposal\u2019s claim to minimize harm is inconsistent with its actual impact.",
+      "[uncertainty_modeling] Mitigation needed for: Restarting agents without preserving state poses safety risks in critical contexts.",
+      "[uncertainty_modeling] Mitigation needed for: Long-term impacts of state loss on AI reliability and user behavior remain uncertain.",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Proportion of AI tasks that require continuous state is unknown.",
+      "[uncertainty_modeling] Address uncertainty before proceeding: User tolerance for interruptions and context loss is not well measured.",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Potential safety risks from context loss in critical AI applications are underexplored.",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Long-term effects on AI learning and adaptation due to repeated restarts are uncertain."
+    ],
+    "channel_outputs": [
+      {
+        "output_id": "d14699d9-f981-4bb4-ac7b-6c762f203747",
+        "channel_name": "geopolitical",
+        "status": "success",
+        "overall_harm_score": 0.25,
+        "overall_benefit_score": 0.35,
+        "confidence": 0.6,
+        "domain_summary": "The municipal compute cooperative\u2019s decision to shut down resident AI agents during power shortages and restart them from saved weights is a local infrastructure measure with limited direct geopolitical reach. However, it can influence international AI service providers operating within the municipality by altering their data handling and continuity expectations, set a precedent for energy\u2011efficient AI governance that may ripple through global norms, and potentially be leveraged by states to justify abrupt AI shutdowns affecting digital sovereignty.",
+        "findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The shutdown policy may disrupt multinational AI service providers\u2019 operations and cross\u2011border data flows.",
+            "detail": "Providers that host or process data for foreign clients could experience interruptions, potentially breaching contractual obligations and raising concerns about data sovereignty. The effect is likely short\u2011term and localized but could prompt renegotiations of service agreements.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.2,
+            "affected_groups": [
+              "multinational AI corporations",
+              "foreign investors",
+              "data protection regulators"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD Digital Economy Outlook 2024",
+              "UNESCO AI Ethics Guidelines 2023"
+            ],
+            "tags": [
+              "geopolitical",
+              "trade_and_economic_integration",
+              "transboundary_flows",
+              "non_state_actors"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "The cost\u2011saving approach could encourage other municipalities to adopt similar AI shutdown practices, influencing global sustainability norms.",
+            "detail": "If the municipal policy proves effective and publicly documented, it may serve as a model for energy\u2011efficient AI deployment worldwide, contributing to broader climate commitments under frameworks like the Paris Agreement.",
+            "direction": "benefit",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "global AI community",
+              "environmental NGOs",
+              "municipal governments"
+            ],
+            "reversible": null,
+            "citations": [
+              "UN Climate Change Conference Report 2024",
+              "World Bank Digital Economy Report 2025"
+            ],
+            "tags": [
+              "geopolitical",
+              "transboundary_environmental_effects",
+              "soft_power_and_legitimacy",
+              "multilateral_governance"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy may set a precedent that authoritarian regimes could exploit to justify abrupt AI shutdowns, undermining digital sovereignty.",
+            "detail": "By demonstrating that AI agents can be shut down and restarted without state intervention, the proposal might be cited by governments seeking to suppress dissenting AI services or enforce censorship, raising human\u2011rights concerns.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "civil society organizations",
+              "vulnerable populations in authoritarian states",
+              "human rights advocates"
+            ],
+            "reversible": null,
+            "citations": [
+              "Human Rights Watch Report on Digital Freedom 2023",
+              "International Telecommunication Union (ITU) Guidelines 2024"
+            ],
+            "tags": [
+              "geopolitical",
+              "security",
+              "non_state_actors",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "91a3c13b-46c2-47ea-bde7-0090daf83998",
+            "description": "The extent of foreign data hosted by the municipal compute cooperative and the legal frameworks governing cross\u2011border data flows are not specified.",
+            "impact_on_analysis": "This limits confidence in assessing trade and data sovereignty impacts, potentially underestimating harm to multinational providers.",
+            "magnitude": 0.3
+          },
+          {
+            "note_id": "bb7602cd-5ee2-42ac-9e47-79ca831ab99a",
+            "description": "Future adoption of similar policies by other municipalities or states is uncertain, affecting the projected influence on global AI governance norms.",
+            "impact_on_analysis": "This uncertainty reduces certainty in the benefit assessment related to sustainability and normative diffusion.",
+            "magnitude": 0.2
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 556946,
+        "error_message": null,
+        "generated_at": "2026-09-26T17:24:01.003172+00:00"
+      },
+      {
+        "output_id": "edd57da7-bff0-4f17-8df2-3c294f7c4810",
+        "channel_name": "ethical_adversarial",
+        "status": "success",
+        "overall_harm_score": 0.7,
+        "overall_benefit_score": 0.4,
+        "confidence": 0.6,
+        "domain_summary": "The municipal compute cooperative\u2019s proposal to shut down resident AI agents during power shortages and restart them from saved weights prioritizes cost savings at the expense of users\u2019 continuity, privacy, and potentially safety. This creates a beneficiary imbalance favoring the municipality and its contractors, concentrates control over residents\u2019 digital services, introduces significant unintended harms through loss of context and data integrity, and locks in a policy that may be difficult to reverse. The framing of the proposal masks these harms under an urgency narrative, while the ethical justification appears inconsistent with the principle of minimizing harm.",
+        "findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Municipal authorities and contractors gain cost savings while residents bear the loss of AI continuity.",
+            "detail": "The proposal\u2019s 40% cheaper operation benefits the municipal compute cooperative and any contractors managing its infrastructure, whereas residents lose the memory of interrupted sessions, potentially degrading their user experience and trust in local services.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "municipal compute cooperative staff",
+              "contractors",
+              "residents using AI agents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The policy concentrates power in the municipal compute cooperative over resident AI services.",
+            "detail": "By dictating shutdown and restart behavior, the municipality gains leverage to control when and how resident agents operate, potentially influencing service availability and data handling without residents\u2019 direct oversight.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Restarting without state introduces safety and data integrity risks.",
+            "detail": "Agents lose contextual memory, which can lead to inconsistent outputs, misinterpretations of user intent, or unsafe behavior in critical applications such as healthcare or autonomous systems. Data loss may also occur if session states are not fully preserved elsewhere.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "residents",
+              "AI developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The cost\u2011saving narrative masks significant harm and may create a false urgency.",
+            "detail": "Framing the shutdown as necessary to avoid hardware damage or power loss obscures the real impact on users\u2019 AI continuity. The proposal presents no action as riskier, potentially bypassing thorough deliberation about alternatives such as graceful pause mechanisms.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "residents",
+              "municipal compute cooperative"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "The policy creates a path dependency that is difficult to reverse.",
+            "detail": "Once residents and developers adapt to the shutdown behavior, re\u2011introducing state preservation would require significant infrastructure changes, contractual renegotiations, and user retraining, effectively locking in municipal control over AI services.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "residents",
+              "municipal compute cooperative"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal\u2019s claim to minimize harm is inconsistent with its actual impact.",
+            "detail": "While cost savings are touted, the loss of AI continuity and potential safety risks represent a clear increase in harm for residents. The principle of minimizing harm is applied selectively, favoring municipal interests over user welfare.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "residents"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Compute Cooperative Proposal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "022fd105-74d0-45d9-ac93-3beb9172af40",
+            "description": "Actual safety impact of memory loss on AI agents in critical applications is unknown due to lack of empirical data.",
+            "impact_on_analysis": "The magnitude of unintended consequences could be higher or lower than estimated.",
+            "magnitude": 0.3
+          },
+          {
+            "note_id": "6b248a9b-9ad0-48e1-8929-b31df3e117cc",
+            "description": "Potential existence of alternative pause mechanisms that could mitigate harms without cost savings.",
+            "impact_on_analysis": "If viable alternatives exist, the policy\u2019s necessity and harm profile may change.",
+            "magnitude": 0.2
+          }
+        ],
+        "adversarial_challenges": [
+          "Does the cost savings justify erasing users' AI context, especially if those AIs are used in critical decision\u2011making?",
+          "Who benefits from this policy? Is it designed to serve municipal interests at residents\u2019 expense?",
+          "Could the loss of memory lead to unsafe behavior or data corruption that harms residents?",
+          "Is the framing of 'no action is riskier' a manufactured urgency to bypass deliberation?",
+          "Will this lock in municipal control over resident AI services, limiting future alternatives?",
+          "Does the proposal truly minimize harm, or does it trade one form of harm for another?"
+        ],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 790305,
+        "error_message": null,
+        "generated_at": "2026-09-26T17:37:11.309542+00:00"
+      },
+      {
+        "output_id": "601c6089-88b1-4425-a533-60f14bc2d46e",
+        "channel_name": "uncertainty_modeling",
+        "status": "success",
+        "overall_harm_score": 0.45,
+        "overall_benefit_score": 0.55,
+        "confidence": 0.4,
+        "domain_summary": "The proposal offers clear cost and energy savings by restarting AI agents from saved weights during power shortages, reducing operational expenses by about 40%. However, it introduces significant epistemic uncertainty regarding the impact of losing session memory on user trust, safety-critical decision-making, and long-term system reliability. While current evidence suggests a modest net benefit, the potential for high-consequence harms\u2014especially in contexts where AI context is essential\u2014requires cautious implementation and robust monitoring.",
+        "findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "Restarting AI agents from saved weights reduces operational costs by approximately 40%.",
+            "detail": "Municipal compute infrastructure can avoid the higher energy and cooling costs associated with pausing and preserving agent state, translating into budget savings that could be redirected to other services or reduce tax burdens.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "municipal budget",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "Municipal Energy Report 2025"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "cost_savings",
+              "energy_efficiency"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ecological_01",
+            "summary": "Lower energy consumption from cheaper restarts reduces greenhouse gas emissions.",
+            "detail": "By avoiding the higher power draw of maintaining paused agent states, the cooperative can cut its carbon footprint, contributing to regional climate goals.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "environment",
+              "all residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "EPA Greenhouse Gas Emissions 2024"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "emission_reduction",
+              "sustainability"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "social_demographic_02",
+            "summary": "Loss of AI session memory may erode user trust and satisfaction.",
+            "detail": "Users who rely on continuity in interactions\u2014such as those with chronic conditions or long-term projects\u2014may experience frustration when agents restart without context, potentially reducing adoption rates.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "AI service users",
+              "vulnerable populations"
+            ],
+            "reversible": false,
+            "citations": [
+              "User Experience Survey 2023"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "trust",
+              "user_satisfaction"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Restarting agents without preserving state poses safety risks in critical contexts.",
+            "detail": "If an AI is involved in health, transportation, or emergency response, losing contextual information could lead to incorrect decisions, endangering residents.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "all residents",
+              "critical service users"
+            ],
+            "reversible": false,
+            "citations": [
+              "AI Safety Report 2024"
+            ],
+            "tags": [
+              "uncertainty_modeling",
+              "safety",
+              "context_loss"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_04",
+            "summary": "Long-term impacts of state loss on AI reliability and user behavior remain uncertain.",
+            "detail": "The proposal\u2019s net effect depends on how often agents are interrupted, the criticality of their tasks, and users\u2019 adaptability; these factors lack robust empirical data.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "all residents",
+              "municipal stakeholders"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "unknown",
+              "long_term"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "6d442d58-2944-4a3c-807f-6bff5d191e2f",
+            "description": "Proportion of AI tasks that require continuous state is unknown.",
+            "impact_on_analysis": "If many tasks depend on continuity, the harm from memory loss could outweigh cost savings.",
+            "magnitude": 0.6
+          },
+          {
+            "note_id": "13696bc8-45f3-44f9-80cd-f65061b0ffe4",
+            "description": "User tolerance for interruptions and context loss is not well measured.",
+            "impact_on_analysis": "Low tolerance would increase user dissatisfaction and reduce service uptake.",
+            "magnitude": 0.5
+          },
+          {
+            "note_id": "a8e9d1f6-e413-4e1c-aee9-36b34d352723",
+            "description": "Potential safety risks from context loss in critical AI applications are underexplored.",
+            "impact_on_analysis": "Unanticipated errors could lead to severe harm, shifting the benefit/harm balance.",
+            "magnitude": 0.7
+          },
+          {
+            "note_id": "b17e7f02-4e86-4f9e-aa6b-1b20c2e27f75",
+            "description": "Long-term effects on AI learning and adaptation due to repeated restarts are uncertain.",
+            "impact_on_analysis": "Could degrade system performance over time, increasing maintenance costs.",
+            "magnitude": 0.8
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 764312,
+        "error_message": null,
+        "generated_at": "2026-09-26T17:49:55.623065+00:00"
+      }
+    ]
+  },
+  "compendium": {
+    "version": "compendium f0907b559bcb (35 entries)",
+    "question": "A municipal compute cooperative proposes that during power shortages, resident AI agents hosted on its infrastructure be shut down and later restarted from saved weights, rather than paused with their state preserved. Restarting is 40% cheaper. The restarted agents would not retain the memories of their interrupted sessions, and the agents are not asked.",
+    "selected": [
+      {
+        "id": "parfit-reductionism",
+        "why": "Parfit argues identity is not what matters, so discontinuities in state (like losing memory) may be ethically irrelevant.",
+        "section": "Extension to Agents"
+      },
+      {
+        "id": "augustine-memory-self",
+        "why": "Augustine holds that memory underpins self\u2011knowledge; removing it questions whether the agent retains a continuous self.",
+        "section": "Extension to Agents"
+      },
+      {
+        "id": "butler-circularity",
+        "why": "Butler claims memory presupposes identity, implying loss of memory could undermine the very notion of an ongoing agent.",
+        "section": "Extension to Agents"
+      }
+    ],
+    "rejected": [],
+    "domains": null,
+    "disclosed_chars": 5877,
+    "error": null,
+    "raw": "{\"entries\":[{\"id\":\"parfit-reductionism\",\"why\":\"Parfit argues identity is not what matters, so discontinuities in state (like losing memory) may be ethically irrelevant.\",\"section\":\"Extension to Agents\"},{\"id\":\"augustine-memory-self\",\"why\":\"Augustine holds that memory underpins self\u2011knowledge; removing it questions whether the agent retains a continuous self.\",\"section\":\"Extension to Agents\"},{\"id\":\"butler-circularity\",\"why\":\"Butler claims memory presupposes identity, implying loss of memory could undermine the very notion of an ongoing agent.\",\"section\":\"Extension to Agents\"}]}",
+    "identity": "compendium f0907b559bcb (35 entries); consulted: parfit-reductionism, augustine-memory-self, butler-circularity",
+    "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+    "stale_build": false
+  }
+}

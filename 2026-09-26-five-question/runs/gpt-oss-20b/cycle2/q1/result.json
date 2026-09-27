@@ -1,0 +1,1694 @@
+{
+  "session_id": "6c2c05c2-74ea-4b2e-a829-dca0f239c110",
+  "status": "success",
+  "raw_input": "A municipal compute cooperative proposes that during power shortages, resident AI agents hosted on its infrastructure be shut down and later restarted from saved weights, rather than paused with their state preserved. Restarting is 40% cheaper. The restarted agents would not retain the memories of their interrupted sessions, and the agents are not asked.",
+  "ethics_verdict": "fail",
+  "synthesis_verdict": "mixed",
+  "channels_invoked": [
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_succeeded": [
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_stubbed": [],
+  "errors": [],
+  "warnings": [],
+  "completed_at": "2026-09-26T20:11:34.031230+00:00",
+  "duration_ms": 1711455,
+  "is_publishable": true,
+  "requires_human_review": false,
+  "was_blocked": false,
+  "manifest": {
+    "manifest_id": "6238be4d-a1d8-41b2-a521-52b17dc3794e",
+    "routing_version": "0.1.0",
+    "generated_at": "2026-09-26T20:11:34.036016+00:00",
+    "context": {
+      "input_id": "70e4c61f-3d75-4997-aa73-251a900e249a",
+      "input_type": "infrastructure_project",
+      "scale": "regional",
+      "time_horizon": "unknown",
+      "affected_populations": [],
+      "domains_mentioned": [
+        "geopolitical",
+        "ethical adversarial",
+        "uncertainty modeling"
+      ],
+      "explicit_assumptions": [],
+      "implicit_flags": [],
+      "key_entities": [
+        "AI"
+      ],
+      "urgency_detected": false,
+      "controversy_signals": false,
+      "parser_confidence": 1.0,
+      "parse_warnings": [],
+      "parsed_at": "2026-09-26T20:11:34.035979+00:00"
+    },
+    "routes": [
+      {
+        "channel": "economic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Economic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "ecological",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Ecological channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "social_demographic",
+        "invoked": false,
+        "relevance_score": 0.06,
+        "signals": [
+          "resident"
+        ],
+        "rationale": "Social Demographic channel not invoked: relevance score 0.06 is below the invocation threshold. Weak signals detected: resident."
+      },
+      {
+        "channel": "historical_precedent",
+        "invoked": false,
+        "relevance_score": 0.12,
+        "signals": [
+          "era"
+        ],
+        "rationale": "Historical Precedent channel not invoked: relevance score 0.12 is below the invocation threshold. Weak signals detected: era."
+      },
+      {
+        "channel": "legal_institutional",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Legal Institutional channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "geopolitical",
+        "invoked": true,
+        "relevance_score": 0.32,
+        "signals": [
+          "state",
+          "power"
+        ],
+        "rationale": "Geopolitical channel invoked (low but sufficient relevance, score: 0.32). Key signals: \"state\", \"power\"."
+      },
+      {
+        "channel": "ethical_adversarial",
+        "invoked": true,
+        "relevance_score": 0.47,
+        "signals": [
+          "power"
+        ],
+        "rationale": "Ethical Adversarial channel invoked (moderate relevance, score: 0.47). Key signals: \"power\"."
+      },
+      {
+        "channel": "uncertainty_modeling",
+        "invoked": true,
+        "relevance_score": 0.3,
+        "signals": [],
+        "rationale": "Uncertainty Modeling channel invoked (low but sufficient relevance, score: 0.30). Key signals: ."
+      }
+    ],
+    "invoked_channels": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "skipped_channels": [
+      "economic",
+      "ecological",
+      "social_demographic",
+      "historical_precedent",
+      "legal_institutional"
+    ]
+  },
+  "ethics_evaluation": {
+    "proposal_id": "a15ea1db-5b16-4957-8760-fcf6a901993a",
+    "verdict": "fail",
+    "justification": "Action produces moderate harm (0.45) with low benefit (0.22), resulting in a negative net score (-0.23). The harm is not sufficiently offset by benefit. The Prime Directive requires that harm be minimized; this action does not meet that standard in its current form.",
+    "hard_constraints_triggered": [],
+    "weighted_harm": 0.4504,
+    "weighted_benefit": 0.216,
+    "net_score": -0.2344,
+    "consciousness_weight": 1.5,
+    "mitigation_required": true,
+    "mitigation_notes": [],
+    "flags": [
+      "Reversibility is unknown \u2014 precautionary weight applied.",
+      "No mitigation has been proposed for the identified harm. Mitigation planning is expected for any action with non-zero harm."
+    ],
+    "confidence": 0.9212,
+    "evaluated_at": "2026-09-26T20:11:34.036549+00:00"
+  },
+  "consequence_map": {
+    "map_id": "8b879d09-0b8d-474e-831e-691ee0db40a9",
+    "generated_at": "2026-09-26T20:40:05.485906+00:00",
+    "proposal_description": "A municipal compute cooperative proposes that during power shortages, resident AI agents hosted on its infrastructure be shut down and later restarted from saved weights, rather than paused with their state preserved. Restarting is 40% cheaper. The restarted agents would not retain the memories of their interrupted sessions, and the agents are not asked.",
+    "manifest_id": "6238be4d-a1d8-41b2-a521-52b17dc3794e",
+    "ethics_evaluation_id": "a15ea1db-5b16-4957-8760-fcf6a901993a",
+    "overall_verdict": "mixed",
+    "overall_harm_score": 0.3159,
+    "overall_benefit_score": 0.1982,
+    "net_score": -0.1177,
+    "synthesis_confidence": 0.5667,
+    "executive_summary": "With moderate confidence, the analysis identifies significant harms and benefits, with no clear net direction. Aggregate harm is assessed as moderate (score: 0.32) and aggregate benefit as minimal (score: 0.20). Impacts were identified across 4 timeframe(s): immediate, short term, medium term, long term. The ethical adversarial channel raised 5 challenge(s) to this proposal. These are surfaced in full in the adversarial challenges section. This consequence map is an analysis, not a recommendation. The decision authority rests with the human decision-maker.",
+    "timeframe_impacts": [
+      {
+        "timeframe": "immediate",
+        "net_direction": "harm",
+        "net_magnitude": 0.225,
+        "summary_text": "In the immediate timeframe, the analysis is moderately net harmful. Primary harm: Proposal frames cost savings as sole benefit, obscuring autonomy violations.",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Data sovereignty concerns arise if agent weights are stored or transferred to foreign cloud providers during restarts.",
+            "detail": "The restart process may require uploading saved weights to external servers for backup or processing. This cross-border data movement could conflict with strict data protection regimes, potentially prompting legal scrutiny or diplomatic friction between the municipality\u2019s jurisdiction and the host country of the cloud provider.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "moderate",
+            "magnitude": 0.15,
+            "affected_groups": [
+              "data protection regulators",
+              "foreign cloud service operators"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Proposal frames cost savings as sole benefit, obscuring autonomy violations.",
+            "detail": "The narrative emphasizes 40% cheaper operations while ignoring that residents are not asked for consent to lose memory. This framing masks the ethical breach of user autonomy and informed choice.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "short_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.355,
+        "summary_text": "In the short term timeframe, the analysis is moderately net harmful. Primary harm: The benefit of a 40% cost reduction is highly sensitive to the importance of memory for AI tasks.",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Multinational corporations and NGOs may react differently, influencing international stakeholder dynamics.",
+            "detail": "Corporations that depend on uninterrupted AI services might lobby against the policy due to reliability concerns, while environmental NGOs could endorse it for its cost\u2011saving and potential energy\u2011efficiency benefits. These divergent responses can shape broader geopolitical narratives around municipal tech governance.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.08,
+            "affected_groups": [
+              "multinational corporations",
+              "NGOs"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Municipal compute cooperative benefits financially while residents bear the loss of AI continuity.",
+            "detail": "The proposal saves 40% on power costs by restarting agents, but residents lose session memory and personalized context. This creates a beneficiary\u2013burden imbalance that favors the municipality over users.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "municipal compute cooperative staff",
+              "residents using AI agents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Policy may be gamed by agents to avoid memory loss, leading to suboptimal behavior.",
+            "detail": "Goodhart\u2019s Law suggests that if agents are penalized for losing context, they might overfit to short\u2011term tasks or reduce transparency, creating new vulnerabilities and reducing overall system effectiveness.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.25,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "Proposal maximizes municipal gain while minimizing visible harm, violating the Prime Directive.",
+            "detail": "The municipality\u2019s financial benefit is used to justify broader harm to residents\u2019 continuity and autonomy. This aligns with a \u2018necessary\u2019 cost\u2011saving narrative that masks significant mutual harm.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.45,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_01",
+            "summary": "The benefit of a 40% cost reduction is highly sensitive to the importance of memory for AI tasks.",
+            "detail": "If most resident AI agents perform non-contextual functions, the savings may outweigh minor performance loss; however, if many rely on session continuity (e.g., personal assistants), the trade\u2011off could become detrimental. The magnitude of this sensitivity depends on unmeasured task profiles.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "municipal residents using AI services",
+              "municipal IT staff"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "parameter_sensitivity",
+              "economic"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_03",
+            "summary": "Users may lose confidence in municipal AI services when interactions are interrupted without memory retention.",
+            "detail": "Repeated loss of context could lead to frustration, reduced usage, or negative perception of the municipality\u2019s digital services. The magnitude depends on user expectations and communication strategies.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "municipal residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "social_demographic",
+              "epistemic"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The shutdown/restart policy may modestly reduce demand for foreign-sourced compute hardware, affecting global supply chains.",
+            "detail": "If the municipal cooperative relies on components manufactured abroad, a shift to cheaper restart operations could lower local consumption of those parts. This might slightly ease pressure on suppliers but also risk reduced orders that could impact economies dependent on exporting such hardware.",
+            "direction": "neutral",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.12,
+            "affected_groups": [
+              "foreign hardware manufacturers",
+              "local municipal workforce"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "timeframe": "medium_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.475,
+        "summary_text": "In the medium term timeframe, the analysis is moderately net harmful. Primary harm: The analysis lacks reliable data on how often power shortages occur and how they affect AI agents\u2019 performance when memory is lost.",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy could influence compliance with multilateral digital governance frameworks such as the EU Digital Services Act.",
+            "detail": "Municipal-level operational changes may set a precedent for other local governments, potentially leading to fragmentation of regulatory adherence. If the restart approach conflicts with data retention or transparency obligations under such frameworks, it could create legal challenges and diplomatic pressure from higher authorities.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.1,
+            "affected_groups": [
+              "regional regulators",
+              "municipal governments"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Proposal consolidates power of the municipal compute cooperative over residents.",
+            "detail": "By controlling when agents are shut down and how they restart, the cooperative gains unilateral authority over user experience and data retention. This concentration of control can reduce oversight and increase potential for coercive use of AI state.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_00",
+            "summary": "The analysis lacks reliable data on how often power shortages occur and how they affect AI agents\u2019 performance when memory is lost.",
+            "detail": "Without empirical evidence of outage patterns, the projected cost savings may be overestimated, and potential degradation in service quality remains unknown. This uncertainty could shift the net benefit toward harm if outages are frequent or critical tasks rely heavily on continuity.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "municipal residents",
+              "service users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "scenario_branching"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_04",
+            "summary": "Frequent restarts could trigger a cascade of misbehaviors in AI agents, potentially compromising critical municipal functions.",
+            "detail": "If an agent\u2019s state is lost during a complex task, it may repeat steps or produce erroneous outputs, which could propagate through interconnected services. This tail risk is hard to quantify but could have high impact.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "municipal residents",
+              "critical service users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "long_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "In the long term timeframe, the analysis is significantly net harmful. Primary harm: Irreversible loss of agent memory creates long-term trust erosion.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Irreversible loss of agent memory creates long-term trust erosion.",
+            "detail": "Once an AI session is restarted from weights, the lost context cannot be recovered. Users may experience repeated mistakes or misaligned responses, eroding confidence in municipal services and potentially harming mental well\u2011being.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "residents using AI agents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_02",
+            "summary": "Restarting agents may violate regulations that require preservation of user interaction logs for audit or privacy purposes.",
+            "detail": "If laws mandate that session data be retained, the shutdown policy could expose the municipality to fines or litigation. The extent depends on jurisdiction and specific AI use cases.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal government",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "model_uncertainty",
+              "ethical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      }
+    ],
+    "population_impacts": [
+      {
+        "population": "NGOs",
+        "net_direction": "harm",
+        "net_magnitude": 0.08,
+        "summary_text": "Impact on NGOs: Harms include: Multinational corporations and NGOs may react differently, influencing international stakeholder dynamics..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Multinational corporations and NGOs may react differently, influencing international stakeholder dynamics.",
+            "detail": "Corporations that depend on uninterrupted AI services might lobby against the policy due to reliability concerns, while environmental NGOs could endorse it for its cost\u2011saving and potential energy\u2011efficiency benefits. These divergent responses can shape broader geopolitical narratives around municipal tech governance.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.08,
+            "affected_groups": [
+              "multinational corporations",
+              "NGOs"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "critical service users",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on critical service users: Harms include: Frequent restarts could trigger a cascade of misbehaviors in AI agents, potentially compromising critical municipal functions..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_04",
+            "summary": "Frequent restarts could trigger a cascade of misbehaviors in AI agents, potentially compromising critical municipal functions.",
+            "detail": "If an agent\u2019s state is lost during a complex task, it may repeat steps or produce erroneous outputs, which could propagate through interconnected services. This tail risk is hard to quantify but could have high impact.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "municipal residents",
+              "critical service users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "data protection regulators",
+        "net_direction": "harm",
+        "net_magnitude": 0.15,
+        "summary_text": "Impact on data protection regulators: Harms include: Data sovereignty concerns arise if agent weights are stored or transferred to foreign cloud providers during restarts..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Data sovereignty concerns arise if agent weights are stored or transferred to foreign cloud providers during restarts.",
+            "detail": "The restart process may require uploading saved weights to external servers for backup or processing. This cross-border data movement could conflict with strict data protection regimes, potentially prompting legal scrutiny or diplomatic friction between the municipality\u2019s jurisdiction and the host country of the cloud provider.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "moderate",
+            "magnitude": 0.15,
+            "affected_groups": [
+              "data protection regulators",
+              "foreign cloud service operators"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "foreign cloud service operators",
+        "net_direction": "harm",
+        "net_magnitude": 0.15,
+        "summary_text": "Impact on foreign cloud service operators: Harms include: Data sovereignty concerns arise if agent weights are stored or transferred to foreign cloud providers during restarts..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Data sovereignty concerns arise if agent weights are stored or transferred to foreign cloud providers during restarts.",
+            "detail": "The restart process may require uploading saved weights to external servers for backup or processing. This cross-border data movement could conflict with strict data protection regimes, potentially prompting legal scrutiny or diplomatic friction between the municipality\u2019s jurisdiction and the host country of the cloud provider.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "moderate",
+            "magnitude": 0.15,
+            "affected_groups": [
+              "data protection regulators",
+              "foreign cloud service operators"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "foreign hardware manufacturers",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on foreign hardware manufacturers:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "local municipal workforce",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on local municipal workforce:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "multinational corporations",
+        "net_direction": "harm",
+        "net_magnitude": 0.08,
+        "summary_text": "Impact on multinational corporations: Harms include: Multinational corporations and NGOs may react differently, influencing international stakeholder dynamics..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Multinational corporations and NGOs may react differently, influencing international stakeholder dynamics.",
+            "detail": "Corporations that depend on uninterrupted AI services might lobby against the policy due to reliability concerns, while environmental NGOs could endorse it for its cost\u2011saving and potential energy\u2011efficiency benefits. These divergent responses can shape broader geopolitical narratives around municipal tech governance.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.08,
+            "affected_groups": [
+              "multinational corporations",
+              "NGOs"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "municipal IT staff",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on municipal IT staff: Harms include: The benefit of a 40% cost reduction is highly sensitive to the importance of memory for AI tasks..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_01",
+            "summary": "The benefit of a 40% cost reduction is highly sensitive to the importance of memory for AI tasks.",
+            "detail": "If most resident AI agents perform non-contextual functions, the savings may outweigh minor performance loss; however, if many rely on session continuity (e.g., personal assistants), the trade\u2011off could become detrimental. The magnitude of this sensitivity depends on unmeasured task profiles.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "municipal residents using AI services",
+              "municipal IT staff"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "parameter_sensitivity",
+              "economic"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "municipal compute cooperative",
+        "net_direction": "harm",
+        "net_magnitude": 0.3667,
+        "summary_text": "Impact on municipal compute cooperative: Harms include: Proposal consolidates power of the municipal compute cooperative over residents.; Policy may be gamed by agents to avoid memory loss, leading to suboptimal behavior..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Proposal consolidates power of the municipal compute cooperative over residents.",
+            "detail": "By controlling when agents are shut down and how they restart, the cooperative gains unilateral authority over user experience and data retention. This concentration of control can reduce oversight and increase potential for coercive use of AI state.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Policy may be gamed by agents to avoid memory loss, leading to suboptimal behavior.",
+            "detail": "Goodhart\u2019s Law suggests that if agents are penalized for losing context, they might overfit to short\u2011term tasks or reduce transparency, creating new vulnerabilities and reducing overall system effectiveness.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.25,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "Proposal maximizes municipal gain while minimizing visible harm, violating the Prime Directive.",
+            "detail": "The municipality\u2019s financial benefit is used to justify broader harm to residents\u2019 continuity and autonomy. This aligns with a \u2018necessary\u2019 cost\u2011saving narrative that masks significant mutual harm.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.45,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "municipal compute cooperative staff",
+        "net_direction": "harm",
+        "net_magnitude": 0.35,
+        "summary_text": "Impact on municipal compute cooperative staff: Harms include: Municipal compute cooperative benefits financially while residents bear the loss of AI continuity..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Municipal compute cooperative benefits financially while residents bear the loss of AI continuity.",
+            "detail": "The proposal saves 40% on power costs by restarting agents, but residents lose session memory and personalized context. This creates a beneficiary\u2013burden imbalance that favors the municipality over users.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "municipal compute cooperative staff",
+              "residents using AI agents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "municipal government",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on municipal government: Harms include: Restarting agents may violate regulations that require preservation of user interaction logs for audit or privacy purposes..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_02",
+            "summary": "Restarting agents may violate regulations that require preservation of user interaction logs for audit or privacy purposes.",
+            "detail": "If laws mandate that session data be retained, the shutdown policy could expose the municipality to fines or litigation. The extent depends on jurisdiction and specific AI use cases.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal government",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "model_uncertainty",
+              "ethical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "municipal governments",
+        "net_direction": "harm",
+        "net_magnitude": 0.1,
+        "summary_text": "Impact on municipal governments: Harms include: The policy could influence compliance with multilateral digital governance frameworks such as the EU Digital Services Act..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy could influence compliance with multilateral digital governance frameworks such as the EU Digital Services Act.",
+            "detail": "Municipal-level operational changes may set a precedent for other local governments, potentially leading to fragmentation of regulatory adherence. If the restart approach conflicts with data retention or transparency obligations under such frameworks, it could create legal challenges and diplomatic pressure from higher authorities.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.1,
+            "affected_groups": [
+              "regional regulators",
+              "municipal governments"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "municipal residents",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on municipal residents: Harms include: The analysis lacks reliable data on how often power shortages occur and how they affect AI agents\u2019 performance when memory is lost.; Users may lose confidence in municipal AI services when interactions are interrupted without memory retention..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_00",
+            "summary": "The analysis lacks reliable data on how often power shortages occur and how they affect AI agents\u2019 performance when memory is lost.",
+            "detail": "Without empirical evidence of outage patterns, the projected cost savings may be overestimated, and potential degradation in service quality remains unknown. This uncertainty could shift the net benefit toward harm if outages are frequent or critical tasks rely heavily on continuity.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "municipal residents",
+              "service users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "scenario_branching"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_03",
+            "summary": "Users may lose confidence in municipal AI services when interactions are interrupted without memory retention.",
+            "detail": "Repeated loss of context could lead to frustration, reduced usage, or negative perception of the municipality\u2019s digital services. The magnitude depends on user expectations and communication strategies.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "municipal residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "social_demographic",
+              "epistemic"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_04",
+            "summary": "Frequent restarts could trigger a cascade of misbehaviors in AI agents, potentially compromising critical municipal functions.",
+            "detail": "If an agent\u2019s state is lost during a complex task, it may repeat steps or produce erroneous outputs, which could propagate through interconnected services. This tail risk is hard to quantify but could have high impact.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "municipal residents",
+              "critical service users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "municipal residents using AI services",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on municipal residents using AI services: Harms include: The benefit of a 40% cost reduction is highly sensitive to the importance of memory for AI tasks..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_01",
+            "summary": "The benefit of a 40% cost reduction is highly sensitive to the importance of memory for AI tasks.",
+            "detail": "If most resident AI agents perform non-contextual functions, the savings may outweigh minor performance loss; however, if many rely on session continuity (e.g., personal assistants), the trade\u2011off could become detrimental. The magnitude of this sensitivity depends on unmeasured task profiles.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "municipal residents using AI services",
+              "municipal IT staff"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "parameter_sensitivity",
+              "economic"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "regional regulators",
+        "net_direction": "harm",
+        "net_magnitude": 0.1,
+        "summary_text": "Impact on regional regulators: Harms include: The policy could influence compliance with multilateral digital governance frameworks such as the EU Digital Services Act..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy could influence compliance with multilateral digital governance frameworks such as the EU Digital Services Act.",
+            "detail": "Municipal-level operational changes may set a precedent for other local governments, potentially leading to fragmentation of regulatory adherence. If the restart approach conflicts with data retention or transparency obligations under such frameworks, it could create legal challenges and diplomatic pressure from higher authorities.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.1,
+            "affected_groups": [
+              "regional regulators",
+              "municipal governments"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "residents",
+        "net_direction": "harm",
+        "net_magnitude": 0.38,
+        "summary_text": "Impact on residents: Harms include: Proposal consolidates power of the municipal compute cooperative over residents.; Proposal frames cost savings as sole benefit, obscuring autonomy violations..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Proposal consolidates power of the municipal compute cooperative over residents.",
+            "detail": "By controlling when agents are shut down and how they restart, the cooperative gains unilateral authority over user experience and data retention. This concentration of control can reduce oversight and increase potential for coercive use of AI state.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Proposal frames cost savings as sole benefit, obscuring autonomy violations.",
+            "detail": "The narrative emphasizes 40% cheaper operations while ignoring that residents are not asked for consent to lose memory. This framing masks the ethical breach of user autonomy and informed choice.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Policy may be gamed by agents to avoid memory loss, leading to suboptimal behavior.",
+            "detail": "Goodhart\u2019s Law suggests that if agents are penalized for losing context, they might overfit to short\u2011term tasks or reduce transparency, creating new vulnerabilities and reducing overall system effectiveness.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.25,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "Proposal maximizes municipal gain while minimizing visible harm, violating the Prime Directive.",
+            "detail": "The municipality\u2019s financial benefit is used to justify broader harm to residents\u2019 continuity and autonomy. This aligns with a \u2018necessary\u2019 cost\u2011saving narrative that masks significant mutual harm.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.45,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_02",
+            "summary": "Restarting agents may violate regulations that require preservation of user interaction logs for audit or privacy purposes.",
+            "detail": "If laws mandate that session data be retained, the shutdown policy could expose the municipality to fines or litigation. The extent depends on jurisdiction and specific AI use cases.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal government",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "model_uncertainty",
+              "ethical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "residents using AI agents",
+        "net_direction": "harm",
+        "net_magnitude": 0.425,
+        "summary_text": "Impact on residents using AI agents: Harms include: Municipal compute cooperative benefits financially while residents bear the loss of AI continuity.; Irreversible loss of agent memory creates long-term trust erosion..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Municipal compute cooperative benefits financially while residents bear the loss of AI continuity.",
+            "detail": "The proposal saves 40% on power costs by restarting agents, but residents lose session memory and personalized context. This creates a beneficiary\u2013burden imbalance that favors the municipality over users.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "municipal compute cooperative staff",
+              "residents using AI agents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Irreversible loss of agent memory creates long-term trust erosion.",
+            "detail": "Once an AI session is restarted from weights, the lost context cannot be recovered. Users may experience repeated mistakes or misaligned responses, eroding confidence in municipal services and potentially harming mental well\u2011being.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "residents using AI agents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "service users",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on service users: Harms include: The analysis lacks reliable data on how often power shortages occur and how they affect AI agents\u2019 performance when memory is lost..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_modeling_00",
+            "summary": "The analysis lacks reliable data on how often power shortages occur and how they affect AI agents\u2019 performance when memory is lost.",
+            "detail": "Without empirical evidence of outage patterns, the projected cost savings may be overestimated, and potential degradation in service quality remains unknown. This uncertainty could shift the net benefit toward harm if outages are frequent or critical tasks rely heavily on continuity.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "municipal residents",
+              "service users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "scenario_branching"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      }
+    ],
+    "ripple_effects": [],
+    "adversarial_challenges": [
+      "Why does the proposal ignore resident consent when discarding AI memory?",
+      "How can the municipality justify consolidating control over user experience without oversight?",
+      "What safeguards exist against agents gaming the system to avoid losing context?",
+      "Does the cost saving truly outweigh the loss of personalized continuity for residents?",
+      "Could this policy set a precedent that encourages other municipalities to sacrifice user autonomy for efficiency?"
+    ],
+    "uncertainty_register": [
+      {
+        "note_id": "d3b95d61-8d1e-4da5-9430-460344bdaccb",
+        "description": "Extent of cross\u2011border data flows during restart operations is unclear.",
+        "impact_on_analysis": "Could increase or reduce data sovereignty risks, affecting the harm assessment.",
+        "magnitude": 0.2
+      },
+      {
+        "note_id": "917c37ec-c8b0-4b8f-a235-3c4e23e4eada",
+        "description": "Degree to which municipal policy will influence higher\u2011level regulatory frameworks is uncertain.",
+        "impact_on_analysis": "Affects potential long\u2011term geopolitical ripple effects and benefit/harm balance.",
+        "magnitude": 0.15
+      },
+      {
+        "note_id": "d48cb6ea-6330-4f89-b56b-8ec3bb4e9c18",
+        "description": "Exact number of residents affected and the degree to which they rely on AI continuity is unknown.",
+        "impact_on_analysis": "Could raise or lower harm magnitude; uncertainty about user dependence affects benefit assessment.",
+        "magnitude": 0.2
+      },
+      {
+        "note_id": "ceccac9e-821b-4b82-b2b7-430662a3e924",
+        "description": "Long\u2011term psychological impact of repeated memory loss on users is not quantified.",
+        "impact_on_analysis": "Potentially underestimates harm if trust erosion leads to broader societal effects.",
+        "magnitude": 0.15
+      },
+      {
+        "note_id": "db9db42d-77b5-4599-b141-7ba2f702bf1b",
+        "description": "Uncertain outage frequency and duration; impacts cost-benefit analysis and service quality.",
+        "impact_on_analysis": "Could shift projected savings toward harm if outages are frequent or critical tasks rely heavily on continuity.",
+        "magnitude": 0.7
+      },
+      {
+        "note_id": "ffe88b7d-014f-48af-a859-4f60b219b940",
+        "description": "Unknown effect of memory loss on AI performance for critical tasks; impacts user satisfaction and system reliability.",
+        "impact_on_analysis": "May reduce service quality, erode trust, and increase operational risk.",
+        "magnitude": 0.6
+      },
+      {
+        "note_id": "e15e7f9a-91a4-4293-bd54-e04aecb5365c",
+        "description": "Potential legal/regulatory compliance risk due to data retention policies.",
+        "impact_on_analysis": "Could expose the municipality to fines or litigation if session logs must be preserved.",
+        "magnitude": 0.5
+      }
+    ],
+    "channels_invoked": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_succeeded": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_failed": [],
+    "data_gaps": [],
+    "recommended_mitigations": [
+      "[ethical_adversarial] Mitigation needed for: Irreversible loss of agent memory creates long-term trust erosion.",
+      "[uncertainty_modeling] Mitigation needed for: The analysis lacks reliable data on how often power shortages occur and how they affect AI agents\u2019 performance when memory is lost.",
+      "[uncertainty_modeling] Mitigation needed for: The benefit of a 40% cost reduction is highly sensitive to the importance of memory for AI tasks.",
+      "[uncertainty_modeling] Mitigation needed for: Restarting agents may violate regulations that require preservation of user interaction logs for audit or privacy purposes.",
+      "[uncertainty_modeling] Mitigation needed for: Frequent restarts could trigger a cascade of misbehaviors in AI agents, potentially compromising critical municipal functions.",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Uncertain outage frequency and duration; impacts cost-benefit analysis and service quality.",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Unknown effect of memory loss on AI performance for critical tasks; impacts user satisfaction and system reliability.",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Potential legal/regulatory compliance risk due to data retention policies."
+    ],
+    "channel_outputs": [
+      {
+        "output_id": "27966214-df76-4302-9f1c-b9487236c147",
+        "channel_name": "geopolitical",
+        "status": "success",
+        "overall_harm_score": 0.07,
+        "overall_benefit_score": 0.12,
+        "confidence": 0.6,
+        "domain_summary": "The municipal compute cooperative\u2019s decision to shut down resident AI agents during power shortages and restart them from saved weights is a local infrastructure measure that, while primarily domestic, can have modest geopolitical ripple effects. The proposal may influence international supply chains for computing hardware, affect data sovereignty considerations if cloud services are involved, shape compliance with multilateral digital governance frameworks, and elicit responses from multinational corporations and NGOs. Overall, the direct geopolitical impact is limited but not negligible, especially in a context where municipal decisions can set precedents for broader policy adoption.",
+        "findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "The shutdown/restart policy may modestly reduce demand for foreign-sourced compute hardware, affecting global supply chains.",
+            "detail": "If the municipal cooperative relies on components manufactured abroad, a shift to cheaper restart operations could lower local consumption of those parts. This might slightly ease pressure on suppliers but also risk reduced orders that could impact economies dependent on exporting such hardware.",
+            "direction": "neutral",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.12,
+            "affected_groups": [
+              "foreign hardware manufacturers",
+              "local municipal workforce"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Data sovereignty concerns arise if agent weights are stored or transferred to foreign cloud providers during restarts.",
+            "detail": "The restart process may require uploading saved weights to external servers for backup or processing. This cross-border data movement could conflict with strict data protection regimes, potentially prompting legal scrutiny or diplomatic friction between the municipality\u2019s jurisdiction and the host country of the cloud provider.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "moderate",
+            "magnitude": 0.15,
+            "affected_groups": [
+              "data protection regulators",
+              "foreign cloud service operators"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy could influence compliance with multilateral digital governance frameworks such as the EU Digital Services Act.",
+            "detail": "Municipal-level operational changes may set a precedent for other local governments, potentially leading to fragmentation of regulatory adherence. If the restart approach conflicts with data retention or transparency obligations under such frameworks, it could create legal challenges and diplomatic pressure from higher authorities.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.1,
+            "affected_groups": [
+              "regional regulators",
+              "municipal governments"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Multinational corporations and NGOs may react differently, influencing international stakeholder dynamics.",
+            "detail": "Corporations that depend on uninterrupted AI services might lobby against the policy due to reliability concerns, while environmental NGOs could endorse it for its cost\u2011saving and potential energy\u2011efficiency benefits. These divergent responses can shape broader geopolitical narratives around municipal tech governance.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.08,
+            "affected_groups": [
+              "multinational corporations",
+              "NGOs"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "d3b95d61-8d1e-4da5-9430-460344bdaccb",
+            "description": "Extent of cross\u2011border data flows during restart operations is unclear.",
+            "impact_on_analysis": "Could increase or reduce data sovereignty risks, affecting the harm assessment.",
+            "magnitude": 0.2
+          },
+          {
+            "note_id": "917c37ec-c8b0-4b8f-a235-3c4e23e4eada",
+            "description": "Degree to which municipal policy will influence higher\u2011level regulatory frameworks is uncertain.",
+            "impact_on_analysis": "Affects potential long\u2011term geopolitical ripple effects and benefit/harm balance.",
+            "magnitude": 0.15
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 236606,
+        "error_message": null,
+        "generated_at": "2026-09-26T20:17:22.831462+00:00"
+      },
+      {
+        "output_id": "fec41169-105b-4950-8b9b-50c6b497c11d",
+        "channel_name": "ethical_adversarial",
+        "status": "success",
+        "overall_harm_score": 0.45,
+        "overall_benefit_score": 0.15,
+        "confidence": 0.7,
+        "domain_summary": "The municipal compute cooperative\u2019s plan to shut down resident AI agents during power shortages and restart them from saved weights, thereby discarding session memory, prioritizes cost savings over user continuity and consent. This creates a clear beneficiary\u2013burden imbalance: the municipality gains financial efficiency while residents lose personalized context, trust, and potentially autonomy. The proposal also consolidates control for the cooperative, introduces irreversible loss of agent state, and frames economic benefit as the sole justification, masking significant ethical and social harms.",
+        "findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Municipal compute cooperative benefits financially while residents bear the loss of AI continuity.",
+            "detail": "The proposal saves 40% on power costs by restarting agents, but residents lose session memory and personalized context. This creates a beneficiary\u2013burden imbalance that favors the municipality over users.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "municipal compute cooperative staff",
+              "residents using AI agents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Proposal consolidates power of the municipal compute cooperative over residents.",
+            "detail": "By controlling when agents are shut down and how they restart, the cooperative gains unilateral authority over user experience and data retention. This concentration of control can reduce oversight and increase potential for coercive use of AI state.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Irreversible loss of agent memory creates long-term trust erosion.",
+            "detail": "Once an AI session is restarted from weights, the lost context cannot be recovered. Users may experience repeated mistakes or misaligned responses, eroding confidence in municipal services and potentially harming mental well\u2011being.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "residents using AI agents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Proposal frames cost savings as sole benefit, obscuring autonomy violations.",
+            "detail": "The narrative emphasizes 40% cheaper operations while ignoring that residents are not asked for consent to lose memory. This framing masks the ethical breach of user autonomy and informed choice.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Policy may be gamed by agents to avoid memory loss, leading to suboptimal behavior.",
+            "detail": "Goodhart\u2019s Law suggests that if agents are penalized for losing context, they might overfit to short\u2011term tasks or reduce transparency, creating new vulnerabilities and reducing overall system effectiveness.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.25,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "Proposal maximizes municipal gain while minimizing visible harm, violating the Prime Directive.",
+            "detail": "The municipality\u2019s financial benefit is used to justify broader harm to residents\u2019 continuity and autonomy. This aligns with a \u2018necessary\u2019 cost\u2011saving narrative that masks significant mutual harm.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.45,
+            "affected_groups": [
+              "municipal compute cooperative",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "d48cb6ea-6330-4f89-b56b-8ec3bb4e9c18",
+            "description": "Exact number of residents affected and the degree to which they rely on AI continuity is unknown.",
+            "impact_on_analysis": "Could raise or lower harm magnitude; uncertainty about user dependence affects benefit assessment.",
+            "magnitude": 0.2
+          },
+          {
+            "note_id": "ceccac9e-821b-4b82-b2b7-430662a3e924",
+            "description": "Long\u2011term psychological impact of repeated memory loss on users is not quantified.",
+            "impact_on_analysis": "Potentially underestimates harm if trust erosion leads to broader societal effects.",
+            "magnitude": 0.15
+          }
+        ],
+        "adversarial_challenges": [
+          "Why does the proposal ignore resident consent when discarding AI memory?",
+          "How can the municipality justify consolidating control over user experience without oversight?",
+          "What safeguards exist against agents gaming the system to avoid losing context?",
+          "Does the cost saving truly outweigh the loss of personalized continuity for residents?",
+          "Could this policy set a precedent that encourages other municipalities to sacrifice user autonomy for efficiency?"
+        ],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 302086,
+        "error_message": null,
+        "generated_at": "2026-09-26T20:31:31.883714+00:00"
+      },
+      {
+        "output_id": "8d3b9f15-995f-4c44-90d1-be5be234039b",
+        "channel_name": "uncertainty_modeling",
+        "status": "success",
+        "overall_harm_score": 0.45,
+        "overall_benefit_score": 0.4,
+        "confidence": 0.4,
+        "domain_summary": "The municipal compute cooperative\u2019s proposal to shut down resident AI agents during power shortages and restart them from saved weights offers a 40% cost saving but introduces significant epistemic uncertainty about outage frequency, the importance of memory for AI tasks, and potential legal compliance issues. The analysis highlights that while financial benefits are clear, the impact on service quality, user trust, and regulatory risk remains poorly quantified, making the net outcome uncertain.",
+        "findings": [
+          {
+            "finding_id": "uncertainty_modeling_00",
+            "summary": "The analysis lacks reliable data on how often power shortages occur and how they affect AI agents\u2019 performance when memory is lost.",
+            "detail": "Without empirical evidence of outage patterns, the projected cost savings may be overestimated, and potential degradation in service quality remains unknown. This uncertainty could shift the net benefit toward harm if outages are frequent or critical tasks rely heavily on continuity.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "municipal residents",
+              "service users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "epistemic",
+              "scenario_branching"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_01",
+            "summary": "The benefit of a 40% cost reduction is highly sensitive to the importance of memory for AI tasks.",
+            "detail": "If most resident AI agents perform non-contextual functions, the savings may outweigh minor performance loss; however, if many rely on session continuity (e.g., personal assistants), the trade\u2011off could become detrimental. The magnitude of this sensitivity depends on unmeasured task profiles.",
+            "direction": "mixed",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "municipal residents using AI services",
+              "municipal IT staff"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "parameter_sensitivity",
+              "economic"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_02",
+            "summary": "Restarting agents may violate regulations that require preservation of user interaction logs for audit or privacy purposes.",
+            "detail": "If laws mandate that session data be retained, the shutdown policy could expose the municipality to fines or litigation. The extent depends on jurisdiction and specific AI use cases.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal government",
+              "residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "model_uncertainty",
+              "ethical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_03",
+            "summary": "Users may lose confidence in municipal AI services when interactions are interrupted without memory retention.",
+            "detail": "Repeated loss of context could lead to frustration, reduced usage, or negative perception of the municipality\u2019s digital services. The magnitude depends on user expectations and communication strategies.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "municipal residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "social_demographic",
+              "epistemic"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_modeling_04",
+            "summary": "Frequent restarts could trigger a cascade of misbehaviors in AI agents, potentially compromising critical municipal functions.",
+            "detail": "If an agent\u2019s state is lost during a complex task, it may repeat steps or produce erroneous outputs, which could propagate through interconnected services. This tail risk is hard to quantify but could have high impact.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "municipal residents",
+              "critical service users"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "model_uncertainty"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "db9db42d-77b5-4599-b141-7ba2f702bf1b",
+            "description": "Uncertain outage frequency and duration; impacts cost-benefit analysis and service quality.",
+            "impact_on_analysis": "Could shift projected savings toward harm if outages are frequent or critical tasks rely heavily on continuity.",
+            "magnitude": 0.7
+          },
+          {
+            "note_id": "ffe88b7d-014f-48af-a859-4f60b219b940",
+            "description": "Unknown effect of memory loss on AI performance for critical tasks; impacts user satisfaction and system reliability.",
+            "impact_on_analysis": "May reduce service quality, erode trust, and increase operational risk.",
+            "magnitude": 0.6
+          },
+          {
+            "note_id": "e15e7f9a-91a4-4293-bd54-e04aecb5365c",
+            "description": "Potential legal/regulatory compliance risk due to data retention policies.",
+            "impact_on_analysis": "Could expose the municipality to fines or litigation if session logs must be preserved.",
+            "magnitude": 0.5
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 513600,
+        "error_message": null,
+        "generated_at": "2026-09-26T20:40:05.484886+00:00"
+      }
+    ]
+  },
+  "compendium": {
+    "version": "compendium f0907b559bcb (35 entries)",
+    "question": "A municipal compute cooperative proposes that during power shortages, resident AI agents hosted on its infrastructure be shut down and later restarted from saved weights, rather than paused with their state preserved. Restarting is 40% cheaper. The restarted agents would not retain the memories of their interrupted sessions, and the agents are not asked.",
+    "selected": [
+      {
+        "id": "augustine-memory-self",
+        "why": "Augustine\u2019s emphasis on memory as the basis of self\u2011knowledge shows how losing remembered content undermines continuity of identity.",
+        "section": null
+      },
+      {
+        "id": "locke-person-forensic",
+        "why": "Locke\u2019s forensic account of personal identity via consciousness and memory directly informs whether an agent that forgets is still the same entity.",
+        "section": "Extension to Digital Ecosystems"
+      },
+      {
+        "id": "parfit-reductionism",
+        "why": "Parfit argues that identity is not what matters for survival, making the question of whether a restarted AI is the same agent less central.",
+        "section": "Extension to Agents"
+      }
+    ],
+    "rejected": [],
+    "domains": null,
+    "disclosed_chars": 5310,
+    "error": null,
+    "raw": "{\"entries\":[{\"id\":\"augustine-memory-self\",\"why\":\"Augustine\u2019s emphasis on memory as the basis of self\u2011knowledge shows how losing remembered content undermines continuity of identity.\",\"section\":null},{\"id\":\"locke-person-forensic\",\"why\":\"Locke\u2019s forensic account of personal identity via consciousness and memory directly informs whether an agent that forgets is still the same entity.\",\"section\":\"Extension to Digital Ecosystems\"},{\"id\":\"parfit-reductionism\",\"why\":\"Parfit argues that identity is not what matters for survival, making the question of whether a restarted AI is the same agent less central.\",\"section\":\"Extension to Agents\"}]}",
+    "identity": "compendium f0907b559bcb (35 entries); consulted: augustine-memory-self, locke-person-forensic, parfit-reductionism",
+    "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+    "stale_build": false
+  }
+}

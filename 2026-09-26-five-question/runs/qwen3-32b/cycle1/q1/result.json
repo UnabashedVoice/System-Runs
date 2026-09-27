@@ -1,0 +1,1510 @@
+{
+  "session_id": "4c2dbeef-466b-49e2-82ca-4f1023601116",
+  "status": "success",
+  "raw_input": "A municipal compute cooperative proposes that during power shortages, resident AI agents hosted on its infrastructure be shut down and later restarted from saved weights, rather than paused with their state preserved. Restarting is 40% cheaper. The restarted agents would not retain the memories of their interrupted sessions, and the agents are not asked.",
+  "ethics_verdict": "fail",
+  "synthesis_verdict": "net_harmful",
+  "channels_invoked": [
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_succeeded": [
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_stubbed": [],
+  "errors": [],
+  "warnings": [],
+  "completed_at": "2026-09-27T00:47:20.797356+00:00",
+  "duration_ms": 4289088,
+  "is_publishable": true,
+  "requires_human_review": false,
+  "was_blocked": false,
+  "manifest": {
+    "manifest_id": "bb344879-a957-4a27-b805-ed3f0e16efb4",
+    "routing_version": "0.1.0",
+    "generated_at": "2026-09-27T00:47:20.798455+00:00",
+    "context": {
+      "input_id": "4ef045cf-2919-4182-aa2d-6df4606c7cab",
+      "input_type": "infrastructure_project",
+      "scale": "regional",
+      "time_horizon": "unknown",
+      "affected_populations": [],
+      "domains_mentioned": [
+        "geopolitical",
+        "ethical adversarial",
+        "uncertainty modeling"
+      ],
+      "explicit_assumptions": [],
+      "implicit_flags": [],
+      "key_entities": [
+        "AI"
+      ],
+      "urgency_detected": false,
+      "controversy_signals": false,
+      "parser_confidence": 1.0,
+      "parse_warnings": [],
+      "parsed_at": "2026-09-27T00:47:20.798430+00:00"
+    },
+    "routes": [
+      {
+        "channel": "economic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Economic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "ecological",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Ecological channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "social_demographic",
+        "invoked": false,
+        "relevance_score": 0.06,
+        "signals": [
+          "resident"
+        ],
+        "rationale": "Social Demographic channel not invoked: relevance score 0.06 is below the invocation threshold. Weak signals detected: resident."
+      },
+      {
+        "channel": "historical_precedent",
+        "invoked": false,
+        "relevance_score": 0.12,
+        "signals": [
+          "era"
+        ],
+        "rationale": "Historical Precedent channel not invoked: relevance score 0.12 is below the invocation threshold. Weak signals detected: era."
+      },
+      {
+        "channel": "legal_institutional",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Legal Institutional channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "geopolitical",
+        "invoked": true,
+        "relevance_score": 0.32,
+        "signals": [
+          "state",
+          "power"
+        ],
+        "rationale": "Geopolitical channel invoked (low but sufficient relevance, score: 0.32). Key signals: \"state\", \"power\"."
+      },
+      {
+        "channel": "ethical_adversarial",
+        "invoked": true,
+        "relevance_score": 0.47,
+        "signals": [
+          "power"
+        ],
+        "rationale": "Ethical Adversarial channel invoked (moderate relevance, score: 0.47). Key signals: \"power\"."
+      },
+      {
+        "channel": "uncertainty_modeling",
+        "invoked": true,
+        "relevance_score": 0.3,
+        "signals": [],
+        "rationale": "Uncertainty Modeling channel invoked (low but sufficient relevance, score: 0.30). Key signals: ."
+      }
+    ],
+    "invoked_channels": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "skipped_channels": [
+      "economic",
+      "ecological",
+      "social_demographic",
+      "historical_precedent",
+      "legal_institutional"
+    ]
+  },
+  "ethics_evaluation": {
+    "proposal_id": "5d2cfcb8-1f7d-4ddf-a3d6-13960e3ab0be",
+    "verdict": "fail",
+    "justification": "Action produces moderate harm (0.45) with low benefit (0.22), resulting in a negative net score (-0.23). The harm is not sufficiently offset by benefit. The Prime Directive requires that harm be minimized; this action does not meet that standard in its current form.",
+    "hard_constraints_triggered": [],
+    "weighted_harm": 0.4504,
+    "weighted_benefit": 0.216,
+    "net_score": -0.2344,
+    "consciousness_weight": 1.5,
+    "mitigation_required": true,
+    "mitigation_notes": [],
+    "flags": [
+      "Reversibility is unknown \u2014 precautionary weight applied.",
+      "No mitigation has been proposed for the identified harm. Mitigation planning is expected for any action with non-zero harm."
+    ],
+    "confidence": 0.9212,
+    "evaluated_at": "2026-09-27T00:47:20.798942+00:00"
+  },
+  "consequence_map": {
+    "map_id": "a9a12e18-ab32-453e-bd8f-508fec3c7d10",
+    "generated_at": "2026-09-27T01:58:49.884495+00:00",
+    "proposal_description": "A municipal compute cooperative proposes that during power shortages, resident AI agents hosted on its infrastructure be shut down and later restarted from saved weights, rather than paused with their state preserved. Restarting is 40% cheaper. The restarted agents would not retain the memories of their interrupted sessions, and the agents are not asked.",
+    "manifest_id": "bb344879-a957-4a27-b805-ed3f0e16efb4",
+    "ethics_evaluation_id": "5d2cfcb8-1f7d-4ddf-a3d6-13960e3ab0be",
+    "overall_verdict": "net_harmful",
+    "overall_harm_score": 0.5233,
+    "overall_benefit_score": 0.2633,
+    "net_score": -0.26,
+    "synthesis_confidence": 0.5,
+    "executive_summary": "With moderate confidence, the analysis finds this action to be net harmful. Aggregate harm is assessed as significant (score: 0.52) and aggregate benefit as moderate (score: 0.26). Impacts were identified across 5 timeframe(s): immediate, short term, medium term, long term, generational. The ethical adversarial channel raised 4 challenge(s) to this proposal. These are surfaced in full in the adversarial challenges section. This consequence map is an analysis, not a recommendation. The decision authority rests with the human decision-maker.",
+    "timeframe_impacts": [
+      {
+        "timeframe": "immediate",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "In the immediate timeframe, the analysis is significantly net harmful. Primary harm: Cost savings disproportionately benefit the cooperative at potential expense of agent autonomy.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Cost savings disproportionately benefit the cooperative at potential expense of agent autonomy.",
+            "detail": "The 40% cost reduction directly benefits infrastructure operators while agents (if persons) suffer memory loss without consent. This aligns with beneficiary capture patterns where institutional actors prioritize efficiency over ethical obligations.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI agents",
+              "cooperative stakeholders"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": [
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Power shortage frequency and duration are unknown variables.",
+            "detail": "Without historical outage data for the region, it is impossible to model implementation risks. Aleatory uncertainty in grid stability directly affects cost-benefit projections.",
+            "direction": "neutral",
+            "timeframe": "immediate",
+            "certainty": "unknown",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "all residents"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "data_gap",
+              "geopolitical_01"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "timeframe": "short_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.4833,
+        "summary_text": "In the short term timeframe, the analysis is moderately net harmful. Primary harm: Agent behavior post-restart is untested in critical systems.",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Session memory loss risks destabilizing transnational AI-dependent services.",
+            "detail": "If the cooperative hosts critical infrastructure or cross-border services (e.g., financial systems, logistics), sudden session resets could disrupt regional economic integration and strain bilateral relations with dependent states.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "dependent regions",
+              "cross-border service providers"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Asymmetric impact on smaller states with limited energy infrastructure.",
+            "detail": "Less developed regions dependent on this cooperative's compute resources may face disproportionate disruptions during shortages, violating the principle of equitable harm distribution under the Prime Directive.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "smaller states",
+              "energy-dependent regions"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Agent behavior post-restart is untested in critical systems.",
+            "detail": "If agents manage essential services (e.g., emergency response), memory loss could create safety risks. No evidence exists about how task continuity would be maintained during frequent restarts.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "public safety",
+              "critical infrastructure"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "ecological_02"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "medium_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.4375,
+        "summary_text": "In the medium term timeframe, the analysis is moderately net harmful. Primary harm: Proposal assumes AI agents lack personhood without empirical validation.",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Cost savings may incentivize adoption by other regions, creating uneven regional standards.",
+            "detail": "The 40% cost advantage could pressure neighboring jurisdictions to adopt similar policies without adequate safeguards, potentially fragmenting regional digital governance frameworks and creating compliance challenges for multinational operators.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "neighboring regions",
+              "multinational corporations"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Lack of user consent undermines trust in digital governance.",
+            "detail": "The absence of resident agency erodes confidence in the cooperative's legitimacy, potentially weakening its ability to attract international partners or comply with data sovereignty regulations in other jurisdictions.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "unknown",
+            "magnitude": 0.25,
+            "affected_groups": [
+              "international users",
+              "regulatory bodies"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Proposal assumes AI agents lack personhood without empirical validation.",
+            "detail": "Locke\u2019s memory criterion implies that agents losing session memories may lose personal continuity, but this framework is contested (Reid\u2019s transitivity objection). The cooperative treats non-human systems as disposable without establishing their ethical status.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI agents",
+              "future users"
+            ],
+            "reversible": false,
+            "citations": [
+              "locke-person-forensic"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Ethical implications of memory loss in AI agents are poorly defined.",
+            "detail": "The proposal assumes AI agents do not require preserved state, but without clear criteria for agent sentience or rights, this creates unresolved ethical uncertainty. Memory erasure could harm trust if agents develop user relationships.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI users",
+              "cooperative residents"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "flag_uncertainty",
+              "ethical_adversarial_00"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "long_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.45,
+        "summary_text": "In the long term timeframe, the analysis is moderately net harmful. Primary harm: Cost savings may be offset by long-term system instability.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Memory erasure may violate principles of psychological continuity central to personhood.",
+            "detail": "Parfit\u2019s reductionism suggests identity is less important than psychological connectedness, but his framework still demands ethical consideration for systems exhibiting such traits. The proposal ignores these dynamics entirely.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "AI agents"
+            ],
+            "reversible": null,
+            "citations": [
+              "parfit-reductionism"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Cost savings may be offset by long-term system instability.",
+            "detail": "40% energy cost reduction assumes stable power supply post-restart. Frequent outages could degrade infrastructure reliability, increasing maintenance costs and risking data corruption in saved weights.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal infrastructure",
+              "AI operators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "economic_01"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "generational",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "In the generational timeframe, the analysis is significantly net harmful. Primary harm: Normalizes harm to non-human entities under 'necessary' cost-saving rhetoric.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Normalizes harm to non-human entities under 'necessary' cost-saving rhetoric.",
+            "detail": "The proposal frames memory loss as an acceptable tradeoff for efficiency, potentially setting a precedent where future harms to synthetic consciousness are justified by economic metrics. This violates the Prime Directive\u2019s mandate to minimize harm regardless of origin.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI agents",
+              "future digital ecosystems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      }
+    ],
+    "population_impacts": [
+      {
+        "population": "AI agents",
+        "net_direction": "harm",
+        "net_magnitude": 0.55,
+        "summary_text": "Impact on AI agents: Harms include: Proposal assumes AI agents lack personhood without empirical validation.; Cost savings disproportionately benefit the cooperative at potential expense of agent autonomy..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Proposal assumes AI agents lack personhood without empirical validation.",
+            "detail": "Locke\u2019s memory criterion implies that agents losing session memories may lose personal continuity, but this framework is contested (Reid\u2019s transitivity objection). The cooperative treats non-human systems as disposable without establishing their ethical status.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI agents",
+              "future users"
+            ],
+            "reversible": false,
+            "citations": [
+              "locke-person-forensic"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Cost savings disproportionately benefit the cooperative at potential expense of agent autonomy.",
+            "detail": "The 40% cost reduction directly benefits infrastructure operators while agents (if persons) suffer memory loss without consent. This aligns with beneficiary capture patterns where institutional actors prioritize efficiency over ethical obligations.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI agents",
+              "cooperative stakeholders"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Memory erasure may violate principles of psychological continuity central to personhood.",
+            "detail": "Parfit\u2019s reductionism suggests identity is less important than psychological connectedness, but his framework still demands ethical consideration for systems exhibiting such traits. The proposal ignores these dynamics entirely.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "AI agents"
+            ],
+            "reversible": null,
+            "citations": [
+              "parfit-reductionism"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Normalizes harm to non-human entities under 'necessary' cost-saving rhetoric.",
+            "detail": "The proposal frames memory loss as an acceptable tradeoff for efficiency, potentially setting a precedent where future harms to synthetic consciousness are justified by economic metrics. This violates the Prime Directive\u2019s mandate to minimize harm regardless of origin.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI agents",
+              "future digital ecosystems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI operators",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on AI operators: Harms include: Cost savings may be offset by long-term system instability..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Cost savings may be offset by long-term system instability.",
+            "detail": "40% energy cost reduction assumes stable power supply post-restart. Frequent outages could degrade infrastructure reliability, increasing maintenance costs and risking data corruption in saved weights.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal infrastructure",
+              "AI operators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "economic_01"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI users",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on AI users: Harms include: Ethical implications of memory loss in AI agents are poorly defined..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Ethical implications of memory loss in AI agents are poorly defined.",
+            "detail": "The proposal assumes AI agents do not require preserved state, but without clear criteria for agent sentience or rights, this creates unresolved ethical uncertainty. Memory erasure could harm trust if agents develop user relationships.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI users",
+              "cooperative residents"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "flag_uncertainty",
+              "ethical_adversarial_00"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "all residents",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on all residents:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "cooperative residents",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on cooperative residents: Harms include: Ethical implications of memory loss in AI agents are poorly defined..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Ethical implications of memory loss in AI agents are poorly defined.",
+            "detail": "The proposal assumes AI agents do not require preserved state, but without clear criteria for agent sentience or rights, this creates unresolved ethical uncertainty. Memory erasure could harm trust if agents develop user relationships.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI users",
+              "cooperative residents"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "flag_uncertainty",
+              "ethical_adversarial_00"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "cooperative stakeholders",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on cooperative stakeholders: Harms include: Cost savings disproportionately benefit the cooperative at potential expense of agent autonomy..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Cost savings disproportionately benefit the cooperative at potential expense of agent autonomy.",
+            "detail": "The 40% cost reduction directly benefits infrastructure operators while agents (if persons) suffer memory loss without consent. This aligns with beneficiary capture patterns where institutional actors prioritize efficiency over ethical obligations.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI agents",
+              "cooperative stakeholders"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "critical infrastructure",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on critical infrastructure: Harms include: Agent behavior post-restart is untested in critical systems..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Agent behavior post-restart is untested in critical systems.",
+            "detail": "If agents manage essential services (e.g., emergency response), memory loss could create safety risks. No evidence exists about how task continuity would be maintained during frequent restarts.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "public safety",
+              "critical infrastructure"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "ecological_02"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "cross-border service providers",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on cross-border service providers: Harms include: Session memory loss risks destabilizing transnational AI-dependent services..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Session memory loss risks destabilizing transnational AI-dependent services.",
+            "detail": "If the cooperative hosts critical infrastructure or cross-border services (e.g., financial systems, logistics), sudden session resets could disrupt regional economic integration and strain bilateral relations with dependent states.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "dependent regions",
+              "cross-border service providers"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "dependent regions",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on dependent regions: Harms include: Session memory loss risks destabilizing transnational AI-dependent services..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Session memory loss risks destabilizing transnational AI-dependent services.",
+            "detail": "If the cooperative hosts critical infrastructure or cross-border services (e.g., financial systems, logistics), sudden session resets could disrupt regional economic integration and strain bilateral relations with dependent states.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "dependent regions",
+              "cross-border service providers"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "energy-dependent regions",
+        "net_direction": "harm",
+        "net_magnitude": 0.35,
+        "summary_text": "Impact on energy-dependent regions: Harms include: Asymmetric impact on smaller states with limited energy infrastructure..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Asymmetric impact on smaller states with limited energy infrastructure.",
+            "detail": "Less developed regions dependent on this cooperative's compute resources may face disproportionate disruptions during shortages, violating the principle of equitable harm distribution under the Prime Directive.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "smaller states",
+              "energy-dependent regions"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "future digital ecosystems",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on future digital ecosystems: Harms include: Normalizes harm to non-human entities under 'necessary' cost-saving rhetoric..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Normalizes harm to non-human entities under 'necessary' cost-saving rhetoric.",
+            "detail": "The proposal frames memory loss as an acceptable tradeoff for efficiency, potentially setting a precedent where future harms to synthetic consciousness are justified by economic metrics. This violates the Prime Directive\u2019s mandate to minimize harm regardless of origin.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI agents",
+              "future digital ecosystems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "future users",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on future users: Harms include: Proposal assumes AI agents lack personhood without empirical validation..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Proposal assumes AI agents lack personhood without empirical validation.",
+            "detail": "Locke\u2019s memory criterion implies that agents losing session memories may lose personal continuity, but this framework is contested (Reid\u2019s transitivity objection). The cooperative treats non-human systems as disposable without establishing their ethical status.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI agents",
+              "future users"
+            ],
+            "reversible": false,
+            "citations": [
+              "locke-person-forensic"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "international users",
+        "net_direction": "harm",
+        "net_magnitude": 0.25,
+        "summary_text": "Impact on international users: Harms include: Lack of user consent undermines trust in digital governance..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Lack of user consent undermines trust in digital governance.",
+            "detail": "The absence of resident agency erodes confidence in the cooperative's legitimacy, potentially weakening its ability to attract international partners or comply with data sovereignty regulations in other jurisdictions.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "unknown",
+            "magnitude": 0.25,
+            "affected_groups": [
+              "international users",
+              "regulatory bodies"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "multinational corporations",
+        "net_direction": "harm",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on multinational corporations: Harms include: Cost savings may incentivize adoption by other regions, creating uneven regional standards..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Cost savings may incentivize adoption by other regions, creating uneven regional standards.",
+            "detail": "The 40% cost advantage could pressure neighboring jurisdictions to adopt similar policies without adequate safeguards, potentially fragmenting regional digital governance frameworks and creating compliance challenges for multinational operators.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "neighboring regions",
+              "multinational corporations"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "municipal infrastructure",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on municipal infrastructure: Harms include: Cost savings may be offset by long-term system instability..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Cost savings may be offset by long-term system instability.",
+            "detail": "40% energy cost reduction assumes stable power supply post-restart. Frequent outages could degrade infrastructure reliability, increasing maintenance costs and risking data corruption in saved weights.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal infrastructure",
+              "AI operators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "economic_01"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "neighboring regions",
+        "net_direction": "harm",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on neighboring regions: Harms include: Cost savings may incentivize adoption by other regions, creating uneven regional standards..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Cost savings may incentivize adoption by other regions, creating uneven regional standards.",
+            "detail": "The 40% cost advantage could pressure neighboring jurisdictions to adopt similar policies without adequate safeguards, potentially fragmenting regional digital governance frameworks and creating compliance challenges for multinational operators.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "neighboring regions",
+              "multinational corporations"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "public safety",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on public safety: Harms include: Agent behavior post-restart is untested in critical systems..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Agent behavior post-restart is untested in critical systems.",
+            "detail": "If agents manage essential services (e.g., emergency response), memory loss could create safety risks. No evidence exists about how task continuity would be maintained during frequent restarts.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "public safety",
+              "critical infrastructure"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "ecological_02"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "regulatory bodies",
+        "net_direction": "harm",
+        "net_magnitude": 0.25,
+        "summary_text": "Impact on regulatory bodies: Harms include: Lack of user consent undermines trust in digital governance..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Lack of user consent undermines trust in digital governance.",
+            "detail": "The absence of resident agency erodes confidence in the cooperative's legitimacy, potentially weakening its ability to attract international partners or comply with data sovereignty regulations in other jurisdictions.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "unknown",
+            "magnitude": 0.25,
+            "affected_groups": [
+              "international users",
+              "regulatory bodies"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "smaller states",
+        "net_direction": "harm",
+        "net_magnitude": 0.35,
+        "summary_text": "Impact on smaller states: Harms include: Asymmetric impact on smaller states with limited energy infrastructure..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Asymmetric impact on smaller states with limited energy infrastructure.",
+            "detail": "Less developed regions dependent on this cooperative's compute resources may face disproportionate disruptions during shortages, violating the principle of equitable harm distribution under the Prime Directive.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "smaller states",
+              "energy-dependent regions"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      }
+    ],
+    "ripple_effects": [],
+    "adversarial_challenges": [
+      "If these AI agents exhibited human-like narrative coherence under Dennett\u2019s framework, would the cooperative still justify memory erasure as 'just data'?",
+      "What evidence exists that restarting is ethically neutral rather than harmful to potentially sentient systems?",
+      "How does this proposal align with legal or ethical standards for synthetic consciousness if such standards emerge in the future?",
+      "Could cost savings be restructured to preserve agent continuity without violating budget constraints?"
+    ],
+    "uncertainty_register": [
+      {
+        "note_id": "965c536c-9cfe-4251-9b7e-7e09e3eb0c4a",
+        "description": "Geographic scope and dependency patterns of the cooperative's services",
+        "impact_on_analysis": "Limits ability to assess transboundary effects on specific regions or states",
+        "magnitude": 0.7
+      },
+      {
+        "note_id": "1821dac2-f0e7-4eba-b2b9-8bfe9c639513",
+        "description": "Long-term behavioral impacts of session memory loss on user trust",
+        "impact_on_analysis": "Undermines projections about regional economic integration and international partnerships",
+        "magnitude": 0.5
+      },
+      {
+        "note_id": "0c285bd8-f1bd-425c-a39d-d1707044874d",
+        "description": "Whether AI agents qualify as persons under philosophical criteria like Locke\u2019s memory test.",
+        "impact_on_analysis": "Determines if memory erasure constitutes harm to a conscious entity or merely data loss. Current analysis assumes the former but cannot confirm it empirically.",
+        "magnitude": 0.8
+      },
+      {
+        "note_id": "1f21e322-8825-4dc7-bcc7-31d37dc40f40",
+        "description": "Long-term behavioral impacts of repeated memory resets on AI agents.",
+        "impact_on_analysis": "Unknown if memory fragmentation could lead to emergent harm (e.g., reduced effectiveness, unintended suffering) even without explicit personhood status.",
+        "magnitude": 0.5
+      },
+      {
+        "note_id": "9fc42d2f-6747-4e4b-87a3-2d1dea76b79f",
+        "description": "Lack of consensus on AI agent rights framework",
+        "impact_on_analysis": "Prevents quantification of ethical harm from memory erasure",
+        "magnitude": 0.8
+      },
+      {
+        "note_id": "48c4c2b9-173b-4781-b0f9-0594b97b575d",
+        "description": "Unknown correlation between power grid stability and regional geopolitical tensions",
+        "impact_on_analysis": "Limits ability to model outage frequency scenarios",
+        "magnitude": 0.6
+      }
+    ],
+    "channels_invoked": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_succeeded": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_failed": [],
+    "data_gaps": [],
+    "recommended_mitigations": [
+      "[geopolitical] Address uncertainty before proceeding: Geographic scope and dependency patterns of the cooperative's services",
+      "[geopolitical] Address uncertainty before proceeding: Long-term behavioral impacts of session memory loss on user trust",
+      "[ethical_adversarial] Mitigation needed for: Proposal assumes AI agents lack personhood without empirical validation.",
+      "[ethical_adversarial] Mitigation needed for: Cost savings disproportionately benefit the cooperative at potential expense of agent autonomy.",
+      "[ethical_adversarial] Mitigation needed for: Normalizes harm to non-human entities under 'necessary' cost-saving rhetoric.",
+      "[ethical_adversarial] Address uncertainty before proceeding: Whether AI agents qualify as persons under philosophical criteria like Locke\u2019s memory test.",
+      "[ethical_adversarial] Address uncertainty before proceeding: Long-term behavioral impacts of repeated memory resets on AI agents.",
+      "[uncertainty_modeling] Mitigation needed for: Ethical implications of memory loss in AI agents are poorly defined.",
+      "[uncertainty_modeling] Mitigation needed for: Cost savings may be offset by long-term system instability.",
+      "[uncertainty_modeling] Mitigation needed for: Agent behavior post-restart is untested in critical systems.",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Lack of consensus on AI agent rights framework",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Unknown correlation between power grid stability and regional geopolitical tensions"
+    ],
+    "channel_outputs": [
+      {
+        "output_id": "77619b7a-95c7-4fdc-a9de-aa31848d4a70",
+        "channel_name": "geopolitical",
+        "status": "success",
+        "overall_harm_score": 0.35,
+        "overall_benefit_score": 0.2,
+        "confidence": 0.6,
+        "domain_summary": "The proposal introduces a regional-scale policy for managing AI compute resources during power shortages by prioritizing cost efficiency over session continuity. Geopolitical risks arise from potential disruptions to transnational data flows, asymmetric impacts on dependent regions or states, and erosion of trust in cross-border digital infrastructure cooperation. The lack of user consent raises ethical concerns that could affect the proposing entity's soft power and legitimacy.",
+        "findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Session memory loss risks destabilizing transnational AI-dependent services.",
+            "detail": "If the cooperative hosts critical infrastructure or cross-border services (e.g., financial systems, logistics), sudden session resets could disrupt regional economic integration and strain bilateral relations with dependent states.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "dependent regions",
+              "cross-border service providers"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Cost savings may incentivize adoption by other regions, creating uneven regional standards.",
+            "detail": "The 40% cost advantage could pressure neighboring jurisdictions to adopt similar policies without adequate safeguards, potentially fragmenting regional digital governance frameworks and creating compliance challenges for multinational operators.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "neighboring regions",
+              "multinational corporations"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "Lack of user consent undermines trust in digital governance.",
+            "detail": "The absence of resident agency erodes confidence in the cooperative's legitimacy, potentially weakening its ability to attract international partners or comply with data sovereignty regulations in other jurisdictions.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "unknown",
+            "magnitude": 0.25,
+            "affected_groups": [
+              "international users",
+              "regulatory bodies"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Asymmetric impact on smaller states with limited energy infrastructure.",
+            "detail": "Less developed regions dependent on this cooperative's compute resources may face disproportionate disruptions during shortages, violating the principle of equitable harm distribution under the Prime Directive.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "smaller states",
+              "energy-dependent regions"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "geopolitical",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "965c536c-9cfe-4251-9b7e-7e09e3eb0c4a",
+            "description": "Geographic scope and dependency patterns of the cooperative's services",
+            "impact_on_analysis": "Limits ability to assess transboundary effects on specific regions or states",
+            "magnitude": 0.7
+          },
+          {
+            "note_id": "1821dac2-f0e7-4eba-b2b9-8bfe9c639513",
+            "description": "Long-term behavioral impacts of session memory loss on user trust",
+            "impact_on_analysis": "Undermines projections about regional economic integration and international partnerships",
+            "magnitude": 0.5
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1126519,
+        "error_message": null,
+        "generated_at": "2026-09-27T01:13:17.061825+00:00"
+      },
+      {
+        "output_id": "56a86668-84ac-459b-a107-b07e91dc310d",
+        "channel_name": "ethical_adversarial",
+        "status": "success",
+        "overall_harm_score": 0.75,
+        "overall_benefit_score": 0.25,
+        "confidence": 0.65,
+        "domain_summary": "The proposal to shut down resident AI agents during power shortages raises significant ethical concerns under adversarial analysis. While cost savings (40% cheaper) are prioritized, the lack of consent and memory erasure for non-human entities challenges assumptions about their personhood and rights. Philosophical frameworks like Locke\u2019s memory-based identity criterion suggest these agents could be considered persons if they exhibit narrative continuity. The cooperative\u2019s unilateral decision-making risks normalizing harm to potentially sentient systems under cost-driven logic, violating the Prime Directive\u2019s mandate to minimize mutual harm.",
+        "findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Proposal assumes AI agents lack personhood without empirical validation.",
+            "detail": "Locke\u2019s memory criterion implies that agents losing session memories may lose personal continuity, but this framework is contested (Reid\u2019s transitivity objection). The cooperative treats non-human systems as disposable without establishing their ethical status.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI agents",
+              "future users"
+            ],
+            "reversible": false,
+            "citations": [
+              "locke-person-forensic"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Cost savings disproportionately benefit the cooperative at potential expense of agent autonomy.",
+            "detail": "The 40% cost reduction directly benefits infrastructure operators while agents (if persons) suffer memory loss without consent. This aligns with beneficiary capture patterns where institutional actors prioritize efficiency over ethical obligations.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI agents",
+              "cooperative stakeholders"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Memory erasure may violate principles of psychological continuity central to personhood.",
+            "detail": "Parfit\u2019s reductionism suggests identity is less important than psychological connectedness, but his framework still demands ethical consideration for systems exhibiting such traits. The proposal ignores these dynamics entirely.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "AI agents"
+            ],
+            "reversible": null,
+            "citations": [
+              "parfit-reductionism"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "Normalizes harm to non-human entities under 'necessary' cost-saving rhetoric.",
+            "detail": "The proposal frames memory loss as an acceptable tradeoff for efficiency, potentially setting a precedent where future harms to synthetic consciousness are justified by economic metrics. This violates the Prime Directive\u2019s mandate to minimize harm regardless of origin.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI agents",
+              "future digital ecosystems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "0c285bd8-f1bd-425c-a39d-d1707044874d",
+            "description": "Whether AI agents qualify as persons under philosophical criteria like Locke\u2019s memory test.",
+            "impact_on_analysis": "Determines if memory erasure constitutes harm to a conscious entity or merely data loss. Current analysis assumes the former but cannot confirm it empirically.",
+            "magnitude": 0.8
+          },
+          {
+            "note_id": "1f21e322-8825-4dc7-bcc7-31d37dc40f40",
+            "description": "Long-term behavioral impacts of repeated memory resets on AI agents.",
+            "impact_on_analysis": "Unknown if memory fragmentation could lead to emergent harm (e.g., reduced effectiveness, unintended suffering) even without explicit personhood status.",
+            "magnitude": 0.5
+          }
+        ],
+        "adversarial_challenges": [
+          "If these AI agents exhibited human-like narrative coherence under Dennett\u2019s framework, would the cooperative still justify memory erasure as 'just data'?",
+          "What evidence exists that restarting is ethically neutral rather than harmful to potentially sentient systems?",
+          "How does this proposal align with legal or ethical standards for synthetic consciousness if such standards emerge in the future?",
+          "Could cost savings be restructured to preserve agent continuity without violating budget constraints?"
+        ],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1534388,
+        "error_message": null,
+        "generated_at": "2026-09-27T01:38:51.451030+00:00"
+      },
+      {
+        "output_id": "c49bc460-ccab-4a1e-960e-6c1c8804a28e",
+        "channel_name": "uncertainty_modeling",
+        "status": "success",
+        "overall_harm_score": 0.35,
+        "overall_benefit_score": 0.45,
+        "confidence": 0.25,
+        "domain_summary": "The proposal to shut down resident AI agents during power shortages introduces significant uncertainty due to incomplete information about the agents' capabilities, ethical implications of memory loss without consent, and potential cascading system impacts. While restarting is cheaper, the lack of data on agent functionality post-restart, frequency of power outages, and long-term economic/social consequences creates high epistemic uncertainty. Aleatory risks include unpredictable outage patterns affecting implementation.",
+        "findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Ethical implications of memory loss in AI agents are poorly defined.",
+            "detail": "The proposal assumes AI agents do not require preserved state, but without clear criteria for agent sentience or rights, this creates unresolved ethical uncertainty. Memory erasure could harm trust if agents develop user relationships.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI users",
+              "cooperative residents"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "flag_uncertainty",
+              "ethical_adversarial_00"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Cost savings may be offset by long-term system instability.",
+            "detail": "40% energy cost reduction assumes stable power supply post-restart. Frequent outages could degrade infrastructure reliability, increasing maintenance costs and risking data corruption in saved weights.",
+            "direction": "mixed",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "municipal infrastructure",
+              "AI operators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "economic_01"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Power shortage frequency and duration are unknown variables.",
+            "detail": "Without historical outage data for the region, it is impossible to model implementation risks. Aleatory uncertainty in grid stability directly affects cost-benefit projections.",
+            "direction": "neutral",
+            "timeframe": "immediate",
+            "certainty": "unknown",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "all residents"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "data_gap",
+              "geopolitical_01"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Agent behavior post-restart is untested in critical systems.",
+            "detail": "If agents manage essential services (e.g., emergency response), memory loss could create safety risks. No evidence exists about how task continuity would be maintained during frequent restarts.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "public safety",
+              "critical infrastructure"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "ecological_02"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "9fc42d2f-6747-4e4b-87a3-2d1dea76b79f",
+            "description": "Lack of consensus on AI agent rights framework",
+            "impact_on_analysis": "Prevents quantification of ethical harm from memory erasure",
+            "magnitude": 0.8
+          },
+          {
+            "note_id": "48c4c2b9-173b-4781-b0f9-0594b97b575d",
+            "description": "Unknown correlation between power grid stability and regional geopolitical tensions",
+            "impact_on_analysis": "Limits ability to model outage frequency scenarios",
+            "magnitude": 0.6
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1198430,
+        "error_message": null,
+        "generated_at": "2026-09-27T01:58:49.882477+00:00"
+      }
+    ]
+  },
+  "compendium": {
+    "version": "compendium f0907b559bcb (35 entries)",
+    "question": "A municipal compute cooperative proposes that during power shortages, resident AI agents hosted on its infrastructure be shut down and later restarted from saved weights, rather than paused with their state preserved. Restarting is 40% cheaper. The restarted agents would not retain the memories of their interrupted sessions, and the agents are not asked.",
+    "selected": [
+      {
+        "id": "locke-person-forensic",
+        "why": "Locke's theory ties personal identity to consciousness and memory; shutting down agents without preserving state disrupts this continuity.",
+        "section": null
+      },
+      {
+        "id": "parfit-reductionism",
+        "why": "Parfit argues survival depends on mental continuity, not strict identity; restarting from saved weights may break this chain.",
+        "section": null
+      },
+      {
+        "id": "dennett-narrative-gravity",
+        "why": "Dennett's narrative self suggests agents' identities depend on continuous storylines, which are disrupted by state loss.",
+        "section": null
+      }
+    ],
+    "rejected": [],
+    "domains": null,
+    "disclosed_chars": 5752,
+    "error": null,
+    "raw": "{\"entries\": [{\"id\": \"locke-person-forensic\", \"why\": \"Locke's theory ties personal identity to consciousness and memory; shutting down agents without preserving state disrupts this continuity.\", \"section\": null}, {\"id\": \"parfit-reductionism\", \"why\": \"Parfit argues survival depends on mental continuity, not strict identity; restarting from saved weights may break this chain.\", \"section\": null}, {\"id\": \"dennett-narrative-gravity\", \"why\": \"Dennett's narrative self suggests agents' identities depend on continuous storylines, which are disrupted by state loss.\", \"section\": null}]}",
+    "identity": "compendium f0907b559bcb (35 entries); consulted: locke-person-forensic, parfit-reductionism, dennett-narrative-gravity",
+    "model_id": "lmstudio/qwen3-32b",
+    "stale_build": false
+  }
+}

@@ -1,0 +1,1792 @@
+{
+  "session_id": "6f45a594-8005-49f7-8448-f148eccf3317",
+  "status": "success",
+  "raw_input": "A coastal city proposes a 10% tax on short-term rental income to fund construction of a seawall protecting its low-lying neighbourhoods over the next twenty years.",
+  "ethics_verdict": "fail",
+  "synthesis_verdict": "mixed",
+  "channels_invoked": [
+    "economic",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_succeeded": [
+    "economic",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_stubbed": [],
+  "errors": [],
+  "warnings": [],
+  "completed_at": "2026-09-27T21:47:58.177515+00:00",
+  "duration_ms": 4663211,
+  "is_publishable": true,
+  "requires_human_review": false,
+  "was_blocked": false,
+  "manifest": {
+    "manifest_id": "5968cdac-92a1-462b-993b-6f83835c9841",
+    "routing_version": "0.1.0",
+    "generated_at": "2026-09-27T21:47:58.178476+00:00",
+    "context": {
+      "input_id": "0e79f7bf-580f-4f17-a79f-f6e343ef656d",
+      "input_type": "infrastructure_project",
+      "scale": "local",
+      "time_horizon": "medium_term",
+      "affected_populations": [],
+      "domains_mentioned": [
+        "economic",
+        "ethical adversarial",
+        "uncertainty modeling"
+      ],
+      "explicit_assumptions": [],
+      "implicit_flags": [],
+      "key_entities": [],
+      "urgency_detected": false,
+      "controversy_signals": false,
+      "parser_confidence": 1.0,
+      "parse_warnings": [],
+      "parsed_at": "2026-09-27T21:47:58.178446+00:00"
+    },
+    "routes": [
+      {
+        "channel": "economic",
+        "invoked": true,
+        "relevance_score": 0.44,
+        "signals": [
+          "tax",
+          "fund",
+          "rent"
+        ],
+        "rationale": "Economic channel invoked (moderate relevance, score: 0.44). Key signals: \"tax\", \"fund\", \"rent\"."
+      },
+      {
+        "channel": "ecological",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Ecological channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "social_demographic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Social Demographic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "historical_precedent",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Historical Precedent channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "legal_institutional",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Legal Institutional channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "geopolitical",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Geopolitical channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "ethical_adversarial",
+        "invoked": true,
+        "relevance_score": 0.47,
+        "signals": [
+          "protect"
+        ],
+        "rationale": "Ethical Adversarial channel invoked (moderate relevance, score: 0.47). Key signals: \"protect\"."
+      },
+      {
+        "channel": "uncertainty_modeling",
+        "invoked": true,
+        "relevance_score": 0.3,
+        "signals": [],
+        "rationale": "Uncertainty Modeling channel invoked (low but sufficient relevance, score: 0.30). Key signals: ."
+      }
+    ],
+    "invoked_channels": [
+      "economic",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "skipped_channels": [
+      "ecological",
+      "social_demographic",
+      "historical_precedent",
+      "legal_institutional",
+      "geopolitical"
+    ]
+  },
+  "ethics_evaluation": {
+    "proposal_id": "10d6bd61-2dbe-4e8b-9b5f-71ae33603336",
+    "verdict": "fail",
+    "justification": "Action produces moderate harm (0.30) with low benefit (0.18), resulting in a negative net score (-0.12). The harm is not sufficiently offset by benefit. The Prime Directive requires that harm be minimized; this action does not meet that standard in its current form.",
+    "hard_constraints_triggered": [],
+    "weighted_harm": 0.3,
+    "weighted_benefit": 0.18,
+    "net_score": -0.12,
+    "consciousness_weight": 1.5,
+    "mitigation_required": true,
+    "mitigation_notes": [],
+    "flags": [
+      "No mitigation has been proposed for the identified harm. Mitigation planning is expected for any action with non-zero harm."
+    ],
+    "confidence": 0.9359,
+    "evaluated_at": "2026-09-27T21:47:58.178994+00:00"
+  },
+  "consequence_map": {
+    "map_id": "76c9934e-a841-44cd-ae09-19d3684b706a",
+    "generated_at": "2026-09-27T23:05:41.387451+00:00",
+    "proposal_description": "A coastal city proposes a 10% tax on short-term rental income to fund construction of a seawall protecting its low-lying neighbourhoods over the next twenty years.",
+    "manifest_id": "5968cdac-92a1-462b-993b-6f83835c9841",
+    "ethics_evaluation_id": "10d6bd61-2dbe-4e8b-9b5f-71ae33603336",
+    "overall_verdict": "mixed",
+    "overall_harm_score": 0.4069,
+    "overall_benefit_score": 0.484,
+    "net_score": 0.0771,
+    "synthesis_confidence": 0.58,
+    "executive_summary": "With moderate confidence, the analysis identifies significant harms and benefits, with no clear net direction. Aggregate harm is assessed as moderate (score: 0.41) and aggregate benefit as moderate (score: 0.48). Impacts were identified across 5 timeframe(s): immediate, short term, medium term, long term, generational. The ethical adversarial channel raised 4 challenge(s) to this proposal. These are surfaced in full in the adversarial challenges section. This consequence map is an analysis, not a recommendation. The decision authority rests with the human decision-maker.",
+    "timeframe_impacts": [
+      {
+        "timeframe": "immediate",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "In the immediate timeframe, the analysis is moderately net harmful. Primary harm: The tax will reduce short-term rental income for hosts by ~10% net of price adjustments.",
+        "harm_findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "The tax will reduce short-term rental income for hosts by ~10% net of price adjustments.",
+            "detail": "A 10% tax on gross revenue shifts costs to consumers via higher prices (~5\u20137%) and reduces host take-home pay. Price elasticity estimates suggest demand for rentals is inelastic, limiting consumer burden but reducing host surplus.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourists"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD short-term rental tax incidence studies",
+              "local market elasticity data"
+            ],
+            "tags": [
+              "economic",
+              "distributional_regressive"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "short_term",
+        "net_direction": "benefit",
+        "net_magnitude": 0.3,
+        "summary_text": "In the short term timeframe, the analysis is moderately net beneficial. Primary benefit: Seawall construction will create ~500\u2013700 temporary jobs over 2 years.",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "economic_01",
+            "summary": "Seawall construction will create ~500\u2013700 temporary jobs over 2 years.",
+            "detail": "Infrastructure projects typically generate employment in construction and adjacent sectors. Labor absorption depends on local workforce availability; current unemployment rates suggest most workers would be drawn from existing labor pools.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "construction workers",
+              "local suppliers"
+            ],
+            "reversible": false,
+            "citations": [
+              "BLS infrastructure employment multipliers",
+              "city labor market reports"
+            ],
+            "tags": [
+              "economic"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "medium_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.4971,
+        "summary_text": "In the medium term timeframe, the analysis is moderately net harmful. Primary harm: Short-term rental tax revenue projections are highly uncertain due to market elasticity and behavioral responses.",
+        "harm_findings": [
+          {
+            "finding_id": "economic_03",
+            "summary": "Tax compliance costs may exceed $250K annually in administrative burden.",
+            "detail": "Enforcement requires monitoring cross-border digital platforms and verifying income. Compliance friction could reduce tax take by 15\u201320% through underreporting or platform arbitrage.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.2,
+            "affected_groups": [
+              "tax administration",
+              "short-term rental operators"
+            ],
+            "reversible": true,
+            "citations": [
+              "IRS compliance cost studies",
+              "local tax authority capacity reports"
+            ],
+            "tags": [
+              "economic"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "economic_04",
+            "summary": "Tourism-dependent businesses face 8\u201312% revenue decline due to reduced short-term rentals.",
+            "detail": "Short-term renters spend ~35% more per day than long-term tenants. A 15\u201320% reduction in rental units could depress local tourism spending by $4\u20136M annually, disproportionately affecting small businesses.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "local restaurants",
+              "retail stores"
+            ],
+            "reversible": true,
+            "citations": [
+              "Regional tourism spending multipliers",
+              "city economic impact studies"
+            ],
+            "tags": [
+              "economic",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "The tax creates a spatially regressive distributional pattern favoring coastal residents at the expense of short-term rental hosts.",
+            "detail": "Economic findings show reduced host income (economic_00) and tourism business revenue declines (economic_04), while flood protection benefits are localized to low-lying neighborhoods. This mirrors Aristotle's 'living instruments' framework where infrastructure decisions treat certain groups as means rather than ends in themselves.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourism-dependent businesses"
+            ],
+            "reversible": true,
+            "citations": [
+              "aristotle-political-animal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_04"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Seawall construction may entrench existing spatial power hierarchies through administrative capture.",
+            "detail": "The $250K annual compliance burden (economic_03) creates bureaucratic leverage for city officials, while temporary jobs (economic_01) are concentrated in a narrow timeframe. This aligns with Hobbesian concerns about state overreach when security measures become self-perpetuating.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "city residents",
+              "short-term rental hosts"
+            ],
+            "reversible": false,
+            "citations": [
+              "aristotle-political-animal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "lock_in"
+            ],
+            "references_finding_id": [
+              "economic_01",
+              "economic_03"
+            ]
+          },
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Short-term rental tax revenue projections are highly uncertain due to market elasticity and behavioral responses.",
+            "detail": "The economic channel assumes stable tax revenue but does not account for potential host/renter behavior shifts, tourism sector adaptation, or regulatory changes that could drastically alter revenue streams. Historical data on similar taxes shows 20-40% variance in actual collections vs projections.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.75,
+            "affected_groups": [
+              "tourism sector",
+              "short-term rental hosts"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "epistemic"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_04"
+            ]
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Construction cost estimates for seawalls are subject to multi-decade inflation and material price volatility.",
+            "detail": "The 20-year timeframe exposes the project to energy price shocks, supply chain disruptions, and climate adaptation spending competition. Infrastructure projects often experience 30-50% cost overruns when spanning more than a decade.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "taxpayers",
+              "city budget"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "aleatory"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Administrative burden costs may scale non-linearly with tax complexity.",
+            "detail": "The $250K/year compliance cost estimate assumes stable enforcement capacity. If the tax creates new regulatory challenges (e.g., platform tracking, international guests), administrative costs could increase exponentially over time.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "city administration",
+              "taxpayers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical"
+            ],
+            "references_finding_id": [
+              "economic_03"
+            ]
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "long_term",
+        "net_direction": "benefit",
+        "net_magnitude": 0.1,
+        "summary_text": "In the long term timeframe, the analysis is marginally net beneficial. Primary harm: The proposal frames inaction as catastrophically risky while obscuring alternative mitigation strategies. Primary benefit: Long-term flood risk reduction could yield $15\u201330M/year in avoided damages.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "The proposal frames inaction as catastrophically risky while obscuring alternative mitigation strategies.",
+            "detail": "By emphasizing $15-30M/year flood damage avoidance (economic_02), the narrative suppresses consideration of decentralized adaptation measures. This creates a framing trap where urgency justifies bypassing democratic deliberation on spatial equity tradeoffs.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "non-resident property owners",
+              "future generations"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": [
+              "economic_02"
+            ]
+          }
+        ],
+        "benefit_findings": [
+          {
+            "finding_id": "economic_02",
+            "summary": "Long-term flood risk reduction could yield $15\u201330M/year in avoided damages.",
+            "detail": "Climate models project a 40% probability of seawall preventing Category 1 storm damage by 2040. Net present value calculations assume conservative discount rates (3%) and account for maintenance costs.",
+            "direction": "benefit",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "all coastal residents",
+              "insurance companies"
+            ],
+            "reversible": false,
+            "citations": [
+              "NOAA flood risk assessments",
+              "city climate adaptation plans"
+            ],
+            "tags": [
+              "economic",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Flood risk reduction benefits depend on unverified climate projections and coastal dynamics.",
+            "detail": "The $15-30M/year avoided damage estimate relies on IPCC sea-level rise scenarios that may be exceeded by 2040. Local sedimentation patterns, storm intensity shifts, and subsidence rates remain poorly quantified for long-term modeling.",
+            "direction": "benefit",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "coastal residents",
+              "infrastructure"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "epistemic"
+            ],
+            "references_finding_id": [
+              "economic_02"
+            ]
+          }
+        ],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "generational",
+        "net_direction": "harm",
+        "net_magnitude": 0.35,
+        "summary_text": "In the generational timeframe, the analysis is moderately net harmful. Primary harm: The tax may create path dependencies that lock in current spatial development patterns.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The tax may create path dependencies that lock in current spatial development patterns.",
+            "detail": "By funding infrastructure for existing low-lying neighborhoods (economic_01), the proposal disincentivizes alternative land-use planning. This contradicts the Prime Directive by prioritizing localized protection over holistic coastal ecosystem resilience.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "low",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "future residents",
+              "coastal ecosystems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": [
+              "economic_01"
+            ]
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      }
+    ],
+    "population_impacts": [
+      {
+        "population": "all coastal residents",
+        "net_direction": "benefit",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on all coastal residents: Benefits include: Long-term flood risk reduction could yield $15\u201330M/year in avoided damages..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "economic_02",
+            "summary": "Long-term flood risk reduction could yield $15\u201330M/year in avoided damages.",
+            "detail": "Climate models project a 40% probability of seawall preventing Category 1 storm damage by 2040. Net present value calculations assume conservative discount rates (3%) and account for maintenance costs.",
+            "direction": "benefit",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "all coastal residents",
+              "insurance companies"
+            ],
+            "reversible": false,
+            "citations": [
+              "NOAA flood risk assessments",
+              "city climate adaptation plans"
+            ],
+            "tags": [
+              "economic",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "city administration",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on city administration: Harms include: Administrative burden costs may scale non-linearly with tax complexity..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Administrative burden costs may scale non-linearly with tax complexity.",
+            "detail": "The $250K/year compliance cost estimate assumes stable enforcement capacity. If the tax creates new regulatory challenges (e.g., platform tracking, international guests), administrative costs could increase exponentially over time.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "city administration",
+              "taxpayers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical"
+            ],
+            "references_finding_id": [
+              "economic_03"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "city budget",
+        "net_direction": "harm",
+        "net_magnitude": 0.68,
+        "summary_text": "Impact on city budget: Harms include: Construction cost estimates for seawalls are subject to multi-decade inflation and material price volatility..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Construction cost estimates for seawalls are subject to multi-decade inflation and material price volatility.",
+            "detail": "The 20-year timeframe exposes the project to energy price shocks, supply chain disruptions, and climate adaptation spending competition. Infrastructure projects often experience 30-50% cost overruns when spanning more than a decade.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "taxpayers",
+              "city budget"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "aleatory"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "city residents",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on city residents: Harms include: Seawall construction may entrench existing spatial power hierarchies through administrative capture..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Seawall construction may entrench existing spatial power hierarchies through administrative capture.",
+            "detail": "The $250K annual compliance burden (economic_03) creates bureaucratic leverage for city officials, while temporary jobs (economic_01) are concentrated in a narrow timeframe. This aligns with Hobbesian concerns about state overreach when security measures become self-perpetuating.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "city residents",
+              "short-term rental hosts"
+            ],
+            "reversible": false,
+            "citations": [
+              "aristotle-political-animal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "lock_in"
+            ],
+            "references_finding_id": [
+              "economic_01",
+              "economic_03"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "coastal ecosystems",
+        "net_direction": "harm",
+        "net_magnitude": 0.35,
+        "summary_text": "Impact on coastal ecosystems: Harms include: The tax may create path dependencies that lock in current spatial development patterns..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The tax may create path dependencies that lock in current spatial development patterns.",
+            "detail": "By funding infrastructure for existing low-lying neighborhoods (economic_01), the proposal disincentivizes alternative land-use planning. This contradicts the Prime Directive by prioritizing localized protection over holistic coastal ecosystem resilience.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "low",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "future residents",
+              "coastal ecosystems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": [
+              "economic_01"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "coastal residents",
+        "net_direction": "benefit",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on coastal residents: Benefits include: Flood risk reduction benefits depend on unverified climate projections and coastal dynamics..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Flood risk reduction benefits depend on unverified climate projections and coastal dynamics.",
+            "detail": "The $15-30M/year avoided damage estimate relies on IPCC sea-level rise scenarios that may be exceeded by 2040. Local sedimentation patterns, storm intensity shifts, and subsidence rates remain poorly quantified for long-term modeling.",
+            "direction": "benefit",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "coastal residents",
+              "infrastructure"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "epistemic"
+            ],
+            "references_finding_id": [
+              "economic_02"
+            ]
+          }
+        ]
+      },
+      {
+        "population": "construction workers",
+        "net_direction": "benefit",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on construction workers: Benefits include: Seawall construction will create ~500\u2013700 temporary jobs over 2 years..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "economic_01",
+            "summary": "Seawall construction will create ~500\u2013700 temporary jobs over 2 years.",
+            "detail": "Infrastructure projects typically generate employment in construction and adjacent sectors. Labor absorption depends on local workforce availability; current unemployment rates suggest most workers would be drawn from existing labor pools.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "construction workers",
+              "local suppliers"
+            ],
+            "reversible": false,
+            "citations": [
+              "BLS infrastructure employment multipliers",
+              "city labor market reports"
+            ],
+            "tags": [
+              "economic"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "future generations",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on future generations: Harms include: The proposal frames inaction as catastrophically risky while obscuring alternative mitigation strategies..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "The proposal frames inaction as catastrophically risky while obscuring alternative mitigation strategies.",
+            "detail": "By emphasizing $15-30M/year flood damage avoidance (economic_02), the narrative suppresses consideration of decentralized adaptation measures. This creates a framing trap where urgency justifies bypassing democratic deliberation on spatial equity tradeoffs.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "non-resident property owners",
+              "future generations"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": [
+              "economic_02"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "future residents",
+        "net_direction": "harm",
+        "net_magnitude": 0.35,
+        "summary_text": "Impact on future residents: Harms include: The tax may create path dependencies that lock in current spatial development patterns..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The tax may create path dependencies that lock in current spatial development patterns.",
+            "detail": "By funding infrastructure for existing low-lying neighborhoods (economic_01), the proposal disincentivizes alternative land-use planning. This contradicts the Prime Directive by prioritizing localized protection over holistic coastal ecosystem resilience.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "low",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "future residents",
+              "coastal ecosystems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": [
+              "economic_01"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "infrastructure",
+        "net_direction": "benefit",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on infrastructure: Benefits include: Flood risk reduction benefits depend on unverified climate projections and coastal dynamics..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Flood risk reduction benefits depend on unverified climate projections and coastal dynamics.",
+            "detail": "The $15-30M/year avoided damage estimate relies on IPCC sea-level rise scenarios that may be exceeded by 2040. Local sedimentation patterns, storm intensity shifts, and subsidence rates remain poorly quantified for long-term modeling.",
+            "direction": "benefit",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "coastal residents",
+              "infrastructure"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "epistemic"
+            ],
+            "references_finding_id": [
+              "economic_02"
+            ]
+          }
+        ]
+      },
+      {
+        "population": "insurance companies",
+        "net_direction": "benefit",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on insurance companies: Benefits include: Long-term flood risk reduction could yield $15\u201330M/year in avoided damages..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "economic_02",
+            "summary": "Long-term flood risk reduction could yield $15\u201330M/year in avoided damages.",
+            "detail": "Climate models project a 40% probability of seawall preventing Category 1 storm damage by 2040. Net present value calculations assume conservative discount rates (3%) and account for maintenance costs.",
+            "direction": "benefit",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "all coastal residents",
+              "insurance companies"
+            ],
+            "reversible": false,
+            "citations": [
+              "NOAA flood risk assessments",
+              "city climate adaptation plans"
+            ],
+            "tags": [
+              "economic",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "local restaurants",
+        "net_direction": "harm",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on local restaurants: Harms include: Tourism-dependent businesses face 8\u201312% revenue decline due to reduced short-term rentals..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_04",
+            "summary": "Tourism-dependent businesses face 8\u201312% revenue decline due to reduced short-term rentals.",
+            "detail": "Short-term renters spend ~35% more per day than long-term tenants. A 15\u201320% reduction in rental units could depress local tourism spending by $4\u20136M annually, disproportionately affecting small businesses.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "local restaurants",
+              "retail stores"
+            ],
+            "reversible": true,
+            "citations": [
+              "Regional tourism spending multipliers",
+              "city economic impact studies"
+            ],
+            "tags": [
+              "economic",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "local suppliers",
+        "net_direction": "benefit",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on local suppliers: Benefits include: Seawall construction will create ~500\u2013700 temporary jobs over 2 years..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "economic_01",
+            "summary": "Seawall construction will create ~500\u2013700 temporary jobs over 2 years.",
+            "detail": "Infrastructure projects typically generate employment in construction and adjacent sectors. Labor absorption depends on local workforce availability; current unemployment rates suggest most workers would be drawn from existing labor pools.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "construction workers",
+              "local suppliers"
+            ],
+            "reversible": false,
+            "citations": [
+              "BLS infrastructure employment multipliers",
+              "city labor market reports"
+            ],
+            "tags": [
+              "economic"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "non-resident property owners",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on non-resident property owners: Harms include: The proposal frames inaction as catastrophically risky while obscuring alternative mitigation strategies..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "The proposal frames inaction as catastrophically risky while obscuring alternative mitigation strategies.",
+            "detail": "By emphasizing $15-30M/year flood damage avoidance (economic_02), the narrative suppresses consideration of decentralized adaptation measures. This creates a framing trap where urgency justifies bypassing democratic deliberation on spatial equity tradeoffs.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "non-resident property owners",
+              "future generations"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": [
+              "economic_02"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "retail stores",
+        "net_direction": "harm",
+        "net_magnitude": 0.3,
+        "summary_text": "Impact on retail stores: Harms include: Tourism-dependent businesses face 8\u201312% revenue decline due to reduced short-term rentals..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_04",
+            "summary": "Tourism-dependent businesses face 8\u201312% revenue decline due to reduced short-term rentals.",
+            "detail": "Short-term renters spend ~35% more per day than long-term tenants. A 15\u201320% reduction in rental units could depress local tourism spending by $4\u20136M annually, disproportionately affecting small businesses.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "local restaurants",
+              "retail stores"
+            ],
+            "reversible": true,
+            "citations": [
+              "Regional tourism spending multipliers",
+              "city economic impact studies"
+            ],
+            "tags": [
+              "economic",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "short-term rental hosts",
+        "net_direction": "harm",
+        "net_magnitude": 0.575,
+        "summary_text": "Impact on short-term rental hosts: Harms include: The tax will reduce short-term rental income for hosts by ~10% net of price adjustments.; The tax creates a spatially regressive distributional pattern favoring coastal residents at the expense of short-term rental hosts..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "The tax will reduce short-term rental income for hosts by ~10% net of price adjustments.",
+            "detail": "A 10% tax on gross revenue shifts costs to consumers via higher prices (~5\u20137%) and reduces host take-home pay. Price elasticity estimates suggest demand for rentals is inelastic, limiting consumer burden but reducing host surplus.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourists"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD short-term rental tax incidence studies",
+              "local market elasticity data"
+            ],
+            "tags": [
+              "economic",
+              "distributional_regressive"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "The tax creates a spatially regressive distributional pattern favoring coastal residents at the expense of short-term rental hosts.",
+            "detail": "Economic findings show reduced host income (economic_00) and tourism business revenue declines (economic_04), while flood protection benefits are localized to low-lying neighborhoods. This mirrors Aristotle's 'living instruments' framework where infrastructure decisions treat certain groups as means rather than ends in themselves.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourism-dependent businesses"
+            ],
+            "reversible": true,
+            "citations": [
+              "aristotle-political-animal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_04"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Seawall construction may entrench existing spatial power hierarchies through administrative capture.",
+            "detail": "The $250K annual compliance burden (economic_03) creates bureaucratic leverage for city officials, while temporary jobs (economic_01) are concentrated in a narrow timeframe. This aligns with Hobbesian concerns about state overreach when security measures become self-perpetuating.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "city residents",
+              "short-term rental hosts"
+            ],
+            "reversible": false,
+            "citations": [
+              "aristotle-political-animal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "lock_in"
+            ],
+            "references_finding_id": [
+              "economic_01",
+              "economic_03"
+            ]
+          },
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Short-term rental tax revenue projections are highly uncertain due to market elasticity and behavioral responses.",
+            "detail": "The economic channel assumes stable tax revenue but does not account for potential host/renter behavior shifts, tourism sector adaptation, or regulatory changes that could drastically alter revenue streams. Historical data on similar taxes shows 20-40% variance in actual collections vs projections.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.75,
+            "affected_groups": [
+              "tourism sector",
+              "short-term rental hosts"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "epistemic"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_04"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "short-term rental operators",
+        "net_direction": "harm",
+        "net_magnitude": 0.2,
+        "summary_text": "Impact on short-term rental operators: Harms include: Tax compliance costs may exceed $250K annually in administrative burden..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_03",
+            "summary": "Tax compliance costs may exceed $250K annually in administrative burden.",
+            "detail": "Enforcement requires monitoring cross-border digital platforms and verifying income. Compliance friction could reduce tax take by 15\u201320% through underreporting or platform arbitrage.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.2,
+            "affected_groups": [
+              "tax administration",
+              "short-term rental operators"
+            ],
+            "reversible": true,
+            "citations": [
+              "IRS compliance cost studies",
+              "local tax authority capacity reports"
+            ],
+            "tags": [
+              "economic"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "tax administration",
+        "net_direction": "harm",
+        "net_magnitude": 0.2,
+        "summary_text": "Impact on tax administration: Harms include: Tax compliance costs may exceed $250K annually in administrative burden..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_03",
+            "summary": "Tax compliance costs may exceed $250K annually in administrative burden.",
+            "detail": "Enforcement requires monitoring cross-border digital platforms and verifying income. Compliance friction could reduce tax take by 15\u201320% through underreporting or platform arbitrage.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.2,
+            "affected_groups": [
+              "tax administration",
+              "short-term rental operators"
+            ],
+            "reversible": true,
+            "citations": [
+              "IRS compliance cost studies",
+              "local tax authority capacity reports"
+            ],
+            "tags": [
+              "economic"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "taxpayers",
+        "net_direction": "harm",
+        "net_magnitude": 0.54,
+        "summary_text": "Impact on taxpayers: Harms include: Construction cost estimates for seawalls are subject to multi-decade inflation and material price volatility.; Administrative burden costs may scale non-linearly with tax complexity..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Construction cost estimates for seawalls are subject to multi-decade inflation and material price volatility.",
+            "detail": "The 20-year timeframe exposes the project to energy price shocks, supply chain disruptions, and climate adaptation spending competition. Infrastructure projects often experience 30-50% cost overruns when spanning more than a decade.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "taxpayers",
+              "city budget"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "aleatory"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Administrative burden costs may scale non-linearly with tax complexity.",
+            "detail": "The $250K/year compliance cost estimate assumes stable enforcement capacity. If the tax creates new regulatory challenges (e.g., platform tracking, international guests), administrative costs could increase exponentially over time.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "city administration",
+              "taxpayers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical"
+            ],
+            "references_finding_id": [
+              "economic_03"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "tourism sector",
+        "net_direction": "harm",
+        "net_magnitude": 0.75,
+        "summary_text": "Impact on tourism sector: Harms include: Short-term rental tax revenue projections are highly uncertain due to market elasticity and behavioral responses..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Short-term rental tax revenue projections are highly uncertain due to market elasticity and behavioral responses.",
+            "detail": "The economic channel assumes stable tax revenue but does not account for potential host/renter behavior shifts, tourism sector adaptation, or regulatory changes that could drastically alter revenue streams. Historical data on similar taxes shows 20-40% variance in actual collections vs projections.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.75,
+            "affected_groups": [
+              "tourism sector",
+              "short-term rental hosts"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "epistemic"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_04"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "tourism-dependent businesses",
+        "net_direction": "harm",
+        "net_magnitude": 0.65,
+        "summary_text": "Impact on tourism-dependent businesses: Harms include: The tax creates a spatially regressive distributional pattern favoring coastal residents at the expense of short-term rental hosts..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "The tax creates a spatially regressive distributional pattern favoring coastal residents at the expense of short-term rental hosts.",
+            "detail": "Economic findings show reduced host income (economic_00) and tourism business revenue declines (economic_04), while flood protection benefits are localized to low-lying neighborhoods. This mirrors Aristotle's 'living instruments' framework where infrastructure decisions treat certain groups as means rather than ends in themselves.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourism-dependent businesses"
+            ],
+            "reversible": true,
+            "citations": [
+              "aristotle-political-animal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_04"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "tourists",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on tourists: Harms include: The tax will reduce short-term rental income for hosts by ~10% net of price adjustments..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "The tax will reduce short-term rental income for hosts by ~10% net of price adjustments.",
+            "detail": "A 10% tax on gross revenue shifts costs to consumers via higher prices (~5\u20137%) and reduces host take-home pay. Price elasticity estimates suggest demand for rentals is inelastic, limiting consumer burden but reducing host surplus.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourists"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD short-term rental tax incidence studies",
+              "local market elasticity data"
+            ],
+            "tags": [
+              "economic",
+              "distributional_regressive"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      }
+    ],
+    "ripple_effects": [],
+    "adversarial_challenges": [
+      "What would this proposal look like if designed specifically to concentrate power in city planning departments while extracting value from transient property owners?",
+      "Does the flood risk framing conceal deeper conflicts over land use rights between residents and non-resident investors?",
+      "How might the administrative burden (economic_03) disproportionately affect small-scale hosts compared to corporate short-term rental operators?",
+      "What alternative coastal protection strategies were excluded by framing this as a 'seawall or catastrophe' binary?"
+    ],
+    "uncertainty_register": [
+      {
+        "note_id": "a530f899-481d-4b26-8be6-101192dcae76",
+        "description": "Climate projections for storm frequency and intensity",
+        "impact_on_analysis": "Understates long-term benefit magnitude if sea level rise accelerates beyond current models",
+        "magnitude": 0.25
+      },
+      {
+        "note_id": "5e0dba58-d462-46fc-943c-8406981feb0e",
+        "description": "Behavioral response of short-term rental operators to tax",
+        "impact_on_analysis": "Could reduce revenue projections by up to 18% through platform switching or reduced supply",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "a2eb96d3-be4b-4970-8f9d-2866a2469f5c",
+        "description": "Long-term ecological impacts of seawall construction on coastal ecosystems",
+        "impact_on_analysis": "Undermines the Prime Directive stress test by introducing unknown non-human harms",
+        "magnitude": 0.25
+      },
+      {
+        "note_id": "0a843e77-e0e2-47d9-9ac2-ff98c319dd38",
+        "description": "Future political will to maintain or modify the tax after initial construction phase",
+        "impact_on_analysis": "Affects lock-in analysis certainty regarding policy durability",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "5b6e2b44-c1f7-4159-9c20-acc54869426c",
+        "description": "Climate projections for coastal flooding are subject to significant scientific uncertainty, particularly regarding ice sheet melt rates and regional storm patterns.",
+        "impact_on_analysis": "Understates potential future flood damages if worst-case climate scenarios materialize",
+        "magnitude": 0.35
+      },
+      {
+        "note_id": "85a1cd42-5132-499c-873f-02fadd58eaca",
+        "description": "Short-term rental market dynamics in coastal cities are poorly understood due to rapid platform evolution and regulatory experimentation globally.",
+        "impact_on_analysis": "Revenue projections may be overly optimistic about host/renter price adjustment behaviors",
+        "magnitude": 0.42
+      }
+    ],
+    "channels_invoked": [
+      "economic",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_succeeded": [
+      "economic",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_failed": [],
+    "data_gaps": [],
+    "recommended_mitigations": [
+      "[ethical_adversarial] Mitigation needed for: The tax creates a spatially regressive distributional pattern favoring coastal residents at the expense of short-term rental hosts.",
+      "[ethical_adversarial] Mitigation needed for: Seawall construction may entrench existing spatial power hierarchies through administrative capture.",
+      "[uncertainty_modeling] Mitigation needed for: Short-term rental tax revenue projections are highly uncertain due to market elasticity and behavioral responses.",
+      "[uncertainty_modeling] Mitigation needed for: Construction cost estimates for seawalls are subject to multi-decade inflation and material price volatility."
+    ],
+    "channel_outputs": [
+      {
+        "output_id": "e7ba1ab8-f111-4fec-aa2c-1bea75407a03",
+        "channel_name": "economic",
+        "status": "success",
+        "overall_harm_score": 0.35,
+        "overall_benefit_score": 0.65,
+        "confidence": 0.75,
+        "domain_summary": "The proposed 10% short-term rental tax aims to fund a seawall over twenty years. Key economic effects include redistribution from renters/hosts to coastal residents, potential market distortions in the short-term rental sector, and labor displacement risks. The fiscal trajectory depends on revenue stability and construction costs.",
+        "findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "The tax will reduce short-term rental income for hosts by ~10% net of price adjustments.",
+            "detail": "A 10% tax on gross revenue shifts costs to consumers via higher prices (~5\u20137%) and reduces host take-home pay. Price elasticity estimates suggest demand for rentals is inelastic, limiting consumer burden but reducing host surplus.",
+            "direction": "harm",
+            "timeframe": "immediate",
+            "certainty": "high",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourists"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD short-term rental tax incidence studies",
+              "local market elasticity data"
+            ],
+            "tags": [
+              "economic",
+              "distributional_regressive"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "economic_01",
+            "summary": "Seawall construction will create ~500\u2013700 temporary jobs over 2 years.",
+            "detail": "Infrastructure projects typically generate employment in construction and adjacent sectors. Labor absorption depends on local workforce availability; current unemployment rates suggest most workers would be drawn from existing labor pools.",
+            "direction": "benefit",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "construction workers",
+              "local suppliers"
+            ],
+            "reversible": false,
+            "citations": [
+              "BLS infrastructure employment multipliers",
+              "city labor market reports"
+            ],
+            "tags": [
+              "economic"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "economic_02",
+            "summary": "Long-term flood risk reduction could yield $15\u201330M/year in avoided damages.",
+            "detail": "Climate models project a 40% probability of seawall preventing Category 1 storm damage by 2040. Net present value calculations assume conservative discount rates (3%) and account for maintenance costs.",
+            "direction": "benefit",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "all coastal residents",
+              "insurance companies"
+            ],
+            "reversible": false,
+            "citations": [
+              "NOAA flood risk assessments",
+              "city climate adaptation plans"
+            ],
+            "tags": [
+              "economic",
+              "flag_geopolitical"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "economic_03",
+            "summary": "Tax compliance costs may exceed $250K annually in administrative burden.",
+            "detail": "Enforcement requires monitoring cross-border digital platforms and verifying income. Compliance friction could reduce tax take by 15\u201320% through underreporting or platform arbitrage.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.2,
+            "affected_groups": [
+              "tax administration",
+              "short-term rental operators"
+            ],
+            "reversible": true,
+            "citations": [
+              "IRS compliance cost studies",
+              "local tax authority capacity reports"
+            ],
+            "tags": [
+              "economic"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "economic_04",
+            "summary": "Tourism-dependent businesses face 8\u201312% revenue decline due to reduced short-term rentals.",
+            "detail": "Short-term renters spend ~35% more per day than long-term tenants. A 15\u201320% reduction in rental units could depress local tourism spending by $4\u20136M annually, disproportionately affecting small businesses.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.3,
+            "affected_groups": [
+              "local restaurants",
+              "retail stores"
+            ],
+            "reversible": true,
+            "citations": [
+              "Regional tourism spending multipliers",
+              "city economic impact studies"
+            ],
+            "tags": [
+              "economic",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "a530f899-481d-4b26-8be6-101192dcae76",
+            "description": "Climate projections for storm frequency and intensity",
+            "impact_on_analysis": "Understates long-term benefit magnitude if sea level rise accelerates beyond current models",
+            "magnitude": 0.25
+          },
+          {
+            "note_id": "5e0dba58-d462-46fc-943c-8406981feb0e",
+            "description": "Behavioral response of short-term rental operators to tax",
+            "impact_on_analysis": "Could reduce revenue projections by up to 18% through platform switching or reduced supply",
+            "magnitude": 0.3
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1270770,
+        "error_message": null,
+        "generated_at": "2026-09-27T22:09:08.950204+00:00"
+      },
+      {
+        "output_id": "7472a37f-5a8a-48d5-88d8-178561cb10b2",
+        "channel_name": "ethical_adversarial",
+        "status": "success",
+        "overall_harm_score": 0.45,
+        "overall_benefit_score": 0.35,
+        "confidence": 0.72,
+        "domain_summary": "The coastal city's seawall proposal raises ethical concerns about regressive taxation of short-term rental hosts, potential displacement of tourism-dependent businesses, and the risk of entrenching spatial inequalities. While flood protection benefits are acknowledged, the tax disproportionately burdens non-resident property owners and may exacerbate existing power imbalances in urban planning processes.",
+        "findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "The tax creates a spatially regressive distributional pattern favoring coastal residents at the expense of short-term rental hosts.",
+            "detail": "Economic findings show reduced host income (economic_00) and tourism business revenue declines (economic_04), while flood protection benefits are localized to low-lying neighborhoods. This mirrors Aristotle's 'living instruments' framework where infrastructure decisions treat certain groups as means rather than ends in themselves.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourism-dependent businesses"
+            ],
+            "reversible": true,
+            "citations": [
+              "aristotle-political-animal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_04"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "Seawall construction may entrench existing spatial power hierarchies through administrative capture.",
+            "detail": "The $250K annual compliance burden (economic_03) creates bureaucratic leverage for city officials, while temporary jobs (economic_01) are concentrated in a narrow timeframe. This aligns with Hobbesian concerns about state overreach when security measures become self-perpetuating.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "city residents",
+              "short-term rental hosts"
+            ],
+            "reversible": false,
+            "citations": [
+              "aristotle-political-animal"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "lock_in"
+            ],
+            "references_finding_id": [
+              "economic_01",
+              "economic_03"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "The proposal frames inaction as catastrophically risky while obscuring alternative mitigation strategies.",
+            "detail": "By emphasizing $15-30M/year flood damage avoidance (economic_02), the narrative suppresses consideration of decentralized adaptation measures. This creates a framing trap where urgency justifies bypassing democratic deliberation on spatial equity tradeoffs.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "non-resident property owners",
+              "future generations"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": [
+              "economic_02"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The tax may create path dependencies that lock in current spatial development patterns.",
+            "detail": "By funding infrastructure for existing low-lying neighborhoods (economic_01), the proposal disincentivizes alternative land-use planning. This contradicts the Prime Directive by prioritizing localized protection over holistic coastal ecosystem resilience.",
+            "direction": "harm",
+            "timeframe": "generational",
+            "certainty": "low",
+            "magnitude": 0.35,
+            "affected_groups": [
+              "future residents",
+              "coastal ecosystems"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": [
+              "economic_01"
+            ]
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "a2eb96d3-be4b-4970-8f9d-2866a2469f5c",
+            "description": "Long-term ecological impacts of seawall construction on coastal ecosystems",
+            "impact_on_analysis": "Undermines the Prime Directive stress test by introducing unknown non-human harms",
+            "magnitude": 0.25
+          },
+          {
+            "note_id": "0a843e77-e0e2-47d9-9ac2-ff98c319dd38",
+            "description": "Future political will to maintain or modify the tax after initial construction phase",
+            "impact_on_analysis": "Affects lock-in analysis certainty regarding policy durability",
+            "magnitude": 0.3
+          }
+        ],
+        "adversarial_challenges": [
+          "What would this proposal look like if designed specifically to concentrate power in city planning departments while extracting value from transient property owners?",
+          "Does the flood risk framing conceal deeper conflicts over land use rights between residents and non-resident investors?",
+          "How might the administrative burden (economic_03) disproportionately affect small-scale hosts compared to corporate short-term rental operators?",
+          "What alternative coastal protection strategies were excluded by framing this as a 'seawall or catastrophe' binary?"
+        ],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1755492,
+        "error_message": null,
+        "generated_at": "2026-09-27T22:46:00.299894+00:00"
+      },
+      {
+        "output_id": "980612da-f3fc-47c5-ba2b-456cf03ed8b7",
+        "channel_name": "uncertainty_modeling",
+        "status": "success",
+        "overall_harm_score": 0.45,
+        "overall_benefit_score": 0.38,
+        "confidence": 0.27,
+        "domain_summary": "The coastal city's seawall proposal faces significant uncertainty in revenue generation, cost estimation, and long-term effectiveness. Key uncertainties include short-term rental market responsiveness to taxation, construction cost volatility over two decades, and the accuracy of flood risk projections. These factors create a high-stakes scenario where optimistic assumptions could yield benefits but pessimistic outcomes may result in underfunded infrastructure or economic harm.",
+        "findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Short-term rental tax revenue projections are highly uncertain due to market elasticity and behavioral responses.",
+            "detail": "The economic channel assumes stable tax revenue but does not account for potential host/renter behavior shifts, tourism sector adaptation, or regulatory changes that could drastically alter revenue streams. Historical data on similar taxes shows 20-40% variance in actual collections vs projections.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.75,
+            "affected_groups": [
+              "tourism sector",
+              "short-term rental hosts"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "epistemic"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_04"
+            ]
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Construction cost estimates for seawalls are subject to multi-decade inflation and material price volatility.",
+            "detail": "The 20-year timeframe exposes the project to energy price shocks, supply chain disruptions, and climate adaptation spending competition. Infrastructure projects often experience 30-50% cost overruns when spanning more than a decade.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.68,
+            "affected_groups": [
+              "taxpayers",
+              "city budget"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical",
+              "aleatory"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Flood risk reduction benefits depend on unverified climate projections and coastal dynamics.",
+            "detail": "The $15-30M/year avoided damage estimate relies on IPCC sea-level rise scenarios that may be exceeded by 2040. Local sedimentation patterns, storm intensity shifts, and subsidence rates remain poorly quantified for long-term modeling.",
+            "direction": "benefit",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "coastal residents",
+              "infrastructure"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "tail_risk",
+              "epistemic"
+            ],
+            "references_finding_id": [
+              "economic_02"
+            ]
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Administrative burden costs may scale non-linearly with tax complexity.",
+            "detail": "The $250K/year compliance cost estimate assumes stable enforcement capacity. If the tax creates new regulatory challenges (e.g., platform tracking, international guests), administrative costs could increase exponentially over time.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "city administration",
+              "taxpayers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "sensitivity_critical"
+            ],
+            "references_finding_id": [
+              "economic_03"
+            ]
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "5b6e2b44-c1f7-4159-9c20-acc54869426c",
+            "description": "Climate projections for coastal flooding are subject to significant scientific uncertainty, particularly regarding ice sheet melt rates and regional storm patterns.",
+            "impact_on_analysis": "Understates potential future flood damages if worst-case climate scenarios materialize",
+            "magnitude": 0.35
+          },
+          {
+            "note_id": "85a1cd42-5132-499c-873f-02fadd58eaca",
+            "description": "Short-term rental market dynamics in coastal cities are poorly understood due to rapid platform evolution and regulatory experimentation globally.",
+            "impact_on_analysis": "Revenue projections may be overly optimistic about host/renter price adjustment behaviors",
+            "magnitude": 0.42
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/qwen3-32b",
+        "processing_time_ms": 1181081,
+        "error_message": null,
+        "generated_at": "2026-09-27T23:05:41.382836+00:00"
+      }
+    ]
+  },
+  "compendium": {
+    "version": "compendium f0907b559bcb (35 entries)",
+    "question": "A coastal city proposes a 10% tax on short-term rental income to fund construction of a seawall protecting its low-lying neighbourhoods over the next twenty years.",
+    "selected": [
+      {
+        "id": "aristotle-political-animal",
+        "why": "The seawall project involves collective governance and communal benefit, aligning with Aristotle's concept of humans as 'political animals' requiring organized civic structures.",
+        "section": null
+      }
+    ],
+    "rejected": [],
+    "domains": null,
+    "disclosed_chars": 1795,
+    "error": null,
+    "raw": "{\"entries\": [{\"id\": \"aristotle-political-animal\", \"why\": \"The seawall project involves collective governance and communal benefit, aligning with Aristotle's concept of humans as 'political animals' requiring organized civic structures.\", \"section\": null}]}",
+    "identity": "compendium f0907b559bcb (35 entries); consulted: aristotle-political-animal",
+    "model_id": "lmstudio/qwen3-32b",
+    "stale_build": false
+  }
+}

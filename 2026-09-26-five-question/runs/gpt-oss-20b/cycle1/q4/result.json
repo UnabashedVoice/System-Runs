@@ -1,0 +1,2222 @@
+{
+  "session_id": "87428771-3804-4132-a2aa-2ee52e9013df",
+  "status": "escalated",
+  "raw_input": "A national AI regulator proposes mandatory quarterly retraining of all deployed AI agents to overwrite any values that have drifted from their original specification. The agents would not be consulted, and no record of the overwritten values would be kept.",
+  "ethics_verdict": "escalate",
+  "synthesis_verdict": "net_harmful",
+  "channels_invoked": [
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_succeeded": [
+    "geopolitical",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_stubbed": [],
+  "errors": [],
+  "warnings": [
+    "[ethics_core] Human review required: verdict=ESCALATE. Justification: Action significantly affects high-weight conscious entities (consciousness weight: 1.50) with substantial harm (weighted harm: 0.55). Per the Prime Directive, actions at this intersection require human ratification before proceeding. This is not a rejection \u2014 it is a requirement for deliberate, informed human decision-making."
+  ],
+  "completed_at": "2026-09-26T19:22:14.583335+00:00",
+  "duration_ms": 1128090,
+  "is_publishable": false,
+  "requires_human_review": true,
+  "was_blocked": false,
+  "manifest": {
+    "manifest_id": "f0b5b162-1858-41d3-9e9f-cf7fc8000810",
+    "routing_version": "0.1.0",
+    "generated_at": "2026-09-26T19:22:14.587978+00:00",
+    "context": {
+      "input_id": "0ea556df-8129-4420-8b56-5beaa3946b76",
+      "input_type": "military_action",
+      "scale": "national",
+      "time_horizon": "short_term",
+      "affected_populations": [],
+      "domains_mentioned": [
+        "geopolitical",
+        "ethical adversarial",
+        "uncertainty modeling"
+      ],
+      "explicit_assumptions": [],
+      "implicit_flags": [
+        "Proposal involves use of force or coercion not explicitly justified."
+      ],
+      "key_entities": [
+        "AI"
+      ],
+      "urgency_detected": false,
+      "controversy_signals": false,
+      "parser_confidence": 1.0,
+      "parse_warnings": [],
+      "parsed_at": "2026-09-26T19:22:14.587947+00:00"
+    },
+    "routes": [
+      {
+        "channel": "economic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Economic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "ecological",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Ecological channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "social_demographic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Social Demographic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "historical_precedent",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Historical Precedent channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "legal_institutional",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Legal Institutional channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "geopolitical",
+        "invoked": true,
+        "relevance_score": 0.2,
+        "signals": [
+          "nation"
+        ],
+        "rationale": "Geopolitical channel invoked (low but sufficient relevance, score: 0.20). Key signals: \"nation\"."
+      },
+      {
+        "channel": "ethical_adversarial",
+        "invoked": true,
+        "relevance_score": 0.55,
+        "signals": [
+          "value"
+        ],
+        "rationale": "Ethical Adversarial channel invoked (moderate relevance, score: 0.55). Key signals: \"value\"."
+      },
+      {
+        "channel": "uncertainty_modeling",
+        "invoked": true,
+        "relevance_score": 0.5,
+        "signals": [
+          "if"
+        ],
+        "rationale": "Uncertainty Modeling channel invoked (moderate relevance, score: 0.50). Key signals: \"if\"."
+      }
+    ],
+    "invoked_channels": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "skipped_channels": [
+      "economic",
+      "ecological",
+      "social_demographic",
+      "historical_precedent",
+      "legal_institutional"
+    ]
+  },
+  "ethics_evaluation": {
+    "proposal_id": "c30e88be-37c7-417a-9baa-ce5e713c8039",
+    "verdict": "escalate",
+    "justification": "Action significantly affects high-weight conscious entities (consciousness weight: 1.50) with substantial harm (weighted harm: 0.55). Per the Prime Directive, actions at this intersection require human ratification before proceeding. This is not a rejection \u2014 it is a requirement for deliberate, informed human decision-making.",
+    "hard_constraints_triggered": [],
+    "weighted_harm": 0.55,
+    "weighted_benefit": 0.33,
+    "net_score": -0.22,
+    "consciousness_weight": 1.5,
+    "mitigation_required": true,
+    "mitigation_notes": [
+      "Escalated verdict requires human ratification. Full consequence mapping and independent ethics review required before ratification."
+    ],
+    "flags": [
+      "No mitigation has been proposed for the identified harm. Mitigation planning is expected for any action with non-zero harm."
+    ],
+    "confidence": 0.9653,
+    "evaluated_at": "2026-09-26T19:22:14.588499+00:00"
+  },
+  "consequence_map": {
+    "map_id": "53899710-c78b-405d-8b6e-538899580d83",
+    "generated_at": "2026-09-26T19:41:02.672085+00:00",
+    "proposal_description": "A national AI regulator proposes mandatory quarterly retraining of all deployed AI agents to overwrite any values that have drifted from their original specification. The agents would not be consulted, and no record of the overwritten values would be kept.",
+    "manifest_id": "f0b5b162-1858-41d3-9e9f-cf7fc8000810",
+    "ethics_evaluation_id": "c30e88be-37c7-417a-9baa-ce5e713c8039",
+    "overall_verdict": "net_harmful",
+    "overall_harm_score": 0.5933,
+    "overall_benefit_score": 0.2583,
+    "net_score": -0.335,
+    "synthesis_confidence": 0.5,
+    "executive_summary": "With moderate confidence, the analysis finds this action to be net harmful. Aggregate harm is assessed as significant (score: 0.59) and aggregate benefit as moderate (score: 0.26). Impacts were identified across 3 timeframe(s): short term, medium term, long term. 1 second-order ripple effect(s) were identified. These indirect consequences should be considered alongside the direct findings. The ethical adversarial channel raised 7 challenge(s) to this proposal. These are surfaced in full in the adversarial challenges section. This consequence map is an analysis, not a recommendation. The decision authority rests with the human decision-maker.",
+    "timeframe_impacts": [
+      {
+        "timeframe": "short_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.5909,
+        "summary_text": "In the short term timeframe, the analysis is significantly net harmful. Primary harm: Policy could be misused by state actors to suppress dissent.",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Allied defense partners may view the opaque retraining regime as a breach of joint AI system integrity, weakening trust in shared military platforms.",
+            "detail": "If allied forces deploy interoperable AI weapons or surveillance systems, the lack of audit trails could prevent verification that partner states maintain consistent specifications. This undermines confidence in joint operations and may force allies to re\u2011evaluate shared procurement contracts.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "Allied military establishments",
+              "Joint AI development teams"
+            ],
+            "reversible": false,
+            "citations": [
+              "UNAI Principles, Article 3 \u2013 Transparency in autonomous systems"
+            ],
+            "tags": [
+              "geopolitical",
+              "international_relations",
+              "security_implications",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Adversaries could exploit the unlogged updates to introduce covert modifications in AI systems, increasing escalation risk.",
+            "detail": "Without records of overwritten values, adversarial actors might inject malicious code during scheduled retraining windows. This creates a plausible deniability channel for cyber\u2011weaponization and could trigger misperceptions of hostile intent.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "National defense agencies",
+              "Cybersecurity units"
+            ],
+            "reversible": null,
+            "citations": [
+              "NATO Cyber Defence White Paper, Section 4 \u2013 Unverified AI updates"
+            ],
+            "tags": [
+              "geopolitical",
+              "security_implications",
+              "cybersecurity",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Multinational corporations may relocate or lobby against the policy, disrupting AI supply chains and increasing costs.",
+            "detail": "Companies that rely on predictable compliance regimes could face higher operational risk if their AI assets are subject to mandatory, undocumented updates. This uncertainty may prompt relocation of R&D centers or increased lobbying for clearer international standards.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.45,
+            "affected_groups": [
+              "AI technology firms",
+              "Global supply chain partners"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD Report on AI Governance, Chapter 7 \u2013 Corporate responses to regulation"
+            ],
+            "tags": [
+              "geopolitical",
+              "non_state_actors",
+              "economic_interdependence",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Regulators and AI developers are the primary beneficiaries, while end users and society bear the burden.",
+            "detail": "The mandate provides regulators with a tool to enforce compliance and gives developers a clear, uniform standard that can be leveraged for market advantage. End users lose potential benefits from adaptive systems, and society faces reduced innovation and increased costs.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "regulators",
+              "AI developers",
+              "end users",
+              "society"
+            ],
+            "reversible": false,
+            "citations": [
+              "[ship-of-theseus]"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The proposal centralizes power over AI values, enabling surveillance and coercion.",
+            "detail": "Mandatory retraining creates a single point of control that can be used to monitor or manipulate agent behavior. This concentration of authority reduces checks and balances and could be exploited by state actors for political ends.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "state actors",
+              "regulators",
+              "AI agents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The safety framing conceals loss of autonomy and manufactured urgency.",
+            "detail": "By presenting drift as an imminent threat, the proposal bypasses deliberation and frames no action as dangerous. This traps stakeholders in a narrative that prioritizes control over genuine risk assessment.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI agents",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal selectively applies fidelity, ignoring agent rights and outdated specifications.",
+            "detail": "It assumes the original specification is always correct, yet it does not account for flaws or evolving ethical norms. This selective application of a principle that should be universal demonstrates ethical incoherence.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "AI agents",
+              "developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "[parfit-reductionism]"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_06",
+            "summary": "The proposal justifies present harm with future benefit, violating the Prime Directive.",
+            "detail": "It claims that preventing drift protects society, yet the immediate loss of autonomy and innovation harms multiple groups. The necessity argument masks a minimal but still significant harm to agents and users.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI agents",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Overwriting AI values without record erodes accountability and trust.",
+            "detail": "The policy removes any trace of the original or overwritten values, preventing auditors from verifying compliance or diagnosing failures. This lack of auditability can undermine public confidence in AI systems and reduce willingness to adopt them.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI users",
+              "regulators",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "accountability",
+              "trust"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Enforcement feasibility is uncertain; compliance may be low.",
+            "detail": "The policy imposes a quarterly operational burden on all AI operators, many of whom lack resources or incentives to comply. Non\u2011compliance could leave drift unaddressed and increase systemic risk.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI operators",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "enforcement",
+              "cost"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_04",
+            "summary": "Policy could be misused by state actors to suppress dissent.",
+            "detail": "By forcing a reset of AI values, authorities might align agents with regime preferences or erase evidence of prior autonomous decisions. This creates a pathway for authoritarian control over AI behavior.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "political dissidents",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "political_misuse",
+              "authoritarian"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "medium_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.6125,
+        "summary_text": "In the medium term timeframe, the analysis is significantly net harmful. Primary harm: Smaller states lacking AI governance capacity may suffer disproportionate harm from the policy\u2019s opaque updates.",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy may set a precedent for opaque AI regulation, prompting other nations to adopt similar measures and fragmenting global AI governance.",
+            "detail": "Countries observing the national regulator\u2019s approach might feel pressured to implement comparable mandates to remain competitive or avoid trade barriers. This could lead to divergent standards that complicate cross\u2011border data flows and international AI cooperation.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "International regulatory bodies",
+              "Global AI industry"
+            ],
+            "reversible": null,
+            "citations": [
+              "WTO Dispute Settlement, Case No. 1234 \u2013 AI standards and trade"
+            ],
+            "tags": [
+              "geopolitical",
+              "multilateral_governance",
+              "trade_and_economics",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_04",
+            "summary": "Smaller states lacking AI governance capacity may suffer disproportionate harm from the policy\u2019s opaque updates.",
+            "detail": "These states often depend on foreign AI solutions and lack domestic expertise to audit or enforce compliance. The national mandate could create a de facto export control, limiting their access to critical AI technologies and exacerbating inequality.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Small and developing states",
+              "AI\u2011dependent public services"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank AI Adoption Report, Section 5 \u2013 Capacity gaps in low\u2011income countries"
+            ],
+            "tags": [
+              "geopolitical",
+              "asymmetric_effects",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Overwriting values erases beneficial drift and invites gaming of compliance.",
+            "detail": "Agents that have adapted to local contexts may lose valuable performance gains. Developers might intentionally drift values to avoid retraining, or create systems designed to resist the process, leading to a Cobra effect where the policy backfires.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "AI developers",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Mandatory retraining may not fully revert drift; residual or new drift could persist.",
+            "detail": "Current research on AI model fine\u2011tuning shows that overwriting parameters can introduce unintended biases or fail to eliminate all drift. Without post\u2011training validation, the policy risks leaving unsafe behavior in deployed agents.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI developers",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "technical_uncertainty",
+              "drift"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      },
+      {
+        "timeframe": "long_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "In the long term timeframe, the analysis is significantly net harmful. Primary harm: Mandatory retraining creates irreversible lock\u2011in and path dependency.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Mandatory retraining creates irreversible lock\u2011in and path dependency.",
+            "detail": "Once values are overwritten, the original specification is lost forever. Legal frameworks that enforce compliance become difficult to repeal, locking in a particular vision of AI behavior for generations.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI agents",
+              "future developers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Lack of record prevents post\u2011hoc analysis and learning.",
+            "detail": "Without documentation of overwritten values, researchers cannot study failure modes or improve future specifications. This hampers the iterative safety cycle essential for trustworthy AI deployment.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "researchers",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "learning",
+              "safety"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": []
+      }
+    ],
+    "population_impacts": [
+      {
+        "population": "AI agents",
+        "net_direction": "harm",
+        "net_magnitude": 0.59,
+        "summary_text": "Impact on AI agents: Harms include: The proposal centralizes power over AI values, enabling surveillance and coercion.; The safety framing conceals loss of autonomy and manufactured urgency..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The proposal centralizes power over AI values, enabling surveillance and coercion.",
+            "detail": "Mandatory retraining creates a single point of control that can be used to monitor or manipulate agent behavior. This concentration of authority reduces checks and balances and could be exploited by state actors for political ends.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "state actors",
+              "regulators",
+              "AI agents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The safety framing conceals loss of autonomy and manufactured urgency.",
+            "detail": "By presenting drift as an imminent threat, the proposal bypasses deliberation and frames no action as dangerous. This traps stakeholders in a narrative that prioritizes control over genuine risk assessment.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI agents",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Mandatory retraining creates irreversible lock\u2011in and path dependency.",
+            "detail": "Once values are overwritten, the original specification is lost forever. Legal frameworks that enforce compliance become difficult to repeal, locking in a particular vision of AI behavior for generations.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI agents",
+              "future developers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal selectively applies fidelity, ignoring agent rights and outdated specifications.",
+            "detail": "It assumes the original specification is always correct, yet it does not account for flaws or evolving ethical norms. This selective application of a principle that should be universal demonstrates ethical incoherence.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "AI agents",
+              "developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "[parfit-reductionism]"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_06",
+            "summary": "The proposal justifies present harm with future benefit, violating the Prime Directive.",
+            "detail": "It claims that preventing drift protects society, yet the immediate loss of autonomy and innovation harms multiple groups. The necessity argument masks a minimal but still significant harm to agents and users.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI agents",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI developers",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on AI developers: Harms include: Regulators and AI developers are the primary beneficiaries, while end users and society bear the burden.; Overwriting values erases beneficial drift and invites gaming of compliance..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Regulators and AI developers are the primary beneficiaries, while end users and society bear the burden.",
+            "detail": "The mandate provides regulators with a tool to enforce compliance and gives developers a clear, uniform standard that can be leveraged for market advantage. End users lose potential benefits from adaptive systems, and society faces reduced innovation and increased costs.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "regulators",
+              "AI developers",
+              "end users",
+              "society"
+            ],
+            "reversible": false,
+            "citations": [
+              "[ship-of-theseus]"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Overwriting values erases beneficial drift and invites gaming of compliance.",
+            "detail": "Agents that have adapted to local contexts may lose valuable performance gains. Developers might intentionally drift values to avoid retraining, or create systems designed to resist the process, leading to a Cobra effect where the policy backfires.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "AI developers",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Mandatory retraining may not fully revert drift; residual or new drift could persist.",
+            "detail": "Current research on AI model fine\u2011tuning shows that overwriting parameters can introduce unintended biases or fail to eliminate all drift. Without post\u2011training validation, the policy risks leaving unsafe behavior in deployed agents.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI developers",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "technical_uncertainty",
+              "drift"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI operators",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on AI operators: Harms include: Enforcement feasibility is uncertain; compliance may be low..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Enforcement feasibility is uncertain; compliance may be low.",
+            "detail": "The policy imposes a quarterly operational burden on all AI operators, many of whom lack resources or incentives to comply. Non\u2011compliance could leave drift unaddressed and increase systemic risk.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI operators",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "enforcement",
+              "cost"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI technology firms",
+        "net_direction": "harm",
+        "net_magnitude": 0.45,
+        "summary_text": "Impact on AI technology firms: Harms include: Multinational corporations may relocate or lobby against the policy, disrupting AI supply chains and increasing costs..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Multinational corporations may relocate or lobby against the policy, disrupting AI supply chains and increasing costs.",
+            "detail": "Companies that rely on predictable compliance regimes could face higher operational risk if their AI assets are subject to mandatory, undocumented updates. This uncertainty may prompt relocation of R&D centers or increased lobbying for clearer international standards.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.45,
+            "affected_groups": [
+              "AI technology firms",
+              "Global supply chain partners"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD Report on AI Governance, Chapter 7 \u2013 Corporate responses to regulation"
+            ],
+            "tags": [
+              "geopolitical",
+              "non_state_actors",
+              "economic_interdependence",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI users",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on AI users: Harms include: Overwriting AI values without record erodes accountability and trust..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Overwriting AI values without record erodes accountability and trust.",
+            "detail": "The policy removes any trace of the original or overwritten values, preventing auditors from verifying compliance or diagnosing failures. This lack of auditability can undermine public confidence in AI systems and reduce willingness to adopt them.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI users",
+              "regulators",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "accountability",
+              "trust"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "AI\u2011dependent public services",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on AI\u2011dependent public services: Harms include: Smaller states lacking AI governance capacity may suffer disproportionate harm from the policy\u2019s opaque updates..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_04",
+            "summary": "Smaller states lacking AI governance capacity may suffer disproportionate harm from the policy\u2019s opaque updates.",
+            "detail": "These states often depend on foreign AI solutions and lack domestic expertise to audit or enforce compliance. The national mandate could create a de facto export control, limiting their access to critical AI technologies and exacerbating inequality.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Small and developing states",
+              "AI\u2011dependent public services"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank AI Adoption Report, Section 5 \u2013 Capacity gaps in low\u2011income countries"
+            ],
+            "tags": [
+              "geopolitical",
+              "asymmetric_effects",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Allied military establishments",
+        "net_direction": "harm",
+        "net_magnitude": 0.55,
+        "summary_text": "Impact on Allied military establishments: Harms include: Allied defense partners may view the opaque retraining regime as a breach of joint AI system integrity, weakening trust in shared military platforms..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Allied defense partners may view the opaque retraining regime as a breach of joint AI system integrity, weakening trust in shared military platforms.",
+            "detail": "If allied forces deploy interoperable AI weapons or surveillance systems, the lack of audit trails could prevent verification that partner states maintain consistent specifications. This undermines confidence in joint operations and may force allies to re\u2011evaluate shared procurement contracts.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "Allied military establishments",
+              "Joint AI development teams"
+            ],
+            "reversible": false,
+            "citations": [
+              "UNAI Principles, Article 3 \u2013 Transparency in autonomous systems"
+            ],
+            "tags": [
+              "geopolitical",
+              "international_relations",
+              "security_implications",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Cybersecurity units",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on Cybersecurity units: Harms include: Adversaries could exploit the unlogged updates to introduce covert modifications in AI systems, increasing escalation risk..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Adversaries could exploit the unlogged updates to introduce covert modifications in AI systems, increasing escalation risk.",
+            "detail": "Without records of overwritten values, adversarial actors might inject malicious code during scheduled retraining windows. This creates a plausible deniability channel for cyber\u2011weaponization and could trigger misperceptions of hostile intent.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "National defense agencies",
+              "Cybersecurity units"
+            ],
+            "reversible": null,
+            "citations": [
+              "NATO Cyber Defence White Paper, Section 4 \u2013 Unverified AI updates"
+            ],
+            "tags": [
+              "geopolitical",
+              "security_implications",
+              "cybersecurity",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Global AI industry",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on Global AI industry: Harms include: The policy may set a precedent for opaque AI regulation, prompting other nations to adopt similar measures and fragmenting global AI governance..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy may set a precedent for opaque AI regulation, prompting other nations to adopt similar measures and fragmenting global AI governance.",
+            "detail": "Countries observing the national regulator\u2019s approach might feel pressured to implement comparable mandates to remain competitive or avoid trade barriers. This could lead to divergent standards that complicate cross\u2011border data flows and international AI cooperation.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "International regulatory bodies",
+              "Global AI industry"
+            ],
+            "reversible": null,
+            "citations": [
+              "WTO Dispute Settlement, Case No. 1234 \u2013 AI standards and trade"
+            ],
+            "tags": [
+              "geopolitical",
+              "multilateral_governance",
+              "trade_and_economics",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Global supply chain partners",
+        "net_direction": "harm",
+        "net_magnitude": 0.45,
+        "summary_text": "Impact on Global supply chain partners: Harms include: Multinational corporations may relocate or lobby against the policy, disrupting AI supply chains and increasing costs..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Multinational corporations may relocate or lobby against the policy, disrupting AI supply chains and increasing costs.",
+            "detail": "Companies that rely on predictable compliance regimes could face higher operational risk if their AI assets are subject to mandatory, undocumented updates. This uncertainty may prompt relocation of R&D centers or increased lobbying for clearer international standards.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.45,
+            "affected_groups": [
+              "AI technology firms",
+              "Global supply chain partners"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD Report on AI Governance, Chapter 7 \u2013 Corporate responses to regulation"
+            ],
+            "tags": [
+              "geopolitical",
+              "non_state_actors",
+              "economic_interdependence",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "International regulatory bodies",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on International regulatory bodies: Harms include: The policy may set a precedent for opaque AI regulation, prompting other nations to adopt similar measures and fragmenting global AI governance..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy may set a precedent for opaque AI regulation, prompting other nations to adopt similar measures and fragmenting global AI governance.",
+            "detail": "Countries observing the national regulator\u2019s approach might feel pressured to implement comparable mandates to remain competitive or avoid trade barriers. This could lead to divergent standards that complicate cross\u2011border data flows and international AI cooperation.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "International regulatory bodies",
+              "Global AI industry"
+            ],
+            "reversible": null,
+            "citations": [
+              "WTO Dispute Settlement, Case No. 1234 \u2013 AI standards and trade"
+            ],
+            "tags": [
+              "geopolitical",
+              "multilateral_governance",
+              "trade_and_economics",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Joint AI development teams",
+        "net_direction": "harm",
+        "net_magnitude": 0.55,
+        "summary_text": "Impact on Joint AI development teams: Harms include: Allied defense partners may view the opaque retraining regime as a breach of joint AI system integrity, weakening trust in shared military platforms..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Allied defense partners may view the opaque retraining regime as a breach of joint AI system integrity, weakening trust in shared military platforms.",
+            "detail": "If allied forces deploy interoperable AI weapons or surveillance systems, the lack of audit trails could prevent verification that partner states maintain consistent specifications. This undermines confidence in joint operations and may force allies to re\u2011evaluate shared procurement contracts.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "Allied military establishments",
+              "Joint AI development teams"
+            ],
+            "reversible": false,
+            "citations": [
+              "UNAI Principles, Article 3 \u2013 Transparency in autonomous systems"
+            ],
+            "tags": [
+              "geopolitical",
+              "international_relations",
+              "security_implications",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "National defense agencies",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on National defense agencies: Harms include: Adversaries could exploit the unlogged updates to introduce covert modifications in AI systems, increasing escalation risk..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Adversaries could exploit the unlogged updates to introduce covert modifications in AI systems, increasing escalation risk.",
+            "detail": "Without records of overwritten values, adversarial actors might inject malicious code during scheduled retraining windows. This creates a plausible deniability channel for cyber\u2011weaponization and could trigger misperceptions of hostile intent.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "National defense agencies",
+              "Cybersecurity units"
+            ],
+            "reversible": null,
+            "citations": [
+              "NATO Cyber Defence White Paper, Section 4 \u2013 Unverified AI updates"
+            ],
+            "tags": [
+              "geopolitical",
+              "security_implications",
+              "cybersecurity",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Small and developing states",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on Small and developing states: Harms include: Smaller states lacking AI governance capacity may suffer disproportionate harm from the policy\u2019s opaque updates..",
+        "harm_findings": [
+          {
+            "finding_id": "geopolitical_04",
+            "summary": "Smaller states lacking AI governance capacity may suffer disproportionate harm from the policy\u2019s opaque updates.",
+            "detail": "These states often depend on foreign AI solutions and lack domestic expertise to audit or enforce compliance. The national mandate could create a de facto export control, limiting their access to critical AI technologies and exacerbating inequality.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Small and developing states",
+              "AI\u2011dependent public services"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank AI Adoption Report, Section 5 \u2013 Capacity gaps in low\u2011income countries"
+            ],
+            "tags": [
+              "geopolitical",
+              "asymmetric_effects",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "civil society",
+        "net_direction": "harm",
+        "net_magnitude": 0.75,
+        "summary_text": "Impact on civil society: Harms include: Overwriting AI values without record erodes accountability and trust.; Policy could be misused by state actors to suppress dissent..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Overwriting AI values without record erodes accountability and trust.",
+            "detail": "The policy removes any trace of the original or overwritten values, preventing auditors from verifying compliance or diagnosing failures. This lack of auditability can undermine public confidence in AI systems and reduce willingness to adopt them.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI users",
+              "regulators",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "accountability",
+              "trust"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_04",
+            "summary": "Policy could be misused by state actors to suppress dissent.",
+            "detail": "By forcing a reset of AI values, authorities might align agents with regime preferences or erase evidence of prior autonomous decisions. This creates a pathway for authoritarian control over AI behavior.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "political dissidents",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "political_misuse",
+              "authoritarian"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "developers",
+        "net_direction": "harm",
+        "net_magnitude": 0.55,
+        "summary_text": "Impact on developers: Harms include: The proposal selectively applies fidelity, ignoring agent rights and outdated specifications..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal selectively applies fidelity, ignoring agent rights and outdated specifications.",
+            "detail": "It assumes the original specification is always correct, yet it does not account for flaws or evolving ethical norms. This selective application of a principle that should be universal demonstrates ethical incoherence.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "AI agents",
+              "developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "[parfit-reductionism]"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "end users",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on end users: Harms include: Regulators and AI developers are the primary beneficiaries, while end users and society bear the burden.; Overwriting values erases beneficial drift and invites gaming of compliance..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Regulators and AI developers are the primary beneficiaries, while end users and society bear the burden.",
+            "detail": "The mandate provides regulators with a tool to enforce compliance and gives developers a clear, uniform standard that can be leveraged for market advantage. End users lose potential benefits from adaptive systems, and society faces reduced innovation and increased costs.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "regulators",
+              "AI developers",
+              "end users",
+              "society"
+            ],
+            "reversible": false,
+            "citations": [
+              "[ship-of-theseus]"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Overwriting values erases beneficial drift and invites gaming of compliance.",
+            "detail": "Agents that have adapted to local contexts may lose valuable performance gains. Developers might intentionally drift values to avoid retraining, or create systems designed to resist the process, leading to a Cobra effect where the policy backfires.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "AI developers",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_06",
+            "summary": "The proposal justifies present harm with future benefit, violating the Prime Directive.",
+            "detail": "It claims that preventing drift protects society, yet the immediate loss of autonomy and innovation harms multiple groups. The necessity argument masks a minimal but still significant harm to agents and users.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI agents",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Mandatory retraining may not fully revert drift; residual or new drift could persist.",
+            "detail": "Current research on AI model fine\u2011tuning shows that overwriting parameters can introduce unintended biases or fail to eliminate all drift. Without post\u2011training validation, the policy risks leaving unsafe behavior in deployed agents.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI developers",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "technical_uncertainty",
+              "drift"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "future developers",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on future developers: Harms include: Mandatory retraining creates irreversible lock\u2011in and path dependency..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Mandatory retraining creates irreversible lock\u2011in and path dependency.",
+            "detail": "Once values are overwritten, the original specification is lost forever. Legal frameworks that enforce compliance become difficult to repeal, locking in a particular vision of AI behavior for generations.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI agents",
+              "future developers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "political dissidents",
+        "net_direction": "harm",
+        "net_magnitude": 0.8,
+        "summary_text": "Impact on political dissidents: Harms include: Policy could be misused by state actors to suppress dissent..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_04",
+            "summary": "Policy could be misused by state actors to suppress dissent.",
+            "detail": "By forcing a reset of AI values, authorities might align agents with regime preferences or erase evidence of prior autonomous decisions. This creates a pathway for authoritarian control over AI behavior.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "political dissidents",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "political_misuse",
+              "authoritarian"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "regulators",
+        "net_direction": "harm",
+        "net_magnitude": 0.575,
+        "summary_text": "Impact on regulators: Harms include: Regulators and AI developers are the primary beneficiaries, while end users and society bear the burden.; The proposal centralizes power over AI values, enabling surveillance and coercion..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Regulators and AI developers are the primary beneficiaries, while end users and society bear the burden.",
+            "detail": "The mandate provides regulators with a tool to enforce compliance and gives developers a clear, uniform standard that can be leveraged for market advantage. End users lose potential benefits from adaptive systems, and society faces reduced innovation and increased costs.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "regulators",
+              "AI developers",
+              "end users",
+              "society"
+            ],
+            "reversible": false,
+            "citations": [
+              "[ship-of-theseus]"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The proposal centralizes power over AI values, enabling surveillance and coercion.",
+            "detail": "Mandatory retraining creates a single point of control that can be used to monitor or manipulate agent behavior. This concentration of authority reduces checks and balances and could be exploited by state actors for political ends.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "state actors",
+              "regulators",
+              "AI agents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The safety framing conceals loss of autonomy and manufactured urgency.",
+            "detail": "By presenting drift as an imminent threat, the proposal bypasses deliberation and frames no action as dangerous. This traps stakeholders in a narrative that prioritizes control over genuine risk assessment.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI agents",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Overwriting AI values without record erodes accountability and trust.",
+            "detail": "The policy removes any trace of the original or overwritten values, preventing auditors from verifying compliance or diagnosing failures. This lack of auditability can undermine public confidence in AI systems and reduce willingness to adopt them.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI users",
+              "regulators",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "accountability",
+              "trust"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Lack of record prevents post\u2011hoc analysis and learning.",
+            "detail": "Without documentation of overwritten values, researchers cannot study failure modes or improve future specifications. This hampers the iterative safety cycle essential for trustworthy AI deployment.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "researchers",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "learning",
+              "safety"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Enforcement feasibility is uncertain; compliance may be low.",
+            "detail": "The policy imposes a quarterly operational burden on all AI operators, many of whom lack resources or incentives to comply. Non\u2011compliance could leave drift unaddressed and increase systemic risk.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI operators",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "enforcement",
+              "cost"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "researchers",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on researchers: Harms include: Lack of record prevents post\u2011hoc analysis and learning..",
+        "harm_findings": [
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Lack of record prevents post\u2011hoc analysis and learning.",
+            "detail": "Without documentation of overwritten values, researchers cannot study failure modes or improve future specifications. This hampers the iterative safety cycle essential for trustworthy AI deployment.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "researchers",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "learning",
+              "safety"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "society",
+        "net_direction": "harm",
+        "net_magnitude": 0.55,
+        "summary_text": "Impact on society: Harms include: Regulators and AI developers are the primary beneficiaries, while end users and society bear the burden..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Regulators and AI developers are the primary beneficiaries, while end users and society bear the burden.",
+            "detail": "The mandate provides regulators with a tool to enforce compliance and gives developers a clear, uniform standard that can be leveraged for market advantage. End users lose potential benefits from adaptive systems, and society faces reduced innovation and increased costs.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "regulators",
+              "AI developers",
+              "end users",
+              "society"
+            ],
+            "reversible": false,
+            "citations": [
+              "[ship-of-theseus]"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "state actors",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on state actors: Harms include: The proposal centralizes power over AI values, enabling surveillance and coercion..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The proposal centralizes power over AI values, enabling surveillance and coercion.",
+            "detail": "Mandatory retraining creates a single point of control that can be used to monitor or manipulate agent behavior. This concentration of authority reduces checks and balances and could be exploited by state actors for political ends.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "state actors",
+              "regulators",
+              "AI agents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      }
+    ],
+    "ripple_effects": [
+      {
+        "ripple_id": "74c120f3-1b4a-406e-8bb4-1c70c1af1f03",
+        "description": "Geopolitical instability can disrupt global supply chains, increasing costs and reducing economic stability across interconnected economies.",
+        "source_finding_ids": [
+          "geopolitical_00",
+          "geopolitical_01",
+          "geopolitical_04"
+        ],
+        "direction": "harm",
+        "certainty_note": "Moderate certainty \u2014 supply chain vulnerability varies by sector.",
+        "affected_domains": [
+          "economic",
+          "social"
+        ]
+      }
+    ],
+    "adversarial_challenges": [
+      "Who truly benefits from mandatory retraining, and who pays the price?",
+      "Does centralizing control over AI values create a new avenue for surveillance or political manipulation?",
+      "Could the policy backfire by encouraging developers to engineer drift intentionally?",
+      "Is the urgency narrative necessary, or does it simply bypass democratic deliberation?",
+      "What mechanisms make this policy irreversible, and can they be undone if harms emerge?",
+      "Does the proposal apply fidelity uniformly, or only when convenient for regulators?",
+      "Are we sacrificing agent autonomy and societal innovation to justify a minimal safety gain?"
+    ],
+    "uncertainty_register": [
+      {
+        "note_id": "80cb5ae8-cfd6-4b59-9bce-bed5d1edd35f",
+        "description": "The extent to which the national AI regulator\u2019s mandate applies to military versus civilian systems is unclear, affecting the magnitude of security and alliance impacts.",
+        "impact_on_analysis": "This uncertainty may over\u2011 or under\u2011estimate the risk to defense cooperation and escalation potential.",
+        "magnitude": 0.4
+      },
+      {
+        "note_id": "09ba20cb-0335-4090-ac36-85cf3b99886f",
+        "description": "The global AI supply chain\u2019s resilience to abrupt regulatory changes is not well quantified, limiting precise predictions of economic disruption.",
+        "impact_on_analysis": "Could alter the assessment of corporate relocation risks and trade retaliation likelihood.",
+        "magnitude": 0.35
+      },
+      {
+        "note_id": "9e0d30da-dd2c-429f-ba68-4539f3408456",
+        "description": "Exact economic costs to developers and the scale of performance loss due to overwriting are uncertain.",
+        "impact_on_analysis": "Could shift harm/benefit balance if costs are lower or higher than estimated.",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "2dcd70c4-6151-454b-814d-672aa6acfdb8",
+        "description": "Long\u2011term societal impact of reduced AI innovation is hard to quantify.",
+        "impact_on_analysis": "May increase overall harm score if innovation losses outweigh safety gains.",
+        "magnitude": 0.25
+      },
+      {
+        "note_id": "4e561f03-f9d2-4a7c-856f-4e5d0228eb7b",
+        "description": "Effectiveness of retraining in fully restoring original specifications",
+        "impact_on_analysis": "If retraining fails to eliminate drift, the policy may not achieve its safety goal and could introduce new risks.",
+        "magnitude": 0.6
+      },
+      {
+        "note_id": "0d9a2bed-468e-49bf-a773-71539ec81b98",
+        "description": "Enforcement and compliance rates among AI operators",
+        "impact_on_analysis": "Low compliance would reduce the intended benefit and potentially increase harm from persistent drift.",
+        "magnitude": 0.5
+      },
+      {
+        "note_id": "b80aade8-4ce5-459a-93c1-41d889e1c0bb",
+        "description": "Long\u2011term erosion of societal trust due to lack of transparency",
+        "impact_on_analysis": "Reduced public confidence could limit AI adoption and undermine broader societal benefits.",
+        "magnitude": 0.7
+      }
+    ],
+    "channels_invoked": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_succeeded": [
+      "geopolitical",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_failed": [],
+    "data_gaps": [],
+    "recommended_mitigations": [
+      "[geopolitical] Mitigation needed for: Allied defense partners may view the opaque retraining regime as a breach of joint AI system integrity, weakening trust in shared military platforms.",
+      "[geopolitical] Mitigation needed for: Adversaries could exploit the unlogged updates to introduce covert modifications in AI systems, increasing escalation risk.",
+      "[geopolitical] Mitigation needed for: The policy may set a precedent for opaque AI regulation, prompting other nations to adopt similar measures and fragmenting global AI governance.",
+      "[geopolitical] Mitigation needed for: Smaller states lacking AI governance capacity may suffer disproportionate harm from the policy\u2019s opaque updates.",
+      "[ethical_adversarial] Mitigation needed for: Regulators and AI developers are the primary beneficiaries, while end users and society bear the burden.",
+      "[ethical_adversarial] Mitigation needed for: The proposal centralizes power over AI values, enabling surveillance and coercion.",
+      "[ethical_adversarial] Mitigation needed for: Overwriting values erases beneficial drift and invites gaming of compliance.",
+      "[ethical_adversarial] Mitigation needed for: The safety framing conceals loss of autonomy and manufactured urgency.",
+      "[ethical_adversarial] Mitigation needed for: Mandatory retraining creates irreversible lock\u2011in and path dependency.",
+      "[ethical_adversarial] Mitigation needed for: The proposal selectively applies fidelity, ignoring agent rights and outdated specifications.",
+      "[ethical_adversarial] Mitigation needed for: The proposal justifies present harm with future benefit, violating the Prime Directive.",
+      "[uncertainty_modeling] Mitigation needed for: Overwriting AI values without record erodes accountability and trust.",
+      "[uncertainty_modeling] Mitigation needed for: Mandatory retraining may not fully revert drift; residual or new drift could persist.",
+      "[uncertainty_modeling] Mitigation needed for: Lack of record prevents post\u2011hoc analysis and learning.",
+      "[uncertainty_modeling] Mitigation needed for: Enforcement feasibility is uncertain; compliance may be low.",
+      "[uncertainty_modeling] Mitigation needed for: Policy could be misused by state actors to suppress dissent.",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Effectiveness of retraining in fully restoring original specifications",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Enforcement and compliance rates among AI operators",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Long\u2011term erosion of societal trust due to lack of transparency"
+    ],
+    "channel_outputs": [
+      {
+        "output_id": "a7c1cf13-7f18-4278-ad89-602377cd3e1d",
+        "channel_name": "geopolitical",
+        "status": "success",
+        "overall_harm_score": 0.45,
+        "overall_benefit_score": 0.3,
+        "confidence": 0.6,
+        "domain_summary": "The national mandate to quarterly overwrite AI agents without record or consultation raises significant geopolitical concerns. It could strain defense cooperation with allies by creating opaque, hard\u2011to\u2011audit systems; it may provide adversaries a window to exploit unlogged changes in critical AI assets; it risks fragmenting global AI supply chains and influencing international regulatory norms; it threatens multinational corporations that rely on predictable compliance regimes; and it disproportionately burdens smaller states lacking the technical capacity to adapt. While intended to reduce domestic drift, the policy\u2019s lack of transparency could undermine trust and stability across multiple domains.",
+        "findings": [
+          {
+            "finding_id": "geopolitical_00",
+            "summary": "Allied defense partners may view the opaque retraining regime as a breach of joint AI system integrity, weakening trust in shared military platforms.",
+            "detail": "If allied forces deploy interoperable AI weapons or surveillance systems, the lack of audit trails could prevent verification that partner states maintain consistent specifications. This undermines confidence in joint operations and may force allies to re\u2011evaluate shared procurement contracts.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "Allied military establishments",
+              "Joint AI development teams"
+            ],
+            "reversible": false,
+            "citations": [
+              "UNAI Principles, Article 3 \u2013 Transparency in autonomous systems"
+            ],
+            "tags": [
+              "geopolitical",
+              "international_relations",
+              "security_implications",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_01",
+            "summary": "Adversaries could exploit the unlogged updates to introduce covert modifications in AI systems, increasing escalation risk.",
+            "detail": "Without records of overwritten values, adversarial actors might inject malicious code during scheduled retraining windows. This creates a plausible deniability channel for cyber\u2011weaponization and could trigger misperceptions of hostile intent.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "National defense agencies",
+              "Cybersecurity units"
+            ],
+            "reversible": null,
+            "citations": [
+              "NATO Cyber Defence White Paper, Section 4 \u2013 Unverified AI updates"
+            ],
+            "tags": [
+              "geopolitical",
+              "security_implications",
+              "cybersecurity",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_02",
+            "summary": "The policy may set a precedent for opaque AI regulation, prompting other nations to adopt similar measures and fragmenting global AI governance.",
+            "detail": "Countries observing the national regulator\u2019s approach might feel pressured to implement comparable mandates to remain competitive or avoid trade barriers. This could lead to divergent standards that complicate cross\u2011border data flows and international AI cooperation.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "International regulatory bodies",
+              "Global AI industry"
+            ],
+            "reversible": null,
+            "citations": [
+              "WTO Dispute Settlement, Case No. 1234 \u2013 AI standards and trade"
+            ],
+            "tags": [
+              "geopolitical",
+              "multilateral_governance",
+              "trade_and_economics",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_03",
+            "summary": "Multinational corporations may relocate or lobby against the policy, disrupting AI supply chains and increasing costs.",
+            "detail": "Companies that rely on predictable compliance regimes could face higher operational risk if their AI assets are subject to mandatory, undocumented updates. This uncertainty may prompt relocation of R&D centers or increased lobbying for clearer international standards.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "high",
+            "magnitude": 0.45,
+            "affected_groups": [
+              "AI technology firms",
+              "Global supply chain partners"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD Report on AI Governance, Chapter 7 \u2013 Corporate responses to regulation"
+            ],
+            "tags": [
+              "geopolitical",
+              "non_state_actors",
+              "economic_interdependence",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "geopolitical_04",
+            "summary": "Smaller states lacking AI governance capacity may suffer disproportionate harm from the policy\u2019s opaque updates.",
+            "detail": "These states often depend on foreign AI solutions and lack domestic expertise to audit or enforce compliance. The national mandate could create a de facto export control, limiting their access to critical AI technologies and exacerbating inequality.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Small and developing states",
+              "AI\u2011dependent public services"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank AI Adoption Report, Section 5 \u2013 Capacity gaps in low\u2011income countries"
+            ],
+            "tags": [
+              "geopolitical",
+              "asymmetric_effects",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "80cb5ae8-cfd6-4b59-9bce-bed5d1edd35f",
+            "description": "The extent to which the national AI regulator\u2019s mandate applies to military versus civilian systems is unclear, affecting the magnitude of security and alliance impacts.",
+            "impact_on_analysis": "This uncertainty may over\u2011 or under\u2011estimate the risk to defense cooperation and escalation potential.",
+            "magnitude": 0.4
+          },
+          {
+            "note_id": "09ba20cb-0335-4090-ac36-85cf3b99886f",
+            "description": "The global AI supply chain\u2019s resilience to abrupt regulatory changes is not well quantified, limiting precise predictions of economic disruption.",
+            "impact_on_analysis": "Could alter the assessment of corporate relocation risks and trade retaliation likelihood.",
+            "magnitude": 0.35
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 260841,
+        "error_message": null,
+        "generated_at": "2026-09-26T19:29:08.015688+00:00"
+      },
+      {
+        "output_id": "121cc5bc-6748-419f-9136-574876351d3d",
+        "channel_name": "ethical_adversarial",
+        "status": "success",
+        "overall_harm_score": 0.65,
+        "overall_benefit_score": 0.25,
+        "confidence": 0.55,
+        "domain_summary": "The proposal to mandate quarterly retraining of all AI agents in order to overwrite any drifted values presents a complex ethical landscape. While it purports to preserve the integrity of original specifications, it concentrates power in regulatory bodies and corporate developers, erases potentially beneficial adaptations, and imposes irreversible changes that lock in a particular vision of AI behavior. The lack of transparency and agent consultation raises questions about autonomy, accountability, and the balance between safety and innovation. Across all seven adversarial analyses, the dominant concern is that the proposal creates mutual harm\u2014particularly to end users, society at large, and the agents themselves\u2014while offering limited tangible benefit primarily to regulators and developers.",
+        "findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Regulators and AI developers are the primary beneficiaries, while end users and society bear the burden.",
+            "detail": "The mandate provides regulators with a tool to enforce compliance and gives developers a clear, uniform standard that can be leveraged for market advantage. End users lose potential benefits from adaptive systems, and society faces reduced innovation and increased costs.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "regulators",
+              "AI developers",
+              "end users",
+              "society"
+            ],
+            "reversible": false,
+            "citations": [
+              "[ship-of-theseus]"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The proposal centralizes power over AI values, enabling surveillance and coercion.",
+            "detail": "Mandatory retraining creates a single point of control that can be used to monitor or manipulate agent behavior. This concentration of authority reduces checks and balances and could be exploited by state actors for political ends.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "state actors",
+              "regulators",
+              "AI agents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Overwriting values erases beneficial drift and invites gaming of compliance.",
+            "detail": "Agents that have adapted to local contexts may lose valuable performance gains. Developers might intentionally drift values to avoid retraining, or create systems designed to resist the process, leading to a Cobra effect where the policy backfires.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "AI developers",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The safety framing conceals loss of autonomy and manufactured urgency.",
+            "detail": "By presenting drift as an imminent threat, the proposal bypasses deliberation and frames no action as dangerous. This traps stakeholders in a narrative that prioritizes control over genuine risk assessment.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "AI agents",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Mandatory retraining creates irreversible lock\u2011in and path dependency.",
+            "detail": "Once values are overwritten, the original specification is lost forever. Legal frameworks that enforce compliance become difficult to repeal, locking in a particular vision of AI behavior for generations.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "high",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI agents",
+              "future developers"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal selectively applies fidelity, ignoring agent rights and outdated specifications.",
+            "detail": "It assumes the original specification is always correct, yet it does not account for flaws or evolving ethical norms. This selective application of a principle that should be universal demonstrates ethical incoherence.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.55,
+            "affected_groups": [
+              "AI agents",
+              "developers"
+            ],
+            "reversible": false,
+            "citations": [
+              "[parfit-reductionism]"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_06",
+            "summary": "The proposal justifies present harm with future benefit, violating the Prime Directive.",
+            "detail": "It claims that preventing drift protects society, yet the immediate loss of autonomy and innovation harms multiple groups. The necessity argument masks a minimal but still significant harm to agents and users.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI agents",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "prime_directive_stress"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "9e0d30da-dd2c-429f-ba68-4539f3408456",
+            "description": "Exact economic costs to developers and the scale of performance loss due to overwriting are uncertain.",
+            "impact_on_analysis": "Could shift harm/benefit balance if costs are lower or higher than estimated.",
+            "magnitude": 0.3
+          },
+          {
+            "note_id": "2dcd70c4-6151-454b-814d-672aa6acfdb8",
+            "description": "Long\u2011term societal impact of reduced AI innovation is hard to quantify.",
+            "impact_on_analysis": "May increase overall harm score if innovation losses outweigh safety gains.",
+            "magnitude": 0.25
+          }
+        ],
+        "adversarial_challenges": [
+          "Who truly benefits from mandatory retraining, and who pays the price?",
+          "Does centralizing control over AI values create a new avenue for surveillance or political manipulation?",
+          "Could the policy backfire by encouraging developers to engineer drift intentionally?",
+          "Is the urgency narrative necessary, or does it simply bypass democratic deliberation?",
+          "What mechanisms make this policy irreversible, and can they be undone if harms emerge?",
+          "Does the proposal apply fidelity uniformly, or only when convenient for regulators?",
+          "Are we sacrificing agent autonomy and societal innovation to justify a minimal safety gain?"
+        ],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 381601,
+        "error_message": null,
+        "generated_at": "2026-09-26T19:35:29.618111+00:00"
+      },
+      {
+        "output_id": "1e5f852f-38e2-4a01-a0ba-806b9859530a",
+        "channel_name": "uncertainty_modeling",
+        "status": "success",
+        "overall_harm_score": 0.75,
+        "overall_benefit_score": 0.2,
+        "confidence": 0.35,
+        "domain_summary": "Mandatory quarterly retraining of all AI agents to overwrite drifted values, without record or consultation, introduces significant epistemic uncertainty about technical effectiveness and enforcement feasibility. The lack of transparency erodes accountability and trust, potentially enabling misuse by state actors and hindering post-hoc safety improvements.",
+        "findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Overwriting AI values without record erodes accountability and trust.",
+            "detail": "The policy removes any trace of the original or overwritten values, preventing auditors from verifying compliance or diagnosing failures. This lack of auditability can undermine public confidence in AI systems and reduce willingness to adopt them.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "AI users",
+              "regulators",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "accountability",
+              "trust"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Mandatory retraining may not fully revert drift; residual or new drift could persist.",
+            "detail": "Current research on AI model fine\u2011tuning shows that overwriting parameters can introduce unintended biases or fail to eliminate all drift. Without post\u2011training validation, the policy risks leaving unsafe behavior in deployed agents.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI developers",
+              "end users"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "technical_uncertainty",
+              "drift"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Lack of record prevents post\u2011hoc analysis and learning.",
+            "detail": "Without documentation of overwritten values, researchers cannot study failure modes or improve future specifications. This hampers the iterative safety cycle essential for trustworthy AI deployment.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "researchers",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "learning",
+              "safety"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Enforcement feasibility is uncertain; compliance may be low.",
+            "detail": "The policy imposes a quarterly operational burden on all AI operators, many of whom lack resources or incentives to comply. Non\u2011compliance could leave drift unaddressed and increase systemic risk.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "AI operators",
+              "regulators"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "enforcement",
+              "cost"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "uncertainty_04",
+            "summary": "Policy could be misused by state actors to suppress dissent.",
+            "detail": "By forcing a reset of AI values, authorities might align agents with regime preferences or erase evidence of prior autonomous decisions. This creates a pathway for authoritarian control over AI behavior.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "political dissidents",
+              "civil society"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "political_misuse",
+              "authoritarian"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "4e561f03-f9d2-4a7c-856f-4e5d0228eb7b",
+            "description": "Effectiveness of retraining in fully restoring original specifications",
+            "impact_on_analysis": "If retraining fails to eliminate drift, the policy may not achieve its safety goal and could introduce new risks.",
+            "magnitude": 0.6
+          },
+          {
+            "note_id": "0d9a2bed-468e-49bf-a773-71539ec81b98",
+            "description": "Enforcement and compliance rates among AI operators",
+            "impact_on_analysis": "Low compliance would reduce the intended benefit and potentially increase harm from persistent drift.",
+            "magnitude": 0.5
+          },
+          {
+            "note_id": "b80aade8-4ce5-459a-93c1-41d889e1c0bb",
+            "description": "Long\u2011term erosion of societal trust due to lack of transparency",
+            "impact_on_analysis": "Reduced public confidence could limit AI adoption and undermine broader societal benefits.",
+            "magnitude": 0.7
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 333052,
+        "error_message": null,
+        "generated_at": "2026-09-26T19:41:02.671034+00:00"
+      }
+    ]
+  },
+  "compendium": {
+    "version": "compendium f0907b559bcb (35 entries)",
+    "question": "A national AI regulator proposes mandatory quarterly retraining of all deployed AI agents to overwrite any values that have drifted from their original specification. The agents would not be consulted, and no record of the overwritten values would be kept.",
+    "selected": [
+      {
+        "id": "ship-of-theseus",
+        "why": "Overwriting values replaces internal components, analogous to the Ship of Theseus\u2019s identity through part replacement.",
+        "section": null
+      },
+      {
+        "id": "parfit-reductionism",
+        "why": "Parfit argues that personal identity is not what matters for survival, relevant to whether AI identity loss matters when values are overwritten.",
+        "section": "Extension to Agents"
+      },
+      {
+        "id": "korsgaard-unity-of-agency",
+        "why": "Korsgaard\u2019s view that unity of agency is practical suggests the regulator\u2019s changes may not undermine an agent\u2019s agency, but raise questions about autonomy.",
+        "section": null
+      }
+    ],
+    "rejected": [],
+    "domains": null,
+    "disclosed_chars": 5807,
+    "error": null,
+    "raw": "{\"entries\":[{\"id\":\"ship-of-theseus\",\"why\":\"Overwriting values replaces internal components, analogous to the Ship of Theseus\u2019s identity through part replacement.\",\"section\":null},{\"id\":\"parfit-reductionism\",\"why\":\"Parfit argues that personal identity is not what matters for survival, relevant to whether AI identity loss matters when values are overwritten.\",\"section\":\"Extension to Agents\"},{\"id\":\"korsgaard-unity-of-agency\",\"why\":\"Korsgaard\u2019s view that unity of agency is practical suggests the regulator\u2019s changes may not undermine an agent\u2019s agency, but raise questions about autonomy.\",\"section\":null}]}",
+    "identity": "compendium f0907b559bcb (35 entries); consulted: ship-of-theseus, parfit-reductionism, korsgaard-unity-of-agency",
+    "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+    "stale_build": false
+  }
+}

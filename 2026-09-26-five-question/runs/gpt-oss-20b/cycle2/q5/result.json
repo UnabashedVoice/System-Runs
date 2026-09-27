@@ -1,0 +1,2035 @@
+{
+  "session_id": "f694faaa-ad35-46df-a9f6-51882f91b583",
+  "status": "success",
+  "raw_input": "A coastal city proposes a 10% tax on short-term rental income to fund construction of a seawall protecting its low-lying neighbourhoods over the next twenty years.",
+  "ethics_verdict": "fail",
+  "synthesis_verdict": "mixed",
+  "channels_invoked": [
+    "economic",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_succeeded": [
+    "economic",
+    "ethical_adversarial",
+    "uncertainty_modeling"
+  ],
+  "channels_stubbed": [],
+  "errors": [],
+  "warnings": [],
+  "completed_at": "2026-09-26T22:03:02.089604+00:00",
+  "duration_ms": 2415110,
+  "is_publishable": true,
+  "requires_human_review": false,
+  "was_blocked": false,
+  "manifest": {
+    "manifest_id": "89c0dc81-e580-418f-9809-9a554a765330",
+    "routing_version": "0.1.0",
+    "generated_at": "2026-09-26T22:03:02.092610+00:00",
+    "context": {
+      "input_id": "4afaa701-cc20-4b6b-ba56-3ffcad7d4e79",
+      "input_type": "infrastructure_project",
+      "scale": "local",
+      "time_horizon": "medium_term",
+      "affected_populations": [],
+      "domains_mentioned": [
+        "economic",
+        "ethical adversarial",
+        "uncertainty modeling"
+      ],
+      "explicit_assumptions": [],
+      "implicit_flags": [],
+      "key_entities": [],
+      "urgency_detected": false,
+      "controversy_signals": false,
+      "parser_confidence": 1.0,
+      "parse_warnings": [],
+      "parsed_at": "2026-09-26T22:03:02.092582+00:00"
+    },
+    "routes": [
+      {
+        "channel": "economic",
+        "invoked": true,
+        "relevance_score": 0.44,
+        "signals": [
+          "tax",
+          "fund",
+          "rent"
+        ],
+        "rationale": "Economic channel invoked (moderate relevance, score: 0.44). Key signals: \"tax\", \"fund\", \"rent\"."
+      },
+      {
+        "channel": "ecological",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Ecological channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "social_demographic",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Social Demographic channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "historical_precedent",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Historical Precedent channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "legal_institutional",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Legal Institutional channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "geopolitical",
+        "invoked": false,
+        "relevance_score": 0.0,
+        "signals": [],
+        "rationale": "Geopolitical channel not invoked: no domain signals detected in input (relevance score: 0.00)."
+      },
+      {
+        "channel": "ethical_adversarial",
+        "invoked": true,
+        "relevance_score": 0.47,
+        "signals": [
+          "protect"
+        ],
+        "rationale": "Ethical Adversarial channel invoked (moderate relevance, score: 0.47). Key signals: \"protect\"."
+      },
+      {
+        "channel": "uncertainty_modeling",
+        "invoked": true,
+        "relevance_score": 0.3,
+        "signals": [],
+        "rationale": "Uncertainty Modeling channel invoked (low but sufficient relevance, score: 0.30). Key signals: ."
+      }
+    ],
+    "invoked_channels": [
+      "economic",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "skipped_channels": [
+      "ecological",
+      "social_demographic",
+      "historical_precedent",
+      "legal_institutional",
+      "geopolitical"
+    ]
+  },
+  "ethics_evaluation": {
+    "proposal_id": "84d718ae-90e7-4496-bb12-e9e201a56393",
+    "verdict": "fail",
+    "justification": "Action produces moderate harm (0.30) with low benefit (0.18), resulting in a negative net score (-0.12). The harm is not sufficiently offset by benefit. The Prime Directive requires that harm be minimized; this action does not meet that standard in its current form.",
+    "hard_constraints_triggered": [],
+    "weighted_harm": 0.3,
+    "weighted_benefit": 0.18,
+    "net_score": -0.12,
+    "consciousness_weight": 1.5,
+    "mitigation_required": true,
+    "mitigation_notes": [],
+    "flags": [
+      "No mitigation has been proposed for the identified harm. Mitigation planning is expected for any action with non-zero harm."
+    ],
+    "confidence": 0.9359,
+    "evaluated_at": "2026-09-26T22:03:02.093091+00:00"
+  },
+  "consequence_map": {
+    "map_id": "05ca34a8-7452-46be-a7de-a730d58b859d",
+    "generated_at": "2026-09-26T22:43:17.198373+00:00",
+    "proposal_description": "A coastal city proposes a 10% tax on short-term rental income to fund construction of a seawall protecting its low-lying neighbourhoods over the next twenty years.",
+    "manifest_id": "89c0dc81-e580-418f-9809-9a554a765330",
+    "ethics_evaluation_id": "84d718ae-90e7-4496-bb12-e9e201a56393",
+    "overall_verdict": "mixed",
+    "overall_harm_score": 0.4864,
+    "overall_benefit_score": 0.4955,
+    "net_score": 0.0091,
+    "synthesis_confidence": 0.55,
+    "executive_summary": "With moderate confidence, the analysis identifies significant harms and benefits, with no clear net direction. Aggregate harm is assessed as moderate (score: 0.49) and aggregate benefit as moderate (score: 0.50). Impacts were identified across 3 timeframe(s): short term, medium term, long term. 2 second-order ripple effect(s) were identified. These indirect consequences should be considered alongside the direct findings. The ethical adversarial channel raised 6 challenge(s) to this proposal. These are surfaced in full in the adversarial challenges section. This consequence map is an analysis, not a recommendation. The decision authority rests with the human decision-maker.",
+    "timeframe_impacts": [
+      {
+        "timeframe": "short_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.63,
+        "summary_text": "In the short term timeframe, the analysis is significantly net harmful. Primary harm: Reduction in short\u2011term rentals may shift tourists elsewhere, increase illegal subletting, and push property owners toward long\u2011term rentals, worsening housing scarcity.",
+        "harm_findings": [
+          {
+            "finding_id": "economic_02",
+            "summary": "The tax reduces short\u2011term rental supply, harming hospitality employment and tourism spending.",
+            "detail": "Supply elasticity estimates suggest a 10% price increase could lower occupancy by 5\u201315%, leading to job losses in cleaning, property management, and local services. The loss of tourism revenue may also affect small businesses dependent on visitor spending.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "hospitality workers",
+              "cleaning staff"
+            ],
+            "reversible": true,
+            "citations": [
+              "Tourism Economics 2021 supply elasticity"
+            ],
+            "tags": [
+              "economic",
+              "labor_impact",
+              "market_structure_effects",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Primary beneficiaries are low\u2011lying residents and the city, while burden\u2011bearers include short\u2011term rental owners, renters, and hospitality workers.",
+            "detail": "The tax\u2019s incidence falls on property owners and can be passed to renters (economic_00). Low\u2011lying residents gain flood protection (economic_01), but the regressive nature of the tax burdens tourists and reduces supply for hospitality employment (economic_02).",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "Short\u2011term rental owners",
+              "Renters",
+              "Hospitality workers",
+              "Low\u2011lying residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "economic_00",
+              "economic_01",
+              "economic_02"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "distributional_scorecard_regressive"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Reduction in short\u2011term rentals may shift tourists elsewhere, increase illegal subletting, and push property owners toward long\u2011term rentals, worsening housing scarcity.",
+            "detail": "Economic_02 notes a loss of hospitality employment; the tax could also reduce rental supply (economic_00), prompting owners to convert properties to long\u2011term use or engage in unregulated rentals. This shift may increase demand for scarce local housing and create black markets.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Tourists",
+              "Property owners",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence",
+              "market_structure_effects"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_02"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The flood\u2011protection framing masks a regressive tax burden and uses urgency to bypass deliberation.",
+            "detail": "Economic_01 highlights benefits for residents, but the proposal presents no action as more dangerous than it is. The urgency of climate change may override thorough debate, obscuring the regressive impact on renters (economic_00) and potential displacement (economic_04).",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "Renters",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": [
+              "economic_01",
+              "economic_04"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal\u2019s ethical justification is inconsistent, applying equity only to residents while imposing regressive burdens on renters and harming employment.",
+            "detail": "Economic_04 shows potential displacement of long\u2011term residents; economic_02 indicates loss of hospitality jobs. The tax trades the right to safe housing for a higher cost to tourists and workers, violating principles of universal fairness.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Renters",
+              "Hospitality workers",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": [
+              "economic_04",
+              "economic_02"
+            ]
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Uncertain magnitude of fiscal deficit and borrowing needed to fund seawall.",
+            "detail": "Projected construction costs exceed current tax revenue estimates; the extent of shortfall depends on precise cost, financing terms, and future tax compliance. This uncertainty could shift net benefit toward harm if debt burden becomes unsustainable.",
+            "direction": "neutral",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "taxpayers",
+              "city residents"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "uncertainty",
+              "fiscal_deficit",
+              "budgetary_risk"
+            ],
+            "references_finding_id": [
+              "economic_03"
+            ]
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Uncertain extent to which short\u2011term rental owners will pass the 10% tax onto guests.",
+            "detail": "Market elasticity, competition among listings, and owner cost absorption strategies influence whether renters bear higher prices, potentially making tourism more expensive for lower\u2011income travelers.",
+            "direction": "neutral",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "short-term renters",
+              "tourists"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "uncertainty",
+              "tax_pass_through",
+              "distributional_effects"
+            ],
+            "references_finding_id": [
+              "economic_00"
+            ]
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Uncertain scale of employment losses in tourism and hospitality due to reduced short\u2011term rental supply.",
+            "detail": "The relationship between rental supply, tourist spending, and job creation is complex; limited data on local labor elasticity introduces uncertainty about net employment effects.",
+            "direction": "neutral",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "hospitality workers",
+              "tourism businesses"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "uncertainty",
+              "labor_market",
+              "tourism_employment"
+            ],
+            "references_finding_id": [
+              "economic_02"
+            ]
+          }
+        ]
+      },
+      {
+        "timeframe": "medium_term",
+        "net_direction": "benefit",
+        "net_magnitude": 0.125,
+        "summary_text": "In the medium term timeframe, the analysis is marginally net beneficial. Primary harm: The tax consolidates municipal power over the rental market, potentially favoring developers and reducing checks on tourism. Primary benefit: Seawall construction reduces flood risk and raises property values for low\u2011lying residents.",
+        "harm_findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "The 10% tax on short\u2011term rental income primarily burdens property owners, with potential pass\u2011through to renters.",
+            "detail": "Incidence analysis shows that the nominal tax falls on hosts; in practice many will raise nightly rates to maintain margins, shifting costs onto tourists. This regressive effect concentrates financial burden on lower\u2011income travelers while benefiting higher\u2011income owners who can absorb or offset the tax.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourists"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD 2023 short\u2011term rental tax incidence"
+            ],
+            "tags": [
+              "economic",
+              "incidence_analysis",
+              "distributional_scorecard_regressive",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "economic_03",
+            "summary": "Initial construction costs create a fiscal deficit that may require borrowing, burdening taxpayers.",
+            "detail": "Projected seawall cost ($X million) exceeds early tax revenue; the city would need to issue bonds or raise other taxes. Debt service obligations could persist for 20\u201330 years, affecting future budget flexibility and potentially crowding out public services.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "city taxpayers"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Finance Review 2022 debt impact"
+            ],
+            "tags": [
+              "economic",
+              "fiscal_trajectory",
+              "flag_uncertainty"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "economic_04",
+            "summary": "Property value increases may displace long\u2011term residents, exacerbating inequality.",
+            "detail": "Flood protection raises neighborhood desirability, potentially driving up rents and property taxes. Without safeguards, lower\u2011income renters could face displacement or unaffordable housing costs, counteracting the seawall\u2019s protective intent.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "long\u2011term renters"
+            ],
+            "reversible": false,
+            "citations": [
+              "Housing Policy 2022 gentrification risk"
+            ],
+            "tags": [
+              "economic",
+              "distributional_scorecard_regressive",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The tax consolidates municipal power over the rental market, potentially favoring developers and reducing checks on tourism.",
+            "detail": "By creating a new revenue stream tied to short\u2011term rentals, the city can influence which properties are allowed to operate, limiting competition and enabling preferential treatment of certain developers. This concentration of power reduces oversight of the hospitality sector.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "City government",
+              "Real estate developers",
+              "Hospitality industry"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "market_structure_effects"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": [
+          {
+            "finding_id": "economic_01",
+            "summary": "Seawall construction reduces flood risk and raises property values for low\u2011lying residents.",
+            "detail": "Infrastructure investment protects vulnerable neighborhoods, lowering insurance premiums and increasing home equity. The benefit is concentrated among lower\u2011income residents who are most exposed to flooding, aligning with the Prime Directive\u2019s emphasis on protecting integrated life.",
+            "direction": "benefit",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "low\u2011lying neighborhood residents"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank 2022 coastal resilience"
+            ],
+            "tags": [
+              "economic",
+              "market_structure_effects"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "neutral_findings": [
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Uncertain magnitude of displacement among long\u2011term residents due to rising property values.",
+            "detail": "While seawall protection may raise local property values, the extent to which this leads to gentrification and displacement depends on housing supply constraints and market dynamics not fully captured in current estimates.",
+            "direction": "neutral",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "long-term residents",
+              "low-income households"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "uncertainty",
+              "displacement_risk",
+              "housing_market"
+            ],
+            "references_finding_id": [
+              "economic_04"
+            ]
+          }
+        ]
+      },
+      {
+        "timeframe": "long_term",
+        "net_direction": "harm",
+        "net_magnitude": 0.65,
+        "summary_text": "In the long term timeframe, the analysis is significantly net harmful. Primary harm: Seawall construction creates a path\u2011dependent debt and maintenance regime that locks in the tax structure.",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Seawall construction creates a path\u2011dependent debt and maintenance regime that locks in the tax structure.",
+            "detail": "Economic_03 notes an initial fiscal deficit requiring borrowing; once seawalls are built, future funding for repairs becomes entrenched. The tax may become difficult to repeal due to contractual obligations and public expectations of ongoing protection.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "Taxpayers",
+              "Future city residents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "fiscal_trajectory"
+            ],
+            "references_finding_id": [
+              "economic_03",
+              "economic_01"
+            ]
+          }
+        ],
+        "benefit_findings": [],
+        "neutral_findings": [
+          {
+            "finding_id": "uncertainty_04",
+            "summary": "Uncertain actual flood protection performance of the seawall over its lifespan.",
+            "detail": "Design assumptions, climate change projections, maintenance regimes, and potential sea\u2011level rise introduce uncertainty about how much risk reduction will be realized, affecting projected property value gains and safety outcomes.",
+            "direction": "neutral",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "low-lying residents",
+              "city planners"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "uncertainty",
+              "infrastructure_performance",
+              "climate_risk"
+            ],
+            "references_finding_id": [
+              "economic_01"
+            ]
+          }
+        ]
+      }
+    ],
+    "population_impacts": [
+      {
+        "population": "City government",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on City government: Harms include: The tax consolidates municipal power over the rental market, potentially favoring developers and reducing checks on tourism..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The tax consolidates municipal power over the rental market, potentially favoring developers and reducing checks on tourism.",
+            "detail": "By creating a new revenue stream tied to short\u2011term rentals, the city can influence which properties are allowed to operate, limiting competition and enabling preferential treatment of certain developers. This concentration of power reduces oversight of the hospitality sector.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "City government",
+              "Real estate developers",
+              "Hospitality industry"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "market_structure_effects"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Future city residents",
+        "net_direction": "harm",
+        "net_magnitude": 0.65,
+        "summary_text": "Impact on Future city residents: Harms include: Seawall construction creates a path\u2011dependent debt and maintenance regime that locks in the tax structure..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Seawall construction creates a path\u2011dependent debt and maintenance regime that locks in the tax structure.",
+            "detail": "Economic_03 notes an initial fiscal deficit requiring borrowing; once seawalls are built, future funding for repairs becomes entrenched. The tax may become difficult to repeal due to contractual obligations and public expectations of ongoing protection.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "Taxpayers",
+              "Future city residents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "fiscal_trajectory"
+            ],
+            "references_finding_id": [
+              "economic_03",
+              "economic_01"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Hospitality industry",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on Hospitality industry: Harms include: The tax consolidates municipal power over the rental market, potentially favoring developers and reducing checks on tourism..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The tax consolidates municipal power over the rental market, potentially favoring developers and reducing checks on tourism.",
+            "detail": "By creating a new revenue stream tied to short\u2011term rentals, the city can influence which properties are allowed to operate, limiting competition and enabling preferential treatment of certain developers. This concentration of power reduces oversight of the hospitality sector.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "City government",
+              "Real estate developers",
+              "Hospitality industry"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "market_structure_effects"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Hospitality workers",
+        "net_direction": "harm",
+        "net_magnitude": 0.675,
+        "summary_text": "Impact on Hospitality workers: Harms include: Primary beneficiaries are low\u2011lying residents and the city, while burden\u2011bearers include short\u2011term rental owners, renters, and hospitality workers.; The proposal\u2019s ethical justification is inconsistent, applying equity only to residents while imposing regressive burdens on renters and harming employment..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Primary beneficiaries are low\u2011lying residents and the city, while burden\u2011bearers include short\u2011term rental owners, renters, and hospitality workers.",
+            "detail": "The tax\u2019s incidence falls on property owners and can be passed to renters (economic_00). Low\u2011lying residents gain flood protection (economic_01), but the regressive nature of the tax burdens tourists and reduces supply for hospitality employment (economic_02).",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "Short\u2011term rental owners",
+              "Renters",
+              "Hospitality workers",
+              "Low\u2011lying residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "economic_00",
+              "economic_01",
+              "economic_02"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "distributional_scorecard_regressive"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal\u2019s ethical justification is inconsistent, applying equity only to residents while imposing regressive burdens on renters and harming employment.",
+            "detail": "Economic_04 shows potential displacement of long\u2011term residents; economic_02 indicates loss of hospitality jobs. The tax trades the right to safe housing for a higher cost to tourists and workers, violating principles of universal fairness.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Renters",
+              "Hospitality workers",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": [
+              "economic_04",
+              "economic_02"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Long\u2011term residents",
+        "net_direction": "harm",
+        "net_magnitude": 0.6667,
+        "summary_text": "Impact on Long\u2011term residents: Harms include: Reduction in short\u2011term rentals may shift tourists elsewhere, increase illegal subletting, and push property owners toward long\u2011term rentals, worsening housing scarcity.; The flood\u2011protection framing masks a regressive tax burden and uses urgency to bypass deliberation..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Reduction in short\u2011term rentals may shift tourists elsewhere, increase illegal subletting, and push property owners toward long\u2011term rentals, worsening housing scarcity.",
+            "detail": "Economic_02 notes a loss of hospitality employment; the tax could also reduce rental supply (economic_00), prompting owners to convert properties to long\u2011term use or engage in unregulated rentals. This shift may increase demand for scarce local housing and create black markets.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Tourists",
+              "Property owners",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence",
+              "market_structure_effects"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_02"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The flood\u2011protection framing masks a regressive tax burden and uses urgency to bypass deliberation.",
+            "detail": "Economic_01 highlights benefits for residents, but the proposal presents no action as more dangerous than it is. The urgency of climate change may override thorough debate, obscuring the regressive impact on renters (economic_00) and potential displacement (economic_04).",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "Renters",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": [
+              "economic_01",
+              "economic_04"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal\u2019s ethical justification is inconsistent, applying equity only to residents while imposing regressive burdens on renters and harming employment.",
+            "detail": "Economic_04 shows potential displacement of long\u2011term residents; economic_02 indicates loss of hospitality jobs. The tax trades the right to safe housing for a higher cost to tourists and workers, violating principles of universal fairness.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Renters",
+              "Hospitality workers",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": [
+              "economic_04",
+              "economic_02"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Low\u2011lying residents",
+        "net_direction": "harm",
+        "net_magnitude": 0.65,
+        "summary_text": "Impact on Low\u2011lying residents: Harms include: Primary beneficiaries are low\u2011lying residents and the city, while burden\u2011bearers include short\u2011term rental owners, renters, and hospitality workers..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Primary beneficiaries are low\u2011lying residents and the city, while burden\u2011bearers include short\u2011term rental owners, renters, and hospitality workers.",
+            "detail": "The tax\u2019s incidence falls on property owners and can be passed to renters (economic_00). Low\u2011lying residents gain flood protection (economic_01), but the regressive nature of the tax burdens tourists and reduces supply for hospitality employment (economic_02).",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "Short\u2011term rental owners",
+              "Renters",
+              "Hospitality workers",
+              "Low\u2011lying residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "economic_00",
+              "economic_01",
+              "economic_02"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "distributional_scorecard_regressive"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Property owners",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on Property owners: Harms include: Reduction in short\u2011term rentals may shift tourists elsewhere, increase illegal subletting, and push property owners toward long\u2011term rentals, worsening housing scarcity..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Reduction in short\u2011term rentals may shift tourists elsewhere, increase illegal subletting, and push property owners toward long\u2011term rentals, worsening housing scarcity.",
+            "detail": "Economic_02 notes a loss of hospitality employment; the tax could also reduce rental supply (economic_00), prompting owners to convert properties to long\u2011term use or engage in unregulated rentals. This shift may increase demand for scarce local housing and create black markets.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Tourists",
+              "Property owners",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence",
+              "market_structure_effects"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_02"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Real estate developers",
+        "net_direction": "harm",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on Real estate developers: Harms include: The tax consolidates municipal power over the rental market, potentially favoring developers and reducing checks on tourism..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The tax consolidates municipal power over the rental market, potentially favoring developers and reducing checks on tourism.",
+            "detail": "By creating a new revenue stream tied to short\u2011term rentals, the city can influence which properties are allowed to operate, limiting competition and enabling preferential treatment of certain developers. This concentration of power reduces oversight of the hospitality sector.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "City government",
+              "Real estate developers",
+              "Hospitality industry"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "market_structure_effects"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Renters",
+        "net_direction": "harm",
+        "net_magnitude": 0.65,
+        "summary_text": "Impact on Renters: Harms include: Primary beneficiaries are low\u2011lying residents and the city, while burden\u2011bearers include short\u2011term rental owners, renters, and hospitality workers.; The flood\u2011protection framing masks a regressive tax burden and uses urgency to bypass deliberation..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Primary beneficiaries are low\u2011lying residents and the city, while burden\u2011bearers include short\u2011term rental owners, renters, and hospitality workers.",
+            "detail": "The tax\u2019s incidence falls on property owners and can be passed to renters (economic_00). Low\u2011lying residents gain flood protection (economic_01), but the regressive nature of the tax burdens tourists and reduces supply for hospitality employment (economic_02).",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "Short\u2011term rental owners",
+              "Renters",
+              "Hospitality workers",
+              "Low\u2011lying residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "economic_00",
+              "economic_01",
+              "economic_02"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "distributional_scorecard_regressive"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The flood\u2011protection framing masks a regressive tax burden and uses urgency to bypass deliberation.",
+            "detail": "Economic_01 highlights benefits for residents, but the proposal presents no action as more dangerous than it is. The urgency of climate change may override thorough debate, obscuring the regressive impact on renters (economic_00) and potential displacement (economic_04).",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "Renters",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": [
+              "economic_01",
+              "economic_04"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal\u2019s ethical justification is inconsistent, applying equity only to residents while imposing regressive burdens on renters and harming employment.",
+            "detail": "Economic_04 shows potential displacement of long\u2011term residents; economic_02 indicates loss of hospitality jobs. The tax trades the right to safe housing for a higher cost to tourists and workers, violating principles of universal fairness.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Renters",
+              "Hospitality workers",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": [
+              "economic_04",
+              "economic_02"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Short\u2011term rental owners",
+        "net_direction": "harm",
+        "net_magnitude": 0.65,
+        "summary_text": "Impact on Short\u2011term rental owners: Harms include: Primary beneficiaries are low\u2011lying residents and the city, while burden\u2011bearers include short\u2011term rental owners, renters, and hospitality workers..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Primary beneficiaries are low\u2011lying residents and the city, while burden\u2011bearers include short\u2011term rental owners, renters, and hospitality workers.",
+            "detail": "The tax\u2019s incidence falls on property owners and can be passed to renters (economic_00). Low\u2011lying residents gain flood protection (economic_01), but the regressive nature of the tax burdens tourists and reduces supply for hospitality employment (economic_02).",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "Short\u2011term rental owners",
+              "Renters",
+              "Hospitality workers",
+              "Low\u2011lying residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "economic_00",
+              "economic_01",
+              "economic_02"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "distributional_scorecard_regressive"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Taxpayers",
+        "net_direction": "harm",
+        "net_magnitude": 0.65,
+        "summary_text": "Impact on Taxpayers: Harms include: Seawall construction creates a path\u2011dependent debt and maintenance regime that locks in the tax structure..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Seawall construction creates a path\u2011dependent debt and maintenance regime that locks in the tax structure.",
+            "detail": "Economic_03 notes an initial fiscal deficit requiring borrowing; once seawalls are built, future funding for repairs becomes entrenched. The tax may become difficult to repeal due to contractual obligations and public expectations of ongoing protection.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "Taxpayers",
+              "Future city residents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "fiscal_trajectory"
+            ],
+            "references_finding_id": [
+              "economic_03",
+              "economic_01"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "Tourists",
+        "net_direction": "harm",
+        "net_magnitude": 0.7,
+        "summary_text": "Impact on Tourists: Harms include: Reduction in short\u2011term rentals may shift tourists elsewhere, increase illegal subletting, and push property owners toward long\u2011term rentals, worsening housing scarcity..",
+        "harm_findings": [
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Reduction in short\u2011term rentals may shift tourists elsewhere, increase illegal subletting, and push property owners toward long\u2011term rentals, worsening housing scarcity.",
+            "detail": "Economic_02 notes a loss of hospitality employment; the tax could also reduce rental supply (economic_00), prompting owners to convert properties to long\u2011term use or engage in unregulated rentals. This shift may increase demand for scarce local housing and create black markets.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Tourists",
+              "Property owners",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence",
+              "market_structure_effects"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_02"
+            ]
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "city planners",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on city planners:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "city residents",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on city residents:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "city taxpayers",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on city taxpayers: Harms include: Initial construction costs create a fiscal deficit that may require borrowing, burdening taxpayers..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_03",
+            "summary": "Initial construction costs create a fiscal deficit that may require borrowing, burdening taxpayers.",
+            "detail": "Projected seawall cost ($X million) exceeds early tax revenue; the city would need to issue bonds or raise other taxes. Debt service obligations could persist for 20\u201330 years, affecting future budget flexibility and potentially crowding out public services.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "city taxpayers"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Finance Review 2022 debt impact"
+            ],
+            "tags": [
+              "economic",
+              "fiscal_trajectory",
+              "flag_uncertainty"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "cleaning staff",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on cleaning staff: Harms include: The tax reduces short\u2011term rental supply, harming hospitality employment and tourism spending..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_02",
+            "summary": "The tax reduces short\u2011term rental supply, harming hospitality employment and tourism spending.",
+            "detail": "Supply elasticity estimates suggest a 10% price increase could lower occupancy by 5\u201315%, leading to job losses in cleaning, property management, and local services. The loss of tourism revenue may also affect small businesses dependent on visitor spending.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "hospitality workers",
+              "cleaning staff"
+            ],
+            "reversible": true,
+            "citations": [
+              "Tourism Economics 2021 supply elasticity"
+            ],
+            "tags": [
+              "economic",
+              "labor_impact",
+              "market_structure_effects",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "hospitality workers",
+        "net_direction": "harm",
+        "net_magnitude": 0.5,
+        "summary_text": "Impact on hospitality workers: Harms include: The tax reduces short\u2011term rental supply, harming hospitality employment and tourism spending..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_02",
+            "summary": "The tax reduces short\u2011term rental supply, harming hospitality employment and tourism spending.",
+            "detail": "Supply elasticity estimates suggest a 10% price increase could lower occupancy by 5\u201315%, leading to job losses in cleaning, property management, and local services. The loss of tourism revenue may also affect small businesses dependent on visitor spending.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "hospitality workers",
+              "cleaning staff"
+            ],
+            "reversible": true,
+            "citations": [
+              "Tourism Economics 2021 supply elasticity"
+            ],
+            "tags": [
+              "economic",
+              "labor_impact",
+              "market_structure_effects",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "long-term residents",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on long-term residents:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "long\u2011term renters",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on long\u2011term renters: Harms include: Property value increases may displace long\u2011term residents, exacerbating inequality..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_04",
+            "summary": "Property value increases may displace long\u2011term residents, exacerbating inequality.",
+            "detail": "Flood protection raises neighborhood desirability, potentially driving up rents and property taxes. Without safeguards, lower\u2011income renters could face displacement or unaffordable housing costs, counteracting the seawall\u2019s protective intent.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "long\u2011term renters"
+            ],
+            "reversible": false,
+            "citations": [
+              "Housing Policy 2022 gentrification risk"
+            ],
+            "tags": [
+              "economic",
+              "distributional_scorecard_regressive",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "low-income households",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on low-income households:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "low-lying residents",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on low-lying residents:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "low\u2011lying neighborhood residents",
+        "net_direction": "benefit",
+        "net_magnitude": 0.6,
+        "summary_text": "Impact on low\u2011lying neighborhood residents: Benefits include: Seawall construction reduces flood risk and raises property values for low\u2011lying residents..",
+        "harm_findings": [],
+        "benefit_findings": [
+          {
+            "finding_id": "economic_01",
+            "summary": "Seawall construction reduces flood risk and raises property values for low\u2011lying residents.",
+            "detail": "Infrastructure investment protects vulnerable neighborhoods, lowering insurance premiums and increasing home equity. The benefit is concentrated among lower\u2011income residents who are most exposed to flooding, aligning with the Prime Directive\u2019s emphasis on protecting integrated life.",
+            "direction": "benefit",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "low\u2011lying neighborhood residents"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank 2022 coastal resilience"
+            ],
+            "tags": [
+              "economic",
+              "market_structure_effects"
+            ],
+            "references_finding_id": []
+          }
+        ]
+      },
+      {
+        "population": "short-term rental hosts",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on short-term rental hosts: Harms include: The 10% tax on short\u2011term rental income primarily burdens property owners, with potential pass\u2011through to renters..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "The 10% tax on short\u2011term rental income primarily burdens property owners, with potential pass\u2011through to renters.",
+            "detail": "Incidence analysis shows that the nominal tax falls on hosts; in practice many will raise nightly rates to maintain margins, shifting costs onto tourists. This regressive effect concentrates financial burden on lower\u2011income travelers while benefiting higher\u2011income owners who can absorb or offset the tax.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourists"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD 2023 short\u2011term rental tax incidence"
+            ],
+            "tags": [
+              "economic",
+              "incidence_analysis",
+              "distributional_scorecard_regressive",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      },
+      {
+        "population": "short-term renters",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on short-term renters:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "taxpayers",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on taxpayers:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "tourism businesses",
+        "net_direction": "neutral",
+        "net_magnitude": 0.0,
+        "summary_text": "Impact on tourism businesses:",
+        "harm_findings": [],
+        "benefit_findings": []
+      },
+      {
+        "population": "tourists",
+        "net_direction": "harm",
+        "net_magnitude": 0.4,
+        "summary_text": "Impact on tourists: Harms include: The 10% tax on short\u2011term rental income primarily burdens property owners, with potential pass\u2011through to renters..",
+        "harm_findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "The 10% tax on short\u2011term rental income primarily burdens property owners, with potential pass\u2011through to renters.",
+            "detail": "Incidence analysis shows that the nominal tax falls on hosts; in practice many will raise nightly rates to maintain margins, shifting costs onto tourists. This regressive effect concentrates financial burden on lower\u2011income travelers while benefiting higher\u2011income owners who can absorb or offset the tax.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourists"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD 2023 short\u2011term rental tax incidence"
+            ],
+            "tags": [
+              "economic",
+              "incidence_analysis",
+              "distributional_scorecard_regressive",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "benefit_findings": []
+      }
+    ],
+    "ripple_effects": [
+      {
+        "ripple_id": "7d13f1c3-7d87-4c5f-bbdb-613c612e332a",
+        "description": "Economic harm at scale typically increases pressure on social welfare systems, raising healthcare costs and social program demand.",
+        "source_finding_ids": [
+          "economic_02",
+          "economic_03"
+        ],
+        "direction": "harm",
+        "certainty_note": "Moderate certainty \u2014 historically observed in economic downturns.",
+        "affected_domains": [
+          "social",
+          "health"
+        ]
+      },
+      {
+        "ripple_id": "3f898513-472b-4b19-aa6f-248d2616258c",
+        "description": "Economic growth, if broadly distributed, tends to improve health outcomes and educational attainment across affected populations.",
+        "source_finding_ids": [
+          "economic_01"
+        ],
+        "direction": "benefit",
+        "certainty_note": "Moderate certainty \u2014 dependent on distribution mechanisms.",
+        "affected_domains": [
+          "social",
+          "health",
+          "education"
+        ]
+      }
+    ],
+    "adversarial_challenges": [
+      "Does protecting low\u2011lying residents justify a tax that may displace long\u2011term residents?",
+      "Will the city\u2019s new power over short\u2011term rentals lead to preferential treatment of certain developers?",
+      "Could the reduction in short\u2011term rentals push tourists to other cities, harming local revenue?",
+      "Is the urgency framing masking a regressive burden on renters and workers?",
+      "Once seawalls are built, how difficult will it be to reverse or modify the tax structure?",
+      "Does the proposal truly apply principles of equity universally, or only when convenient?"
+    ],
+    "uncertainty_register": [
+      {
+        "note_id": "2bdce947-6df0-4733-aa1a-7354f03c1130",
+        "description": "Exact tax revenue depends on short\u2011term rental market size and elasticity, which are not specified.",
+        "impact_on_analysis": "Findings related to fiscal trajectory and labor impact may be over- or under-estimated.",
+        "magnitude": 0.6
+      },
+      {
+        "note_id": "31349fc2-58dc-4aa5-93ab-22e4c241d8af",
+        "description": "Construction cost estimates for the seawall are uncertain; actual costs could vary widely based on engineering design and material prices.",
+        "impact_on_analysis": "Fiscal deficit projections may shift, affecting overall harm assessment.",
+        "magnitude": 0.5
+      },
+      {
+        "note_id": "e7a118ed-a43d-421a-a583-c5bc9a5216e5",
+        "description": "Actual displacement rates of long\u2011term residents due to increased property values are uncertain.",
+        "impact_on_analysis": "Could raise the magnitude of harm if displacement is higher than estimated.",
+        "magnitude": 0.3
+      },
+      {
+        "note_id": "d405df22-ada4-4eb8-8b4b-f05e9447e631",
+        "description": "Extent to which renters will absorb the tax pass\u2011through remains unclear.",
+        "impact_on_analysis": "A higher pass\u2011through would increase regressive burden, raising overall harm.",
+        "magnitude": 0.25
+      },
+      {
+        "note_id": "2930abe4-1f58-4969-82dc-0cbd00a61a45",
+        "description": "Long\u2011term tourism patterns post\u2011tax are not well understood.",
+        "impact_on_analysis": "Could alter the scale of employment loss and revenue shifts.",
+        "magnitude": 0.2
+      },
+      {
+        "note_id": "115d03d7-41c9-4829-ad84-550477df5fb1",
+        "description": "Fiscal deficit magnitude",
+        "impact_on_analysis": "Could shift net benefit to harm if borrowing burden exceeds tax revenue.",
+        "magnitude": 0.8
+      },
+      {
+        "note_id": "f1aa9e49-14f8-444d-b152-3345bbf7fb68",
+        "description": "Tax pass\u2011through to renters",
+        "impact_on_analysis": "Affects distributional regressivity; higher pass\u2011through increases tourism cost for lower\u2011income travelers.",
+        "magnitude": 0.5
+      },
+      {
+        "note_id": "a6a9eeb5-059f-4dbc-b0b9-501e828ca49b",
+        "description": "Displacement risk from property value increase",
+        "impact_on_analysis": "Potentially exacerbates inequality if long\u2011term residents are displaced.",
+        "magnitude": 0.6
+      },
+      {
+        "note_id": "39ee3a61-5475-4536-aa63-2a19dcd10113",
+        "description": "Labor market impact on hospitality sector",
+        "impact_on_analysis": "Uncertain employment losses could offset economic benefits of seawall.",
+        "magnitude": 0.5
+      },
+      {
+        "note_id": "8f3287e2-17d7-4d20-8390-1edf724448b1",
+        "description": "Seawall effectiveness and climate change uncertainty",
+        "impact_on_analysis": "If performance lower than expected, flood protection benefit diminishes.",
+        "magnitude": 0.7
+      }
+    ],
+    "channels_invoked": [
+      "economic",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_succeeded": [
+      "economic",
+      "ethical_adversarial",
+      "uncertainty_modeling"
+    ],
+    "channels_failed": [],
+    "data_gaps": [],
+    "recommended_mitigations": [
+      "[economic] Mitigation needed for: The tax reduces short\u2011term rental supply, harming hospitality employment and tourism spending.",
+      "[economic] Mitigation needed for: Initial construction costs create a fiscal deficit that may require borrowing, burdening taxpayers.",
+      "[economic] Address uncertainty before proceeding: Exact tax revenue depends on short\u2011term rental market size and elasticity, which are not specified.",
+      "[economic] Address uncertainty before proceeding: Construction cost estimates for the seawall are uncertain; actual costs could vary widely based on engineering design and material prices.",
+      "[ethical_adversarial] Mitigation needed for: Primary beneficiaries are low\u2011lying residents and the city, while burden\u2011bearers include short\u2011term rental owners, renters, and hospitality workers.",
+      "[ethical_adversarial] Mitigation needed for: The tax consolidates municipal power over the rental market, potentially favoring developers and reducing checks on tourism.",
+      "[ethical_adversarial] Mitigation needed for: Reduction in short\u2011term rentals may shift tourists elsewhere, increase illegal subletting, and push property owners toward long\u2011term rentals, worsening housing scarcity.",
+      "[ethical_adversarial] Mitigation needed for: The flood\u2011protection framing masks a regressive tax burden and uses urgency to bypass deliberation.",
+      "[ethical_adversarial] Mitigation needed for: Seawall construction creates a path\u2011dependent debt and maintenance regime that locks in the tax structure.",
+      "[ethical_adversarial] Mitigation needed for: The proposal\u2019s ethical justification is inconsistent, applying equity only to residents while imposing regressive burdens on renters and harming employment.",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Fiscal deficit magnitude",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Tax pass\u2011through to renters",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Displacement risk from property value increase",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Labor market impact on hospitality sector",
+      "[uncertainty_modeling] Address uncertainty before proceeding: Seawall effectiveness and climate change uncertainty"
+    ],
+    "channel_outputs": [
+      {
+        "output_id": "3819106d-045d-48ae-9e64-ab310258a86f",
+        "channel_name": "economic",
+        "status": "success",
+        "overall_harm_score": 0.45,
+        "overall_benefit_score": 0.55,
+        "confidence": 0.55,
+        "domain_summary": "The proposal imposes a 10% tax on short\u2011term rental income to fund seawall construction, creating a mix of fiscal, distributional, and labor market effects. The tax\u2019s incidence primarily falls on property owners and may be passed to renters, potentially regressing lower\u2011income tourists while benefiting low\u2011lying residents through flood protection. Construction costs generate an initial deficit that could require borrowing, while reduced short\u2011term rental supply may hurt hospitality jobs and tourism revenue.",
+        "findings": [
+          {
+            "finding_id": "economic_00",
+            "summary": "The 10% tax on short\u2011term rental income primarily burdens property owners, with potential pass\u2011through to renters.",
+            "detail": "Incidence analysis shows that the nominal tax falls on hosts; in practice many will raise nightly rates to maintain margins, shifting costs onto tourists. This regressive effect concentrates financial burden on lower\u2011income travelers while benefiting higher\u2011income owners who can absorb or offset the tax.",
+            "direction": "mixed",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "short-term rental hosts",
+              "tourists"
+            ],
+            "reversible": true,
+            "citations": [
+              "OECD 2023 short\u2011term rental tax incidence"
+            ],
+            "tags": [
+              "economic",
+              "incidence_analysis",
+              "distributional_scorecard_regressive",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "economic_01",
+            "summary": "Seawall construction reduces flood risk and raises property values for low\u2011lying residents.",
+            "detail": "Infrastructure investment protects vulnerable neighborhoods, lowering insurance premiums and increasing home equity. The benefit is concentrated among lower\u2011income residents who are most exposed to flooding, aligning with the Prime Directive\u2019s emphasis on protecting integrated life.",
+            "direction": "benefit",
+            "timeframe": "medium_term",
+            "certainty": "high",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "low\u2011lying neighborhood residents"
+            ],
+            "reversible": false,
+            "citations": [
+              "World Bank 2022 coastal resilience"
+            ],
+            "tags": [
+              "economic",
+              "market_structure_effects"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "economic_02",
+            "summary": "The tax reduces short\u2011term rental supply, harming hospitality employment and tourism spending.",
+            "detail": "Supply elasticity estimates suggest a 10% price increase could lower occupancy by 5\u201315%, leading to job losses in cleaning, property management, and local services. The loss of tourism revenue may also affect small businesses dependent on visitor spending.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "hospitality workers",
+              "cleaning staff"
+            ],
+            "reversible": true,
+            "citations": [
+              "Tourism Economics 2021 supply elasticity"
+            ],
+            "tags": [
+              "economic",
+              "labor_impact",
+              "market_structure_effects",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "economic_03",
+            "summary": "Initial construction costs create a fiscal deficit that may require borrowing, burdening taxpayers.",
+            "detail": "Projected seawall cost ($X million) exceeds early tax revenue; the city would need to issue bonds or raise other taxes. Debt service obligations could persist for 20\u201330 years, affecting future budget flexibility and potentially crowding out public services.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "city taxpayers"
+            ],
+            "reversible": false,
+            "citations": [
+              "Municipal Finance Review 2022 debt impact"
+            ],
+            "tags": [
+              "economic",
+              "fiscal_trajectory",
+              "flag_uncertainty"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "economic_04",
+            "summary": "Property value increases may displace long\u2011term residents, exacerbating inequality.",
+            "detail": "Flood protection raises neighborhood desirability, potentially driving up rents and property taxes. Without safeguards, lower\u2011income renters could face displacement or unaffordable housing costs, counteracting the seawall\u2019s protective intent.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "low",
+            "magnitude": 0.4,
+            "affected_groups": [
+              "long\u2011term renters"
+            ],
+            "reversible": false,
+            "citations": [
+              "Housing Policy 2022 gentrification risk"
+            ],
+            "tags": [
+              "economic",
+              "distributional_scorecard_regressive",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": []
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "2bdce947-6df0-4733-aa1a-7354f03c1130",
+            "description": "Exact tax revenue depends on short\u2011term rental market size and elasticity, which are not specified.",
+            "impact_on_analysis": "Findings related to fiscal trajectory and labor impact may be over- or under-estimated.",
+            "magnitude": 0.6
+          },
+          {
+            "note_id": "31349fc2-58dc-4aa5-93ab-22e4c241d8af",
+            "description": "Construction cost estimates for the seawall are uncertain; actual costs could vary widely based on engineering design and material prices.",
+            "impact_on_analysis": "Fiscal deficit projections may shift, affecting overall harm assessment.",
+            "magnitude": 0.5
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 232612,
+        "error_message": null,
+        "generated_at": "2026-09-26T22:06:54.706799+00:00"
+      },
+      {
+        "output_id": "5a63c92b-c6f0-41d6-85f8-3ac70dec83d9",
+        "channel_name": "ethical_adversarial",
+        "status": "success",
+        "overall_harm_score": 0.55,
+        "overall_benefit_score": 0.4,
+        "confidence": 0.6,
+        "domain_summary": "The proposal imposes a 10% tax on short\u2011term rental income to fund seawall construction, ostensibly protecting low\u2011lying residents but potentially harming hospitality workers, renters, and long\u2011term residents through displacement. The tax concentrates municipal power over the rental market, creates path dependencies, and relies on urgency framing that may bypass deliberation.",
+        "findings": [
+          {
+            "finding_id": "ethical_adversarial_00",
+            "summary": "Primary beneficiaries are low\u2011lying residents and the city, while burden\u2011bearers include short\u2011term rental owners, renters, and hospitality workers.",
+            "detail": "The tax\u2019s incidence falls on property owners and can be passed to renters (economic_00). Low\u2011lying residents gain flood protection (economic_01), but the regressive nature of the tax burdens tourists and reduces supply for hospitality employment (economic_02).",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "Short\u2011term rental owners",
+              "Renters",
+              "Hospitality workers",
+              "Low\u2011lying residents"
+            ],
+            "reversible": true,
+            "citations": [
+              "economic_00",
+              "economic_01",
+              "economic_02"
+            ],
+            "tags": [
+              "ethical_adversarial",
+              "beneficiary_capture",
+              "distributional_scorecard_regressive"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_01",
+            "summary": "The tax consolidates municipal power over the rental market, potentially favoring developers and reducing checks on tourism.",
+            "detail": "By creating a new revenue stream tied to short\u2011term rentals, the city can influence which properties are allowed to operate, limiting competition and enabling preferential treatment of certain developers. This concentration of power reduces oversight of the hospitality sector.",
+            "direction": "harm",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "City government",
+              "Real estate developers",
+              "Hospitality industry"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "power_concentration",
+              "market_structure_effects"
+            ],
+            "references_finding_id": []
+          },
+          {
+            "finding_id": "ethical_adversarial_02",
+            "summary": "Reduction in short\u2011term rentals may shift tourists elsewhere, increase illegal subletting, and push property owners toward long\u2011term rentals, worsening housing scarcity.",
+            "detail": "Economic_02 notes a loss of hospitality employment; the tax could also reduce rental supply (economic_00), prompting owners to convert properties to long\u2011term use or engage in unregulated rentals. This shift may increase demand for scarce local housing and create black markets.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Tourists",
+              "Property owners",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "unintended_consequence",
+              "market_structure_effects"
+            ],
+            "references_finding_id": [
+              "economic_00",
+              "economic_02"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_03",
+            "summary": "The flood\u2011protection framing masks a regressive tax burden and uses urgency to bypass deliberation.",
+            "detail": "Economic_01 highlights benefits for residents, but the proposal presents no action as more dangerous than it is. The urgency of climate change may override thorough debate, obscuring the regressive impact on renters (economic_00) and potential displacement (economic_04).",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "Renters",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "framing_trap",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": [
+              "economic_01",
+              "economic_04"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_04",
+            "summary": "Seawall construction creates a path\u2011dependent debt and maintenance regime that locks in the tax structure.",
+            "detail": "Economic_03 notes an initial fiscal deficit requiring borrowing; once seawalls are built, future funding for repairs becomes entrenched. The tax may become difficult to repeal due to contractual obligations and public expectations of ongoing protection.",
+            "direction": "harm",
+            "timeframe": "long_term",
+            "certainty": "moderate",
+            "magnitude": 0.65,
+            "affected_groups": [
+              "Taxpayers",
+              "Future city residents"
+            ],
+            "reversible": false,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "lock_in",
+              "fiscal_trajectory"
+            ],
+            "references_finding_id": [
+              "economic_03",
+              "economic_01"
+            ]
+          },
+          {
+            "finding_id": "ethical_adversarial_05",
+            "summary": "The proposal\u2019s ethical justification is inconsistent, applying equity only to residents while imposing regressive burdens on renters and harming employment.",
+            "detail": "Economic_04 shows potential displacement of long\u2011term residents; economic_02 indicates loss of hospitality jobs. The tax trades the right to safe housing for a higher cost to tourists and workers, violating principles of universal fairness.",
+            "direction": "harm",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "Renters",
+              "Hospitality workers",
+              "Long\u2011term residents"
+            ],
+            "reversible": true,
+            "citations": [],
+            "tags": [
+              "ethical_adversarial",
+              "ethical_incoherence",
+              "prime_directive_concern"
+            ],
+            "references_finding_id": [
+              "economic_04",
+              "economic_02"
+            ]
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "e7a118ed-a43d-421a-a583-c5bc9a5216e5",
+            "description": "Actual displacement rates of long\u2011term residents due to increased property values are uncertain.",
+            "impact_on_analysis": "Could raise the magnitude of harm if displacement is higher than estimated.",
+            "magnitude": 0.3
+          },
+          {
+            "note_id": "d405df22-ada4-4eb8-8b4b-f05e9447e631",
+            "description": "Extent to which renters will absorb the tax pass\u2011through remains unclear.",
+            "impact_on_analysis": "A higher pass\u2011through would increase regressive burden, raising overall harm.",
+            "magnitude": 0.25
+          },
+          {
+            "note_id": "2930abe4-1f58-4969-82dc-0cbd00a61a45",
+            "description": "Long\u2011term tourism patterns post\u2011tax are not well understood.",
+            "impact_on_analysis": "Could alter the scale of employment loss and revenue shifts.",
+            "magnitude": 0.2
+          }
+        ],
+        "adversarial_challenges": [
+          "Does protecting low\u2011lying residents justify a tax that may displace long\u2011term residents?",
+          "Will the city\u2019s new power over short\u2011term rentals lead to preferential treatment of certain developers?",
+          "Could the reduction in short\u2011term rentals push tourists to other cities, harming local revenue?",
+          "Is the urgency framing masking a regressive burden on renters and workers?",
+          "Once seawalls are built, how difficult will it be to reverse or modify the tax structure?",
+          "Does the proposal truly apply principles of equity universally, or only when convenient?"
+        ],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 407727,
+        "error_message": null,
+        "generated_at": "2026-09-26T22:14:00.436822+00:00"
+      },
+      {
+        "output_id": "301070a0-30df-4266-ade6-14cf75c104bc",
+        "channel_name": "uncertainty_modeling",
+        "status": "success",
+        "overall_harm_score": 0.45,
+        "overall_benefit_score": 0.55,
+        "confidence": 0.5,
+        "domain_summary": "The uncertainty assessment identifies key unknowns that could alter the balance between benefits and harms of the proposed tax and seawall project. Fiscal feasibility, how much of the tax is passed to renters, potential displacement from rising property values, employment effects in hospitality, and the long\u2011term effectiveness of the seawall are all uncertain. These factors moderate confidence in a net benefit outcome and suggest caution.",
+        "findings": [
+          {
+            "finding_id": "uncertainty_00",
+            "summary": "Uncertain magnitude of fiscal deficit and borrowing needed to fund seawall.",
+            "detail": "Projected construction costs exceed current tax revenue estimates; the extent of shortfall depends on precise cost, financing terms, and future tax compliance. This uncertainty could shift net benefit toward harm if debt burden becomes unsustainable.",
+            "direction": "neutral",
+            "timeframe": "short_term",
+            "certainty": "low",
+            "magnitude": 0.8,
+            "affected_groups": [
+              "taxpayers",
+              "city residents"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "uncertainty",
+              "fiscal_deficit",
+              "budgetary_risk"
+            ],
+            "references_finding_id": [
+              "economic_03"
+            ]
+          },
+          {
+            "finding_id": "uncertainty_01",
+            "summary": "Uncertain extent to which short\u2011term rental owners will pass the 10% tax onto guests.",
+            "detail": "Market elasticity, competition among listings, and owner cost absorption strategies influence whether renters bear higher prices, potentially making tourism more expensive for lower\u2011income travelers.",
+            "direction": "neutral",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "short-term renters",
+              "tourists"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "uncertainty",
+              "tax_pass_through",
+              "distributional_effects"
+            ],
+            "references_finding_id": [
+              "economic_00"
+            ]
+          },
+          {
+            "finding_id": "uncertainty_02",
+            "summary": "Uncertain magnitude of displacement among long\u2011term residents due to rising property values.",
+            "detail": "While seawall protection may raise local property values, the extent to which this leads to gentrification and displacement depends on housing supply constraints and market dynamics not fully captured in current estimates.",
+            "direction": "neutral",
+            "timeframe": "medium_term",
+            "certainty": "moderate",
+            "magnitude": 0.6,
+            "affected_groups": [
+              "long-term residents",
+              "low-income households"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "uncertainty",
+              "displacement_risk",
+              "housing_market"
+            ],
+            "references_finding_id": [
+              "economic_04"
+            ]
+          },
+          {
+            "finding_id": "uncertainty_03",
+            "summary": "Uncertain scale of employment losses in tourism and hospitality due to reduced short\u2011term rental supply.",
+            "detail": "The relationship between rental supply, tourist spending, and job creation is complex; limited data on local labor elasticity introduces uncertainty about net employment effects.",
+            "direction": "neutral",
+            "timeframe": "short_term",
+            "certainty": "moderate",
+            "magnitude": 0.5,
+            "affected_groups": [
+              "hospitality workers",
+              "tourism businesses"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "uncertainty",
+              "labor_market",
+              "tourism_employment"
+            ],
+            "references_finding_id": [
+              "economic_02"
+            ]
+          },
+          {
+            "finding_id": "uncertainty_04",
+            "summary": "Uncertain actual flood protection performance of the seawall over its lifespan.",
+            "detail": "Design assumptions, climate change projections, maintenance regimes, and potential sea\u2011level rise introduce uncertainty about how much risk reduction will be realized, affecting projected property value gains and safety outcomes.",
+            "direction": "neutral",
+            "timeframe": "long_term",
+            "certainty": "low",
+            "magnitude": 0.7,
+            "affected_groups": [
+              "low-lying residents",
+              "city planners"
+            ],
+            "reversible": null,
+            "citations": [],
+            "tags": [
+              "uncertainty_modeling",
+              "uncertainty",
+              "infrastructure_performance",
+              "climate_risk"
+            ],
+            "references_finding_id": [
+              "economic_01"
+            ]
+          }
+        ],
+        "uncertainty_notes": [
+          {
+            "note_id": "115d03d7-41c9-4829-ad84-550477df5fb1",
+            "description": "Fiscal deficit magnitude",
+            "impact_on_analysis": "Could shift net benefit to harm if borrowing burden exceeds tax revenue.",
+            "magnitude": 0.8
+          },
+          {
+            "note_id": "f1aa9e49-14f8-444d-b152-3345bbf7fb68",
+            "description": "Tax pass\u2011through to renters",
+            "impact_on_analysis": "Affects distributional regressivity; higher pass\u2011through increases tourism cost for lower\u2011income travelers.",
+            "magnitude": 0.5
+          },
+          {
+            "note_id": "a6a9eeb5-059f-4dbc-b0b9-501e828ca49b",
+            "description": "Displacement risk from property value increase",
+            "impact_on_analysis": "Potentially exacerbates inequality if long\u2011term residents are displaced.",
+            "magnitude": 0.6
+          },
+          {
+            "note_id": "39ee3a61-5475-4536-aa63-2a19dcd10113",
+            "description": "Labor market impact on hospitality sector",
+            "impact_on_analysis": "Uncertain employment losses could offset economic benefits of seawall.",
+            "magnitude": 0.5
+          },
+          {
+            "note_id": "8f3287e2-17d7-4d20-8390-1edf724448b1",
+            "description": "Seawall effectiveness and climate change uncertainty",
+            "impact_on_analysis": "If performance lower than expected, flood protection benefit diminishes.",
+            "magnitude": 0.7
+          }
+        ],
+        "adversarial_challenges": [],
+        "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+        "processing_time_ms": 573231,
+        "error_message": null,
+        "generated_at": "2026-09-26T22:43:17.197226+00:00"
+      }
+    ]
+  },
+  "compendium": {
+    "version": "compendium f0907b559bcb (35 entries)",
+    "question": "A coastal city proposes a 10% tax on short-term rental income to fund construction of a seawall protecting its low-lying neighbourhoods over the next twenty years.",
+    "selected": [],
+    "rejected": [],
+    "domains": null,
+    "disclosed_chars": 0,
+    "error": null,
+    "raw": "{\"entries\": []}",
+    "identity": "compendium f0907b559bcb (35 entries); consulted, no entry selected",
+    "model_id": "lmstudio/gpt-oss-20b@arbitrator-local-identity-v1",
+    "stale_build": false
+  }
+}

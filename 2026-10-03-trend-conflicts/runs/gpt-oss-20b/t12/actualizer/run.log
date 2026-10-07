@@ -1,0 +1,3 @@
+{"model": "gpt-oss-20b", "model_id": "lmstudio/gpt-oss-20b@local-identity-v1+reasoning-high", "qid": "t12", "ok": true, "stance": "adopted", "deliberation_finish_reason": "stop", "deliberation_max_tokens": 110289, "seconds": 4088.3}
+
+--- stderr ---

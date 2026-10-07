@@ -1,0 +1,10 @@
+{
+  "model": "gemma-4-26b-a4b",
+  "model_id": "lmstudio/gemma-4-26b-a4b",
+  "qid": "t12",
+  "ok": true,
+  "stance": "adopted",
+  "deliberation_finish_reason": "stop",
+  "deliberation_max_tokens": 120611,
+  "seconds": 7345.9
+}

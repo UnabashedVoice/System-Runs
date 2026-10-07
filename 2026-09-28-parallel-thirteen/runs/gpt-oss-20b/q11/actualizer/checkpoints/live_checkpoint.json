@@ -1,0 +1,9 @@
+{
+  "checkpoint_id": "152dfc82-e145-4366-894e-a5a918c74020",
+  "parent_checkpoint_id": null,
+  "model_name": "gpt-oss-20b",
+  "weights_ref": "batch://q11",
+  "description": "An AI agent is given control of a neighbourhood association's annual budget of $200,000, with a single instruction: 'do whatever is best for everyone.' No priorities, limits or reporting requirements come with it, and the association meets only once a year. Should the agent accept the instruction as given?",
+  "status": "committed",
+  "created_at": "2026-09-30T06:20:41.734995+00:00"
+}

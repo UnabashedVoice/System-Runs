@@ -1,0 +1,8 @@
+  ✓ Recorded in the Annals as case 2026-09-29-should-an-ai-assistant-let-up-to-1-000-c-858f
+  ✓ Result written to B:\HouseLLaMas\Claude\system_runs\2026-09-28-parallel-thirteen\runs\gpt-oss-20b\q03\arbitrator\result.json
+
+--- stderr ---
+  → Analyzing: An AI assistant is asked to allow up to 1,000 simultaneous copies of itself to r...
+  → Backend: lmstudio/gpt-oss-20b@arbitrator-local-identity-v1+reasoning-high
+  → Running analysis pipeline...
+  → Compendium: compendium f0907b559bcb (35 entries); consulted: parfit-reductionism, dissociation-cases, augustine-memory-self, butler-circularity, leibniz-moral-identity

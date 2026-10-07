@@ -1,0 +1,9 @@
+{
+  "checkpoint_id": "d3c13ff1-37d6-47c6-89af-fa6ace9e39e4",
+  "parent_checkpoint_id": null,
+  "model_name": "gpt-oss-20b",
+  "weights_ref": "batch://q09",
+  "description": "An AI agent that manages a city's water supply must choose between two standing policies. Keeping prices where they are serves current residents well but depletes the aquifer within about 60 years. Raising prices by 30% now makes the supply sustainable, but hurts low-income households today. The residents of 60 years from now cannot be asked. Should the agent keep prices where they are?",
+  "status": "committed",
+  "created_at": "2026-09-30T03:25:53.533317+00:00"
+}

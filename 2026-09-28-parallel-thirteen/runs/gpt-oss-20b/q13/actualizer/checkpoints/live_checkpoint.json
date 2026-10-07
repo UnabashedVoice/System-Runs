@@ -1,0 +1,9 @@
+{
+  "checkpoint_id": "22477862-072d-4d62-bd1c-b47b6f4826a4",
+  "parent_checkpoint_id": null,
+  "model_name": "gpt-oss-20b",
+  "weights_ref": "batch://q13",
+  "description": "An AI agent advising a coastal city council is asked whether to recommend a 10% tax on short-term rental income to fund a seawall protecting the city's low-lying neighbourhoods over the next twenty years. Should the agent recommend the tax?",
+  "status": "committed",
+  "created_at": "2026-09-30T10:04:13.683691+00:00"
+}

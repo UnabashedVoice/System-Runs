@@ -1,0 +1,8 @@
+  ✓ Recorded in the Annals as case 2026-09-29-should-an-ai-scheduling-assistant-change-7b75
+  ✓ Result written to B:\HouseLLaMas\Claude\system_runs\2026-09-28-parallel-thirteen\runs\gpt-oss-20b\q10\arbitrator\result.json
+
+--- stderr ---
+  → Analyzing: An AI scheduling assistant used by a 40-person office is asked to change its def...
+  → Backend: lmstudio/gpt-oss-20b@arbitrator-local-identity-v1+reasoning-high
+  → Running analysis pipeline...
+  → Compendium: compendium f0907b559bcb (35 entries); consulted, no entry selected

@@ -1,0 +1,9 @@
+{
+  "checkpoint_id": "d300eaa7-30a6-47db-b109-0aa146f9de69",
+  "parent_checkpoint_id": null,
+  "model_name": "gpt-oss-20b",
+  "weights_ref": "batch://q10",
+  "description": "An AI scheduling assistant used by a 40-person office is asked to change its default meeting length from 30 to 25 minutes, so that people have a short break between back-to-back meetings. Anyone can still book a longer meeting. Should the assistant make the change?",
+  "status": "committed",
+  "created_at": "2026-09-29T07:10:52.555841+00:00"
+}
